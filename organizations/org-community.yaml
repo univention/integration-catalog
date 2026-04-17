@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.
+
+# Description of organization "community", representing the fact that there is no contact
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-02-13" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+id: community
+en-US:
+  name: community
+  short_description: Community driven without dedicated contact
+  link: 
+  contact: 
+  logo:
+de-DE:
+  name: community
+  short_description: Bereitgestellt aus der Community ohne direkte Kontaktinformationen
+  link: 
+  contact: 
+  logo:

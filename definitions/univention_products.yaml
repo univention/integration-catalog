@@ -1,0 +1,25 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# List of Univention products. Used in the integration entries to describe with which products the integration is compatible.
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-02-13" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+# Univention product definitions
+univention_products:
+  - id: Nubus
+    en-US:
+      name: Univention Nubus
+      description: Univention Nubus Identity- and Access Management
+    de-DE:
+      name: Univention Nubus
+      description: Univention Nubus Identitäts- und Zugriffsmanagement
+  - id: UCSschool
+    en-US:
+      name: UCS@school
+      description: Identity Management and Services for schools and educational portal
+    de-DE:
+      name: UCS@school
+      description: Identitätsmanagement und Services für Schulen und Schulportale

@@ -1,0 +1,88 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# List of capabilities an integration can provide. Used in the integration entries to describe the scope of the integration.
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-02-13" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+# capabilitiy definitions
+capabilities:
+  - id: bi_directional_sync
+    en-US:
+      name: Bi-Directional Sync
+      description: TODO - better name, to be used for connectors who support sync in both directions like AD and S4 connector
+    de-DE:
+      name: Bidirektionale Synchronisation
+      description: TODO - besserer Name, für Konnektoren die Synchronisation in beide Richtungen unterstützen wie AD und S4 Konnektor
+  - id: group_creation
+    en-US:
+      name: Group Creation
+      description: Groups known to Nubus are created in the target application
+    de-DE:
+      name: Gruppen-Erstellung
+      description: In Nubus bekannte Gruppen werden in der Zielanwendung erstellt
+  - id: group_lifecycle
+    en-US:
+      name: Group Lifecycle
+      description: Support for all CRUD operations for Groups
+    de-DE:
+      name: Group Lifecycle
+      description: Unterstützung aller CRUD-Operationen für Gruppen
+  - id: group_memberships
+    en-US:
+      name: Group Memberships
+      description: Nubus user memberships are known in the application
+    de-DE:
+      name: Gruppenmitgliedschaften
+      description: Nubus-Benutzermitgliedschaften sind in der Anwendung bekannt
+  - id: role_management
+    en-US:
+      name: Role Management
+      description: Nubus / Guardian roles are known to the application
+    de-DE:
+      name: Rollenverwaltung
+      description: Nubus / Guardian Rollen sind in der Anwendung bekannt
+  - id: slo
+    en-US:
+      name: Single Logout
+      description: Support Single Logout to end user session if logged out of integrated application.
+    de-DE:
+      name: Single Logout
+      description: Unterstützt Single Logout um die Anwendersitzung beim Ausloggen aus der angebundenen Anwendung zu beenden.
+  - id: sso
+    en-US:
+      name: Single Sign-On
+      description: Support Single Sign-On for seamless Authentication in the integrated application.
+    de-DE:
+      name: Single Sign-On
+      description: Unterstützt Single Sign-On für nahtlose Authentifikation in der angebundenen Anwendung.
+  - id: susp
+    en-US:
+      name: Same User Same Password
+      description: Supports Authentication in the integrated application with username and password defined in Nubus.
+    de-DE:
+      name: Same User Same Password
+      description: Unterstützt die Authentifikation an der integrierten Anwendung mit den in Nubus definierten Nutzernamen und Passwort.
+  - id: user_creation
+    en-US:
+      name: User Creation
+      description: Users known to Nubus are created in the target application
+    de-DE:
+      name: Benutzer-Erstellung
+      description: In Nubus bekannte Benutzer werden in der Zielanwendung erstellt
+  - id: user_import
+    en-US:
+      name: User Import
+      description: Users in Nubus are created from external data source
+    de-DE:
+      name: Benutzer-Import
+      description: Benutzer in Nubus werden aus externer Datenquelle erstellt
+  - id: user_lifecycle
+    en-US:
+      name: User Lifecycle
+      description: Support for all CRUD operations for Users
+    de-DE:
+      name: User Lifecycle
+      description: Unterstützung aller CRUD-Operationen für Benutzer

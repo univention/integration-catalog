@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# List of artifacts an integration can provide. Used in the integration entries to describe how the integration is provided.
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-02-13" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+# artifact definitions
+artifacts:
+  - id: documentation
+    en-US:
+      name: Documentation
+      description: Integration via documented steps
+    de-DE:
+      name: Dokumentation
+      description: Integration mittels dokumentierter Schritte
+  - id: id_broker
+    en-US:
+      name: ID Broker
+      description: Integration via Univention ID Broker
+    de-DE:
+      name: ID Broker
+      description: Integration über den Univention ID Broker
+  - id: packaged_integration
+    en-US:
+      name: Packaged Integration
+      description: Software package for installation and configuration
+    de-DE:
+      name: Paketierte Integration
+      description: Softwarepaket zur Installation und Konfiguration
+  - id: other
+    en-US:
+      name: Other
+      description: Other type of integration
+    de-DE: 
+      name: Sonstige
+      description: Sonstige Integrationsart

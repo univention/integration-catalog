@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# List of deployment platforms of Nubus the integration supports
+#
+# there is a special case here: the "platform-independent" method represents the case
+# that all deployment platforms are supported. Integrations with this platform
+# need to show up in search results looking for any of the specific platforms.
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-02-13" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+# platform definitions
+platforms:
+  - id: platform-independent
+    en-US:
+      name: Platform-Independent
+      description: Available on or for all deployment variants.
+    de-DE:
+      name: Platform-Unabhägig.
+      description: Verfügbar auf bzw. für alle Betriebsvarianten.
+  - id: UCS
+    en-US:
+      name: UCS
+      description: Available for Univention Corporate Server deployments.
+    de-DE:
+      name: UCS
+      description: Verfügbar für Installationen auf Basis von Univention Corporate Server.
+  - id: Kubernetes
+    en-US:
+      name: Kubernetes
+      description: Available for Kubernetes deployments.
+    de-DE:
+      name: Kubernetes
+      description: Verfügbar für Installationen auf Kubernetes.

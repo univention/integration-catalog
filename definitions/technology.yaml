@@ -1,0 +1,48 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# List of technologies and standards the integration uses or supports
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-02-13" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+# technology definitions
+platforms:
+  - id: LDAP
+    en-US:
+      name: LDAP
+      description: Lightweight Directory Access Protocol
+    de-DE:
+      name: LDAP
+      description: Lightweight Directory Access Protocol
+  - id: 
+    en-US: 
+      name: OIDC 
+      description: Open ID Connect 
+    de-DE:
+      name: OIDC
+      description: Open ID Connect 
+  - id: 
+    en-US:
+      name: SCIM
+      description: System for Cross-domain Identity Management
+    de-DE:
+      name: SCIM
+      description: System for Cross-domain Identity Management
+  - id: 
+    en-US:
+      name: SAML
+      description: Security Assertion Markup Language
+    de-DE:
+      name: SAML
+      description: Security Assertion Markup Language
+  - id: 
+    en-US:
+      name: ID Broker
+      description: Univention ID Broker
+    de-DE:
+      name: ID Broker
+      description: Univention ID Broker
+
+# candidates to add: Listener/Notifier, Nubus Provisioning, Guardian or Roles/Rights (?), UDM Extended 
