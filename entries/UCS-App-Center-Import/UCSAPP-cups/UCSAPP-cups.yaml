@@ -1,0 +1,136 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - System services,UCS components
+    - Printing
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Diese App stellt einen Druckserver auf Basis der Software Common
+      UNIX Printing System
+
+      (CUPS) bereit und liefert PPD-Treiber für die meisten Druckermodelle mit. Drucker,
+
+      Druckergruppen und Warteschlangen werden im UCS-Managementsystem verwaltet.
+      Alle
+
+      eingerichteten Drucker können von UCS-Systemen direkt verwendet werden und werden
+
+      bei Verwendung der Windows Services automatisch auch für Windows-Rechner bereitgestellt.
+
+
+      Die technischen Fähigkeiten eines Druckers werden in sogenannten PPD-Dateien
+      spezifiziert.
+
+      In diesen Dateien ist beispielsweise festgehalten, ob ein Drucker farbig drucken
+
+      kann, ob ein beidseitiger Druck möglich ist, welche Papierschächte vorhanden
+      sind,
+
+      welche Auflösungen unterstützt und welche Druckerbefehlssprachen unterstützt
+      werden.
+
+
+      Ein Drucker kann entweder direkt an den Druckserver angeschlossen sein (z.B.
+      über
+
+      die USB-Schnittstelle oder einen Parallelport) oder über Remote-Protokolle mit
+      einem
+
+      Druckserver kommunizieren (z.B. TCP/IP-fähige Drucker, die über IPP oder LPD
+      angebunden
+
+      werden).
+
+
+      Über Druckergruppen können die darin enthaltenen Drucker abwechselnd zur Bearbeitung
+
+      von Druckaufträgen herangezogen werden, was eine automatische Lastverteilung
+      zwischen
+
+      räumlich benachbarten Druckern ermöglicht. Über ein extra Paket kann ein Druck-Quota-System
+
+      eingerichtet werden, mit dem angefallene Druckkosten ermitteln und zu druckende
+      Seiten
+
+      limitiert werden können.
+
+      '
+    name: Druckserver (CUPS)
+    short_description: 'Flexible Lösung zur Druckerverwaltung auf Basis von CUPS
+
+      '
+    tags: []
+    visuals:
+    - cups_screenshot.png
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - System services,UCS components
+    - Printing
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'This app provides a print server on the basis of the Software
+      Common UNIX  Printing
+
+      System (CUPS) und delivers PPD drivers for most printer devices. Printer, printer
+
+      groups and queues can be managed with the UCS management system. All configured
+      printers
+
+      can be used directly from UCS systems and will be automatically offered to Windows
+
+      clients, if the Windows Services are used.
+
+
+      The technical capacities of a printer are specified in so-called PPD files.
+      These
+
+      files include for example whether a printer can print in color, whether duplex
+      printing
+
+      is possible, whether there are several paper trays, which resolutions are supported
+
+      and which printer control languages are supported.
+
+
+      A printer can either be connected directly to the print server locally (e.g.,
+      via
+
+      the USB port or a parallel port) or communicate with a printer via remote protocols
+
+      (e.g., TCP/IP compatible printers, which are connected via IPP or LPD).
+
+      '
+    name: Print server (CUPS)
+    short_description: 'Flexible solution for printer management based on CUPS
+
+      '
+    tags: []
+    visuals:
+    - cups_screenshot.png
+id: UCSAPP-cups
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 2.2.1

@@ -1,0 +1,95 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ''
+    keywords:
+    - ''
+    - Identity Management
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Der UCS Intercom Service (ICS) ist ein Backend-Dienst, der
+      als Vermittler für die
+
+      sichere Kommunikation und Single Sign-On zwischen anderen Diensten fungiert.
+      Der
+
+      ICS ermöglicht es Webservice-Backends, auf der Grundlage der Single Sign-On-Sitzung
+
+      des aktuellen Endbenutzers miteinander zu kommunizieren und gleichzeitig die
+      Sitzungssicherheit
+
+      zu gewährleisten.
+
+
+
+      Der ICS ist sehr spezifisch für bestimmte Anwendungsfälle, derzeit für die Interaktion
+
+      zwischen Open-Xchange, Nextcloud und elements/matrix. Details sind in der Dokumentation
+
+      beschrieben.
+
+
+
+      Die App kann nur erfolgreich installiert werden, wenn einige Voraussetzungen
+      erfüllt
+
+      sind. **Bitte konsultieren Sie vor der Installation die [Dokumentation!](https://docs.software-univention.de/intercom-service/latest/)**
+
+
+
+      '
+    name: UCS Intercom Service
+    short_description: 'Service für sichere Backend-Kommunikation in Single Sign-On
+      Szenarien.
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: ''
+    keywords:
+    - ''
+    - Identity Management
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The UCS Intercom Service (ICS) is a backend service that acts\
+      \ as an intermediary\nfor the secure communication and Single Sign-On between\
+      \ other services. The ICS allows\nwebservice backends to communicate with each\
+      \ other based on the Single Sign-On session\nof the current end user while ensuring\
+      \ session security.\n\n\nThe ICS is very specific for dedicated use cases, currently\
+      \ in the interaction between\nOpen-Xchange, Nextcloud and elements/matrix. Details\
+      \ are outlined in the documentation.  \n\nThe App can only be installed successfully\
+      \ if some prerequisites are fullfilled.\n**Please consult the [documentation](https://docs.software-univention.de/intercom-service/latest/)\
+      \ before installation!**  \n   \n"
+    name: UCS Intercom Service
+    short_description: 'Single Sign-On helper service for secure backend communication.
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-intercom-service
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '1.10'

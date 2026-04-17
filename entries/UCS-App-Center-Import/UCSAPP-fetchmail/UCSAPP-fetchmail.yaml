@@ -1,0 +1,78 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - Collaboration,UCS components
+    - Mail & Messaging
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Die App erweitert UCS um Fetchmail, ein Programm zum regelmäßigen
+      Abholen von E-Mails
+
+      von externen Mailservern und der Weitergabe an das lokale Zustellsystem. Fetchmail
+
+      kann als Dienst gestartet werden, um mehrere Mailserver in festgelegten Intervallen
+
+      auf neue E-Mails zu überprüfen. Die Konfiguration erfolgt pro Benutzer im Nubus
+
+      Identity Management auf UCS.
+
+      '
+    name: Fetchmail
+    short_description: 'Stellt bei Mailprovidern lagernde Mail unter UCS zu
+
+      '
+    tags: []
+    visuals:
+    - fetchmail_screenshot.png
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - Collaboration,UCS components
+    - Mail & Messaging
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'This app extends UCS with Fetchmail, a mail retrieval and forwarding
+      program. Mails
+
+      are fetched from remote mail servers and forwarded to the local delivery system.
+
+      Fetchmail can be run as a service to constantly pull emails from multiple servers
+
+      at a specifed interval. The configuration is done per user in the Nubus Identity
+
+      Management of UCS.
+
+      '
+    name: Fetchmail
+    short_description: 'Retrieve and deliver mail stored at a mail service provider
+
+      '
+    tags: []
+    visuals:
+    - fetchmail_screenshot.png
+id: UCSAPP-fetchmail
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 6.3.26

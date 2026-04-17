@@ -1,0 +1,167 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - Education
+    - Identity Management
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Der UCS@school ID Connector verbindet ein UCS@school-Verzeichnis
+      mit beliebig vielen
+
+      weiteren UCS@school-Verzeichnissen (1:n).
+
+
+      Er ist konzipiert, um Landesverzeichnisse mit Schul- oder Schulträgerinstanzen
+      zu
+
+      verbinden, kann aber grundsätzlich auch in anderen Kontexten verwendet werden.
+      In
+
+      jedem Fall sollte vor der Verwendung bitte zunächst mit dem Univention-Team
+      Kontakt
+
+      aufgenommen werden.
+
+
+      Die Verbindung findet unidirektional statt, dass heißt es werden Benutzerdaten
+      (Benutzer,
+
+      Schulzugehörigkeit, Klassenzugehörigkeiten) aus einem zentralen Verzeichnis
+      (z.B.
+
+      Landesverzeichnis) an Schulträger- und Schulverzeichnisse übertragen.
+
+
+      Schulträger- und Schulen werden damit in die Lage versetzt, autonom schulische
+      IT-Infrastruktur
+
+      anzubieten und sich dabei keine Gedanken mehr über die Benutzerpflege machen
+      zu
+
+      müssen.
+
+
+      Voraussetzung ist der Einsatz der UCS@school Kelvin API auf den entfernten Schul-
+
+      und Schulträgerinstanzen.
+
+
+      Die lokalen Benutzer werden in Echtzeit an die entfernten Instanzen synchronisiert.
+
+
+      Hierfür ist vorab eine Konfiguration notwendig, um eine Zuordnung "Welche Schulbenutzer
+
+      sollen an welche entfernte Instanz übertragen werden?" zu erstellen. Dann werden
+
+      diese Benutzer dort angelegt, aktualisiert sowie gelöscht.
+
+
+      Weitere Informationen zur Architektur und Konfiguration siehe UCS@school ID
+      Connector
+
+      Readme.
+
+
+      Diese App ist Teil von UCS@school und damit Teil der UCS@school-Subskription.
+
+      '
+    name: UCS@school ID Connector
+    short_description: 'Unidirektionale Synchronisierung zwischen UCS@school-Instanzen
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_2.png
+    - thumbnail_1.jpeg
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - Education
+    - Identity Management
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'The UCS@school ID Connector connects a UCS@school directory
+      to any number of other
+
+      UCS@school directories (1:n).
+
+
+      It is designed to connect state directories with school districts, but can also
+      be
+
+      used in other contexts. In any case, please contact the Univention team first
+      before
+
+      use.
+
+
+      The connection takes place unidirectionally, user data (user, school affiliation,
+
+      class affiliations) are transferred from a central directory (e.g. country directory)
+
+      to district or school directories.
+
+
+      School districts and schools are thus enabled to offer school IT infrastructure
+      autonomously
+
+      without having to worry about user administration.
+
+
+      Prerequisite is the use of the UCS@school Kelvin API on the school authorities.
+
+
+      The local users are synchronized to the remote instances in real time.
+
+
+      For this a configuration is necessary in advance to create an assignment "Which
+
+      school users should be transferred to which remote instance?" Then these users
+
+      are created, updated and deleted.
+
+
+      For more information on architecture and configuration, see UCS@school ID Connector
+
+      Readme.
+
+
+      This app is part of UCS@school and therefore part of the UCS@school subscription.
+
+      '
+    name: UCS@school ID Connector
+    short_description: 'Unidirectional synchronization between UCS@school instances
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_2.png
+    - thumbnail_1.jpeg
+id: UCSAPP-ucsschool-id-connector
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 3.0.4

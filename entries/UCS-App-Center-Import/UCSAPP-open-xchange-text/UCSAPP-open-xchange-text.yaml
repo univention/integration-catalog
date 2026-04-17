@@ -1,0 +1,154 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: open-xchange-text_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Collaboration & Groupware
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'OX Documents ist eine Sammlung von dokumentenorientierten Apps
+      wie OX Text, OX Spreadsheet
+
+      und OX Presentation.
+
+
+      ### OX Text - als ein browserbasiertes Textverarbeitungsprogramm
+
+
+      OX Text ermöglicht das Bearbeiten aller gängigen Textdokumentformate ohne Formatverluste.
+
+      Es ermöglicht Benutzern den Fokus auf die Erstellung des Inhalts, ohne sich
+      über
+
+      die Verarbeitung oder das Dateiformat Gedanken machen zu müssen.
+
+
+      ### OX Spreadsheet - ein cloudbasiertes Tabellenkalkulationsprogramm
+
+
+      Mit OX Spreadsheet können Sie Tabellen direkt im Browser und auf jedem Endgerät
+
+      bearbeiten. Es muss kein natives Tabellenkalkulationsprogramm installiert werden.
+
+      Auf Tabellen (Microsoft und OpenOffice) kann somit jederzeit, von jedem Ort
+      und jedem
+
+      Endgerät zugegriffen werden.
+
+
+      ### OX Presentation - ein browserbasierte Präsentationseditor
+
+
+      OX Presentation ist ein online Präsentationseditor, der sich anfühlt und arbeitet
+
+      wie ein offline Editor. Benutzer können damit arbeiten, wo immer sie wollen
+      und
+
+      dank OX Drive können sie sogar synchronisierte Inhalte local auf jedem mobilen
+      Gerät
+
+      nutzen.
+
+
+      ### Hinweis
+
+
+      OX Documents benötigt den OX Documents-Konverter für Linux 64bit und OX App
+      Suite.
+
+      '
+    name: OX Documents
+    short_description: 'OX Text, OX Spreadsheet und OX Presentation
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+  en-US:
+    icon: open-xchange-text_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Collaboration & Groupware
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'OX Documents is a collection of document orientated apps like
+      OX Text, OX Spreadsheet
+
+      and OX Presentation.
+
+
+      ### OX Text - An in-browser word processing tool
+
+
+      OX Text offers real-time editing and collaboration on all major text document
+      formats
+
+      without compromising document integrity. It frees users to focus on creating
+      the
+
+      content, and not worry about the process or the file format.
+
+
+      ### OX Spreadsheet - A cloud-based spreadsheet solution
+
+
+      OX Spreadsheet lets you work directly on a spreadsheet from your browser on
+      any device.
+
+      There is no need to install any native spreadsheet application. Spreadsheet
+      (Microsoft
+
+      and OpenOffice) are accessible anywhere, anytime and from any device.
+
+
+      ### OX Presentation - An online presentation editor
+
+
+      OX Presentation is an online presentation editor that feels and performs like
+      and
+
+      offline editor. Users can work wherever they want, and thanks to OX Drive, even
+      access
+
+      synchronized content locally on any mobile device.
+
+
+      ### Note
+
+
+      OX Documents requires the OX Documents Converter for Linux 64bit and the OX
+      App Suite.
+
+      '
+    name: OX Documents
+    short_description: 'OX Text, OX Spreadsheet, OX Presentation
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+id: UCSAPP-open-xchange-text
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 7.10.6-ucs3

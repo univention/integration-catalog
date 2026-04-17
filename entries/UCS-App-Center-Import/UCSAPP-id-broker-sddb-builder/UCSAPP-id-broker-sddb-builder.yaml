@@ -1,0 +1,72 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ''
+    keywords:
+    - ''
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "```This internal app is used to build a redis database cache\
+      \ for the Univention ID \nBroker component Self-disclosure API to  increase\
+      \ the performance of the Self-disclosure \nAPI.The app is intended for internal\
+      \ use only.It provides an endpoint at\nhttps://example.com/ucsschool/id-broker-sddb-builder/v1\
+      \ to queue user, group and \nschool objects, which are to be added to the cache.Outside\
+      \ of the container, the \n/var/log/univention/id-broker-sddb-builder directory\
+      \ is exposed.```\n"
+    name: Univention ID Broker Self-disclosure DB Builder
+    short_description: 'REST API to queue internal Univention ID Broker objects, which
+      are to be added to
+
+      the cache.
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: ''
+    keywords:
+    - ''
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "```This internal app is used to build a redis database cache\
+      \ for the Univention ID \nBroker component Self-disclosure API to  increase\
+      \ the performance of the Self-disclosure \nAPI.The app is intended for internal\
+      \ use only.It provides an endpoint at\nhttps://example.com/ucsschool/id-broker-sddb-builder/v1\
+      \ to queue user, group and \nschool objects, which are to be added to the cache.Outside\
+      \ of the container, the \n/var/log/univention/id-broker-sddb-builder directory\
+      \ is exposed.```\n"
+    name: Univention ID Broker Self-disclosure DB Builder
+    short_description: 'REST API to queue internal Univention ID Broker objects, which
+      are to be added to
+
+      the cache.
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-id-broker-sddb-builder
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 1.1.0

@@ -1,0 +1,54 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ''
+    keywords:
+    - ''
+    - ''
+    links:
+    - Description: ''
+      URL: ''
+    long_description: ''
+    name: Provisioning Stack
+    short_description: 'NO DESCRIPTION FOUND
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: ''
+    keywords:
+    - ''
+    - ''
+    links:
+    - Description: ''
+      URL: ''
+    long_description: ''
+    name: Provisioning Stack
+    short_description: 'NO DESCRIPTION FOUND
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-provisioning-stack
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '1.0'

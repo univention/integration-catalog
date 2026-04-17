@@ -1,0 +1,155 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Education
+    - Administration
+    - Device Management
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Mit der App Apple School Manager Connector für UCS@school provisionieren
+      Sie automatisiert
+
+      Benutzer zu [Apple School Manager (ASM)](https://school.apple.com/). Dabei nimmt
+      das UCS@school Identity Management (IDM) die Rolle eines Studierendeninformationssystems
+      (SIS) an und nutzt die von Apple zur Verfügung gestellte SFTP-Schnittstelle.
+      Voraussetzung für den Connector ist ein Konto für eine Bildungseinrichtung in
+      dem Apple School Manager.
+
+
+      ### Synchronisation der kompletten Benutzerdaten vom IDM zu ASM
+
+
+      Der Connector synchronisiert in seiner Standardkonfiguration jede Nacht alle
+      Nutzerkonten
+
+      der aktivierten Schulen zum ASM. Dabei werden Schulen, Klassen, Arbeitsgruppen
+      und
+
+      Benutzer (Lehrkräfte und SchülerInnen) synchronisiert.
+
+
+      Sind Benutzer im IDM von UCS gelöscht, werden diese im Apple School Manager
+      zunächst
+
+      deaktiviert und nach 30 Tagen ebenfalls gelöscht.
+
+
+      ### Apple-IDs, Passwörter und Gerätemanagment
+
+
+      Die Apple-IDs werden automatisch generiert und bestehen standardmäßig aus benutzername@mail.domain.
+
+      Die Passwörter der Apple-ID werden selbstständig im Apple School Manager verwaltet.
+
+
+      Für das Gerätemanagement empfiehlt Univention ein Mobile Device Management (MDM).
+
+      Grundsätzlich kann jedes MDM verwendet werden, das über eine Schnittstelle zum
+
+      ASM verfügt. Univention empfiehlt eine MDM-Lösung aus dem [Univention App Center](https://www.univention.de/produkte/univention-app-center/app-katalog/)
+      zu nutzen, da diese einer stetigen Pflege durch die Hersteller unterstehen und
+      in UCS@school und in seinem Identity Management integriert sind.
+
+      '
+    name: Apple School Manager Connector
+    short_description: 'Apple School Manager Connector
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_2.png
+    - thumbnail_1.png
+    - thumbnail_3.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Education
+    - Administration
+    - Device Management
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'With the app Apple School Manager Connector for UCS@school,
+      you automatically provision
+
+      users to [Apple School Manager (ASM)](https://school.apple.com/). The UCS@school
+      Identity Management (IDM) assumes the role of a student information system (SIS)
+      and uses the SFTP interface provided by Apple. The Connector requires an Apple
+      School Manager account for an educational institution.
+
+
+      ### Synchronization of all user data from IDM to ASM
+
+
+      In its standard configuration, the Connector synchronizes all user accounts
+      of the
+
+      activated schools to the ASM every night. Schools, classes, work groups and
+      users
+
+      (teachers and students) are synchronized.
+
+
+      If users are deleted in the IDM of UCS, they are immediately deactivated in
+      the Apple
+
+      School Manager and then deleted after 30 days.
+
+
+      ### Apple IDs, Passwords and Device Management
+
+
+      The Apple IDs are generated automatically and consist of username@mail.domain
+      by
+
+      default. The Apple ID passwords are managed autonomously in the Apple School
+      Manager.
+
+
+      For device management, Univention recommends Mobile Device Management (MDM).
+      Every
+
+      MDM can be used as long as it has an API to the ASM. Univention recommends using
+
+      an MDM solution from the [Univention App Center, as these are subject to constant
+
+      maintenance by the manufacturers and are integrated into UCS@school and its
+      Identity
+
+      Management.
+
+      '
+    name: Apple School Manager Connector
+    short_description: 'Apple School Manager Connector
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_2.png
+    - thumbnail_1.png
+    - thumbnail_3.png
+id: UCSAPP-apple-school-manager
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 5.0.3

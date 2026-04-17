@@ -1,0 +1,94 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Diese App erweitert UCS um Active Directory Funktionen, wie
+      sie von der Software
+
+      Samba bereit gestellt werden. Sie ermöglicht damit den Betrieb eines Active
+      Directory
+
+      kompatiblen Domänencontrollers mit Nubus auf UCS und stellt so für Windows-Systeme,
+
+      die Teil dieser Domäne sind, den Anmeldedienst bereit.
+
+
+
+      Benutzer und ihre Gruppenzugehörigkeiten werden zentral im Nubus Identity Management
+
+      gepflegt. Die App kann auf mehreren UCS Instanzen installiert werden. In diesem
+      Fall
+
+      werden die Daten über Replikationsmechanismen auf andere Domänencontroller synchronisiert
+
+      und miteinander abgeglichen.
+
+      '
+    name: Active Directory-kompatibler Domänencontroller
+    short_description: 'Umfassende Active Directory-Funktionen auf Basis von Samba
+
+      '
+    tags: []
+    visuals:
+    - samba4_screenshot.jpeg
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'This app extends UCS with Active Directory functionality as
+      it is delivered by the
+
+      software Samba. It allows to operate an Active Directory compatible domain controller
+
+      with Nubus on UCS and therefore provides a login service for Windows systems
+      that
+
+      are part of the domain.
+
+
+      Users and group memberships are maintained centrally in the Nubus Identity Management
+
+      system. The App can be installed on several UCS instances, In that case, replication
+
+      mechanisms synchronize the data to other domain controllers.
+
+      '
+    name: Active Directory-compatible Domain Controller
+    short_description: 'Comprehensive Active Directory functions based on Samba
+
+      '
+    tags: []
+    visuals:
+    - samba4_screenshot.jpeg
+id: UCSAPP-samba4
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '4.16'

@@ -1,0 +1,77 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: NC-PI
+description:
+  de-DE:
+    name: Nextcloud Packaged Integration
+    short_description: Vorkonfiguration von Nubus zur Integration mit Nextcloud
+    icon: ''
+    links:
+      - Description: Nextcloud Webseite
+        URL: https://www.nextcloud.de
+      - Description: Nextcloud Source Code
+        URL: https://github.com/nextcloud   
+    long_description: |
+      Vollständige Vorkonfiguration von Nubus zur Integration
+      mit Nextcloud:
+        - Attribute zur Definition, welche Nutzer und Gruppen in Nextcloud bekannt sein sollen
+        - Definition von Quota eines Users in Nextcloud        
+        - Dokumentation der Einrichtung von Nextcloud
+    tags:
+      - Groupware
+      - Filestore
+    visuals:
+      - ''
+  en-US:
+    name: Nextcloud Packaged Integration
+    short_description: |
+      Packaged Integration and Documentation to connect a Nextcloud
+      installation with Nubus for User- and Group Management and SSO
+    long_description: |
+      A long Text...                               ... describing
+      all the details and links to further documentation
+    icon: path/to/icon
+    links:
+      - Description: Nextcloud Homepage
+        URL: https://www.nextcloud.de
+      - Description: Nextcloud Source Code
+        URL: https://github.com/nextcloud   
+    tags:
+      - Filestore
+      - Groupware
+    visuals:
+      - path/to/visual1
+      - path/to/visual2
+main_icon: path/to/nextcloud-icon
+version: 32.0.3-0
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2025-01-01'
+  last_update_date: '2025-07-15'
+organizational_specifications:
+  support_contact_id: univention
+  support_status: Enterprise
+  vendor_id: nextcloud
+keywords:
+  - ''
+technical_specifications:
+  capabilities:
+    - SSO
+    - SLO
+    - SUSP
+    - User Creation
+    - User Lifecycle
+    - Group Lifecycle
+    - Group Memberships
+  compatible_platforms:
+    - UCS
+  compatible_products:
+    - Nubus
+    - UCSschool
+  dependencies: []
+  protocols:
+    - LDAP
+    - OIDC
+    - SAML
+  source_license: OSI

@@ -1,0 +1,66 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - ''
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The Provisioning Service Backend app is a package based appthat\
+      \ installs integration\npackages for the Provisioning Service in UCS.The App\
+      \ Center automatically installs\nit as a dependency of the Provisioning Service.The\
+      \ packages include a listener module\nand host configuration for TLS encryption\
+      \ between multiple installations.  \n\nFor more details refer to the official\
+      \ [UCS Provisioning Service documentation](https://docs.software-univention.de/manual/5.2/en/domain-ldap/nubus-provisioning-service.html)\
+      \ and the [Nubus Customization and Modification Manual](https://docs.software-univention.de/nubus-kubernetes-customization/1.x/en/index.html).\n"
+    name: Provisioning Service Backend
+    short_description: 'Provisioning Service Backend
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - ''
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The Provisioning Service Backend app is a package based appthat\
+      \ installs integration\npackages for the Provisioning Service in UCS.The App\
+      \ Center automatically installs\nit as a dependency of the Provisioning Service.The\
+      \ packages include a listener module\nand host configuration for TLS encryption\
+      \ between multiple installations.  \n\nFor more details refer to the official\
+      \ [UCS Provisioning Service documentation](https://docs.software-univention.de/manual/5.2/en/domain-ldap/nubus-provisioning-service.html)\
+      \ and the [Nubus Customization and Modification Manual](https://docs.software-univention.de/nubus-kubernetes-customization/1.x/en/index.html).\n"
+    name: Provisioning Service Backend
+    short_description: 'Provisioning Service Backend
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-provisioning-service-backend
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '2.0'

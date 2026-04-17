@@ -1,0 +1,210 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - CRM & ERP
+    - Collaboration & Groupware
+    - Office
+    - Project Management
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Unsere Lösung ITISeasy.business, basiert auf der quelloffenen
+      Open Source Lösung
+
+      odoo Community und ist auf Basis unserer langjährigen Erfahrung in der Projektarbeit
+
+      bzw. der Einführung von ERP-Systemen bei Unternehmen, sowie unserer Produktentwicklung,
+
+      zu einer Lösung mit Mehrwert gereift. Diese Erfahrung und Verbesserung möchten
+
+      wir mit ITISeasy.business als Komplettpaket an unsere Kunden weitergeben, um
+      eine
+
+      gesamtheitliche Lösung zu erhalten und in der Einführung eines ERP-Systems auf
+
+      kundenspezifische Anpassungen soweit wie möglich verzichten zu können.
+
+
+      ITISeasy.business ist ein vollwertiges Business-System, und durch sein vielseitiges,
+
+      modulares Konzept weit mehr ist als ein normales ERP-System. Es unterstützt
+      Sie
+
+      mit einem präzisen Geschäftsablauf, der dennoch einfach zu verwalten und selbsterklärend
+
+      ist. Damit können Ihre Mitarbeiter, Partner und Sie selbst die Kontrolle über
+      Ihr
+
+      Unternehmen übernehmen und erhalten die notwendigen Informationen, um in die
+      richtige,
+
+      zukunftsorientierte Richtung zu steuern.
+
+
+      Durch den modularen Aufbau von ITISeasy.business, ist die Software für jede
+      Branche
+
+      und Unternehmensgröße bestens geeignet.
+
+
+      ITISeasy.business ist mit einer Reihe von Erweiterungen ausgestattet, die speziell
+
+      für den europäischen Markt elementar und sinnvoll sind. Besonders hervorzuheben
+
+      ist das einzigartige Vertragswesen (ITISeasy.business contract), das Management
+      Dashboard,
+
+      die große Verbesserung für ITISeasy.business Projects, der User-Helpdesk und
+      Ticketing
+
+      (ITISeasy.business support), aber auch die vollständige Personallösung mit ITISeasy.business
+
+      Anwesenheit, ITISeasy.business Timesheet (Zeitbuchungen), ITISeasy.business
+      Urlaubsplanung,
+
+      und Schichtplan-Verwaltung. Last but not least haben wir auch die Finanzbuchhaltung
+
+      um wichtige Funktionen wie das Mahnwesen und Berichtswesen so ergänzt, dass
+      Sie
+
+      damit wirklich gleich loslegen können.
+
+
+      Über das Univention App Center erhalten Sie die kostenlose ITISeasy.business
+      (UE),
+
+      die bereits eine Vielzahl an Verbesserungen gegenüber odoo enthält. Sollten
+      Sie
+
+      für Ihr Unternehmen den vollen Umfang von ITISeasy.business benötigen, können
+
+      Sie die reichhaltige Vollversion (Nutzungsentgeldpflichtig) freischalten lassen.
+
+      '
+    name: odoo enhanced ITISeasy.business (UE)
+    short_description: 'ITISeasy.business - die verbesserte ERP-Lösung
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+    - thumbnail_2.png
+    - thumbnail_3.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - CRM & ERP
+    - Collaboration & Groupware
+    - Office
+    - Project Management
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Our ITISeasy.business solution is based on the open source
+      odoo community and has
+
+      matured into a solution with added value based on our many years of experience
+      in
+
+      project work and the introduction of ERP systems at companies as well as our
+      product
+
+      development. With ITISeasy.business, we want to pass this experience and improvement
+
+      on as a complete package to our customers in order to obtain a comprehensive
+      solution
+
+      and to dispense with customization as far as possible in the introduction of
+      an ERP
+
+      system.
+
+
+      ITISeasy.business is a full-fledged business system and, thanks to its versatile,
+
+      modular concept, is far more than a normal ERP system. It supports you with
+      a precise
+
+      business process that is still easy to manage and easy to use. This means that
+      your
+
+      employees, partners and you can take control of your company and receive the
+      information
+
+      they need to steer in the right, future-oriented direction.
+
+
+      Due to the modular structure of ITISeasy.business, the software is ideally suited
+
+      for every industry and company size.
+
+
+      IT IS easy business is equipped with a series of extensions that are particularly
+
+      elementary and useful for the European market. Particularly noteworthy is the
+      unique
+
+      contract ( ITISeasy.business contract), the management dashboard, the great
+      improvement
+
+      for ITISeasy.business projects, the user helpdesk and ticketing (ITISeasy.business
+
+      support), but also the complete staffing solution with ITISeasy.business presence,
+
+      ITISeasy.business timesheet (Time reservations), ITISeasy.business vacation
+      planning,
+
+      and shift management. Last but not least, we have also added important functions
+
+      to finance accounting, such as reminder and reporting, so that they can really
+      get
+
+      started right away.
+
+
+      You can get the free ITISeasy.business (UE) version via the Univention App Center,
+
+      which already contains a large number of improvements compared to odoo. If you
+      need
+
+      the full scope of ITISeasy.business for your company, you can have the feature
+      rich,
+
+      full version (usage fee) activated.
+
+      '
+    name: odoo enhanced ITISeasy.business (UE)
+    short_description: 'ITISeasy.business - the enhanced ERP solution
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+    - thumbnail_2.png
+    - thumbnail_3.png
+id: UCSAPP-itiseasybusiness
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '18.2'

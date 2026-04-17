@@ -1,0 +1,88 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: openvpn4ucs_logo.svg
+    keywords:
+    - System services
+    - Infrastructure
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'OpenVPN4UCS stellt ein Integrationspaket für OpenVPN in denUnivention
+      Corporate
+
+      Server bereit. Durch Nutzung und Erweiterungvertrauter Bedienelemente ermöglicht
+
+      es einem Administrator OpenVPN aus derUnivention Management Console heraus auf
+      einfache
+
+      Weise zu konfigurieren undbereitzustellen.
+
+
+      OpenVPN ist ein Programm zum Aufbau eines Virtuellen PrivatenNetzwerkes (VPN),
+      welches
+
+      OpenSSL für die Verschlüsselung einsetzt.
+
+      '
+    name: OpenVPN4UCS
+    short_description: 'Server für virtuelle private Netze
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+  en-US:
+    icon: openvpn4ucs_logo.svg
+    keywords:
+    - System services
+    - Infrastructure
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'OpenVPN4UCS provides an integration package for OpenVPN in
+      theUnivention Corporate
+
+      Server. By extending and using the familiar userinterface it allows an administrator
+
+      to configure and deploy OpenVPN fromwithin the Univention Management Console
+      in a
+
+      very easy way.
+
+
+      OpenVPN is an application to securely tunnel IP networks over asingle port by
+      utilizing
+
+      OpenSSL to encrypt the connection.
+
+      '
+    name: OpenVPN4UCS
+    short_description: 'Virtual private network daemon
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+id: UCSAPP-openvpn4ucs
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 2.1.6

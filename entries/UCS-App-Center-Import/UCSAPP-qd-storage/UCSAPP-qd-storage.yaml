@@ -1,0 +1,73 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - File Sync & Share
+    - Storage
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "QD Storage bietet eine sichere und unkomplizierte Anbindung\
+      \ der UCS Benutzer Heim-\nund Gruppen-Laufwerke per Browser.  \n\nApp Dokumentation:\
+      \ [https://qua-dev.com/qd-storage](https://qua-dev.com/qd-storage)  \n   \n\
+      Zum vollumfängliche Betrieb dieser App ist eine Lizenzierung notwendig.  \n\
+      Falls keine Lizenz vorhanden ist, wird automatisch eine Trial-Lizenz genutzt.\
+      \  \n    \nNach Installation dieser App kann sich der Admin wie unter [https://qua-dev.com/qd-storage#3-2_admin-user](https://qua-dev.com/qd-storage#3-2_admin-user)\
+      \ beschrieben einloggen und die App weiter einrichten.\n"
+    name: QD Storage
+    short_description: 'QD Storage bietet eine sichere und unkomplizierte Anbindung
+      der UCS Benutzer Heim-
+
+      und Gruppen-Laufwerke per Browser.
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - File Sync & Share
+    - Storage
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "QD Storage offers a secure and uncomplicated connection to\
+      \ UCS user home and group\ndrives via browser.  \n\nApp documentation: [https://qua-dev.com/qd-storage](https://qua-dev.com/qd-storage)\
+      \  \n\n\nLicensing is required to fully operate this app.\n\nIf no license is\
+      \ available, a trial license is automatically used.  \n\nAfter installing this\
+      \ app, the admin can log in as described at [https://qua-dev.com/qd-storage#3-2_admin-user](https://qua-dev.com/qd-storage#3-2_admin-user)\
+      \ and continue setting up the app.\n"
+    name: QD Storage
+    short_description: 'QD Storage offers a secure and uncomplicated connection to
+      UCS user home and group
+
+      drives via browser.
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+id: UCSAPP-qd-storage
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 0.9.14

@@ -1,0 +1,121 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: benno-mailarchiv_logo.svg
+    keywords:
+    - Business
+    - Collaboration
+    - Backup & Archiving
+    - Mail & Messaging
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Benno MailArchiv ist die offene und flexible Lösung für die
+      revisionssichere E-Mail-Archivierung.
+
+      Der Einsatz von Benno MailArchiv ermöglicht signifkante Kosteneinsparungen beim
+
+      Ablegen und Suchen von E-Mails im Unternehmen. E-Mails werden automatisch, sicher
+
+      und zuverlässig archiviert. Die Textinhalte aller E-Mails (incl. der Attachements!)
+
+      werden on the fly indexiert. Alle E-Mails sind damit Volltext suchbar (bspw.
+      über
+
+      den Mailtext, Absender, Empfänger, Betreffzeile, Mailheader und natürlich über
+
+      die Inhalte der Attachements!). Benno MailArchiv unterstützt z.Z. ca. 1.300
+      verschiedene
+
+      Dateiformate für Attachements. (ZIP-Dateien werden ausgepackt und dateiweise
+      indexiert).
+
+      Über die ausgefeilte Suchfunktion wird jede beliebige E-Mail in Sekunden treffsicher
+
+      gefunden. Das Suchen und Anzeigen von E-Mails kann über die http-Schnittstelle
+      (REST
+
+      API) als Web-Service in Drittanwendungen integriert werden. Benno MailArchiv
+      ist
+
+      damit bestens für die Integration in Geschätsprozesse (SOA) vorbereitet.
+
+      '
+    name: Benno MailArchiv
+    short_description: 'Automatische und revisionssichere Archivierung von E-Mails
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_2.png
+  en-US:
+    icon: benno-mailarchiv_logo.svg
+    keywords:
+    - Business
+    - Collaboration
+    - Backup & Archiving
+    - Mail & Messaging
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Benno MailArchiv is the open and flexible solution for revision
+      proof E-mail archiving.
+
+      Benno MailArchiv allows you to signifcantly reduce the costs for taking and
+      searching
+
+      for E-mails in your enterprise. E-mails are archived automatically, securely
+      and
+
+      reliably. All textual content of E-mails (including attachements!) is extracted
+      on
+
+      the fly and added to the search index. Any archivied E-mail is searchable based
+      on
+
+      the fulltext search index (e.g. message body, sender address, recipient addresses,
+
+      subject line, mail headers, and the attachements of course). Benno MailArchiv
+      supports
+
+      approx. 1.300 different file formats for attachements. (ZIP files are extracted
+      for
+
+      file baxed indexing). With the highly flexible search functionality of the WebApp,
+
+      any E-mail can be found just in seconds. Benno''s functionality can be added
+      to 3rd
+
+      party applications via the SOA http-interface (web service interface). Benno
+      MailArchiv
+
+      can be integrated into any business process that way.
+
+      '
+    name: Benno MailArchiv
+    short_description: 'Automatic and revision proof E-mail archiving
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_2.png
+id: UCSAPP-benno-mailarchiv
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 2.10.3

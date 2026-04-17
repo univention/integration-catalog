@@ -1,0 +1,63 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Diese App ist Teil der Nubus Komponente "Guardian". Die Autorisierungs-API
+
+      wird als Kontrollinstanz eingesetzt, um die Berechtigungen einer Rolle zu überprüfen.
+
+      '
+    name: Guardian Authorization API
+    short_description: 'Kontrollinstanz, um die Berechtigungen einer Rolle zu überprüfen.
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'This app is part of the Nubus component "Guardian". The Authorization
+      API
+
+      is used as a control instance to check the capabilities of a role.
+
+      '
+    name: Guardian Authorization API
+    short_description: 'Control instance to check the capabilities of a role.
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-guardian-authorization-api
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 3.0.4

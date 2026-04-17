@@ -1,0 +1,77 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Identity Management
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Keycloak ist der Identitätsprovider (IDP) von Univention Nubus.\
+      \ Diese App übernimmt\ndie Installation und Konfiguration von Keycloak auf UCS.\
+      \  \n\n\nKeycloak bietet IDP Funktionalität für sicheres Single Sign On über\
+      \ die Protokolle\nSAML und OpenID Connect, und ermöglicht die Föderierung zu\
+      \ anderen Identity Providern.\n\nDie App ist so konfiguriert, dass sie das Keycloak\
+      \ Feature \"User Federation\"\nverwendet um Benutzer durch OpenLDAP authentifizieren\
+      \ zu lassen, in dem die durch\nden Univention Directory Manager (UDM) verwalteten\
+      \ Benutzer und Gruppen gespeichert\nwerden. So können alle in einer Nubus Installation\
+      \ verwalteten Nutzer Keycloak als\nIDP für Single Sign-On mit integrierte Applikationen\
+      \ nutzen.  \n\n\nWeitere Details sind in der [Dokumentation der aktuellsten\
+      \ Version der UCS Keycloak App](https://docs.software-univention.de/keycloak-app/latest/)\
+      \ beschrieben. \n"
+    name: Keycloak
+    short_description: 'SAML und OpenID Connect Identity Provider
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Identity Management
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Keycloak is the Identity Provider (IDP) of Univention Nubus.\
+      \ This App provides the\ninstallation and integration of Keycloak for UCS. \
+      \ \n\n\nKeycloak offers SAML and OpenID Connect Identity Provider functionality\
+      \ for secure\nSingle Sign-On, including federation to other protocol compliant\
+      \ identity providers.\n\nThe app is configured to use the Keycloak feature \"\
+      User Federation\" for\nauthentication of users against OpenLDAP, where users\
+      \ and groups managed by Univention\nDirectory Manager (UDM) are stored. So all\
+      \ users managed in a Nubus installation\nare known to Keycloak and can use the\
+      \ provided IDP for Single Sign-On with integrated\napplications.  \n\n\nFor\
+      \ more details go to the [documentation of the most recent version of the UCS\
+      \ Keycloak App](https://docs.software-univention.de/keycloak-app/latest/)\n"
+    name: Keycloak
+    short_description: 'SAML and OpenID Connect Identity Provider
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+id: UCSAPP-keycloak
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 26.5.3-ucs1

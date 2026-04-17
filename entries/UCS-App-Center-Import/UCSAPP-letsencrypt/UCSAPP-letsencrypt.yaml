@@ -1,0 +1,257 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - Infrastructure
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Bei Systemen, die aus dem Internet erreichbar sind wie Web-
+      oder Mail-Server, wird
+
+      ein Zertifikat benötigt, das von einer Institution unterzeichnet wurde. Solche
+      Zertifikate
+
+      waren in der Vergangenheit sehr teuer. Let''s Encrypt ermöglicht es, SSL/TLS-Zertifikate
+
+      kostenlos und automatisiert auszustellen und valide Zertifikate für das Internet
+
+      zu bekommen.
+
+
+      Dabei hält die Zertifizierungsstelle den Administrationsaufwand für die Anwender
+
+      möglichst gering, indem der HTTPS-Server mit minimaler Konfiguration Zertifikate
+
+      autonom anfragen kann.
+
+
+      Die erstellten Zertifikate können mit der App automatisch in Apache, Dovecot
+      und
+
+      Postfix eingebunden, aber auch für [SSL/TLS-verschlüsselte Kommunikation anderer
+      Dienste](http://sdb.univention.de/content/15/230/en/using-your-own-ssl-certificates.html)
+      verwendet werden.
+
+
+      Weitere Besonderheiten von Let’s Encrypt sind zum einen der vollkommen automatisierte
+
+      Prozess zur Erstellung und Validierung eines angefragten Zertifikats, zum anderen
+
+      die völlige Transparenz über diese Transaktionen, so dass Missbrauch schwierig
+
+      wird.
+
+
+      ## Funktionsweise von Let''s Encrypt auf Basis des ACME-Protokolls
+
+
+      Die Funktionsweise von Let''s Encrypt basiert auf dem [Automated Certificate
+      Management Environment-Protokoll](https://letsencrypt.org/how-it-works/). Dieses
+      hat die Internet Security Research Group (ISRG) eigens für [Let''s Encrypt](https://letsencrypt.org/)
+      designt. Es basiert auf JSON sowie HTTPS und ist bereits auf verschiedene Arten
+      und in einer Vielzahl von Clients implementiert.
+
+
+      ### ACME und Let‘s Encrypt – Erstellen und Validieren der Schlüsselpaare
+
+
+      Im ersten Schritt erzeugt der ACME-Client gemeinsam mit dem Let‘s Encrypt-Server
+
+      ein „autorisiertes Schlüsselpaar“ für die jeweilige Domäne, das dazu berechtigt
+
+      ist, ein Zertifikat für diese Domäne anzufragen oder zurückzusenden. Dabei erstellt
+
+      der Client einen Certificate Signing Request (CSR), signiert diesen mit seinem
+      Schlüssel
+
+      und sendet ihn an Let‘s Encrypt. Im zweiten Schritt wird das Schlüsselpaar mit
+
+      Hilfe einer Challenge validiert.
+
+
+      ## Sichere Zertifikate erstellen mit dem Let‘s Encrypt-Clients in UCS
+
+
+      Mit der Let‘s Encrypt-App bietet Univention eine weitgehend automatisierte Integration
+
+      eines Let‘s Encrypt-Clients an. Nach der Installation der App auf UCS tragen
+      Sie
+
+      nur noch über die App-Einstellungen im App Center die gewünschten Domains ein
+      und
+
+      konfigurieren die Verwendung des Zertifikats in Apache, Dovecot und Postfix.
+
+
+      Mit Hilfe eines mitinstallierten Cronjobs wird Ihr Zertifikat alle 30 Tage automatisch
+
+      aktualisiert, so dass Sie stets ein valides Zertifikat im System haben.
+
+
+      Der verwendete Client "acme-tiny" wurde nicht von Univention erstellt und
+
+      die App operiert nur auf dem Server, auf dem sie installiert ist. Dieser muss
+      aus
+
+      dem Internet über die gewünschte Domäne erreichbar sein.
+
+
+      **Die folgenden Dienste sind bereits integriert:**
+
+
+      - Apache
+
+      - Postfix
+
+      - Dovecot
+
+      '
+    name: Let's Encrypt
+    short_description: 'Zertifikate von Let''s Encrypt in ihren UCS-Servern
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - Infrastructure
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Systems which can be accessed from the Internet such as web
+      servers and mail servers
+
+      require a certificate signed by a certificate authority (CA). In the past, such
+      certificates
+
+      were very expensive. Let’s Encrypt makes it possible to issue SSL/TLS certificates
+
+      to receive valid certificates for the Internet free of charge and automatically.
+
+
+      All the while, the certification entity keeps the administrative efforts required
+
+      on the part of the users as low as possible by allowing the HTTPS server to
+      request
+
+      certificates autonomously with minimal configuration.
+
+
+      The generated certificates can be integrated in Apache, Dovecot, and Postfix
+      automatically
+
+      with the app and also used for [SSL/TLS-encrypted communication with other services](http://sdb.univention.de/content/15/230/en/using-your-own-ssl-certificates.html).
+
+
+      Further special features of Let’s Encrypt include the fully automated process
+      for
+
+      the issuing and validation of a requested certificate on the one hand and the
+      complete
+
+      transparency throughout the transactions, which renders abuse very difficult,
+      on
+
+      the other.
+
+
+      ## Functions based on the ACME protocol
+
+
+      Let’s Encrypt’s function is based on the [Automated Certificate Management Environment
+      (ACME) protocol](https://letsencrypt.org/how-it-works/), which the Internet
+      Security Research Group (ISRG) developed especially for the [Let’s Encrypt project](https://letsencrypt.org/).
+      It is based on JSON and HTTPS, plus it has already been implemented in a wide
+      variety of types and a large number of clients.
+
+
+      ### ACME and Let’s Encrypt – Creation and validation of pairs of keys
+
+
+      In the first step, the ACME client generates an “authorized pair of keys” together
+
+      with the Let’s Encrypt server for the respective domain, which is authorized
+      to
+
+      request or return a certificate for this domain. To do so, the client creates
+      a certificate
+
+      signing request (CSR), signs it with its key, and sends it to Let’s Encrypt.
+      In
+
+      the second step, the pair of keys is validated with the help of a challenge.
+
+
+      ## Creating secure certificates in UCS with the Let’s Encrypt client
+
+
+      In the Let’s Encrypt app, Univention offers a largely automated integration
+      of
+
+      a Let’s Encrypt client. Following the installation of the app in UCS, you only
+
+      need to use the app settings in the App Center to enter the desired domains
+      and configure
+
+      the use of the certificate in Apache, Dovecot, and Postfix.
+
+
+      A cron job installed at the same time automatically updates your certificate
+      every
+
+      30 days to ensure that there is always a valid certificate on your system.
+
+
+      The “acme-tiny” client used was not created by Univention and the app only operates
+
+      on the server on which it is installed. This must be accessible from the Internet
+
+      via the desired domain.
+
+
+      **The following services are already integrated:**
+
+
+      - Apache
+
+      - Postfix
+
+      - Dovecot
+
+      '
+    name: Let's Encrypt
+    short_description: 'Certificates issued by Let''s Encrypt Certificate Authority
+      in your UCS server
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-letsencrypt
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 2.0.0-2

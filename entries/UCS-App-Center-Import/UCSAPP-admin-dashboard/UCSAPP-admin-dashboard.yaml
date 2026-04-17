@@ -1,0 +1,156 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - System services
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Das UCS Dashboard ermöglicht detaillierte Domänen- und Serverüberwachung.\
+      \  Es\nbesteht aus drei Modulen: einem Webinterface, einer Datenbank und einem\
+      \ Client. Das\nWebinterface basiert auf der OpenSource Software [Grafana&reg;](https://grafana.com)\
+      \ und der Client und die Datenbank auf \"Prometheus\".\n\nMit dem [Webinterface](https://grafana.org/)\
+      \ können Metriken abgefragt und visualisiert werden, unabhängig davon wo sie\
+      \ gespeichert sind.  Es ermöglicht einen umfassenden Überblick über wichtige\
+      \ Aspekte der IT-Umgebung.\n\nDie UCS Dashboard App konfiguriert\n\n\n- Domain-Authentifizierung\
+      \ (LDAP) für das Grafana Webinterface\n- Datenquellen\n- Standard-Dashboards\n\
+      \nDie App enthält drei vordefinierte Dashboards, ein \"Domain\" Dashboard\n\
+      mit:\n\n- Einer Übersicht über die Anzahl der Benutzer, Server und Clients in\
+      \ der UCS-Domäne\n- UCS spezifischen Metriken für alle Server wie \"aktualisierbare\
+      \ Apps\", \"UCS Version\" oder \"UCS Update verfügbar\"\n- Graphen für wichtige\
+      \ Messwerte wie \"Freier Speicher\" oder \"Freier Festplattenplatz\" für alle\
+      \ Server\n\nein \"Server\" Dashboard für detaillierte Metriken über einzelne\
+      \ Systeme\nmit Informationen wie:\n\n- Datenträgerdurchsatz\n- Netzwerkstatus\n\
+      - Disk I/O  \n\n\nund einem Dashboard zum Anzeigen einer Liste aller konfigurierten\
+      \ Alarme.\n\nEigene Dashboards können einfach im Grafana Webinterface erstellt\
+      \ und konfiguriert\nwerden.\n\nDie UCS Dashboard App installiert automatisch\
+      \ alle benötigten Komponenten, die UCS\nDashboard Database und die UCS Dashboard\
+      \ Client App. Auf allen weiteren Systemen,\ndie in den Dashboards verfügbar\
+      \ sein sollen, muss zusätzlich die App \"UCS\nDashboard Client\" installiert\
+      \ werden.\n\nDie Grafana Labs-Marken sind Warenzeichen von Grafana Labs und\
+      \ werden mit Genehmigung\nvon Grafana Labs verwendet. Wir sind weder mit Grafana\
+      \ Labs noch mit seinen Tochtergesellschaften\nverbunden, noch werden wir von\
+      \ ihnen unterstützt oder gefördert.\n"
+    name: UCS Dashboard
+    short_description: 'Auf Grafana basierendes Dashboard für Domain- and Server-Monitoring
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_3.png
+    - thumbnail_4.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - System services
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'The UCS Dashboard provides domain and detailed server monitoring.
+      It is composed
+
+      of three modules: a webinterface, a database and a client. The webinterface
+      is based
+
+      on [Grafana&reg;](https://grafana.com) and the database and the client is based
+      on "Prometheus".
+
+
+      The [Webinterface](https://grafana.org) for analytics and monitoring allows
+      you to query, visualize, alert on and understand your metrics no matter where
+      they are stored. It gives you at a glance a comprehensive overview of crucial
+      elements of your it environment.
+
+
+      The UCS Dashboard App configures:
+
+
+      - Domain Authentication (LDAP) for the Grafana Webinterface
+
+      - Datasources
+
+      - Default dashboards
+
+
+      The App comes with three pre-configured dashboards, a "domain" dashboard
+
+      with:
+
+
+      - Overview of the number of users, servers and clients in the UCS domain
+
+      - UCS specific metrics for all servers such as "Upgradeable Apps", "UCS Version",
+      "UCS Update available"
+
+      - Time series graphs for important metrics like "Free Memory" or "Free Disk
+      Space" for all servers
+
+
+      a Dashboard for detailed metrics about a particular server with info''s like:
+
+
+      - Disk throughput
+
+      - Network status
+
+      - Disk I/O
+
+
+
+      and a Dashboard for a list of all configured alerts.
+
+
+      Individual dashboards can easily be created and configured within the Grafana
+      Webinterface.
+
+
+      The App UCS Dashboad automatically installs the Webinterface, the UCS Dashboard
+      Database
+
+      and the UCS Dashboard Client App''s. The "UCS Dashboard Client" App needs
+
+      to be installed on all UCS servers which should be available in the "UCS Dashboard"
+
+      App.
+
+
+      The Grafana Labs Marks are trademarks of Grafana Labs, and are used with Grafana
+
+      Labs’ permission. We are not affiliated with, endorsed or sponsored by Grafana
+
+      Labs or its affiliates.
+
+      '
+    name: UCS Dashboard
+    short_description: 'Grafana based dashboard for domain and server monitoring
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_3.png
+    - thumbnail_4.png
+id: UCSAPP-admin-dashboard
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '5.0'

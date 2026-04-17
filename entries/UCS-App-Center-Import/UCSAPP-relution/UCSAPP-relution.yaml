@@ -1,0 +1,148 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Education
+    - Business
+    - Education
+    - Device Management
+    - File Sync & Share
+    - Infrastructure
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "**Datenschutzkonformes Gerätemanagement für Schulen, Behörden,\
+      \ Verwaltungen und\nUnternehmen**\n\n \n\nRelution ist eine in Deutschland entwickelte\
+      \ Mobile-Device-Management-Lösung (MDM),\nmit der sämtliche digitale Endgeräte\
+      \ inventarisiert, konfiguriert, ausgestattet\nund abgesichert werden können\
+      \ – unabhängig von Betriebssystem, Typ und Hersteller.\nDas plattformunabhängige\
+      \ Angebot unterstützt auch einen problemlosen Mischbetrieb\neingesetzter Geräte.\
+      \ Zudem lassen sich Apps und Inhalte intuitiv steuern und verwalten.  \n   \n\
+      Für die komfortable Masseneinschreibung von Geräten und Beschaffung sowie Verteilung\n\
+      von App Lizenzen unterstützt Relution die Angebote von Apple (DEP, VPP, Apple\
+      \ Classroom),\nAndroid Enterprise (ZeroTouch, Managed Google Play Store), Samsung\
+      \ (KNOX, KME, Samsung\nClassroom Management) und Microsoft (Autopilot) – dies\
+      \ limitiert administrative\nAufwände, realisiert Synergieeffekte und senkt Kosten.\n\
+      \n \n\nDas MDM-System stellt durch eine zentrale und einheitliche Fernverwaltung\
+      \ die Aktualität\nund Lauffähigkeit aller Endgeräte für einen reibungslosen\
+      \ Ablauf in Schulen, Behörden,\nVerwaltungen und Unternehmen sicher. So sind\
+      \ Geräte optimal für die Benutzung vorbereitet\nund lassen sich gezielt für\
+      \ den jeweiligen Verwendungszweck einsetzen. Relution\nermöglicht dabei einen\
+      \ jederzeit datenschutzkonformen Betrieb, wahlweise in der\neigenen Infrastruktur\
+      \ oder in einer deutschen Cloud (on Premises).  \n\nZum Schutz sensibler Daten\
+      \ ist die Nutzung der Geräte auch ohne Verwendung von persönlichen\nCloud-IDs\
+      \ möglich. Die Anbindung an das IdM-System von UCS erfolgt automatisch.\nZusätzlich\
+      \ unterstützt Relution gängige Serverlösungen. Durch die Anbindung bestehender\n\
+      Systeme lassen sich lokale Dateifreigaben für den Zugriff auf relevante Inhalte\n\
+      integrieren und Daten und Arbeitsergebnisse können sicher auf dem zentralen\
+      \ Server\nabgelegt werden.   \n \n\nDas plattformunabhängige Angebot unterstützt\
+      \ den übergreifenden Einsatz der gängigen\nBetriebssysteme von Apple (iOS, iPadOS,\
+      \ macOS, tvOS), Android (Enterprise, Classic)\nund Windows und ermöglicht einen\
+      \ Mischbetrieb eingesetzter Geräte. \n\n \n\nSpeziell für Bildungseinrichtungen\
+      \ lassen sich mit Relution alle gängigen Anwendungsszenarien\nschnell und unkompliziert\
+      \ umsetzen. Die intuitive Relution Teacher App und der Relution\nShared Device\
+      \ Modus unterstützen einen störungsfreien und datenschutzkonformen\nUnterricht\
+      \ mit pädagogisch sinnvollen Apps. Neben der Verwaltung von schuleigenen\nGeräten\
+      \ ist auch die Nutzung von elternfinanzierten oder privaten Schülergeräten\n\
+      (BYOD) möglich. Dank integriertem Ausleihsystem behalten die Schule oder Schulträger\n\
+      zu jederzeit die Übersicht, an wen und bis wann Leihgeräte ausgegeben sind.\
+      \  \n\n"
+    name: Relution
+    short_description: 'Datenschutzkonformes Gerätemanagement für Schulen, Behörden,
+      Verwaltungen und
+
+      Unternehmen
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.jpeg
+    - thumbnail_2.jpeg
+    - thumbnail_3.jpeg
+    - thumbnail_4.jpeg
+    - thumbnail_5.jpeg
+    - thumbnail_6.jpeg
+    - thumbnail_7.jpeg
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Education
+    - Business
+    - Education
+    - Device Management
+    - File Sync & Share
+    - Infrastructure
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Data protection-compliant device management for schools, public\
+      \ authorities, administrations\nand companies   \n\n \n\nRelution is a mobile\
+      \ device management solution (MDM) developed in Germany that can\nbe used to\
+      \ inventory, configure, equip and secure all digital devices - regardless\n\
+      of operating system, type and manufacturer. The platform-independent offering\
+      \ also\nsupports trouble-free mixed operation of deployed devices. In addition,\
+      \ apps and\ncontent can be intuitively manage and control digital devices, apps\
+      \ and content.\nThis way, devices are optimally controlled and managed.  \n\
+      \   \nFor the convenient mass enrollment of devices and the procurement and\
+      \ distribution\nof app licenses, Relution supports the offerings of Apple (DEP,\
+      \ VPP, Apple Classroom),\nAndroid Enterprise (ZeroTouch, Managed Google Play\
+      \ Store), Samsung (KNOX, KME, Samsung\nClassroom Management) and Microsoft (Autopilot)\
+      \ - this limits administrative efforts,\nrealizes synergy effects and reduces\
+      \ costs.   \n\nThe MDM system ensures that all end devices are up to date and\
+      \ running smoothly in\nschools, public authorities, administrations and companies\
+      \ by means of central and\nuniform remote management. In this way, devices are\
+      \ optimally prepared for use and\ncan be deployed specifically for their intended\
+      \ purpose. Relution enables data protection-compliant\noperation at any time,\
+      \ either in the company's own infrastructure or in a European\ncloud (on premises).\
+      \  \n\nTo protect sensitive data, the devices can also be used without the use\
+      \ of personal\ncloud IDs. The connection to the UCS Idm system is automatic.\
+      \ In addition, Relution\nsupports common server solutions. By connecting existing\
+      \ systems, local file shares\ncan be integrated for access to relevant content\
+      \ and data as well as work results\ncan be stored securely on the central server.\
+      \  \n   \nEspecially for educational institutions, all common application scenarios\
+      \ can be\nimplemented quickly and easily with Relution. The intuitive Relution\
+      \ Teacher App\nand the Relution Shared Device Mode support trouble-free and\
+      \ privacy-compliant teaching\nwith pedagogically useful apps. In addition to\
+      \ the management of school-owned devices,\nthe use of parent-funded or private\
+      \ student devices (BYOD) is also possible. Thanks\nto the integrated lending\
+      \ system, the school or school board can keep track at all\ntimes of to whom\
+      \ and until when loaned devices have been issued.  \n\n\n"
+    name: Relution
+    short_description: 'Data protection-compliant device management for schools, public
+      authorities, administrations
+
+      and companies
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.jpeg
+    - thumbnail_2.jpeg
+    - thumbnail_3.jpeg
+    - thumbnail_4.jpeg
+    - thumbnail_5.jpeg
+    - thumbnail_6.jpeg
+    - thumbnail_7.jpeg
+id: UCSAPP-relution
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 26.0.1

@@ -1,0 +1,54 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Collaboration & Groupware
+    - Mail & Messaging
+    links:
+    - Description: ''
+      URL: ''
+    long_description: ''
+    name: Jitsi Meet
+    short_description: 'Open Source Video Konferenz Lösung
+
+      '
+    tags: []
+    visuals: []
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Collaboration & Groupware
+    - Mail & Messaging
+    links:
+    - Description: ''
+      URL: ''
+    long_description: ''
+    name: Jitsi Meet
+    short_description: 'Open Source Video Conferencing Solution
+
+      '
+    tags: []
+    visuals: []
+id: UCSAPP-jitsimeet
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: stable-10532-1

@@ -1,0 +1,204 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Education
+    - Collaboration
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: '### itslearning ist Europas größter Anbieter für Lernmanagementsysteme
+      (LMS) in
+
+      Schulen.
+
+
+      1999 in Norwegen gegründet ist itslearning ein speziell auf Schule zugeschnittenes
+
+      Lernmanagementsystem (LMS). Bildungsverantwortliche Stellen und Schulträger
+      geben
+
+      ihren Schulen  mit itslearning ein Werkzeug an die Hand, das der systematischen
+      Arbeit
+
+      mit gültigen Lehrplänen, der Erhöhung von Unterrichtsqualität und dem Lernerfolg
+
+      des Einzelnen dient.
+
+
+      ### Medienentwicklung und Schulentwicklung
+
+
+      itslearning ist die Antwort auf die Frage, wie sich alle Benutzer einer Schule
+      besser
+
+      organisieren und kommunizieren können. Diese Kommunikation muss mit itslearning
+
+      aber nicht am Schulgebäude enden, denn itslearning erlaubt auch die schulübergreifende
+
+      Kommunikation - der Schulen untereinander aber auch die Zusammenarbeit mit externen
+
+      Partnern wie Eltern, Schulentwicklung, Studienseminaren, Universitäten, Betrieben
+
+      u.v.m.
+
+
+      ### Bilden und Lernen - überall und von jedem Gerät.
+
+
+      Die Kernaufgabe des lernzentrierten LMS ist es, den gesamten Kreislauf zu ermöglichen:
+
+
+      - ** Planen:** Der * Unterrichtsplaner * ist das Werkzeug, mit dem Fachkollegien
+      oder Teams * didaktische Planungen * erstellen, die ohne Medienbruch als * Kurs
+      * in den Unterricht mitgenommen werden können. Grundlage dafür sind die Verknüpfung
+      von Curriculum, Unterrichtsinhalten und Aktivitäten (z.B. Tests, Aufgaben, Quiz
+      etc).
+
+      - ** Aktivieren: ** Kollaborieren Sie im Team, gestalten Sie Unterricht mit
+      höchstem Grad der Schülerselbstständigkeit und -Beteiligung und binden eigene
+      oder externe Medien ein (z.B. YouTube, Sofatutor, etc).
+
+      - ** Unterrichten: ** Behalten Sie immer die Übersicht über Ihre Unterrichtsplanungen
+      und nutzen Sie die Qualitätszeit im Klassenraum, um einzelnen Schülern oder
+      Gruppen besser weiterzuhelfen. Werkzeuge wie Aufgaben, Diskussionsforen nutzen
+      Sie, um für jeden Schüler das beste Lernergebnis zu erreichen.
+
+      - ** Bewerten: ** Werkzeuge wie Tests, Aufgaben etc. können mit unterschiedlichen
+      Bewertungssystemen verknüpft werden, von Erreicht/nicht erreicht über Ziffernnoten
+      bis hin zu Kompetenzrastern auf Basis Ihres Curriculums.
+
+      - ** Reflektieren: ** Zahlreiche Feedback-Funktionen zwischen Schüler-Lehrer,
+      Schüler-Schüler sowie Lehrer-Lehrer helfen im Unterricht oder in der fachübergreifenden
+      Zusammenarbeit, die Unterrichts- und Schulqualität zu erhöhen.
+
+      - ** Berichten: ** Ein digitales Klassenbuch hilft Ihnen, transparent, lernförderlich
+      und organisiert zu sein - Und hilft Schülern, ihre Leistungen selbst besser
+      einschätzen und verbessern zu können.
+
+
+      Bitte besuchen Sie die itslearning-Webseite, um den vollen Funktionsumfang kennen
+
+      zu lernen.
+
+
+      ### Der itslearning LMS Connector
+
+
+      Der itslearning LMS Connector bekommt Daten der Nutzerkonten (Schüler, Lehrer,
+      Mitarbeiter)
+
+      und Gruppeninformationen (Klasse und Arbeitsgruppe) aus dem UCS Verzeichnisdienst
+
+      und verarbeitet diese auf dem UCS System. Für die Nutzerprovisionierung wird
+      eine
+
+      XML Datei mit Nutzername, Geburtstag, Vorname, Nachname und Gruppenzugehörigkeit
+
+      über einen SFTP Zugang  zu itslearning geschickt. Des Weiteren richtet die App
+      ein
+
+      Single Sign-On über das SAML Protokoll  ein, bei dem keine Passwortinformationen
+
+      an itslearning geschickt werden.
+
+
+      ### Demo anfordern
+
+
+      Schließen Sie sich den Millionen Nutzern in aller Welt an, die unser schülerzentriertes
+
+      Lernmanagementsystem benutzen. Klicken Sie auf den folgenden Link für eine individuelle
+
+      Demo: [https://de.itslearning.com/request-a-demo#](https://de.itslearning.com/request-a-demo#)
+
+
+      [Allgemeine Geschäftsbedingungen](https://de.itslearning.com/privacy-commitment/terms)
+      | [Datenschutzerklärung](https://de.itslearning.com/privacy-commitment/data-privacy-policy)
+
+      '
+    name: itslearning LMS Connector
+    short_description: 'itslearning - Das europaweit führende Lernmanagementsystem
+      für Schulen
+
+      '
+    tags: []
+    visuals: []
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Education
+    - Collaboration
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "### itslearning is Europes leading provider for Learning Management\
+      \ Systems in K-12\n\nFounded 1999 in Norway, itslearning is a global player\
+      \ in EdTech and offers a ready-to-use\nLearning Management System (LMS), tailored\
+      \ to the needs of todays changing schools.\nEducational professionals use itslearning\
+      \ to deliver curriculum and content with\nthe aim to increase the quality of\
+      \ instruction.\n\n### Change Management\n\nitslearning allows to organize and\
+      \ communicate within a school - but also above a\nsingle school it allows communication\
+      \ between schools, locally or globally. External\npartners like parents, school\
+      \ development, teacher training colleges, universities\nor other partners can\
+      \ start to collaborate easily. Authorities use itslearning to\nprovide equal\
+      \ access within their organization and to give each school a maximum\nof individuality\
+      \ at the same time.\n\n### Education - anywhere and from any device!\n\nThe\
+      \ core task of the learn-centered LMS is to support the full circle of learning:\n\
+      \n- ** Plan:**The planner is the tool used by teacher staff for developing their\
+      \ curriculum. Connect standards with lesson content and activities (such as\
+      \ tests, assignments or quizzes).\n- ** Activate:** Collaborate in a team, design\
+      \ lessons with the highest degree of student autonomy and participation and\
+      \ integrate your own or external media or sources (e.g. YouTube, Sofatutor,\
+      \ etc.).\n- **Teaching:** Always keep track of your lesson plans and use the\
+      \ quality time in the classroom to better help individual students or groups.\
+      \ Using tools such as tasks and discussion forums to achieve the best learning\
+      \ result for each student.\n- **Assessing:** Tools such as tests, tasks, peer\
+      \ assessment etc. can be linked to different evaluation systems, from achieved/not\
+      \ achieved to numerical scores or rubrics based on your curriculum strategy.\n\
+      - **Reflection:** Numerous feedback functionality between student-teacher, student-student\
+      \ as well as teacher-teacher help in classes or in interdisciplinary cooperation\
+      \ to increase class and school quality.\n- ** Reporting:** Reporting tools help\
+      \ you to be transparent, supportive and organised towards your students - and\
+      \ helps students to better assess and improve their own learning.\n\nPlease\
+      \ visit the itslearning website for more info.\n\n### **itslearning LMS Connector**\n\
+      The itslearning LMS Connector receives user account data (students, teachers,\
+      \ staff)\nand group information (classes and work groups) from the UCS directory\
+      \ service and\nprocesses these on the UCS system. For user provisioning, a XML\
+      \ file containing username,\nbirth date, name, lastname and group is sent via\
+      \ SFTP to itslearning. The app also\ncreates a single sign-on via SAML-protocol,\
+      \ where no user password is sent to itslearning.  \n\n\n### Request a Demo\n\
+      \nJoin the millions around the world using our cloud-based learning platform.\
+      \ Click\non the link to try out our product yourself: [https://itslearning.com/request-a-demo#](https://itslearning.com/request-a-demo#)\
+      \ \n\n[Terms & Conditions](https://itslearning.com/privacy-commitment/terms)\
+      \ | [Privacy Statement](https://itslearning.com/privacy-commitment/data-privacy-policy)\n"
+    name: itslearning LMS Connector
+    short_description: 'itslearning - Europes Leading Learning Management System for
+      Schools
+
+      '
+    tags: []
+    visuals: []
+id: UCSAPP-itslearning
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 5.0-ucs2

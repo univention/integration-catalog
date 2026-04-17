@@ -1,0 +1,90 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Die App erweitert UCS um einen DHCP-Server, ein Dienst zum
+      dynamischen IP-Management
+
+      für IPv4-Netze. Netzwerkgeräte wie zum Beispiel Server, PCs oder Notebooks erhalten
+
+      über den DHCP-Dienst alle nötigen Informationen zur Teilnahme am Computernetzwerk.
+
+      Er ist flexibel konfigurierbar und verwaltet selbst große Netzwerke zuverlässig.
+
+      Bei der Konfiguration kann zwischen einer dynamischen oder festen Vergabe von
+      IP-Adressen
+
+      gewählt werden. Durch die Angabe der MAC-Adresse können Systeme eine feste IP-Adresse
+
+      zugeordnet und Fremdsysteme so ausgeschlossen werden.
+
+      '
+    name: DHCP-Server
+    short_description: 'Dienst zum dynamischen IP-Management für IPv4-Netze
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'This app extends UCS with a DHCP server, a service for dynamic
+      IP management for
+
+      IPv4 networks. Network devices like for example server, computers or notebooks
+      receive
+
+      all necessary information from the DHCP service to participate in the computer
+      network.
+
+      It is flexibly configurable and administrates even large networks reliably.
+      During
+
+      the configuration you have the possibility to decide whether the IP addresses
+      should
+
+      be assigned dynamically or fixed. By specifying the MAC address, systems can
+      be assigned
+
+      a fixed IP address and this allows you to rule out third-party systems.
+
+      '
+    name: DHCP server
+    short_description: 'Service for dynamic IP management within IPv4 networks
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-dhcp-server
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '12.0'

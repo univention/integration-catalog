@@ -1,0 +1,97 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: open-xchange-guard_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Security
+    - Collaboration & Groupware
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'OX Guard ist eine Verschlüsselung für OX App Suite, die ohne
+      Installation auskommt
+
+      und einfach zu bedienen ist. OX Guard unterstützt den verschlüsselten Austausch
+
+      von E-Mails und Dateien auch mit Anwendern, die keinen OX App Suite-Account
+      besitzen.
+
+      Damit reduziert Open-Xchange entscheidend die Hürde für den Einsatz verschlüsselter
+
+      Kommunikation. Mittels OX Guard werden E-Mails und Dateien nicht nur während
+      des
+
+      Transportes verschlüsselt, sondern auch verschlüsselt auf dem OX Server gespeichert.
+
+      Bitte beachten: OX Guard benötigt die OX App Suite v7.10.2.
+
+      '
+    name: OX Guard
+    short_description: 'OX Guard
+
+      '
+    tags: []
+    visuals:
+    - open-xchange-guard_screenshot.jpg
+  en-US:
+    icon: open-xchange-guard_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Security
+    - Collaboration & Groupware
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'OX Guard is a fully integrated security add-on to OX App Suite
+      that provides end
+
+      users with a flexible email and file encryption solution. OX Guard is a highly
+      scalable,
+
+      multi server, feature rich solution that is so simple-to-use that end users
+      will
+
+      actually use it. With a single click a user can take control of their security
+      and
+
+      send secure emails and share encrypted files. This can be done from any device
+      to
+
+      both OX App Suite and non-OX App Suite users. The browser-based reader for non-OX
+
+      App Suite users is also perfect for advertising and viral user acquisition.
+      Note:
+
+      OX Guard needs a installed OX App Suite v7.10.2.
+
+      '
+    name: OX Guard
+    short_description: 'OX Guard
+
+      '
+    tags: []
+    visuals:
+    - open-xchange-guard_screenshot.jpg
+id: UCSAPP-open-xchange-guard
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 2.10.7-ucs1

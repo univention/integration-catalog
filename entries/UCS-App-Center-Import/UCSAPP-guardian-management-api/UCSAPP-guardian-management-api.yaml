@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Diese App ist Teil der Nubus Komponente "Guardian". Die Management-API
+
+      wird benötigt um Rollen im Produkt anzulegen, zu löschen und zu editieren.
+
+      '
+    name: Guardian Management API
+    short_description: 'API um Rollen im Produkt anzulegen, zu löschen und zu editieren.
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'This app is part of the Nubus  component "Guardian". The Management
+
+      API is required to create, delete and edit roles in the product.
+
+      '
+    name: Guardian Management API
+    short_description: 'API to create, delete and edit roles in the product.
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-guardian-management-api
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 3.0.4

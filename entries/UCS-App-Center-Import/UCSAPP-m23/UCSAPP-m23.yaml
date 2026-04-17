@@ -1,0 +1,147 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: m23-logo.svg
+    keywords:
+    - System services
+    - Device Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'm23 erleichtert Ihnen das Ausrollen und die Administration
+      Ihrer Linux-Clients. Dabei
+
+      spielt es keine Rolle, ob Sie nur wenige Clients administrieren möchten oder
+      einen
+
+      ganzen Rechnerpark mit Desktops oder Servern betreiben.
+
+
+      Mit m23 **installieren** und **administrieren** Sie Linux-Clients mit Debian,
+      Ubuntu
+
+      und Linux Mint. Wählen Sie hierbei aus mehreren automatisch eingerichteten **Desktopumgebungen**
+
+      und tausenden von Softwarepaketen.
+
+
+      Beim **Bare-Metal-Deployment** erkennt m23 die Hardware Ihrer Clients, partitioniert
+
+      und formatiert Festplatten und installiert das gewünschte Linux-Betriebssystem
+      über
+
+      das Netzwerk. Bereits **existierende** Debian-, Ubuntu- und LinuxMint-**Clients**
+
+      können in m23 **integriert** und wie mit m23 aufgesetzte Clients administriert
+      werden.
+
+      **m23-Clients** können über die m23-Oberfläche **aktualisiert** und **wiederhergestellt**,
+
+      die **Software installiert** und **entfernt** werden. Mit dem **Masseninstallationswerkzeug**
+
+      können auf einfache Weise **viele Clients** aufgesetzt werden. Mittels der **Gruppenverwaltung**
+
+      führen Sie **Aufträge** auf einer **Reihe von Clients** aus. Das integrierte
+      **m23-Serverbackup**
+
+      schützt vor Datenverlusten. **Skripte** und **Softwarepakete** zur Installation
+
+      auf den Clients können direkt aus der Oberfläche erstellt werden.
+
+
+      ### Kommerzieller Support
+
+
+      Kommerziellen Support erhalten Sie von [goos-habermann.de](https://goos-habermann.de).
+
+      '
+    name: m23 Softwareverteilung
+    short_description: 'OpenSource Softwareverteilung und Management für Linux-Clients
+
+      '
+    tags: []
+    visuals:
+    - m23-screenshot-de.png
+  en-US:
+    icon: m23-logo.svg
+    keywords:
+    - System services
+    - Device Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'm23 simplifies the roll out and management of your Linux clients.
+      It does not matter
+
+      if you want to administrate only a few clients or manage an entire computer
+      park
+
+      with desktops or servers.
+
+
+      m23 gives you the tools to **install** and **manage** Linux clients with Debian,
+
+      Ubuntu and Linux Mint. Choose from many auto-configured **desktop environments**
+
+      and thousands of software packages.
+
+
+      m23 does hardware detection, partitioning and formatting via network, then installs
+
+      (**bare-metal**) a Linux operating system on the client. **Existing clients**
+      with
+
+      Debian, Ubuntu or LinuxMint OS can be **integrated** into m23 and administrated
+      like
+
+      clients that were installed by m23. Installed client can then be **updated**,
+      **recovered**,
+
+      software can be **installed** and **uninstalled** via the m23 webinterface.
+      **Many
+
+      clients** can be installed at once (**mass installation**), clients can be **grouped**
+
+      to **perform certain tasks** on all of them. The server can be **back-upped**.
+      **Scripts**
+
+      and software **packages** (for installation on the clients) are **created**
+      directly
+
+      from the m23 webinterface.
+
+
+      ### Commercial support
+
+
+      Commercial support is available (for Germany only) from [goos-habermann.de](https://goos-habermann.de).
+
+      '
+    name: m23 Softwareverteilung
+    short_description: 'OpenSource software deployment and management system for Linux
+      clients
+
+      '
+    tags: []
+    visuals:
+    - m23-screenshot-de.png
+id: UCSAPP-m23
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 25.1-52

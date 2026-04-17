@@ -1,0 +1,75 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Identity Management
+    - Collaboration & Groupware
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Die OX Connector App synchronisiert ausgewählte Benutzer und\
+      \ Gruppen zu einem lokalen\noder entfernten OX-System über die SOAP-API von\
+      \ OX.\n\n\nUm diese App zu nutzen, brauchen Sie eine Open-Xchange-Installation\
+      \ wie zum Beispiel\ndie OX App Suite App aus dem Univention App Center oder\
+      \ eine dedizierte OX-Installation\nauf einem Nicht-UCS-System.\n\nNach der Installation,\
+      \ übernimmt die OX Connector App die Verwaltung von Benutzern,\nGruppen, Ressourcen\
+      \ wie z.B. Konferenzräume, und Kontexten. Das Identity Management\nvon Nubus\
+      \ wird das führende Identity-Management-System und entscheidet darüber,\nwelche\
+      \ Objekte nach OX synchronisiert werden. Für EndanwenderInnen kann ein Single\n\
+      Sign-On zwischen dem in Nubus enthaltenen Keycloak und OX eingerichtet werden.\
+      \  \n\n\nFür weitere Informationen, siehe [OX Connector app documentation](https://docs.software-univention.de/ox-connector-app/latest/)\
+      \ (nur in Englisch verfügbar).\n"
+    name: OX Connector
+    short_description: 'Nubus Benutzer und Gruppen nach Open-Xchange synchronisieren
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Identity Management
+    - Collaboration & Groupware
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The OX Connector App synchronizes selected users and groups\
+      \ to a local or remote\nOX installation via OX' SOAP API.\n\nTo use the App,\
+      \ you need an Open-Xchange groupware installation such as the OX App\nSuite\
+      \ app from Univention App Center or a dedicated installation on a non-UCS system.\n\
+      \nAfter the setup, the OX Connector App manages users, groups, resources such\
+      \ as conference\nrooms, and contexts. The Nubus Identity management is the leading\
+      \ identity management\nsystem and decides about which objects are synced to\
+      \ OX. A Single Sign On between\nKeycloak of Nubus and OX can be configured.\
+      \  \n\n\nFor more information, see [OX Connector app documentation](https://docs.software-univention.de/ox-connector-app/latest/).\n"
+    name: OX Connector
+    short_description: 'Synchronize Nubus Users and Groups to Open-Xchange
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-ox-connector
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 3.0.1

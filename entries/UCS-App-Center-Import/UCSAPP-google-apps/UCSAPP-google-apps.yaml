@@ -1,0 +1,112 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Office
+    - Collaboration & Groupware
+    - Mail & Messaging
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Mit der App „Google Workspace Connector“ (Business & Education)\
+      \ bieten\nSie den Anwendern von UCS und UCS@school in Ihrer Organisation einen\
+      \ komfortablen\nSingle Sign-on-Zugang zu Gmail, Google-Docs, -Drive und -Kalender\
+      \ in der Google Cloud\nan. Zeitgleich bleiben die Identitäten Ihrer Nutzer in\
+      \ Ihrer eigenen IT und Sie\nbehalten die volle Kontrolle über diese.  \n\n##\
+      \ Google Workspace-Zugang mit dem Nubus Identitymanagement verwalten\nDer Google\
+      \ Workspace Connector nutzt die Nubus Identitymanagement Features und ermöglicht\n\
+      so für Benutzer einen Google-Zugang mit Single Sign-on zu provisionieren. Dabei\n\
+      bestimmt der Administrator, welche Benutzer automatisch zu Google Workspace\
+      \ hinzugefügt,\naktualisiert oder gelöscht werden. Das funktioniert sowohl für\
+      \ die Business- als\nauch die Education-Variante.  \nDurch das Anwenden des\
+      \ Nubus Single Sign-ons für den Login verlässt das Benutzerpasswort\nniemals\
+      \ die Nubus Domäne von UCS, somit bleiben Ihre sensiblen Zugangsdaten unter\n\
+      Ihrer Kontrolle und Sie haben damit einen Sicherheitsgewinn.   \nEbenfalls hilfreich\
+      \ ist die zentrale Lizenzverwaltung. Diese macht es dem IT-Administrator\neinfach,\
+      \ Lizenzen und Lizenzkosten jederzeit im Blick zu haben.  \n\n## Single Sign-on\
+      \ – Simpler Zugang zur Google Workspace für Ihre Nutzer\nNach dem Sie den Benutzer\
+      \ für den Einsatz der Google Workspace berechtigt haben,\nmeldet sich dieser\
+      \ wie gewohnt mit seinem Nubus-Benutzernamen und -passwort im Nubus\nPortal\
+      \ von UCS an, wird zur Google Workspace weitergeleitet und kann die [Google\
+      \ Collaboration Features](https://gsuite.google.de/) nutzen. Dadurch entfällt\
+      \ beim Nutzer der Aufwand, ein Google-Konto selbst anzulegen und zu verwalten.\
+      \  \nDie App „Google Workspace Connector“ ist für Organisationen geeignet, die\n\
+      Google Workspace nutzen möchten, ihre Benutzer aber mit Nubus  verwalten\nwollen.\
+      \  \nUm den Connector in Betrieb zu nehmen, ist eine Google Workspace (Test-)Subskription\n\
+      erforderlich.\n"
+    name: Google Workspace Connector
+    short_description: 'Single-Sign-On in Google Workspace für Benutzer von Nubus
+      auf UCS
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+    - thumbnail_2.png
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Office
+    - Collaboration & Groupware
+    - Mail & Messaging
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "With the app \"Google Workspace Connector\" (Business & Education)\
+      \ you\noffer users of UCS and UCS@school in your organization a comfortable\
+      \ single sign-on\naccess to Gmail, Google-Docs, -Drive and -calendar in the\
+      \ Google Cloud. At the same\ntime, the identities of your users remain in your\
+      \ own IT and you retain full control\nover them.  \n\n## Managing Google Workspace\
+      \ Access with Nubus Identity Management\nThe Google Workspace Connector uses\
+      \ the Nubus identity Management features,\nthereby enabling  users to access\
+      \ [Google’s services](https://gsuite.google.com/) with single sign-on. The administrator\
+      \ determines which users are automatically added, updated or deleted from Google\
+      \ Workspace. This works for both the Business and the Education version.  \n\
+      By using the Nubus single sign-on for the login, the user password never leaves\
+      \ the\nNubus on UCS domain, so that your sensitive access data remains under\
+      \ your control\nand you have a security advantage .   \nThe central license\
+      \ management is also helpful, as it makes it easy for the IT administrator\n\
+      to keep an eye on licenses and license costs at all times.  \n\n## Single sign-on\
+      \ - Simple access to Google Workspace for your users\nAfter you have authorized\
+      \ a user to use Google Workspace, he logs into the Nubus\nPortal of UCS as usual\
+      \ with his Nubus  user name and password, is redirected\nto Google Workspace\
+      \ and can use the Google Collaboration features. This eliminates\nthe need for\
+      \ users to create and manage their own Google Accounts.  \nThe \"Google Workspace\
+      \ Connector\" app is suitable for organizations\nthat want to use Google Workspace\
+      \ but also want to manage their users with Nubus.  \nA Google Workspace (test)subscription\
+      \ is required for the connector to become\noperational.\n"
+    name: Google Workspace Connector
+    short_description: 'Single Sign-On to Google Workspace for users of Nubus on UCS
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+    - thumbnail_2.png
+id: UCSAPP-google-apps
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '3.0'

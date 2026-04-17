@@ -1,0 +1,102 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Device Management
+    - Infrastructure
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Die smarte Fernbedienung für moderne Unternehmen und digitale\
+      \ Klassenzimmer.\n\n\nQD RoomControl ist eine intelligente Fernbedienungslösung\
+      \ für Unternehmen, Schulen\nund öffentliche Einrichtungen.\n\nSie ermöglicht\
+      \ es Nutzern, Projektoren, Displays und andere angeschlossene Geräte\nvon jedem\
+      \ autorisierten Desktop PC oder mobilem Endgerät aus zu steuern - ganz ohne\n\
+      zusätzliche Hardware.\n\n\nVollständig in die IT-Infrastruktur Ihrer Organisation\
+      \ integriert (einschließlich\nUnterstützung für Single Sign-On und rollenbasierte\
+      \ Benutzerverwaltung), vereinfacht\nQD RoomControl die AV-Steuerung und macht\
+      \ physische Fernbedienungen überflüssig.\n\nNutzer - wie z.B. Administratoren,\
+      \ Lehrkräfte oder Mitarbeitende - können Geräte\nein- und ausschalten, Eingänge\
+      \ wechseln, die Lautstärke anpassen oder vordefinierte\nSzenen mit nur wenigen\
+      \ Klicks aktivieren.\n\n\nHauptfunktionen:\n\n\n- Zentrale Fernsteuerung von\
+      \ Projektoren über Browser via allen Desktop-PCs und mobilen Endgeräten\n- Integration\
+      \ mit Microsoft 365 / Active Directory oder anderen Identitätsanbietern über\
+      \ SAML oder OpenID Connect (z.B. Keycloak, UCS)\n- Rollenbasierte Zugriffskontrolle\
+      \ für Personal, IT-Administratoren, Lehrkräfte, Benutzer, Gruppen und Rollen\n\
+      - Unterstützung aller gängiger Projektormarken und Netzwerkprotokolle\n- Optimiert\
+      \ die Verwaltung von Besprechungsräumen, Präsentationen und Klassenzimmern.\n\
+      \nApp Dokumentation: [https://qua-dev.com/qd-roomcontrol](https://qua-dev.com/qd-roomcontrol)\
+      \  \n   \nZum vollumfängliche Betrieb dieser App ist eine Lizenzierung notwendig.\
+      \  \nFalls keine Lizenz vorhanden ist, wird automatisch eine Trial-Lizenz genutzt.\
+      \  \n    \nNach Installation dieser App kann sich der Admin wie unter [https://qua-dev.com/qd-roomcontrol#3-2_admin-user](https://qua-dev.com/qd-roomcontrol#3-2_admin-user)\
+      \ beschrieben einloggen und die App weiter einrichten.\n"
+    name: QD RoomControl
+    short_description: 'QD RoomControl ist eine Fernbedienungs-App für Beamer und
+      andere Geräte.
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Device Management
+    - Infrastructure
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The smart remote control for modern businesses and digital\
+      \ classrooms.\n\n\nQD RoomControl is a smart remote control solution designed\
+      \ for businesses, schools,\nand public institutions.\n\nIt allows users to control\
+      \ projectors, displays, and other connected devices from\nany authorized desktop\
+      \ or mobile device - no additional hardware required.\n\n\nFully integrated\
+      \ with your organization's IT infrastructure (including support for\nSingle\
+      \ Sign-On and user roles), QD RoomControl simplifies AV control workflows and\n\
+      eliminates the need for physical remotes. Users - such as admins, teachers,\
+      \ or general\nstaff - can power devices on or off, switch inputs, adjust volume,\
+      \ or activate predefined\nscenes with just a few clicks.\n\n\nKey features:\n\
+      \n\n- Centralized projector remote control via browser from all desktop pcs\
+      \ and mobile devices\n- Integration with Microsoft 365 / Active Directory or\
+      \ other identity providers via SAML or OpenID Connect (e.g., Keycloak, UCS)\n\
+      - Role-based access control for staff, IT admins, teachers, users, groups, and\
+      \ roles\n- Support for all common projector brands and network protocols\n-\
+      \ Streamlines presentation, meeting room, or classroom management\n\nApp documentation:\
+      \ [https://qua-dev.com/qd-roomcontrol](https://qua-dev.com/qd-roomcontrol) \
+      \ \n\n\nLicensing is required to fully operate this app.\n\nIf no license is\
+      \ available, a trial license is automatically used.  \n\nAfter installing this\
+      \ app, the admin can log in as described at [https://qua-dev.com/qd-roomcontrol#3-2_admin-user](https://qua-dev.com/qd-roomcontrol#3-2_admin-user)\
+      \ and continue setting up the app.\n"
+    name: QD RoomControl
+    short_description: 'QD RoomControl is a remote control app for projectors and
+      other devices.
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+id: UCSAPP-qd-roomcontrol
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 0.9.14

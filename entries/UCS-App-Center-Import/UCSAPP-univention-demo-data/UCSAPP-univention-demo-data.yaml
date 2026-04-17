@@ -1,0 +1,78 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo_app_center_demo_data.svg
+    keywords:
+    - ''
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Die Nubus Demo Data App lädt Beispieldaten für Benutzerkonten,\
+      \ Benutzergruppen,\nClientsysteme und Organisationseinheiten in den Nubus Verzeichnisdienst\
+      \ von UCS.\nDiese App eignet sich insbesondere für Umgebungen, die zu Test-\
+      \ oder Demonstrationszwecken\nbetrieben werden. Dabei werden eine Unternehmensstruktur\
+      \ mit verschiedenen Standorten\nabgebildet und hierfür Benutzer, Gruppen und\
+      \ Computer angelegt. Bestehende Objekte\nzu Benutzern, Gruppen und Computern\
+      \ bleiben dabei unverändert.\n\nDie App und die bereitgestellten Benutzerdaten\
+      \ können uneingeschränkt genutzt werden.\nDie Benutzerobjekte verfügen über\
+      \ Fotos. Sie stammen von [Free Digital Photos](http://freedigitalphotos.net).\
+      \  \n\nBitte beachten Sie, dass diese App nicht vom Univention-Support abgedeckt\
+      \ ist. Jedoch\nsteht Ihnen die Community auf [help.univention.com](https://help.univention.com/)\
+      \ bei Ihren Fragen zur Verfügung. Bei Fragen zu Ihrer Support-Abdeckung, kontaktieren\
+      \ Sie gerne Ihren Ansprechpartner bei Univention.\n"
+    name: Nubus Demo Data
+    short_description: 'Beispieldaten für Benutzer, Gruppen, Computer
+
+      '
+    tags: []
+    visuals:
+    - univention-demo-data-screenshot.png
+  en-US:
+    icon: logo_app_center_demo_data.svg
+    keywords:
+    - ''
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The Nubus Demo Data app loads example data for user accounts,\
+      \ user groups, client\nsystems and organizational units into the Nubus directory\
+      \ service of UCS. This app\nis especially suiteable for environments, that are\
+      \ operated for testing or demonstration\npurposes. An organization structure\
+      \ with several locations is set up and users, groups\nand computers are created.\
+      \ Existing objects for users, groups and computers are left\nunchanged.\n\n\
+      The app and the provided user data can be used without limits. The user objects\
+      \ have\nphotos included. The photos are from [Free Digital Photos](http://freedigitalphotos.net).\
+      \  \n\nPlease note that this app is not covered by Univention support. However,\
+      \ the community\nis available at [help.univention.com](https://help.univention.com/)\
+      \ to assist you with any questions. If you have any questions concerning your\
+      \ support coverage, please do not hesitate to contact your contact partner at\
+      \ Univention.\n"
+    name: Univention Demo Data
+    short_description: 'Example data for users, groups, computers
+
+      '
+    tags: []
+    visuals:
+    - univention-demo-data-screenshot.png
+id: UCSAPP-univention-demo-data
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 2.1.0-1

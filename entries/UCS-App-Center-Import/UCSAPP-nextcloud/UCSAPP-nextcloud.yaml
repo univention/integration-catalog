@@ -1,0 +1,329 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - File Sync & Share
+    - Education
+    - Collaboration & Groupware
+    - Office
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Wenn Ihre Organisation von den Vorteilen des einfachen Teilens
+      von Daten und der
+
+      Online-Kollaboration profitieren möchte, wie es von vielen Cloud-Produkten angeboten
+
+      wird, Sie jedoch die Anforderung haben, die Kontrolle zu behalten und nicht
+      autorisiertem
+
+      Zugriff vorzubeugen, dann bietet Nextcloud die Lösung, nach der Sie suchen.
+
+
+      Nextcloud bietet die in der Branche einzigartige vollständige Open Source Lösung
+
+      für On-Premise Datenverarbeitung und Kommunikation mit einem kompromisslosen
+      Fokus
+
+      auf Sicherheit und Datenschutz.
+
+
+      ## Funktionsumfang
+
+
+      Nextcloud vereinigt universellen Datenzugriff mit sicheren Kommunikations- und
+      Kollaborationsmöglichkeiten
+
+      der nächsten Generation unter direkter Kontrolle Ihrer IT, integriert in die
+      bestehende
+
+      Infrastruktur. Nextclouds offene, modulare Architektur, die Ausrichtung auf
+      Sicherheit
+
+      und die fortgeschrittenen Fähigkeiten zur Föderation ermöglichen es modernen
+      Unternehmen,
+
+      ihr bestehendes IT Kapital innerhalb und über die Grenzen ihrer Organisation
+      hinaus
+
+      auszureizen.
+
+
+      ### Features:
+
+
+
+      - Einfach zu bedienende Weboberfläche und Anwendungen für Android, iOS, Windows,
+      Mac und Linux
+
+      - Einfache Zusammenarbeit und Dateiaustausch intern wie extern mit optionalen
+      Vorgaben wie Passwortschutz und Auslaufdatum
+
+      - Eingebauter Audio- und Video-Chat, optional kollaboratives Bearbeiten von
+      Office-Dokumenten, Outlook Integration und mehr
+
+      - Unterstützung externer Datenspeicher wie Windows Network Drive, FTP, WebDAV,
+      NFS und weitere
+
+      - Zahlreiche passive und aktive Sicherheitsfunktionen wie 2-Faktor-Authentifizierung,
+      Brute-Force-Schutz und CSP 3.0 als auch einen Auditlog
+
+      - Optional mit serverseitiger Verschlüsselung (pro externem Speicher einstellbar)
+      und [Ende-zu-Ende-clientseitiger Verschlüsselung](https://nextcloud.com/endtoend)
+      (pro Ordner einstellbar)
+
+      - Volle administrative Kontrolle über Dateiaustausch mittels File Access Control
+      Regeln wie beispielsweise "DOCX darf nur aus dem internen Netzwerk heruntergeladen
+      werden" oder ausgeführte Aktionen bei bestimmten Aktionen (z.B. das Setzen von
+      Schlagwörtern)
+
+      Hier erfahren Sie mehr über den [Funktionsumfang von Nextcloud](https://nextcloud.com/features).
+      Erfahren Sie mehr über [unser Angebot für Universitäten und Schulen.](https://nextcloud.com/education)
+      Lernen Sie auch, wie die TU Berlin Nextcloud nutzt mit 22.000 Studenten.
+
+
+
+      ### Vergleich
+
+
+      Verglichen mit anderen privaten Cloud-Lösungen bietet Nextcloud stärkere eingebaute
+
+      Sicherheitsmaßnahmen, wie etwa 2-Faktor-Authentifizierung, Brute-Force-Schutz
+      und
+
+      [viele weitere Schutzvorkehrungen](https://nextcloud.com/secure). Nextcloud
+      ist vollständig Open Source und das am [aktivsten entwickelte Dateisynchronisations-
+      und Dateiaustausch-Projekt](https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/).
+
+
+      Erfahren Sie [hier mehr über die Migration von anderen Lösungen auf Nextcloud](https://nextcloud.com/migration).
+
+
+      Nextcloud zielt auf Organisationen von 50 bis Millionen von Nutzern ab, einschließlich
+
+      Branchen wie Bildung, Verwaltung und Behörden, juristische wie finanzielle Dienstleister
+
+      und Fertigung.
+
+      Weitere Informationen finden Sie auf [nextcloud.com](https://nextcloud.com)
+      oder folgen Sie [@Nextclouders auf Twitter](https://twitter.com/nextclouders).
+
+      ## Integration
+
+
+      Nextcloud ist gut in UCS integriert und bietet eine einfache Installation. Die
+      automatische
+
+      Konfiguration beinhaltet folgende Punkte:
+
+
+      - Der Administrator Account ist ebenfalls Nextcloud Administrator
+
+      - Standardmäßig können alle Nutzer Nextcloud verwenden
+
+      - Benutzer und Gruppen können in den jeweiligen Einstellungen freigeschaltet
+      bzw. ausgeschlossen werden
+
+      - Die Speichergröße kann pro Benutzer in den Nutzereinstellungen gesetzt werden
+
+      - Alle Benutzer und Gruppen profitieren vom Nextcloud LDAP Schema
+
+      - Der Web Server ist komplett eingerichtet und steht hinter dem als Reverse
+      Proxy fungierenden und TLS abwickelnden UCS Web Server
+
+
+      Die Nextcloud-App für UCS im Univention App Center basiert auf der neuesten
+      Version
+
+      aus dem Kanal für stabile Updates von Nextcloud. Major Versionen werden in der
+      Regel
+
+      innerhalb von 3-6 Monaten nach Veröffentlichung über den stabilen Update-Kanal
+
+      bereitgestellt. Die App erhält dann auch ein Update im App Center.
+
+      '
+    name: Nextcloud Hub
+    short_description: 'Daten sicher speichern, synchronisieren & teilen in und außerhalb
+      Ihrer Organisation
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_7.png
+    - thumbnail_8.png
+    - thumbnail_9.png
+    - thumbnail_10.png
+    - thumbnail_11.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - File Sync & Share
+    - Education
+    - Collaboration & Groupware
+    - Office
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'If your organization would like the benefits of easy sharing
+      and collaboration on
+
+      data online as offered by various cloud vendors but needs to stay in control,
+      ensuring
+
+      no unauthorized access, Nextcloud is what you are looking for.
+
+
+      Nextcloud offers a unique-in-the-industry fully open source solution for on-premise
+
+      data handling and communication with an uncompromising focus on security and
+      privacy.
+
+
+      ## Features
+
+
+      Nextcloud brings together universal access to data with next-generation secure
+      communication
+
+      and collaboration capabilities under direct control of IT and integrated with
+      existing
+
+      compliant infrastructure. Nextcloud''s open, modular architecture, emphasis
+      on security
+
+      and advanced federation capabilities enable modern enterprises to leverage their
+
+      existing assets within and across the borders of their organization.
+
+
+      ### Features:
+
+
+
+      - Easy web UI and clients for Android, iOS, Windows, Mac and Linux
+
+      - Easy collaboration and sharing files internal and external with optionally
+      enforcable password and expiration date
+
+      - Audio/video chat, mail and calendaring as well as collaborative document editing
+      (MS Office compatible) fully built in, optional Outlook integration and more
+
+      - External storage support like Windows Network Drive, FTP, WebDAV, NFS and
+      more
+
+      - Many passive and active security features like two-factor authentication,
+      brute force protection and CSP 3.0 as well as an audit log
+
+      - Optionally server-side encryption (can be chosen per storage) and end-to-end,
+      client-side encryption (can be chosen per folder by the user)
+
+      - Full admin control over sharing with File Access Control rules like "DOCX
+      can only be downloaded from within local network" or execute actions if certain
+      conditions are met (like a tag is set)
+
+      Learn more about [Nextcloud features here](https://nextcloud.com/features) and
+      check out our offering [for the education market in particular here.](https://nextcloud.com/education)
+
+
+
+      ### Comparison
+
+
+      Compared to other private cloud solutions, Nextcloud offers stronger security
+      measures,
+
+      with two-factor authentication, brute force protection and [many other security
+      protections](https://nextcloud.com/secure) built in. It is fully open source
+      and the [most active file sync and share project](https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/)
+      being developed.
+
+
+      Learn about [migrating from other solutions to Nextcloud here.](https://nextcloud.com/migration)
+
+
+      Nextcloud typically targets organizations from 50 to tens of millions of users
+      in
+
+      industries including education, government, legal and financial services and
+      manufacturing.
+
+      Customers include SIEMENS, all French universities covered under RENATER, the
+      German
+
+      Federal Government and more. Look for [case studies on our website.](https://nextcloud.com/casestudies)
+
+      For more information, visit [nextcloud.com](https://nextcloud.com) or follow
+      [@Nextclouders on Twitter](https://twitter.com/nextclouders).
+
+      ## Integration
+
+
+      Nextcloud is well integrated in UCS, offering easy installation. The automatic
+      configuration
+
+      includes:
+
+
+      - Administrator is automatically Nextcloud admin
+
+      - Users are enabled to access Nextcloud by default
+
+      - Users and Groups can be enabled/disabled in User & Group Settings
+
+      - User quota can be configured in User settings
+
+      - All User and Group benefits by Nextcloud LDAP Schema
+
+      - Web server fully configured and behind stock UCS web server acting as proxy
+      and doing all TLS magic
+
+
+      The Nextcloud app for UCS in Univention App Center is based on thelatest release
+
+      from the Nextcloud stable update channel. Major releasesare typically provided
+      in
+
+      the stable update channel within 3-6 monthafter release. The app will then also
+      receive
+
+      an update in the App Center.
+
+      '
+    name: Nextcloud Hub
+    short_description: 'Secure data storage & digital collaboration in and outside
+      your organization
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_7.png
+    - thumbnail_8.png
+    - thumbnail_9.png
+    - thumbnail_10.png
+    - thumbnail_11.png
+id: UCSAPP-nextcloud
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 32.0.3-0

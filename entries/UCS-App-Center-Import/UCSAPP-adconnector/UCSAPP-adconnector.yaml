@@ -1,0 +1,264 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Mit dem Einsatz der Active Directory-Verbindung vermeiden Sie
+      eine doppelte, komplexe
+
+      und somit fehleranfällige Administration der Verzeichnisdienstobjekte Ihres
+      Active
+
+      Directory (AD). Denn mit Hilfe dieser Nubus-Komponente für UCS führen Sie ein
+      bestehendes
+
+      AD und eine Domäne, die mit Nubus auf UCS verwaltet wird, zusammen. So richten
+      Sie
+
+      einen automatischen Abgleich zwischen Microsoft Windows Active Directory und
+      Nubus
+
+      ein. Die Synchronisation schließt verschlüsselte Passwörter, Gruppen- und Rechnerdefinitionen
+
+      sowie andere Verzeichnisdienstobjekte mit ein.
+
+
+      Beim Verwenden der Active Directory-Verbindung können Sie aus zwei Betriebsmodi
+
+      wählen: Entweder fügen Sie Nubus auf UCS als Teil einer bestehenden Windows
+      Active
+
+      Directory-Domäne hinzu oder Sie betreiben den Nubus-Verzeichnisdienst mit OpenLDAP
+
+      parallel zum AD.
+
+
+      ## Nubus auf UCS als Teil einer Active Directory-Domäne
+
+
+      Wenn Sie Nubus auf UCS in eine bestehende Windows Active Directory-Domäne integrieren,
+
+      installieren Sie das Managementsystem als vollwertiges Mitglied. In diesem Modus
+
+      bleibt das Active Directory Ihrer Domäne weiterhin der primäre Verzeichnisdienst
+
+      und es werden keine Veränderungen an der Domäne vorgenommen.
+
+
+      Bei dieser Einsatzart der „Active Directory-Verbindung“ erweitern Sie Ihre bestehende
+
+      Windows-Domäne um alle Funktionen von UCS. Unter anderem können Sie UCS dann
+      als
+
+      Plattform nutzen und Apps und Integrationspakete aus dem Univention App Center
+      installieren
+
+      und einfach bereitstellen.
+
+
+      Da für alle gehosteten Apps etablierte Authentifizierungsdienste bereitstehen,
+      wird
+
+      die native Active Directory-Domäne als primäre Lösung für das Identity Management
+
+      genutzt. Das bringt für Administratoren eine große Arbeitserleichterung.
+
+
+      ## Active Directory- und Nubus-Domänen auf UCS parallel betreiben
+
+
+      Sie können mit der App „Active Directory-Verbindung“ Nubus auf UCS parallel
+
+      zu einem AD betreiben. Mit der automatischen Synchronisation zwischen Nubus
+      und Microsoft
+
+      Windows Active Directory werden Daten wie Benutzer, Gruppen und Passwörter sowohl
+
+      im AD als auch im LDAP vorgehalten. Das ermöglicht sowohl eine uni- als auch
+      bidirektionale
+
+      Synchronisation und stellt sicher, dass Windows- und Nubus-Umgebungen reibungslos
+
+      und ohne hohen Administrationsaufwand parallel betrieben werden. Darüber hinaus
+
+      können auch mehrere Microsoft Windows-Domänen zeitgleich synchronisiert werden.
+
+      Dies ermöglicht einen effektiven Aufbau eines Open Source-Metaverzeichnisses.
+      Über
+
+      das voneinander unabhängige Windows-Domänen und viele weitere Infrastrukturkomponenten
+
+      verwaltet werden können.
+
+
+      ## Bestehende Active Directory-Domäne durch Nubus auf UCS ablösen
+
+
+      Für die Ablösung eines bestehenden Microsoft Windows Active Directory steht
+      Ihnen
+
+      im App Center die Komponente „Active Directory Takeover“ zu Verfügung. Der Nubus
+
+      Samba-Domänencontroller übernimmt dabei die Daten des Windows Active Directory-Domänencontrollers
+
+      und nimmt für die Umgebung seinen funktionalen Platz ein. Nähere Informationen
+
+      zur App „Active Directory Takeover“ finden Sie im Univention App Center.
+
+      '
+    name: Active Directory-Verbindung
+    short_description: 'Integration von Nubus auf UCS in ein vorhandenes Active Directory
+
+      '
+    tags: []
+    visuals:
+    - adconnector_screenshot.jpeg
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Using the Active Directory Connector can allow you to avoid
+      the duplicate, complex,
+
+      and thus error-prone administration of the directory service objects of your
+      Active
+
+      Directory (AD). This packaged integration for Nubus on UCS  allows you to merge
+      an
+
+      existing AD with a domain administrated with Nubus on UCS. In this way, you
+      can set
+
+      up synchronization between Microsoft Windows Active Directory and Nubus on Univention
+
+      Corporate Server. The synchronization includes encrypted passwords, group definitions,
+
+      and computer definitions as well as other directory service objects.
+
+
+      When using the Active Directory Connector, there are two operating modes to
+      choose
+
+      from: you can either add Nubus on UCS as part of an existing Windows Active
+      Directory
+
+      domain or run the Nubus directory service with OpenLDAP in parallel to the AD.
+
+
+      ## Nubus on UCS as part of an Active Directory domain
+
+
+      If you are integrating Nubus on UCS into an existing Windows Active Directory
+      domain,
+
+      install the management system as a full-fledged member. In this mode, your domain’s
+
+      Active Directory remains the primary directory service and no changes are made
+      to
+
+      the domain.
+
+
+      In this application of the Active Directory Connector, you are expanding your
+      existing
+
+      Windows domain with all the functions of UCS. Among other things, you can employ
+
+      UCS as a platform, allowing you to install apps or packaged integrations from
+      the
+
+      Univention App Center and make them available to users.
+
+
+      As there are established authentication services in place for all hosted apps,
+      the
+
+      native Active Directory domain is utilized as the primary solution for identity
+      management.
+
+      This facilitates the efforts required on the part of administrators considerably.
+
+
+      ## Running Active Directory and Nubus on UCS domains in parallel
+
+
+      With the Active Directory Connector app, you can run Nubus on UCS in parallel
+      to
+
+      an AD. The automatic synchronization between Nubus and Windows Active Directory
+      ensures
+
+      data such as users, groups, and passwords are maintained both in the AD and
+      in the
+
+      LDAP of Nubus. This allows both unidirectional and bidirectional synchronization
+
+      and ensures that Microsoft Windows and Nubus on UCS environments can be operated
+
+      in parallel without any problems and without considerable administrative effort.
+
+      In addition, multiple Microsoft Windows domains can also be synchronized at
+      the same
+
+      time. This allows effective set-up of an Open Source metadirectory, via which
+      independent
+
+      Windows domains and a whole range of additional infrastructure components can
+      be
+
+      administrated.
+
+
+      ## Replacing existing Active Directory domains with Nubus on UCS
+
+
+      The Active Directory Takeover component is available in the App Center for replacement
+
+      of an existing Microsoft Windows Active Directory. The Nubus Samba domain controller
+
+      on UCS takes over the data from the Windows Active Directory domain controller
+      and
+
+      adopts its functional role for the environment. Further information on the Active
+
+      Directory Takeover app can be found in the Univention App Center.
+
+      '
+    name: Active Directory Connection
+    short_description: 'Integrates Nubus on UCS with an existing Active Directory
+
+      '
+    tags: []
+    visuals:
+    - adconnector_screenshot.jpeg
+id: UCSAPP-adconnector
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '12.0'

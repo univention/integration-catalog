@@ -1,0 +1,258 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: egroupware_logo.svg
+    keywords:
+    - Collaboration,Business,Administration
+    - Collaboration & Groupware
+    - Project Management
+    - Mail & Messaging
+    - File Sync & Share
+    - CRM & ERP
+    - Education
+    - Office
+    - Telephony
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Sie suchen eine flexible und freie Kollaborations-Lösung als\
+      \ Alternative zu Microsoft\n365 oder Google Workspace? EGroupware ist das Smart\
+      \ Online Office für den Webbrowser\nvon der EGroupware GmbH aus Kaiserslautern:\
+      \ Open Source, DSGVO-konform, anpassungsfähig\nund erweiterbar – auf Wunsch\
+      \ mit professionellem Support\n\n## Funktionen und Features\n\nEGroupware ist\
+      \ eine komplette Groupware-Lösung, modular aufgebaut und erweiterbar.\nZusätzlich\
+      \ zu den Eigenentwicklungen bindet das Smart Online Office auch Partner-Produkte\n\
+      und bewährte Open-Source-Applikationen anderer Hersteller ein.\n\nEGroupware\
+      \ enthält alles, was KMUs (kleine und mittelständische Unternehmen), Stadtverwaltungen\n\
+      oder auch Bildungs- und Forschungseinrichtungen für die tägliche Arbeit brauchen:\n\
+      \n- [Dateimanager](https://www.egroupware.org/dateiverwaltung), [Mail](https://www.egroupware.org/email),\
+      \ [Kalender](https://www.egroupware.org/kalender), [Adressverwaltung](https://www.egroupware.org/kontakte)\n\
+      - [Projektmanangement-Tool](https://www.egroupware.org/projekte), [Zeiterfassung](https://www.egroupware.org/stundenzettel),\
+      \ [Aufgabenplaner](https://www.egroupware.org/aufgaben), [Kanban-Board](https://www.egroupware.org/kanban)\n\
+      - [integrierte Officesuite](https://www.egroupware.org/online-office) (Collabora\
+      \ Online), Daten aus EGroupware/Platzhalter in Dokumenten nutzen\n- [File Sharing](https://www.egroupware.org/dateiverwaltung)\
+      \ (mit offenen und verdeckten Freigaben für Nutzer/Gruppen)  \n\n- [Kontakt\
+      \ Sharing](https://www.egroupware.org/kontakte) (intern/extern, mit/ohne Schreibrechte\
+      \ und Dateimanagerzugriff)    \n\n- [Kundenmanagement](https://www.egroupware.org/crm)\
+      \ (CRM) und [Ticketsystem](https://www.egroupware.org/helpdesk)\n- [Rechnungen](https://www.egroupware.org/de/e-rechnung)\
+      \ als  XRechnung (XML-Format) als auch ZUGFeRD (hybrides PDF/XML) erstellen,\
+      \ importieren, visualisieren und drucken\n- [Videochat/-konferenz](https://www.egroupware.org/videokonferenzen),\
+      \ [Chat](https://www.egroupware.org/chat) und Desktopfreigabe (Jitsi, BigBlueButton,\
+      \ Rocket.Chat)\n- Anwendung zum videogestützten Lernen: [VIDOTEACH](https://www.vidoteach.de)\
+      \ interagiert dank LTI (Learning Tools Interoperability) sehr gut mit anderen\
+      \ Lern-Management-Systemen\n- Responsives Design mit voller Unterstützung für\
+      \ mobile Geräte ab 5\"\n- [Telefonie-Integration](https://www.egroupware.org/cti-telefon-integration)\
+      \ (CTI), Koppeln von Telefonen (Softphones, Tischtelefone) und Computern/Smartphones\n\
+      - Import/Export und [Synchronisation](https://www.egroupware.org/synchronisation)\
+      \ von Daten (ActiveSync, Card/Cal/WebDAV)\n- Einbinden externer Ressourcen in\
+      \ den Dateimanager (SMB, WebDAV, NFS usw.)\n- Application-Firewall mit Zugriffsbegrenzungen,\
+      \ Brute-Force-Schutz, 2FA und Login-Regeln  \n- Offene Schnittstellen und [REST\
+      \ API](https://github.com/EGroupware/egroupware/tree/master/doc/REST-CalDAV-CardDAV#rest-api-using-egroupware-caldavcarddav-server-with-json),\
+      \ die das Implementieren eigener Applikationen oder externer Systeme wie etwa\
+      \ ERP ermöglichen und erleichtern\n- Integration weiterer Produkte und Webanwendungen\
+      \ problemlos möglich; Anbindung per OpenID/OAuth2-Server an die bestehende Benutzerverwaltung\n\
+      - Auftragsentwicklung und Anpassung an die eigene Infrastruktur durch den Hersteller\
+      \ möglich\n\nMit benutzerdefinierten Feldern, Maskenänderungen, eigenen Informationstypen\
+      \ Adressbuch/InfoLog\nund vielfältigen Berechtigungs-Möglichkeiten bis hin zur\
+      \ Entwicklung/Betrieb eigener\nAnwendungen kann EGroupware weitreichend den\
+      \ eigenen Anforderungen angepasst werden.  \n\n\nDie kostenfreie Community Edition\
+      \ (CE) enthält alle Grundfunktionen; die Enterprise\nLine (EPL) kommt mit zusätzlichen\
+      \ Features und Anwendungen, erweitertem Support\nund Funktionen, die insbesondere\
+      \ für Unternehmen, kleine und große Organisationen\ninteressant sind – egal,\
+      \ ob 10 oder mehrere Tausend Benutzer\\*innen damit arbeiten.\nRabatte für NGOs/Bildungsträger\
+      \ sind auf [Anfrage](https://www.egroupware.org/de/kontakt) erhältlich.\n\n\
+      ## Installation und Betrieb\n\nDie EGroupware-App ist sehr gut in Univention\
+      \ Corporate Server integriert, einfach\nzu installieren und an die Benutzer-/Gruppenverwaltung\
+      \ sowie den Mailserver angebunden.\nDie automatische Konfiguration der App richtet\
+      \ Folgendes ein:\n\n- Der UCS-Administrator ist EGroupware-Administrator.\n\
+      - Alle UCS-Benutzer\\*innen können EGroupware verwenden, wenn Administratoren\
+      \ die entsprechenden Zugriffsrechte setzen.\n- EGroupware nutzt UCS als Reverse\
+      \ Proxy und ist per SSL abgesichert.\n\nEinmal pro Jahr erscheint ein Major\
+      \ Release vom Hersteller; zusätzlich werden etwa\n8 bis 10 Updates jährlich\
+      \ mit Fixes und neuen Funktionen veröffentlicht. Die\nUCS-Version der Groupware-Lösung\
+      \ durchläuft zusätzliche Tests und erscheint in\nder Regel wenige Tage nach\
+      \ der vom Hersteller veröffentlichten Version.\n\nDie App installiert die EPL-Version\
+      \ von EGroupware mit einer 30-Tage-Testlizenz.\nNach Ablauf der 30 Tage können\
+      \ Kunden eine EPL-Lizenz vom Hersteller erwerben oder\nihre Installation als\
+      \ Community Edition weiter betreiben .  \nSeit der EGroupware-Version 21.1.20210923\
+      \ ist es möglich, auf einem Univention Corporate\nServer (UCS) die Community-Version\
+      \ von EGroupware zu betreiben. Die Umstellung auf\ndie Community-Version ist\
+      \ im [Forum](https://help.egroupware.org/t/de-uk-egroupware-community-edition-auf-on-ucs/76311)\
+      \ dokumentiert.  \n \n\nAlternativ bietet der Hersteller EGroupware als Installationspaket\
+      \ für verschiedene\nLinux-Distributionen oder als gehostete SaaS-Lösung in deutschen\
+      \ Rechenzentren an,\ndie Sie ebenfalls an eine bestehende UCS-Domäne anbinden\
+      \ können. Es ist darüber\nhinaus möglich, die gehostete SaaS-Lösung zu einem\
+      \ On-Premises-UCS zu migrieren.\n\n## Weiterführende Informationen\n\nEine vollständige\
+      \ Liste aller Features und Funktionen präsentiert die [EGroupware-Website](https://www.egroupware.org/).\
+      \ Neben dem professionellen Support durch den Hersteller gibt es Unterstützung\
+      \ aus der Community: Diskutieren Sie mit anderen Anwendern und EGroupware-Entwicklern\
+      \ im mehrsprachigen [Forum](https://help.egroupware.org/). Ankündigungen und\
+      \ Neuigkeiten veröffentlicht der Hersteller im [Forum](https://help.egroupware.org/c/announcements)\
+      \ und auf [GitHub](https://github.com/EGroupware)/[Mastodon](https://fosstodon.org/@EGroupware)/[Bluesky](https://bsky.app/profile/egroupware.org)/[Linkedin](https://www.linkedin.com/company/egroupware-gmbh)/[Facebook](https://www.facebook.com/EGroupware).\
+      \ Zahlreiche Vorträge und Aufzeichnungen von Webinaren finden Sie auf dem [YouTube-Kanal](https://www.youtube.com/c/EGroupware).\
+      \  \n \n"
+    name: EGroupware
+    short_description: 'Smart Online Office: Kollaboration mit EGroupware
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_10.png
+    - thumbnail_11.png
+    - thumbnail_12.png
+    - thumbnail_15.png
+    - thumbnail_16.png
+    - thumbnail_13.png
+    - thumbnail_14.png
+    - thumbnail_44.png
+    - thumbnail_17.png
+    - thumbnail_18.png
+    - thumbnail_19.png
+    - thumbnail_20.png
+    - thumbnail_21.png
+    - thumbnail_22.png
+    - thumbnail_23.png
+    - thumbnail_24.png
+    - thumbnail_40.png
+    - thumbnail_51.png
+    - thumbnail_41.png
+    - thumbnail_45.png
+    - thumbnail_53.png
+    - thumbnail_55.png
+  en-US:
+    icon: egroupware_logo.svg
+    keywords:
+    - Collaboration,Business,Administration
+    - Collaboration & Groupware
+    - Project Management
+    - Mail & Messaging
+    - File Sync & Share
+    - CRM & ERP
+    - Education
+    - Office
+    - Telephony
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Are you looking for a flexible and free collaboration solution\
+      \ as an alternative\nto Microsoft 365 or Google Workspace? EGroupware is the\
+      \ Smart Online Office for the\nweb browser from EGroupware GmbH in Kaiserslautern/Germany:\
+      \ open source, GDPR-compliant,\nadaptable and expandable - with professional\
+      \ support on request\n\n## Functions and features\n\nEGroupware is a complete\
+      \ groupware solution, modular and expandable. In addition\nto its own developments,\
+      \ the Smart Online Office also integrates partner products\nand proven open\
+      \ source applications from other manufacturers.\n\nEGroupware contains everything\
+      \ that SMEs (small and medium-sized enterprises), city\nadministrations or even\
+      \ educational and research institutions need for their daily\nwork:\n\n- [File\
+      \ manager](https://www.egroupware.org/documents), [Email](https://www.egroupware.org/email),\
+      \ [Calendar](https://www.egroupware.org/calendar), [Contacts](https://www.egroupware.org/contacts)\n\
+      - [Project management tool](https://www.egroupware.org/projects), [Time recording](https://www.egroupware.org/timesheet),\
+      \ [Task planner](https://www.egroupware.org/tasks), [Kanban board](https://www.egroupware.org/kanban)\n\
+      - [Integrated office suite](https://www.egroupware.org/online-office) (Collabora\
+      \ Online), use data from EGroupware/placeholders in documents\n- [File sharing](https://www.egroupware.org/documents)\
+      \ (with open and hidden releases for users/groups) \n- [Contact sharing](https://www.egroupware.org/contacts)\
+      \ (internal/external, with/without write access and file manager access)  \n\
+      \n- [Customer management](https://www.egroupware.org/crm) (CRM) and [Helpdesk](https://www.egroupware.org/helpdesk)\n\
+      - Create, import, view and print [Invoices](https://www.egroupware.org/en/e-invoice)\
+      \ in both XRechnung (XML format) and ZUGFeRD (hybrid PDF/XML) formats.\n- [Video\
+      \ chat/conference](https://www.egroupware.org/videoconferences), [Chat](https://www.egroupware.org/chat)\
+      \ and desktop sharing (Jitsi, BigBlueButton, Rocket.Chat)\n- Video-based learning\
+      \ application: [VIDOTEACH](https://www.vidoteach.de) interacts very well with\
+      \ other learning management systems thanks to LTI (Learning Tools Interoperability)\n\
+      - Responsive design with full support for mobile devices from 5\" upwards\n\
+      - [Telephony integration](https://www.egroupware.org/cti-telefon-integration)\
+      \ (CTI), pairing of telephones (softphones, desk phones) and computers/smartphones\n\
+      - Import/export and [Synchronisation](https://www.egroupware.org/synchronisation)\
+      \ of data (ActiveSync, Card/Cal/WebDAV)\n- Integration of external resources\
+      \ in the file manager (SMB, WebDAV, NFS, etc.)\n- Application firewall with\
+      \ access limits, brute force protection, 2FA and login rules\n- Open interfaces\
+      \ and [REST API](https://github.com/EGroupware/egroupware/tree/master/doc/REST-CalDAV-CardDAV#rest-api-using-egroupware-caldavcarddav-server-with-json)\
+      \ that enable and facilitate the implementation of own applications or external\
+      \ systems such as ERP\n- Integration of further products and web applications\
+      \ easily possible; connection via OpenID/OAuth2 server to the existing user\
+      \ administration\n- Contract development and adaptation to own infrastructure\
+      \ by the manufacturer possible\n\nWith user-defined fields, mask changes, own\
+      \ information types address book/InfoLog\nand diverse authorisation possibilities\
+      \ up to the development/operation of own applications,\nEGroupware can be extensively\
+      \ adapted to one's own requirements.  \n\n\nThe free Community Edition (CE)\
+      \ contains all basic functions; the Enterprise Line\n(EPL) comes with additional\
+      \ features and applications, extended support and functions\nthat are particularly\
+      \ interesting for companies, small and large organisations -\nregardless of\
+      \ whether 10 or several thousand users work with it. Discounts for NGOs/educational\n\
+      institutions are available on [request](https://www.egroupware.org/contact).\n\
+      \n## Installation and operation\n\nThe EGroupware app is very well integrated\
+      \ into Univention Corporate Server, easy\nto install and connected to the user/group\
+      \ administration and the mail server. The\nautomatic configuration of the app\
+      \ sets up the following:\n\n- The UCS administrator is the EGroupware administrator.\n\
+      - All UCS users can use EGroupware if administrators set the appropriate access\
+      \ rights.\n- EGroupware uses UCS as a reverse proxy and is secured via SSL.\n\
+      \nOnce a year, the manufacturer releases a major update; in addition, approximately\n\
+      8 to 10 updates are released annually with fixes and new features. The UCS version\n\
+      of the groupware solution goes through additional tests and usually appears\
+      \ a few\ndays after the version published by the manufacturer.\n\nThe app installs\
+      \ the EPL version of EGroupware with a 30-day trial licence. After\nthe 30 days\
+      \ have expired, customers can purchase an EPL licence from the manufacturer\n\
+      or continue to operate their installation as a Community Edition.  \nSince EGroupware\
+      \ version 21.1.20210923 it is possible to run the community version\nof EGroupware\
+      \ on a Univention Corporate Server (UCS). The changeover to the community\n\
+      version is documented in the [forum](https://help.egroupware.org/t/de-uk-egroupware-community-edition-auf-on-ucs/76311).\
+      \  \n\n\nAlternatively, the manufacturer offers EGroupware as an installation\
+      \ package for\nvarious Linux distributions or as a hosted SaaS solution in German\
+      \ data centres,\nwhich you can also connect to an existing UCS domain. Furthermore,\
+      \ it is possible\nto migrate the hosted SaaS solution to an on-premises UCS.\n\
+      \n## Additional information\n\nA complete list of all features and functions\
+      \ is presented on the [EGroupware website](https://www.egroupware.org/). In\
+      \ addition to professional support from the manufacturer, there is support from\
+      \ the community: Discuss with other users and EGroupware developers in the multilingual\
+      \ [forum](https://help.egroupware.org/). The manufacturer publishes announcements\
+      \ and news in the forum and on [GitHub](https://github.com/EGroupware)/[Mastodon](https://fosstodon.org/@EGroupware)/[Bluesky](https://bsky.app/profile/egroupware.org)/[Linkedin](https://www.linkedin.com/company/egroupware-gmbh)/[Facebook](https://www.facebook.com/EGroupware).\
+      \ Numerous presentations and recordings of webinars can be found on the [EGroupware\
+      \ YouTube channel](https://www.youtube.com/user/EGroupware).\n"
+    name: EGroupware
+    short_description: 'Smart Online Office: Collaboration with EGroupware
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_10.png
+    - thumbnail_11.png
+    - thumbnail_12.png
+    - thumbnail_15.png
+    - thumbnail_16.png
+    - thumbnail_13.png
+    - thumbnail_14.png
+    - thumbnail_44.png
+    - thumbnail_17.png
+    - thumbnail_18.png
+    - thumbnail_19.png
+    - thumbnail_20.png
+    - thumbnail_21.png
+    - thumbnail_22.png
+    - thumbnail_23.png
+    - thumbnail_24.png
+    - thumbnail_40.png
+    - thumbnail_51.png
+    - thumbnail_41.png
+    - thumbnail_45.png
+    - thumbnail_53.png
+    - thumbnail_55.png
+id: UCSAPP-egroupware
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 23.1.20260131

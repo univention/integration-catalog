@@ -1,0 +1,100 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Das Admin Diary richtet sich an Administratoren, die schnell
+      einen Überblick über
+
+      administrative Änderungen in ihrer UCS Domäne gewinnen wollen. Es werden verschiedene
+
+      UCS Domänen-spezifische Aktionen protokolliert, u.a.:
+
+
+      - Das Anlegen und Verändern von Objekten im Nubus Verzeichnisdienst (z.B. Benutzer
+
+      - Das Installieren/Aktualisieren von App
+
+      - Domänenbeitritt und Aktualisierung von UCS Systemen
+
+
+      Diese App installiert das Admin Diary Backend, das die Datenhaltung für das
+      Admin
+
+      Diary basierend auf einer SQL Datenbank bereit stellt. UCS Instanzen senden
+      Informationen
+
+      über Ereignisse zur Speicherung an dieses Backend. Die Admin Diary Frontend
+      App,
+
+      die im Anschluss an diese App installiert werden kann, wertet diese Informationen
+
+      aus und stellt sie grafisch dar.
+
+
+      Wenn Frontend und Backend nicht auf dem gleichen System installiert werden,
+      müssen
+
+      die Schritte aus diesem [SDB-Artikel](https://help.univention.com/t/admin-diary-how-to-seperate-frontend-and-backend)
+      beachtet werden.
+
+      '
+    name: Admin Diary Backend
+    short_description: 'Übersicht administrativer Änderungen in der Domäne (Datenbank)
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The Admin Diary is intended for administrators who want to\
+      \ quickly gain an overview\nof administrative changes in their UCS domain. Different\
+      \ UCS domain-specific actions\nare logged, e.g.:\n\n- Creating and modifying\
+      \ objects in the Nubus directory service (e.g. users)\n- Installing/updating\
+      \ apps\n- The domain join and updates of UCS systems  \n\n\nThis App installs\
+      \ the Admin Diary Backend App, which provides the data storage for\nthe Admin\
+      \ Diary based on a SQL Database. UCS instances send information about events\n\
+      to this backend. The separate Admin Diary Frontend App, which can be installed\
+      \ after\nthe Backend App, evaluates this information and displays it graphically.\
+      \  \n\n\nIf the Backend App and Frontend App are not installed on the same system,\
+      \ the steps\nin this [SDB article](https://help.univention.com/t/admin-diary-how-to-seperate-frontend-and-backend)\
+      \ must be followed.\n"
+    name: Admin Diary Backend
+    short_description: 'Overview of administrative changes in the Domain (Database)
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-admindiary-backend
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '1.0'

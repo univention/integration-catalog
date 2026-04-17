@@ -1,0 +1,98 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Univention Active Directory Takeover ermöglicht die Migrationvon
+      Objekten von einem
+
+      nativen Active Directory Domänencontroller zu einemUnivention Nubus Samba/AD
+      Domänencontroller.
+
+      Dies vereinfacht die Migrationeiner existierenden Active Directory Domäne zu
+      einer
+
+      auf UCS betriebenen NubusSamba/AD Domäne, unter Beibehaltung aller GPO-Richtlinen,
+
+      SIDs undGruppenmitgliedschaften. Das Ziel dieses Moduls ist letztendlich alle
+      ActiveDirectory
+
+      Domänencontroller abzuschalten. Wenn andererseits gewünscht ist, Nubusauf UCS
+      als
+
+      Mitglied einer Active Directory-Domäne oder parallel zu dieser zubetreiben,
+      sollte
+
+      stattdessen die Applikation Active Directory-Verbindungverwendet werden.
+
+      '
+    name: Active Directory Takeover
+    short_description: 'Übertragung bestehender Active Directory-Domänen nach Nubus
+      auf UCS
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Univention Active Directory Takeover was developed to migratethe
+      objects stored in
+
+      a native Active Directory domain controller to aUnivention Nubus Samba/AD domain
+
+      controller. This simplifies a migration of anexisting Active Directory domain
+      to
+
+      a Nubus on UCS Samba/AD domain, maintainingall GPO settings, SIDs and group
+      memberships.
+
+      The goal of this module is tofinally switch off all Active Directory domain
+      controllers.
+
+      This is different tothe goal of the application Active Directory Connection,
+      which
+
+      allows operationof UCS as a member of or in parallel to an AD domain.
+
+      '
+    name: Active Directory Takeover
+    short_description: 'Transfer existing Active Directory domains to Nubus on UCS
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+id: UCSAPP-adtakeover
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '5.0'

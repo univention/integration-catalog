@@ -1,0 +1,98 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - System services,UCS components
+    - Education
+    - Infrastructure
+    - Security
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Die RADIUS App erhöht die Sicherheit für IT-Infrastrukturen,
+      die mit UCS verwaltet
+
+      werden, indem der Zugang zum Netzwerk über das [RADIUS-Protokoll](https://de.wikipedia.org/wiki/Remote_Authentication_Dial-In_User_Service)
+      abgesichert wird. RADIUS fungiert als einer Art "Türsteher" und prüft auf rechtmäßigen
+      Zugang von Nutzern, bevor sie in das Netzwerk gelangen. Die App übernimmt hierbei
+      die Authentisierung und Autorisierung für Benutzer und Gruppen z.B. gegenüber
+      eines WLANs.
+
+
+      Die Konfiguration ist in das Nubus Managementsystem von UCS integriert und erfolgt
+
+      über Sperr- und Freigabelisten direkt an Benutzer-, Gruppen- und Endgeräteobjekten.
+
+      Zugelassene Benutzer authentifizieren sich mit ihren üblichen Domänenzugangsdaten,
+
+      so dass u.a. auch "Bring your own Device" Konzepte ermöglicht werden.
+
+      '
+    name: RADIUS
+    short_description: 'Netzwerkzugangskontrolle für Benutzer, Gruppen und Endgeräte
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - System services,UCS components
+    - Education
+    - Infrastructure
+    - Security
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'The RADIUS app increases security for IT infrastructures that
+      are managed with UCS.
+
+      It secures the access to the network via the [RADIUS protocol](https://en.wikipedia.org/wiki/RADIUS).
+      RADIUS works as "gate keeper" and checks for legitimate access of users before
+      they enter the network. The app takes care of authentication and authorization
+      for users and groups, e.g. for wifi networks.
+
+
+      The configuration is integrated in the Nubus management system for UCS and it
+      is
+
+      done via allow and deny lists directly at the user, group and device objects.
+      Authorized
+
+      users identifiy themselves with their usual domain credentials. This allows
+      among
+
+      others "bring your own device" concepts.
+
+      '
+    name: RADIUS
+    short_description: 'Network access control for identities and endpoint devices
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-radius
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '5.0'

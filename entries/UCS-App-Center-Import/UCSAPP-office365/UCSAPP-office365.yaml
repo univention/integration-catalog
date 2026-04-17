@@ -1,0 +1,115 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Office
+    - Collaboration & Groupware
+    - Mail & Messaging
+    - Education
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: '[Microsoft 365 - auf Ihr Unternehmen zugeschnitten](https://products.office.com/en/business/).
+
+
+      Der Microsoft 365 Connector für Nubus ermöglicht es, einen Office Zugang mit
+      Single-Sign-On
+
+      für Nutzerkonten aus dem Univention Nubus IAM von UCS zu provisionieren. Durch
+      Verwenden
+
+      der Nubus Identitymanagement Features werden ausgewählte Nubus Nutzerkonten
+      automatisch
+
+      dem Microsoft 365 Azure Account hinzugefügt, aktualisiert oder gelöscht.
+
+
+      Benutzer melden sich mit ihrem Nubus Benutzernamen und Passwort an und können
+      sofort
+
+      die Microsoft 365 Features nutzen. Durch das Einbinden des Keycloak basierten
+      Single-Sign-On
+
+      von Nubus für den Login verlässt das Benutzerpasswort niemals die Nubus Domäne
+
+      von UCS.
+
+
+      Diese App ist für Organisationen geeignet, die den in Nubus für UCS gemanagten
+
+      Nutzern Zugriff auf die Funktionen von Microsoft 365 oder die damit verbundenen
+      Lizenzen
+
+      für Microsoft Office Desktop Software geben wollen. Um den Connector in Betrieb
+
+      zu nehmen, ist ein Azure Active Directory und eine Microsoft 365 (Test-)Subskription
+
+      erforderlich.
+
+      '
+    name: Microsoft 365 Connector
+    short_description: 'Single-Sign-On in Microsoft 365 für Nubus Benutzer
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_8.png
+    - thumbnail_9.png
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Office
+    - Collaboration & Groupware
+    - Mail & Messaging
+    - Education
+    - Identity Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "[Microsoft 365 is built for your business](https://products.office.com/en/business/).\
+      \  \n\n\nThe Microsoft 365 Nubus connector allows to easily provision Microsoft\
+      \ 365 user accounts\nwith single sign-on from the Univention Nubus IAM for UCS.\
+      \ Utilizing the Univention\nNubus identity management features, selected Nubus\
+      \ accounts are automatically added,\nupdated or deleted in your Microsoft 365\
+      \ business account.\n\nUsers log in with their Nubus username and password and\
+      \ can immediately use the Microsoft\n365 collaboration features. Using Keycloak\
+      \ based single sign-on of Nubus to log into\nMicrosoft 365, the user password\
+      \ never leaves the Nubus for UCS domain.\n\nThis app is intended for organisations\
+      \ that want to manage their users with Nubus\nfor UCS and give them access to\
+      \ Microsoft 365 features or to associated licences\nfor Microsoft desktop software.\
+      \ To setup the integration, an Azure Active Directory\nand Microsoft 365 (test-)subscription\
+      \ is required.\n"
+    name: Microsoft 365 Connector
+    short_description: 'Single Sign-On to Microsoft 365 for Nubus users
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_8.png
+    - thumbnail_9.png
+id: UCSAPP-office365
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '6.3'

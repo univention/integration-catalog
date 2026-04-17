@@ -1,0 +1,116 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Die Prometheus Alertmanager App bietet die Benachrichtigungskomponente
+      für die *UCS
+
+      Dashboard* app.
+
+
+      Der Alertmanager kümmert sich um Alarme, die von der Prometheus Datenbank kommen.
+
+      Administratoren können Alarme in Prometheus definieren. Alarme bestehen aus
+      Bedingungen
+
+      auf Metriken aus der Prometheus Datenbank, die von der *UCS Dashboard Database*
+      app
+
+      bereit gestellt wird. Sobald eine Bedingung eintritt, erzeugt Prometheus einen
+      Alarm
+
+      und sendet ihn zum Alertmanager. Der Alertmanager kümmert sich um die Benachrichtigung
+
+      per E-Mail.
+
+
+      Prometheus Alertmanager bieten eine Weboberfläche. Er integriert sich in das
+      UCS
+
+      Identity Management, so dass sich Domänenadministratoren mit ihren Domänenzugangsdaten
+
+      am Alertmanager anmelden können.
+
+      '
+    name: Prometheus Alertmanager
+    short_description: 'Prometheus Alertmanager basierte Notifizierungs Komponente
+      für das UCS Monitoring
+
+      System
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Administration
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'The Prometheus Alertmanager app provides the notification capability
+      for the *UCS
+
+      Dashboard* app.
+
+
+
+      The Alertmanager takes care of alerts sent by the Prometheus database component.
+
+      Administrators can define alerts in Prometheus. Alerts consist of conditions
+      on metrics
+
+      from the Prometheus database provided by the *UCS Dashboard Database* app. Once
+      a
+
+      condition occurs, Prometheus creates an alert and sends it to the Alertmanager.
+      The
+
+      Alertmanager takes care of the notification through email.
+
+
+      Prometheus Alertmanager offers a web interface. The intregrates with the UCS
+      identity
+
+      management, so that domain administrators can sign in to the Alertmanager with
+      their
+
+      domain credentials.
+
+      '
+    name: Prometheus Alertmanager
+    short_description: 'Prometheus Alertmanager based notification component for the
+      UCS monitoring system
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-prometheus-alertmanager
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '1.0'

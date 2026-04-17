@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Die UCS@school APIs App ist eine Meta App, und stellt die Basis\
+      \ für Plugins bereit,\ndie innerhalb dieser App laufen.  \n   \nDiese App startet\
+      \ einen Dockercontainer mit einem [Open Policy Agent](https://www.openpolicyagent.org/)\
+      \ Prozess. Außerhalb des Containers werden die Verzeichnisse /etc/ucsschool/apis\
+      \ und /var/log/univention/ucsschool-apis exponiert.  \n\nDie App stellt erst\
+      \ nach der Installation von Plugins eine nutzbare Funktionalität\nbereit.\n"
+    name: UCS@school APIs
+    short_description: 'Eine App um Resourcen via Plugins anzubieten
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The UCS@school APIs app is a meta app, and provides the basis\
+      \ for plugins that run\ninside this app.\n\n \n\nThis app launches a Docker\
+      \ container with an [Open Policy Agent](https://www.openpolicyagent.org/) process.\
+      \ Outside of the container, the /etc/ucsschool/apis and /var/log/univention/ucsschool-apis\
+      \ directories are exposed.\n\n\nThe app does not provide usable functionality\
+      \ until plugins are installed.\n"
+    name: UCS@school APIs
+    short_description: 'An app to expose resources via plugins
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-ucsschool-apis
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 1.1.0

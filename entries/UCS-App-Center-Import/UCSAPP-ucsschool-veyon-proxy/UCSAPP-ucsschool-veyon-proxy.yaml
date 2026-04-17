@@ -1,0 +1,61 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Diese App ist *nicht* zur manuellen Installation vorgesehen.\
+      \ Als technische App wird\nsie von UCS@school angesprochen und ist nicht zur\
+      \ manuellen Verwendung gedacht.  \nSie wird automatisch durch den UCS@school-Installer\
+      \ installiert, wenn sie benötigt\nwird.  \nBitte deinstallieren Sie die App\
+      \ *nicht* manuell.\n"
+    name: UCS@school Veyon Proxy
+    short_description: 'Proxy-System für die Anbindung Veyons an das UCS@school Computerraum-Modul
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Do *not* install this app manually. It is not intended for\
+      \ end users.  \nIt will automatically be installed by the UCS@school installer\
+      \ where required.  \nPlease do *not* uninstall it.\n"
+    name: UCS@school Veyon Proxy
+    short_description: 'Proxy system for UCS@school computer monitoring and classroom
+      management
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-ucsschool-veyon-proxy
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 4.9.1.12-ucs1

@@ -1,0 +1,65 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - ''
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Die Dovecot Connector App synchronisiert zu löschende Benutzer\
+      \ zu einem entfernten\nDovecot über die doveadm Schnittstelle von Dovecot.\n\
+      \n\nUm diese App zu nutzen, brauchen Sie eine entfernte Dovecot-Installation,\
+      \ die Zugriff\nauf den *doveadm port* erlaubt und das Passwort für den *doveadm*\
+      \ Benutzer.\n\nSollte die http API des doveadm nicht per https zu erreichen\
+      \ sein, ist die Verbindung\nanderweitig abzusichern, z.B. durch die Nutzung\
+      \ eines verschlüsselten Tunnels.  \n\n"
+    name: Dovecot Connector
+    short_description: 'Nubus Benutzer-Löschungen nach Dovecot synchronisieren
+
+      '
+    tags: []
+    visuals:
+    - ''
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - ''
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "The Dovecot Connector App cleans up users deleted in Univention\
+      \ Nubus.\n\n\nIn order to use the App, you need a remote Dovecot installation.\
+      \ Typically, this\nremote server is not a UCS system.\n\nThere are two prerequisites\
+      \ for this App to work: The remote Dovecot installation\nneeds to allow access\
+      \ to the *doveadm port* and you probably want to tunnel this\nplain HTTP connection\
+      \ through an encrypted tunnel.  \n\n"
+    name: Dovecot Connector
+    short_description: 'Synchronize Nubus User-deletion to Dovecot
+
+      '
+    tags: []
+    visuals:
+    - ''
+id: UCSAPP-dovecot-connector
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 1.1.0

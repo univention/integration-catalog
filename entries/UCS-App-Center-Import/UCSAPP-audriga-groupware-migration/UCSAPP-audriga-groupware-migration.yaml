@@ -1,0 +1,90 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: audriga-groupware-migration_logo.svg
+    keywords:
+    - Collaboration
+    - ''
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Mit dem audriga Groupware Migrationsservice können Sie E-Mails,
+      Kontakte und Kalendereinträge
+
+      von anderen Servern oder Hosting-Angeboten zu UCS umziehen. Die Anwendung installiert
+
+      einen Link zur Migrationsanwendung von audriga, auf der die Migration konfiguriert
+
+      und durchgeführt wird. Der Service verbindet sich über Standardprotokolle (IMAP,
+
+      EWS, CardDAV, CalDAV), die über das Internet erreichbar sein müssen. Alle gängigen
+
+      IMAP Server werden unterstützt. Kontakte und Kalendereinträge werden bei MS
+      Exchange,
+
+      Open-Xchange und Kolab unterstützt. Bei anderen Systemen kontaktieren Sie bitte
+
+      audriga.
+
+      '
+    name: audriga Groupware Migration Service
+    short_description: 'Service zur einfachen Migration von E-Mail-Konten
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+  en-US:
+    icon: audriga-groupware-migration_logo.svg
+    keywords:
+    - Collaboration
+    - ''
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'The audriga Groupware Migration Service allows migrating emails,
+      contacts and calendar
+
+      items from other servers or hosting offerings to UCS. This application will
+      install
+
+      a link to the Migration Service platform, where the migration can be configured
+      and
+
+      started. The service connects via standard protocols (IMAP, EWS, CardDAV, CalDAV),
+
+      which have to be accessible via the Internet. All commonly used IMAP servers
+      are
+
+      supported. Contacts and calendar items are only supported for MS Exchange, Open-Xchange
+
+      and Kolab in self-service. For other platforms, please contact audriga.
+
+      '
+    name: audriga Groupware Migration Service
+    short_description: 'Self-service for migrating email and groupware accounts
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+id: UCSAPP-audriga-groupware-migration
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '1.0'

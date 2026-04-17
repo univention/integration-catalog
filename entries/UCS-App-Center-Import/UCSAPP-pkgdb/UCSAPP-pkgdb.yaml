@@ -1,0 +1,92 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Die App installiert den Software-Monitor. Das ist eineDatenbank,
+      in der Informationen
+
+      über die  installierten Softwarepakete aufUCS-Systemen aufgezeichnet werden.
+      Über
+
+      ein Modul im UCS-Managementsystem kannein Administrator die Datenbank abfragen
+      und
+
+      sich so einen Überblickverschaffen, welche Release- und Paketversionen auf den
+      Systemen
+
+      der Domäneinstalliert sind. Ein Administrator kann damit bei der schrittweisenAktualisierung
+
+      einer UCS-Domäne sehr einfach Installationsprobleme erkennen.UCS-Systeme aktualisieren
+
+      ihre Einträge in der Datenbank bei der Installation,Entfernung und Aktualisierung
+
+      von Software automatisch.
+
+      '
+    name: Software-Installationsmonitor
+    short_description: 'Zentraler Monitor für Software und -status auf UCS-Systemen
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - UCS components
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'This app installs the Software-Monitor. It is a databasethat
+      records information
+
+      about installed software packages on UCS systems.Administrators can query the
+      database
+
+      via a module in the UCS management systemand gain an overview about release
+      information
+
+      and packages installed onsystems in the domain. An administrator can easily
+      recognize
+
+      installationproblems during the process of a step-by-step update of a UCS domain.
+
+      UCSsystems automatically update their entries in the database upon installation,removal
+
+      and update of software.
+
+      '
+    name: Software installation monitor
+    short_description: 'Central monitor for software package status on UCS systems
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_1.png
+id: UCSAPP-pkgdb
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '11.0'

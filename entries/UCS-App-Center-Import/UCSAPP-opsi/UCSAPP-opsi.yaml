@@ -1,0 +1,138 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: opsi_logo.svg
+    keywords:
+    - Administration,Education
+    - Infrastructure
+    - Education
+    - Device Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "opsi (Open System Integration) ist das **zentrale Werkzeug**\
+      \ zum Verwalten von Windows-,\nLinux- und macOS-Clients. Die Kernkomponente\
+      \ ist ein Linux-Server, der sich um die\nfolgenden Aufgaben kümmert:  \n\n-\
+      \ automatische Installation des Betriebssystems (nur Windows und Linux)\n- Verteilung\
+      \ von Software, darunter auch Updates und Patches\n- Inventarisierung von Hard-\
+      \ und Software  \n\nopsi verwaltet Clients an mehreren Standorten in einem einzigen\
+      \ Administrations-Interface.\nDie Konfiguration wird an zentraler Stelle gespeichert,\
+      \ die Depots für die Softwarepakete\nder Clients können an unterschiedlichen\
+      \ Orten liegen.  \n   \n**Erweiterungen  \n **  \nopsi ist Open-Source-Software;\
+      \ alle Hauptbestandteile stehen unter der AGPLv3-Lizenz.\nDie Kernfunktionalität\
+      \ sowie die hier im Univention App Center bereitgestellte Version\nist lizenzkostenfrei\
+      \ einsetzbar. Darüber hinaus bietet der Hersteller, die Firma\nuib gmbh, kostenpflichtige\
+      \ [Erweiterungen](https://opsi.org/de/extensions/) als Subscription an. Bis\
+      \ 30 Clients können die meisten Erweiterungen kostenlos verwendet werden. [Hier](https://www.uib.de/opsi-basic)\
+      \ finden Sie die opsi Basic-Lizenz.  \n\nEs gibt unter anderem die folgenden\
+      \ Erweiterungen, die den Funktionsumfang erweitern:  \n   \n\n- Directory Connector:\
+      \ synchronisiert Daten zwischen den Clients und einem LDAP-fähigen Verzeichnisdienst\
+      \ (z. B. Active Directory oder Samba 4)\n- Lizenzmanagement: verwaltet Lizenzen\
+      \ an zentraler Stelle, das heißt, im opsi-Konfigurationseditor\n- UEFI/Secureboot:\
+      \ Support für UEFI/GPT-Partitionen und Secureboot\n- Scalability: Performance-Steigerung\
+      \ für sehr große Umgebungen; startet den opsi-Service mit mehreren Worker-Prozessen\
+      \ und/oder betreibt den Dienst parallel auf mehreren Servern\n- WIM-Capture:\
+      \ liest die Windows-Installation aus (inkl. Konfiguration, installierter Software\
+      \ und Hotfixes), speichert alles als WIM (Windows Imaging Format) und installiert\
+      \ dieses auf anderen Clients  \n\nIm Rahmen von kostengünstigen [Update-Abonnements](https://www.uib.de/de/support-schulung/update-abonnements/)\
+      \ stellt die Firma uib gmbh außerdem konfektionierte Installationspakete und\
+      \ MS-Hotfixes bereit oder paketiert auf Wunsch Ihre Spezialsoftware. Der Hersteller\
+      \ bietet weiterhin kostenpflichtige [Support-Leistungen](https://www.uib.de/de/support-schulung/support/)\
+      \ rund um opsi an, z. B. Wartungsverträge, Workshops und Schulungen.  \n** \
+      \ \nInstallationshinweis Client-Synchronisation**  \n   \nFür UCS- und UCS@school-Anwender\\\
+      *innen ist die opsi-Erweiterung [Director Connector](https://opsi.org/de/extensions/)\
+      \ besonders interessant, die Daten zwischen den opsi-Clients und dem UCS-Verzeichnisdienst\
+      \ synchronisiert. So vermeiden Sie die Pflege eines doppelten Datenbestands\
+      \ und übernehmen die Daten aus UCS-Verzeichnisdienst in die opsi-Umgebung. Dabei\
+      \ spielt es keine Rolle, ob es sich um eine Active-Directory- oder um eine Samba-4-Domäne\
+      \ handelt. Der Director Connector ermöglicht ebenfalls, dass sich opsi-Benutzer\
+      \ über die Domäne authentifizieren.  \nFür weitere Informationen kontaktieren\
+      \ Sie bitte den Hersteller: [info@uib.de](mailto:info@uib.de)\n"
+    name: opsi - Client Management
+    short_description: 'Software- / Configuration-Management und Inventarisierung
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_9.png
+    - thumbnail_10.png
+    - thumbnail_11.png
+    - thumbnail_12.png
+    - thumbnail_13.png
+  en-US:
+    icon: opsi_logo.svg
+    keywords:
+    - Administration,Education
+    - Infrastructure
+    - Education
+    - Device Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "opsi (Open System Integration) is the **central tool** for\
+      \ managing Windows, Linux,\nand macOS client computers. The core component is\
+      \ a Linux server, taking care of\nthe following tasks:  \n   \n\n- Automatic\
+      \ OS installation (Windows and Linux only)\n- Distribution of software, for\
+      \ example updates and patches\n- Inventory of hardware and software  \n\nopsi\
+      \ manages clients at multiple locations in one single administration interface.\n\
+      The configuration is stored in a central location, the repositories for the\
+      \ clients'\nsoftware packages can be located in different places.  \n**  \n\
+      Extensions  \n **  \nopsi is open source software; all main components are licensed\
+      \ under the AGPLv3 licence.\nThe core functionality as well as the version provided\
+      \ here in the Univention App\nCentre can be used free of charge. In addition,\
+      \ the manufacturer, uib gmbh, offers\npaid [extentions](https://opsi.org/de/extensions/)\
+      \  as a subscription. Most of the extensions can be used free of charge for\
+      \ up to 30 clients. [Here](https://www.uib.de/opsi-basic) you can find the opsi\
+      \ Basic Licence.  \n   \n\n- **Directory Connector**: Synchronizes data between\
+      \ clients and an LDAP-enabled directory service (e.g. Active Directory or Samba\
+      \ 4)\n- **License Management**: Manages licenses in a central place, in the\
+      \ opsi configuration editor\n- **UEFI/Secureboot**: Support fpr UEFI/GPT partitions\
+      \ and Secureboot\n- **Scalability**: Performance enhancement for very large\
+      \ environments; starts the opsi service with multiple worker processes and/or\
+      \ runs the service in parallel on multiple servers\n- **WIM-capture**: captures\
+      \ an entire Windows installation (including configuration, installed software,\
+      \ and hotfixes), stores everything in the Windows Imaging Format (WIM), and\
+      \ allows you to install this on other clients  \n\nAdditionally, the company\
+      \ uib gmbh provides affordable [subscriptions](https://www.uib.de/en/support-training/update-subscriptions)\
+      \ which include ready-made packages for installadion, MS hotfixes, or special\
+      \ software. The manufacturer also offers [support services](https://www.uib.de/en/support-training/support)\
+      \ for a fee, e.g. opsi maintenance contracts, workshops, and trainings.  \n\n\
+      **About Client Synchronization**  \n   \nFor UCS and UCS@school users the opsi\
+      \ extension [Director Connector](https://www.uib.de/en/opsi-cofunding/directory-connector)\
+      \ is of particular interest. It synchronizes data between the opsi clients and\
+      \ the UCS directory service. You can simply transfer the data from the UCS directory\
+      \ service to the opsi environment, avoiding the handling of duplicate data.\
+      \ It doesn't matter whether it's an Active Directory or Samba 4 domain. The\
+      \ Director Connector also allows opsi users to authenticate via the domain.\
+      \  \nFor more information please contact the vendor: [info@uib.de](mailto:info@uib.de)\n"
+    name: opsi - Client Management
+    short_description: 'Software- / Configuration-Management and Inventory
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_9.png
+    - thumbnail_10.png
+    - thumbnail_11.png
+    - thumbnail_12.png
+    - thumbnail_13.png
+id: UCSAPP-opsi
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 4.3.0.53-ucs5

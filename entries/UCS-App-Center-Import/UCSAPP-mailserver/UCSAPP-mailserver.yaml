@@ -1,0 +1,75 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - Collaboration,System services,UCS components
+    - Mail & Messaging
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Diese App stellt einen Mailserver für UCS bereit. Für den ausgehenden\
+      \ Mail-Versand\nüber das Protokoll SMTP kommt Postfix zum Einsatz. Für die Bereitstellung\
+      \ von Postfächern\nfür eingegangene Mails über die Protokoll IMAP und POP3 wird\
+      \ Dovecot verwendet.\nVirenprüfungen finden über den Scanner ClamAV und Spam-Erkennung\
+      \ über Spamassassin\nstatt. Beides ist bereits integriert.  \n\nAlle Dienste\
+      \ sind so konfiguriert, dass sie in das Nubus Identity Management integriert\n\
+      sind. Nutzerkonten und Gruppen können Mailadressen als Mailboxen oder Mailverteiler\n\
+      zugeordnet werden, Endandwender können mit Ihren Zugangsdaten auf die Services\
+      \ zugreifen. \nGemeinsam genutzte IMAP-Order und Mailinglisten können in der\
+      \ Univention Management\nConsole definiert werden.\n\nDer Mailserver dient Groupware-Apps\
+      \ als Infrastrukturunterbau zum Versenden und Empfangen\nvon E-Mails.\n"
+    name: Mailserver
+    short_description: 'Standard Mail-Dienste mit Postfix und Dovecot (SMTP/POP/IMAP)
+
+      '
+    tags: []
+    visuals:
+    - mail-server_screenshot.jpeg
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - Collaboration,System services,UCS components
+    - Mail & Messaging
+    - Infrastructure
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "This app provides a mailserver for UCS. Postfix is used for\
+      \ outgoing mails via the\nprotocol SMTP. Dovecot is used for postboxes for incoming\
+      \ mails via the protocols\nIMAP and POP3. Virus checks via the scanner ClamAV\
+      \ and spam detection via Spamassassin\nare integrated.  \n\nAll services are\
+      \ configured to integrate with the Nubus identity management, so users\nand\
+      \ groups in the identity management can have mailboxes and mail distribution\
+      \ lists\nand end users can connect to the services using their domain credentials.\
+      \ Shared\nIMAP folders and mailing lists can be configured in the Univention\
+      \ Management Console.\n\nThe mailserver is the infrastructure foundation of\
+      \ groupware apps for sending and\nreceiving emails.\n"
+    name: Mail server
+    short_description: 'Standard mail services with Postfix / Dovecot (SMTP/POP/IMAP)
+
+      '
+    tags: []
+    visuals:
+    - mail-server_screenshot.jpeg
+id: UCSAPP-mailserver
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '12.0'

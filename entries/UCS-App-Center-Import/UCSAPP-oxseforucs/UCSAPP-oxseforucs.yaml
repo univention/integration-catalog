@@ -1,0 +1,150 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: oxseforucs_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Collaboration & Groupware
+    - File Sync & Share
+    - Mail & Messaging
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'OX App Suite ist eine modular aufgebaute Kommunikations- und
+      Collaboration-Plattform.
+
+      Sie basiert auf offenen Standards und eignet sich hervorragend für die Integration
+
+      in bestehende IT-Infrastrukturen. OX App Suite richtet sich an Unternehmen,
+      Bildungseinrichtungen
+
+      und öffentliche Verwaltungen.
+
+
+      Den Kern von OX App Suite bilden integrierte Applikationen für die Bearbeitung
+      von
+
+      E-Mails, Kontakten und Terminen, die um folgende Funktionen erweitert werden
+      können:
+
+      OX Drive zum Verwalten und Synchronisieren von Dokumenten, Bildern, Photos und
+      Filmen;
+
+      OX Documents für Textbearbeitung und Tabellenkalkulation; OX Guard für die Verschlüsselung
+
+      von E-Mails und Dateien.
+
+
+      Die Anwender benötigen lediglich einen Browser, um OX App Suite mit PC, Laptop,
+
+      Tablet oder Smartphone zu nutzen. Alternativ unterstützt OX App Suite auch gängige
+
+      Software-Clients wie Mac OS X Mail, iCal und Contacts.
+
+
+      OX App Suite wird unter GPLv2 (Backend) und Creative Commons Attribution-Noncommercial-Share
+
+      Alike 2.5 Generic License (Frontend) veröffentlicht und kann daher ohne Lizenzgebühren
+
+      genutzt werden. Für den produktiven Einsatz wird jedoch eine kostenpflichtige
+      Lizenz
+
+      mit Maintenance und Support empfohlen.
+
+
+      Neben OX App Suite stehen auch die OX App Suite-Erweiterungen OX Documents und
+      OX
+
+      Guard zum Download im Univention App Center zur Verfügung.
+
+      '
+    name: OX App Suite
+    short_description: 'Groupware, E-Mail- und Kommunikationsplattform
+
+      '
+    tags: []
+    visuals:
+    - oxseforucs_screenshot.png
+  en-US:
+    icon: oxseforucs_logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Collaboration & Groupware
+    - File Sync & Share
+    - Mail & Messaging
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'OX App Suite is modular communication and collaboration platform.
+      Based on open standards,
+
+      OX App Suite can be easily integrated into existing IT infrastructures. OX App
+      Suite
+
+      is targeted at businesses, education and public authorities.
+
+
+      Integrated apps for Email, contacts and calendar form the core of OX App Suite
+      and
+
+      can be extended with the following modules: OX Drive for the management and
+      synchronization
+
+      of documents, pictures and videos; OX Documents to edit text documents, spreadsheets
+
+      and presentations; OX Guard for Email and file encryption.
+
+
+      Users only need a browser to use OX App Suite with their PC, laptop, tablet
+      or smartphone.
+
+      As an alternative, OX App Suite supports software clients such as Mac OS X Mail,
+
+      iCal and Contacts.
+
+
+      OX App Suite is published under GPLv2 (Backend) and Creative Commons Attribution-Noncommercial-Share
+
+      Alike 2.5 Generic License (Frontend) and thus can be used without license fees.
+      For
+
+      productive use, a fee-based license with maintenance and support is recommended.
+
+
+      In addition to OX App Suite, the OX App Suite extensions OX Documents and OX
+      Guard
+
+      are available for download in the Univention App Center.
+
+      '
+    name: OX App Suite
+    short_description: 'Groupware, email and communication platform
+
+      '
+    tags: []
+    visuals:
+    - oxseforucs_screenshot.png
+id: UCSAPP-oxseforucs
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 7.10.6-ucs11

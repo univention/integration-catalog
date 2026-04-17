@@ -1,0 +1,83 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Office
+    - Backup & Archiving
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "QD Consent ist eine App für UCS, die die Einwilligung zur Datenübertragung\
+      \ persönlicher\nDaten an Microsoft365 und den jeweils gültigen Nutzungsbedingungen\
+      \ automatisiert.\n\n\nSchüler und Lehrer können mit dieser App selbstständig\
+      \ ihre Einwilligungen geben\n- ein aufwändiges Management z.B. durch Fragebögen\
+      \ oder Hinterlegung in ein\nSchulverwaltungsprogramm z.B. durch das Sekretariat\
+      \ oder Lehrer entfällt somit.\n\n\nAdministratoren können dabei die Einwilligungen\
+      \ von Nutzern bequem abrufen und in\nverschiedenen Formaten sichern.  \n\nApp\
+      \ Dokumentation: [https://qua-dev.com/qd-consent](https://qua-dev.com/qd-consent)\
+      \  \n   \nZum vollumfängliche Betrieb dieser App ist eine Lizenzierung notwendig.\
+      \  \nFalls keine Lizenz vorhanden ist, wird automatisch eine Trial-Lizenz genutzt.\
+      \  \n    \nNach Installation dieser App kann sich der Admin wie unter  [https://qua-dev.com/qd-consent#3-2_admin-user](https://qua-dev.com/qd-consent#3-2_admin-user)\
+      \ beschrieben einloggen und die App weiter einrichten. \n\n\n"
+    name: QD Consent
+    short_description: 'QD Consent ist eine App für UCS, die die Einwilligung zur
+      Datenübertragung persönlicher
+
+      Daten an Microsoft365 und den jeweils gültigen Nutzungsbedingungen automatisiert.
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_4.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - ''
+    - Office
+    - Backup & Archiving
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "QD Consent is an app for UCS that automates consent to the\
+      \ data transfer of personal\ndata to Microsoft365 and the applicable terms of\
+      \ use.\n\n\nStudents and teachers can give their consent independently with\
+      \ this app - there\nis no need for time-consuming management, e.g. through paperwork\
+      \ and manual adding\nthe consent in a school administration program, e.g. by\
+      \ the secretariat or teachers.\n\n\nAdministrators can conveniently retrieve\
+      \ user consents and save them in various formats.  \n\nApp documentation: [https://qua-dev.com/qd-consent](https://qua-dev.com/qd-consent)\
+      \  \n\n\nLicensing is required to fully operate this app.\n\nIf no license is\
+      \ available, a trial license is automatically used.  \n\nAfter installing this\
+      \ app, the admin can log in as described at  [https://qua-dev.com/qd-consent#3-2_admin-user](https://qua-dev.com/qd-consent#3-2_admin-user)\
+      \ and continue setting up the app.\n\n \n"
+    name: QD Consent
+    short_description: 'QD Consent is an app for UCS that automates consent to the
+      data transfer of personal
+
+      data to Microsoft365 and the applicable terms of use.
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_4.png
+id: UCSAPP-qd-consent
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 0.9.14

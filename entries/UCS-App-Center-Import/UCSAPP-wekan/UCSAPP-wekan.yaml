@@ -1,0 +1,96 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Collaboration & Groupware
+    - Project Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "To-do-Listen pflegen, Teamwork in der Schule oder mit Kollegen\
+      \ in der Firma organisieren,\neine Feier oder den nächsten Urlaub planen – Kanban-Boards\
+      \ sind praktische Helfer,\num Aufgaben zu strukturieren, Projekte zu visualisieren\
+      \ und diese effizienter durchzuführen.\nDas Open Source Kanban Board Wekan hilft\
+      \ Ihnen, sich auf bestimmte Tätigkeiten zu\nkonzentrieren, Projekte und näher\
+      \ rückende Deadlines im Auge zu behalten.  \n\n\n## Mit Wekan Tasks und To-does\
+      \ managen\n[Wekan](https://wekan.github.io/) bietet ein kartenbasiertes Task-\
+      \ und To-do-Management, Boards, Listen, Swimlanes, Label, Vorlagen und Archivierungsmöglichkeiten.\
+      \ Den Karten weisen Sie unterschiedliche Farben als visuelle Marker hinzu, verschieben\
+      \ sie per Drag & Drop in andere Listen oder Boards und versehen sie mit Dateianhängen.\
+      \ Kollaborative Bearbeitungsmöglichkeiten bringen Transparenz ins Teamwork:\
+      \ Fügen Sie Benutzer zu Boards und Karten hinzu und weisen Sie ihnen per Mausklick\
+      \ Aufgaben zu.  \n\n## Wekan und UCS\nWekan integriert sich nahtlos in die UCS-Umgebung\
+      \ und nutzt vorhandene LDAP-Services.\nÜber die Univention Management Console\
+      \ (UMC) schalten Sie den Zugriff auf die Wekan-App\nfür einzelne oder alle Benutzer\
+      \ einer Domäne frei. Außerdem legen Sie Accounts\nmit Administratorrechten an,\
+      \ die in der Wekan-Oberfläche dann die Admin-Rolle haben\nund dort andere Benutzer\
+      \ verwalten dürfen.\n"
+    name: Wekan
+    short_description: 'Open Source Kanban Board
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_4.png
+    - thumbnail_5.png
+    - thumbnail_6.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Collaboration & Groupware
+    - Project Management
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Kanban boards are excellent tools for maintaining to-do lists,\
+      \ organizing teamwork\nat school or with your co-workers, or planning a party\
+      \ as well as the next vacation.\nThey help you to structure tasks, visualize\
+      \ projects, and carry them out more efficiently.\nWekan is an Open Source Kanban\
+      \ board. It can help you to concentrate on certain tasks\nand activities, and\
+      \ keep an eye on your projects and approaching deadlines.  \n\n\n## Managing\
+      \ Tasks with Wekan\nLike other Kanban boards, [Wekan](https://wekan.github.io/)\
+      \ works with cards, boards, lists, swimlanes, labels, templates, and archiving\
+      \ options. You can add colors to your cards that work as visual markers, drag\
+      \ and drop them to other lists or boards, and attach files. Wekan also offers\
+      \ collaborative editing options that makes your teamwork more transparent: add\
+      \ other members to boards and cards, and assign tasks to users with a few clicks.\
+      \  \n\n\n## Wekan and UCS\nWekan integrates well with UCS and makes use of its\
+      \ LDAP directory service. You can\nallow access to Wekan via the Univention\
+      \ Management Console (UMC) and enable individual\nusers or all domain members.\
+      \ On top of that you can create specific administrator\naccounts in UMC that\
+      \ have the admin role in the Wekan web interface to manage other\nuser accounts\
+      \ there.\n"
+    name: Wekan
+    short_description: 'Open Source kanban board
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_4.png
+    - thumbnail_5.png
+    - thumbnail_6.png
+id: UCSAPP-wekan
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 6.09-ucs1

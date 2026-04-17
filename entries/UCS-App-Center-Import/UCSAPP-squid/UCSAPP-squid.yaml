@@ -1,0 +1,102 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: ucs_logo.svg
+    keywords:
+    - System services,UCS components
+    - Infrastructure
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Diese App stellt einen Web-Proxyserver und Web-Cache zur Erhöhung
+      der Performance
+
+      und Kontrolle des Datenverkehrs zur Verfügung. Antwortzeiten für den regelmäßigen
+
+      Aufruf gleicher Webseiten werden verringert. Ebenso kann das Daten-Transfervolumen
+
+      über den Internetzugang reduziert werden. Darüber hinaus wird die Kontrolle
+      und
+
+      Administration des Zugriffs auf Internetinhalte ermöglicht. So kann beispielsweise
+
+      festgelegt werden, welche Benutzer oder Benutzergruppen auf welche Webseiten
+      zugreifen.
+
+
+      Die App nutzt die etablierte Proxyserver-Anwendung Squid und unterstützt die
+      Protokolle
+
+      HTTP, HTTPS und FTP. Die Filterung von Internetinhalten erfolgt über die Software
+
+      DansGuardian.
+
+      '
+    name: Proxyserver / Webcache (Squid)
+    short_description: 'Zwischenspeicherung und Zugriffssteuerung für das Web
+
+      '
+    tags: []
+    visuals:
+    - squid_screenshot.jpeg
+  en-US:
+    icon: ucs_logo.svg
+    keywords:
+    - System services,UCS components
+    - Infrastructure
+    - Security
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'This app provides a web proxy server and web cache to increase
+      the performance and
+
+      control the data traffic. Response times for regular requests of the same websites
+
+      are reduced. Furthermore, The data transfer volume over the internet access
+      can be
+
+      reduced. In addition, control and administration for the access on internet
+      content
+
+      is possible. For example, it can be specified which users or user groups can
+      access
+
+      which websites.
+
+
+      The app uses the well established proxy server application Squid and supports
+      the
+
+      protocols HTTP, HTTPS and FTP. Internet content is filtered via the software
+      DansGuardian.
+
+      '
+    name: Proxy server/ web cache (Squid)
+    short_description: 'Cache and access control for the web
+
+      '
+    tags: []
+    visuals:
+    - squid_screenshot.jpeg
+id: UCSAPP-squid
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: '3.5'

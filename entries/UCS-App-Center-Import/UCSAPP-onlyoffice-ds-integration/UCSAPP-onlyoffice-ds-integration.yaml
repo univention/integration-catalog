@@ -1,0 +1,254 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Collaboration
+    - Administration
+    - Business
+    - Education
+    - Collaboration & Groupware
+    - Office
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'ONLYOFFICE Docs Enterprise Edition ist eine funktionsreiche
+      und zutiefst Microsoft
+
+      Office OOXML-kompatible Office-Suite, die für größere Teams mit hohen professionellen
+
+      Anforderungen entwickelt wurde. Sie umfasst drei kollaborative Editoren für
+      die
+
+      Arbeit an Textdokumenten, Präsentationen und Tabellenkalkulationen. Die ONLYOFFICE
+
+      Docs Enterprise Edition bietet Skalierbarkeit(\*), erweiterte Funktionalität,
+      erweiterte
+
+      Sicherheit und professionellen technischen Support.
+
+
+      Funktionen der ONLYOFFICE Docs Enterprise Edition:
+
+
+      - Kompletter Satz von Bearbeitungs- und Formatierungsinstrumenten, die in der
+      intuitiven, mit Tabs versehenen Benutzeroberfläche organisiert sind;
+
+      - Professionelles Schreiben: Fußnoten, Inhaltsverzeichnis, Lesezeichen, Navigation;
+
+      - Presenter View, Notizen und weitere Demonstrationsfunktionen in Präsentationen;
+
+      - Über 450 Formeln, flexible Filter und Bereiche, Visualisierung mit Diagrammen
+      und anderen Elementen in Tabellenkalkulationen;
+
+      - Umfassende Möglichkeiten der Zusammenarbeit: Kommentieren Sie Ihre Dokumente,
+      interagieren Sie mit Ihren Co-Autoren über einen integrierten Chat, wechseln
+      Sie zwischen zwei Co-Bearbeitungsmodi (schnell oder streng), aktivieren Sie
+      den Review-Modus, verfolgen Sie Änderungen, überprüfen Sie den Versionsverlauf.
+
+      - Erweiterte Bearbeitungsfunktionen wie der Dokumentenvergleich und die erweiterte
+      Liste der Inhaltssteuerelemente für die Formularerstellung.
+
+      - Mobile Web-Editoren.
+
+      - Sammlung von Add-ons von Drittanbietern zum Bearbeiten von Bildern, Einfügen
+      von Videos, Übersetzen und mehr;
+
+      - Dokument- und Bearbeitungssicherheit: JWT, HTTPS, End-to-End-Verschlüsselung,
+      Benutzerzugriffsbeschränkung.
+
+
+      ONLYOFFICE Docs bietet maximale Kompatibilität mit gängigen Formaten und unterstützt
+
+      DOC, DOCX, TXT, ODT, RTF, ODP, EPUB, ODS, XLS, XLSX, CSV, PPTX und HTML.
+
+
+      [ Vergleich der ONLYOFFICE Docs Enterprise Edition und des ONLYOFFICE Docs Community
+      Edition](https://www.onlyoffice.com/compare-editions.aspx)
+
+
+      Im Vergleich zu anderen Online-Office-Suiten bietet Ihnen ONLYOFFICE Docs den
+      vollständigsten
+
+      Satz an Werkzeugen. Erfahren Sie mehr über 11 Dinge, die Sie mit ONLYOFFICE
+      Docs
+
+      tun können, aber nicht mit Google Docs oder MS Word Online in der [ Vergleichende
+      Überprüfung](http://www.onlyoffice.com/blog/2017/01/11-things-you-can-do-with-onlyoffice-but-cant-with-google-docs-or-ms-word-online/).
+
+
+      (\*) ONLYOFFICE-Pläne basieren auf gleichzeitigen Verbindungen. Dies ist die
+      maximale
+
+      Anzahl von Dokumenten, die gleichzeitig bearbeitet werden können.
+
+
+      ### Über diese App
+
+
+      Diese App stellt die Enterprise Edition von ONLYOFFICE Docs bereit. Sie wird
+      für
+
+      Teams mit mehr als 20 Benutzern empfohlen und erfordert die Lizenz der Enterprise
+
+      Edition von ONLYOFFICE Docs, die über die Schaltfläche "Jetzt kaufen"
+
+      im App Center Shop erworben werden kann.
+
+
+      Ihre Dokumente werden in File, Sync und Share Lösungen gespeichert und mit Lösungen
+
+      wie Nextcloud, ownCloud oder Seafile gemeinsam genutzt. ONLYOFFICE Docs speichert
+
+      keine Benutzerdokumenten.
+
+
+      Bevor Sie die ONLYOFFICE Docs Enterprise Edition installieren, deinstallieren
+      Sie
+
+      bitte ONLYOFFICE Docs Community Edition. Ihre Dokumente bleiben in Ihrer File,
+      Sync
+
+      und Share Lösung und können anschließend über die ONLYOFFICE Docs Enterprise
+
+      Edition abgerufen werden.
+
+      '
+    name: ONLYOFFICE Docs Enterprise Edition
+    short_description: 'Leistungsstarke Büro- und Produktivitäts-Suite auf Ihrem eigenen
+      Server
+
+      '
+    tags: []
+    visuals: []
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Collaboration
+    - Administration
+    - Business
+    - Education
+    - Collaboration & Groupware
+    - Office
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'ONLYOFFICE Docs Enterprise Edition is a rich in functionality
+      and deeply Microsoft
+
+      Office OOXML-compatible office suite built for bigger teams with high professional
+
+      requirements. It incorporates three collaborative editors for working on text
+      documents,
+
+      presentations and spreadsheets. ONLYOFFICE Docs Enterprise Edition offers scalability(\*),
+
+      advanced functionality, extended security and included professional tech support.
+
+
+      ONLYOFFICE Docs Enterprise Edition features:
+
+
+      - Complete set of editing and formatting instruments organized in the intuitive
+      tabbed interface;
+
+      - Professional writing: footnotes, table of contents, bookmarks, navigation;
+
+      - Presenter View, notes and more demonstration features in presentations;
+
+      - Over 450 formulas, flexible filters and ranges, visualization with charts
+      and other elements in spreadsheets;
+
+      - Real-time collaboration in Fast and Strict modes, flexible access rights,
+      chat, comments, Version History and Track Changes mode;
+
+      - Advanced editing features such as document comparison and the extended list
+      of Content Controls for creating forms.
+
+      - Mobile web editors.
+
+      - Collection of third party add-ons for editing pictures, inserting videos,
+      translating and more;
+
+      - Document and editing security: JWT, HTTPS, end-to-end encryption, user access
+      restriction.
+
+
+      ONLYOFFICE features maximum compatibility with popular formats and supports
+      DOC,
+
+      DOCX, TXT, ODT, RTF, ODP, EPUB, ODS, XLS, XLSX, CSV, PPTX and HTML.
+
+
+      Compare ONLYOFFICE Docs Enterprise Edition and ONLYOFFICE Docs Community Edition
+      ](https://www.onlyoffice.com/compare-editions.aspx\ "\")
+
+
+      Compared to other online office suites, ONLYOFFICE Docs provides you with the
+      most
+
+      complete set of tools. Learn more about 11 things you can do with ONLYOFFICE
+      Docs,
+
+      but can\\u2019t with Google Docs or MS Word Online in the  comparative review
+      ](http://www.onlyoffice.com/blog/2017/01/11-things-you-can-do-with-onlyoffice-but-cant-with-google-docs-or-ms-word-online/\
+      "\").
+
+
+      (\*) ONLYOFFICE Docs plans are based on simultaneous connections. These are
+      the maximum
+
+      number of documents that can be edited at the same time.
+
+
+      ### About this app
+
+
+      This app is the Enterprise Edition of ONLYOFFICE Docs. It is recommended for
+      teams
+
+      of more than 20 users and requires the ONLYOFFICE Docs Enterprise Edition license,
+
+      which can be obtained via the \\u201cBuy now\\u201d button in the App Center
+      Shop.
+
+
+      Your documents are stored in file sync and share solutions like Nextcloud, ownCloud,
+
+      or Seafile. ONLYOFFICE does not store user document data.
+
+
+      Before installing ONLYOFFICE Docs Enterprise Edition please uninstall ONLYOFFICE
+
+      Docs Community Edition. Your documents will remain in your file sync and share
+      solution
+
+      and can be accessed afterwards via ONLYOFFICE Docs Enterprise Edition.
+
+      '
+    name: ONLYOFFICE Docs Enterprise Edition
+    short_description: 'Feature-rich office suite on your own server
+
+      '
+    tags: []
+    visuals: []
+id: UCSAPP-onlyoffice-ds-integration
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 9.0.3.1

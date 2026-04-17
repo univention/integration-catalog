@@ -1,0 +1,161 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Office
+    - Collaboration & Groupware
+    - File Sync & Share
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: 'Collabora Online ist ein leistungsstarke LibreOffice basierte
+      Online-Office Lösung,
+
+      die alle wichtigen Dokumenten-, Tabellenkalkulations- und Präsentationsdateiformate
+
+      unterstützt, die Sie in Ihre eigene Infrastruktur integrieren können. Hauptmerkmale
+
+      sind die kollaborative Bearbeitung und die hervorragende Unterstützung des Office-Dateiformats.
+
+
+      Collabora Online ist hervorragend für Unternehmen geeignet, die eine leistungsstarke
+
+      Office-Suite vor Ort benötigen, die ihre Privatsphäre schützt und ihnen die
+      volle
+
+      Kontrolle über ihre sensiblen Unternehmensdaten ermöglicht.
+
+
+      Diese App installiert Collabora Online in Ihre lokale UCS-Umgebung. Sie ermöglicht
+
+      es Ihren Nutzern, Office Dokumente mit ihrem Browser zu bearbeiten. Die App
+      integriert
+
+      sich mit ownCloud, Nextcloud und EGroupware und benötigt eine dieser Lösungen
+      in
+
+      Ihrer UCS-Umgebung.
+
+
+      Diese App enthält die **unbeschränkte Vollversion** von Collabora Online. Siehe
+      ["Verstehen der Unterschiede zwischen CODE und Collabora Online"](https://www.collaboraonline.com/case-studies/differences-between-code-and-collabora-online/)
+      für weitere Details zu den Unterschieden. Die App benötigt einen Lizenzschlüssel.
+      Ohne gültigen Lizenzschlüssel werden alle darin geöffneten Dokumente mit einem
+      Warnhinweis als Wasserzeichen versehen.
+
+
+      Die App integriert sich mit ownCloud, Nextcloud und EGroupware und benötigt
+      eine
+
+      dieser Apps in der UCS-Umgebung.
+
+
+      ### Hauptmerkmale
+
+
+      - Anzeigen und Bearbeiten von Textdokumenten, Tabellenkalkulationen, Präsentationen
+      & mehr
+
+      - Erhaltung von Layout und Formatierung in Dokumenten (WYSIWYG)
+
+      - Kollaborative Bearbeitung
+
+      - Live-Benachrichtigungen von Benutzern, die eintreten oder beenden
+
+      - Einfügen, Bearbeiten und Beantworten von Kommentaren
+
+      - Änderungen verfolgen
+
+      - Vollbildpräsentation
+
+      - Admin-Konsole zur Überwachung der Systemauslastung
+
+      - WOPI (Web Application Open Platform Interface) Protokoll für die Kommunikation
+      mit Ihrer Webanwendung (Authentifizierung und Dateiübertragung)
+
+      '
+    name: Collabora Online
+    short_description: 'Leistungsstarke LibreOffice-basierte Online-Office-Suite
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_4.png
+    - thumbnail_5.png
+    - thumbnail_6.png
+    - thumbnail_7.png
+    - thumbnail_8.png
+    - thumbnail_9.png
+    - thumbnail_10.png
+    - thumbnail_11.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Collaboration
+    - Education
+    - Office
+    - Collaboration & Groupware
+    - File Sync & Share
+    - Education
+    links:
+    - Description: ''
+      URL: ''
+    long_description: "Collabora Online is a powerful LibreOffice-based online office\
+      \ that supports all\nmajor document, spreadsheet and presentation file formats,\
+      \ which you can integrate\nin your own infrastructure. Key features are collaborative\
+      \ editing and excellent\noffice file format support.\n\nCollabora Online is\
+      \ excellent for enterprises that need a powerful office suite on-premise,\n\
+      that protects their privacy and allows them to keep full control of their sensitive\n\
+      corporate data.\n\nThis app installs Collabora Online into your local UCS environment.\
+      \ It enables your\nusers to edit office documents with their browser. It integrates\
+      \ with ownCloud, Nextcloud\nand Egroupware and requires one of these apps in\
+      \ your UCS environment.\n\nThis app contains the **unrestricted full version**\
+      \ of Collabora Online. See [\"Understanding the differences between CODE and\
+      \ Collabora Online\"](https://www.collaboraonline.com/case-studies/differences-between-code-and-collabora-online/)\
+      \ for more details in the differences. The app requires a license key. Without\
+      \ a valid license key, all documents opened in it will display a warning text\
+      \ as a watermark.\n\nKey Features  \n\n\n- View and edit text documents, spreadsheets,\
+      \ presentations & more\n- Preservation of layout and formatting of documents\
+      \ (WYSIWYG)\n- Collaborative editing\n- Live notifications of users entering\
+      \ or exiting\n- Insert, edit and reply to comments\n- Change Tracking\n- Full\
+      \ screen presentation\n- Admin console for monitoring system utilization\n-\
+      \ WOPI (Web Application Open Platform Interface) protocol for communication\
+      \ with your web application (authentication and file transfer)\n"
+    name: Collabora Online
+    short_description: 'Powerful LibreOffice-based online office suite
+
+      '
+    tags: []
+    visuals:
+    - thumbnail_4.png
+    - thumbnail_5.png
+    - thumbnail_6.png
+    - thumbnail_7.png
+    - thumbnail_8.png
+    - thumbnail_9.png
+    - thumbnail_10.png
+    - thumbnail_11.png
+id: UCSAPP-collabora-online
+main_icon: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities: []
+  compatible_platforms: []
+  compatible_products: []
+  dependencies: []
+  protocols: []
+  source_license: ''
+version: 25.04.8.3
