@@ -1,0 +1,97 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-bettermarks
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Mathematik
+      - Adaptives Lernen
+    links:
+      - Description: bettermarks Website
+        URL: https://de.bettermarks.com/
+    long_description: |
+      bettermarks ist ein adaptives Lernsystem für Mathematik, das Schüler*innen
+      der Klassen 4 bis 10 individuell fördert. Die KI-gestützte Plattform passt
+      sich dem Lernstand jedes Kindes an und bietet gezielte Übungen mit sofortigem
+      Feedback.
+
+      ## Funktionen
+
+      - Adaptives, KI-gestütztes Lern- und Lehrsystem für Mathematik
+      - Wissenschaftlich nachgewiesene Lernwirksamkeit
+      - Klassen 4–10, alle Bundesländer und Lehrpläne abgedeckt
+      - Sofortiges Feedback und individuelle Lernpfade
+      - Lehrkräfte-Dashboard zur Lernstandsbeobachtung
+      - Whitelabel-Plattform für Verlage
+
+      ## Integration mit UCS@school
+
+      bettermarks ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem gewohnten UCS@school-
+      Benutzerkonto per Single Sign-On bei bettermarks anmelden.
+    name: bettermarks
+    short_description: Adaptives Lernsystem für Mathematik (Klassen 4–10)
+    tags:
+      - Mathematik
+      - Adaptives Lernen
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - Mathematics
+      - Adaptive Learning
+    links:
+      - Description: bettermarks Website
+        URL: https://bettermarks.com/
+    long_description: |
+      bettermarks is an adaptive learning system for mathematics supporting
+      students in grades 4 to 10. The AI-powered platform adapts to each
+      student's individual learning level and provides targeted exercises
+      with immediate feedback.
+
+      ## Features
+
+      - Adaptive, AI-powered learning and teaching platform for mathematics
+      - Scientifically proven learning efficacy
+      - Covers grades 4–10, all German federal states and curricula
+      - Immediate feedback and individual learning paths
+      - Teacher dashboard for monitoring learning progress
+      - Whitelabel platform available for publishers
+
+      ## Integration with UCS@school
+
+      bettermarks is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to bettermarks with their familiar
+      UCS@school credentials using Single Sign-On.
+    name: bettermarks
+    short_description: Adaptive learning system for mathematics (grades 4–10)
+    tags:
+      - Mathematics
+      - Adaptive Learning
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'bettermarks'
+  support_status: ''
+  vendor_id: 'bettermarks'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

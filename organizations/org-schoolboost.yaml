@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.
+
+# Description of organization "schoolboost GmbH".
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-04-20" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+id: schoolboost
+en-US:
+  name: schoolboost GmbH
+  short_description: schoolboost GmbH
+  link: https://www.schoolboost.de/
+  contact: info@schoolboost.de
+  logo: ''
+de-DE:
+  name: schoolboost GmbH
+  short_description: schoolboost GmbH
+  link: https://www.schoolboost.de/
+  contact: info@schoolboost.de
+  logo: ''

@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.
+
+# Description of organization "Virality GmbH" (DieSchulApp).
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-04-20" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+id: dieschulapp
+en-US:
+  name: Virality GmbH
+  short_description: Virality GmbH (DieSchulApp)
+  link: https://www.dieschulapp.de/
+  contact: info@dieschulapp.de
+  logo: ''
+de-DE:
+  name: Virality GmbH
+  short_description: Virality GmbH (DieSchulApp)
+  link: https://www.dieschulapp.de/
+  contact: info@dieschulapp.de
+  logo: ''

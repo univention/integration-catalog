@@ -1,0 +1,105 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-edupage
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Schulverwaltung
+      - Stundenplan
+      - E-Learning
+    links:
+      - Description: EduPage Website
+        URL: https://www.edupage.org/
+    long_description: |
+      EduPage ist ein cloudbasiertes Schulverwaltungssystem, das nahtlos mit der
+      weltweit führenden Stundenplansoftware aSc TimeTables integriert ist. Das
+      System wird in über 173 Ländern von mehr als 150.000 Schulen eingesetzt und
+      bietet über 100 Funktionen in einem System.
+
+      ## Funktionen
+
+      - Vollständiges Schulverwaltungssystem: Stundenplan, Vertretung, digitales
+        Klassenbuch, Noten, Fehlzeiten, Hausaufgaben und mehr
+      - Mobile App für Eltern, Schüler*innen und Lehrkräfte
+      - Leistungsstarkes E-Learning-Werkzeug mit automatischer Auswertung
+      - Interaktiver Unterricht mit Echtzeit-Feedback
+      - Kommunikationsplattform für die gesamte Schulgemeinschaft
+      - Stundenplanerstellung mit automatischem Generator
+      - Elternabend-Buchungssystem und Zeugniserstellung
+
+      ## Integration mit UCS@school
+
+      EduPage ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Konto per
+      Single Sign-On bei EduPage anmelden.
+    name: EduPage
+    short_description: Cloudbasiertes Schulverwaltungssystem mit Stundenplan und E-Learning
+    tags:
+      - Schulverwaltung
+      - Stundenplan
+      - E-Learning
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - School Management
+      - Timetable
+      - E-Learning
+    links:
+      - Description: EduPage Website
+        URL: https://www.edupage.org/
+    long_description: |
+      EduPage is a cloud-based school management system fully integrated with
+      the world-leading timetable software aSc TimeTables. Used in over 173
+      countries by more than 150,000 schools, it provides over 100 features
+      in a single system.
+
+      ## Features
+
+      - Complete school system: timetable, substitution, digital class register,
+        grades, attendance, homework and more
+      - Mobile app for parents, students and teachers
+      - Powerful e-learning tool with automatic evaluation
+      - Interactive lessons with real-time student feedback
+      - Communication platform for the entire school community
+      - Automatic timetable generator
+      - Parent-teacher meeting booking system and certificate generation
+
+      ## Integration with UCS@school
+
+      EduPage is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to EduPage with their UCS@school
+      credentials using Single Sign-On.
+    name: EduPage
+    short_description: Cloud-based school management system with timetable and e-learning
+    tags:
+      - School Management
+      - Timetable
+      - E-Learning
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'edupage'
+  support_status: ''
+  vendor_id: 'edupage'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

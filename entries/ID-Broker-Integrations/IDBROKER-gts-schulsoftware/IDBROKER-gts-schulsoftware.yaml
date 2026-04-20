@@ -1,0 +1,103 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-gts-schulsoftware
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Ganztagsschule
+      - Schulverwaltung
+    links:
+      - Description: GTS Schulsoftware Website
+        URL: https://www.gts-schulsoftware.de/
+    long_description: |
+      GTS Schulsoftware von ivPRO GmbH ist eine spezialisierte
+      Verwaltungssoftware für Ganztagsschulen. Die seit über 10 Jahren
+      entwickelte Lösung unterstützt Schulen und Träger bei der Verwaltung
+      des Ganztagsbetriebs.
+
+      ## Funktionen
+
+      - **GTS** – Verwaltungssoftware für einzelne Ganztagsschulen:
+        Buchungssystem, Abwesenheitsverwaltung, Elternportal für
+        Krankmeldungen und Sondergehzeiten
+      - **GTSPro** – Für Träger mehrerer Ganztagsschulen:
+        Verwaltung und Abrechnung gegenüber Eltern, Übersicht
+        über alle angebundenen Schulen
+      - Hosting in deutschem Rechenzentrum mit SSL-Verschlüsselung
+      - Tägliche automatische Backups
+      - DSGVO-konforme Datenverarbeitung
+
+      ## Integration mit UCS@school
+
+      GTS Schulsoftware ist über den Univention ID Broker an UCS@school
+      angebunden. Lehrkräfte und Verwaltung können sich mit ihrem
+      UCS@school-Benutzerkonto per Single Sign-On anmelden.
+    name: GTS Schulsoftware
+    short_description: Verwaltungssoftware für Ganztagsschulen und Träger
+    tags:
+      - Ganztagsschule
+      - Schulverwaltung
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - All-Day School
+      - School Administration
+    links:
+      - Description: GTS Schulsoftware Website
+        URL: https://www.gts-schulsoftware.de/
+    long_description: |
+      GTS Schulsoftware by ivPRO GmbH is a specialised administration software
+      for all-day schools (Ganztagsschulen). Developed over more than 10 years,
+      the solution supports schools and school operators in managing all-day
+      operations.
+
+      ## Features
+
+      - **GTS** – Administration software for individual all-day schools:
+        booking system, absence management, parent portal for sick notes
+        and early departures
+      - **GTSPro** – For operators of multiple all-day schools:
+        management and billing towards parents, overview of all connected
+        schools
+      - Hosted in a German data centre with SSL encryption
+      - Daily automated backups
+      - GDPR-compliant data processing
+
+      ## Integration with UCS@school
+
+      GTS Schulsoftware is connected to UCS@school via the Univention ID Broker.
+      Teachers and administrative staff can log in with their UCS@school
+      credentials using Single Sign-On.
+    name: GTS Schulsoftware
+    short_description: Administration software for all-day schools and school operators
+    tags:
+      - All-Day School
+      - School Administration
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'gts-schulsoftware'
+  support_status: ''
+  vendor_id: 'gts-schulsoftware'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

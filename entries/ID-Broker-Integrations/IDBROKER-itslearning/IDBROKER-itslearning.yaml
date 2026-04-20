@@ -1,0 +1,95 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-itslearning
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+      - Education
+      - LMS
+      - Lernmanagementsystem
+    links:
+      - Description: itslearning Website
+        URL: https://itslearning.com/
+    long_description: |
+      itslearning ist Europas führendes Lernmanagementsystem (LMS) für Schulen.
+      Die Plattform unterstützt Lehrkräfte dabei, Unterricht zu planen, Materialien
+      bereitzustellen, Aufgaben zu stellen und den Lernfortschritt zu verfolgen.
+
+      ## Funktionen
+
+      - Unterrichtsplanung und -durchführung mit digitalen Inhalten
+      - Aufgabenstellung, Einreichung und Bewertung
+      - Kommunikation zwischen Lehrkräften, Schüler*innen und Eltern
+      - Kollaboratives Arbeiten und Teilen von Materialien
+      - Lernfortschrittsverfolgung und Berichterstattung
+      - Integration externer Lernwerkzeuge und Medien (LTI)
+
+      ## Integration mit UCS@school
+
+      itslearning ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei itslearning anmelden.
+    name: itslearning LMS
+    short_description: Europas führendes Lernmanagementsystem für Schulen
+    tags:
+      - LMS
+      - Lernmanagementsystem
+    visuals: []
+  en-US:
+    icon: logo.svg
+    keywords:
+      - Education
+      - LMS
+      - Learning Management System
+    links:
+      - Description: itslearning Website
+        URL: https://itslearning.com/
+    long_description: |
+      itslearning is Europe's leading Learning Management System (LMS) for
+      schools. The platform supports teachers in planning lessons, providing
+      materials, assigning tasks and tracking learning progress.
+
+      ## Features
+
+      - Lesson planning and delivery with digital content
+      - Assignment creation, submission and grading
+      - Communication between teachers, students and parents
+      - Collaborative work and sharing of materials
+      - Learning progress tracking and reporting
+      - Integration of external learning tools and media (LTI)
+
+      ## Integration with UCS@school
+
+      itslearning is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to itslearning with their UCS@school
+      credentials using Single Sign-On.
+    name: itslearning LMS
+    short_description: Europe's leading Learning Management System for schools
+    tags:
+      - LMS
+      - Learning Management System
+    visuals: []
+main_icon: logo.svg
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'itslearning'
+  support_status: ''
+  vendor_id: 'itslearning'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

@@ -1,0 +1,74 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-knowbody
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Wissensmanagement
+      - Schule
+    links:
+      - Description: KNOWBODY Website
+        URL: https://knowbody.de/
+    long_description: |
+      KNOWBODY ist eine digitale Bildungsplattform für Schulen. Die Lösung
+      unterstützt Schulen bei der Verwaltung und Bereitstellung von Wissen
+      und digitalen Bildungsangeboten.
+
+      ## Integration mit UCS@school
+
+      KNOWBODY ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei KNOWBODY anmelden.
+    name: KNOWBODY
+    short_description: Digitale Bildungsplattform für Schulen
+    tags:
+      - Wissensmanagement
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - Knowledge Management
+      - School
+    links:
+      - Description: KNOWBODY Website
+        URL: https://knowbody.de/
+    long_description: |
+      KNOWBODY is a digital education platform for schools, supporting schools
+      in managing and providing knowledge and digital educational content.
+
+      ## Integration with UCS@school
+
+      KNOWBODY is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to KNOWBODY with their UCS@school
+      credentials using Single Sign-On.
+    name: KNOWBODY
+    short_description: Digital education platform for schools
+    tags:
+      - Knowledge Management
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'knowbody'
+  support_status: ''
+  vendor_id: 'knowbody'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

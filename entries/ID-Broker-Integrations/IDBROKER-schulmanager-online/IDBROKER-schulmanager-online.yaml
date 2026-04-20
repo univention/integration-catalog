@@ -1,0 +1,102 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-schulmanager-online
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Schulverwaltung
+      - Schulorganisation
+    links:
+      - Description: Schulmanager Online Website
+        URL: https://schulmanager-online.de/
+    long_description: |
+      Schulmanager Online ist eine umfassende Online-Plattform für die gesamte
+      Schulorganisation. Über 3.500 Schulen nutzen die Lösung täglich für
+      Planung, Organisation und Kommunikation.
+
+      ## Funktionen (31 Module)
+
+      - Digitales Klassenbuch, Fehlzeiten, Noten und Krankmeldung
+      - Elternbriefe, Nachrichten und Elternsprechtag-Buchungssystem
+      - Stundenplanung, Vertretungsplanung und Infoscreen
+      - Videokonferenzen, Wahlfächer, Ganztag und Ressourcenbuchung
+      - Schulanmeldung, Zeugnisse und Zeugniskonferenz
+      - Kalender, Dokumente und Schwarzes Brett
+      - Single Sign-On über OpenID Connect (z. B. mit UCS@school)
+      - Läuft in einem ISO 27001-zertifizierten Rechenzentrum in Deutschland
+      - Modularer Aufbau – individuell zusammenstellbar
+
+      ## Integration mit UCS@school
+
+      Schulmanager Online ist über den Univention ID Broker an UCS@school
+      angebunden. Schüler*innen und Lehrkräfte können sich mit ihrem
+      UCS@school-Benutzerkonto per Single Sign-On bei Schulmanager Online
+      anmelden.
+    name: Schulmanager Online
+    short_description: Online-Plattform für Schulorganisation mit 31 Modulen
+    tags:
+      - Schulverwaltung
+      - Schulorganisation
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - School Administration
+      - School Organisation
+    links:
+      - Description: Schulmanager Online Website
+        URL: https://schulmanager-online.de/
+    long_description: |
+      Schulmanager Online is a comprehensive online platform for complete school
+      organisation. More than 3,500 schools use the solution daily for planning,
+      organising and communicating.
+
+      ## Features (31 modules)
+
+      - Digital class register, absences, grades and sick-note management
+      - Parent letters, messages and parent-teacher appointment booking
+      - Timetable planning, substitution planning and info screen
+      - Video conferencing, elective courses, all-day care and resource booking
+      - School enrolment, report cards and grade conferences
+      - Calendar, documents and notice board
+      - Single Sign-On via OpenID Connect (e.g. with UCS@school)
+      - Hosted in an ISO 27001-certified data centre in Germany
+      - Modular design – individually customisable
+
+      ## Integration with UCS@school
+
+      Schulmanager Online is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to Schulmanager Online with their
+      UCS@school credentials using Single Sign-On.
+    name: Schulmanager Online
+    short_description: Online platform for school organisation with 31 modules
+    tags:
+      - School Administration
+      - School Organisation
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'schulmanager-online'
+  support_status: ''
+  vendor_id: 'schulmanager-online'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

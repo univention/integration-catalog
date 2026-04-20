@@ -1,0 +1,111 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-edumaps
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+      - Education
+      - Digitale Pinnwand
+      - Kollaboration
+      - Unterricht
+    links:
+      - Description: Edumaps Website
+        URL: https://edumaps.de/
+    long_description: |
+      Edumaps ist ein visueller Arbeitsraum für Unterricht und Organisation.
+      Die Plattform ermöglicht das Erstellen strukturierter digitaler Pinnwände
+      aus Ideen, Materialien und Aufgaben. Über 8.600 Schulen nutzen Edumaps
+      aktiv, mit Landeslizenzen in Hessen, Niedersachsen und Sachsen-Anhalt.
+
+      ## Funktionen
+
+      - Digitale Pinnwände, Galerien, Zeitstrahlen, Stickerwände und Wochenpläne
+      - Kollaboratives Arbeiten in Echtzeit im Kollegium
+      - KI-Unterstützung: Pinnwände mit KI erstellen und ändern, Quiz-Maps
+        automatisch generieren, Text-zu-Sprache
+      - Auftragsmodul: Aufgaben zuweisen und Rückmeldungen einholen
+      - Buchungs- und Verleihsystem für Räume und Geräte
+      - Export als Moodle-Kurs, PDF, Bild oder Offline-HTML
+      - Über 100 Dateiformate unterstützt
+      - DSGVO-konform, geprüft durch datenschutz nord GmbH und VIDIS-Projekt
+      - Content-Security-Policy und Barrierefreiheit (ADA)
+      - Umfragen, Abstimmungen, Kalender, QR-Codes und öffentliche Profile
+
+      ## Integration mit UCS@school
+
+      Edumaps ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei Edumaps anmelden.
+    name: Edumaps
+    short_description: Visueller Arbeitsraum für Unterricht und Schulorganisation
+    tags:
+      - Digitale Pinnwand
+      - Kollaboration
+      - Unterricht
+    visuals: []
+  en-US:
+    icon: logo.svg
+    keywords:
+      - Education
+      - Digital Pinboard
+      - Collaboration
+      - Teaching
+    links:
+      - Description: Edumaps Website
+        URL: https://edumaps.de/
+    long_description: |
+      Edumaps is a visual workspace for teaching and school organisation. The
+      platform enables the creation of structured digital pinboards from ideas,
+      materials and tasks. More than 8,600 schools actively use Edumaps, with
+      state-wide licences in Hesse, Lower Saxony and Saxony-Anhalt.
+
+      ## Features
+
+      - Digital pinboards, galleries, timelines, sticker walls and weekly plans
+      - Real-time collaborative working in the teaching team
+      - AI support: create and modify pinboards with AI, automatically generate
+        quiz maps, text-to-speech
+      - Assignment module: assign tasks and collect feedback
+      - Booking and lending system for rooms and equipment
+      - Export as Moodle course, PDF, image or offline HTML
+      - Supports over 100 file formats
+      - GDPR-compliant, audited by datenschutz nord GmbH and VIDIS project
+      - Content Security Policy and accessibility (ADA)
+      - Surveys, polls, calendar, QR codes and public profiles
+
+      ## Integration with UCS@school
+
+      Edumaps is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to Edumaps with their UCS@school
+      credentials using Single Sign-On.
+    name: Edumaps
+    short_description: Visual workspace for teaching and school organisation
+    tags:
+      - Digital Pinboard
+      - Collaboration
+      - Teaching
+    visuals: []
+main_icon: logo.svg
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'edumaps'
+  support_status: ''
+  vendor_id: 'edumaps'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

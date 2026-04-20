@@ -1,0 +1,97 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-taskcards
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Kollaboration
+      - Digitale Pinnwand
+    links:
+      - Description: TaskCards Website
+        URL: https://www.taskcards.de/
+    long_description: |
+      TaskCards ist eine DSGVO-konforme digitale Pinnwand für den Unterricht,
+      die speziell für den deutschen Bildungsbereich entwickelt wurde. Mit
+      TaskCards können Lehrkräfte und Schüler*innen kollaborativ digitale
+      Inhalte erstellen, teilen und gemeinsam bearbeiten.
+
+      ## Funktionen
+
+      - Digitale Pinnwände für kollaboratives Arbeiten im Unterricht
+      - Verschiedene Kartentypen: Text, Bild, Video, Audio, Links, Aufgaben
+      - DSGVO-konform, Server in Deutschland
+      - Keine Registrierung für Schüler*innen erforderlich
+      - Einfache Freigabe via Link oder QR-Code
+      - Integration in gängige Lernmanagementsysteme
+
+      ## Integration mit UCS@school
+
+      TaskCards ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei TaskCards anmelden.
+    name: TaskCards
+    short_description: DSGVO-konforme digitale Pinnwand für den Unterricht
+    tags:
+      - Kollaboration
+      - Digitale Pinnwand
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - Collaboration
+      - Digital Pinboard
+    links:
+      - Description: TaskCards Website
+        URL: https://www.taskcards.de/
+    long_description: |
+      TaskCards is a GDPR-compliant digital pinboard for the classroom,
+      developed specifically for the German education sector. With TaskCards,
+      teachers and students can collaboratively create, share and edit digital
+      content.
+
+      ## Features
+
+      - Digital pinboards for collaborative classroom work
+      - Various card types: text, image, video, audio, links, tasks
+      - GDPR-compliant, servers in Germany
+      - No student registration required
+      - Simple sharing via link or QR code
+      - Integration into common learning management systems
+
+      ## Integration with UCS@school
+
+      TaskCards is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to TaskCards with their UCS@school
+      credentials using Single Sign-On.
+    name: TaskCards
+    short_description: GDPR-compliant digital pinboard for the classroom
+    tags:
+      - Collaboration
+      - Digital Pinboard
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'taskcards'
+  support_status: ''
+  vendor_id: 'taskcards'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

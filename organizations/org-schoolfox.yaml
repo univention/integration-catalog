@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.
+
+# Description of organization "Fox Education Services GmbH" (SchoolFox).
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-04-20" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+id: schoolfox
+en-US:
+  name: Fox Education Services GmbH
+  short_description: Fox Education Services GmbH (SchoolFox)
+  link: https://foxeducation.com/de/schoolfox/
+  contact: ''
+  logo: ''
+de-DE:
+  name: Fox Education Services GmbH
+  short_description: Fox Education Services GmbH (SchoolFox)
+  link: https://foxeducation.com/de/schoolfox/
+  contact: ''
+  logo: ''

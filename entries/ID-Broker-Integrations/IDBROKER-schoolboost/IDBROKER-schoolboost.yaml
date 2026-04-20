@@ -1,0 +1,105 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-schoolboost
+description:
+  de-DE:
+    icon: logo.jpg
+    keywords:
+      - Education
+      - Schulverwaltung
+      - Grundschule
+      - Kommunikation
+    links:
+      - Description: schoolboost Website
+        URL: https://www.schoolboost.de/
+    long_description: |
+      schoolboost ist eine DSGVO-konforme Schulplattform, die speziell für
+      Grundschulen optimiert wurde. Die App reduziert den täglichen
+      Verwaltungsaufwand von Lehrkräften um bis zu 60 Minuten und bündelt
+      Krankmeldungen, digitales Klassenbuch, Stundenplanung und
+      Elternkommunikation in einer Oberfläche.
+
+      ## Funktionen
+
+      - Digitales Klassenbuch mit Anwesenheitserfassung in zwei Klicks
+      - Digitale Krankmeldungen: Eltern melden per App, automatische Eintragung
+        ins Klassenbuch und automatische Summierung der Fehlzeiten für Zeugnisse
+      - Elternkommunikation: sichere Nachrichten, Lesebestätigungen,
+        Sprechstundenbuchung
+      - Stundenplan- und Vertretungsplanung
+      - Ressourcen- und Raumverwaltung
+      - DSGVO-konform, Server in Deutschland
+      - In wenigen Tagen startklar, keine IT-Projekte erforderlich
+
+      ## Integration mit UCS@school
+
+      schoolboost ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei schoolboost anmelden.
+    name: schoolboost
+    short_description: Digitale Schulverwaltung – optimiert für Grundschulen
+    tags:
+      - Schulverwaltung
+      - Grundschule
+    visuals: []
+  en-US:
+    icon: logo.jpg
+    keywords:
+      - Education
+      - School Administration
+      - Primary School
+      - Communication
+    links:
+      - Description: schoolboost Website
+        URL: https://www.schoolboost.de/
+    long_description: |
+      schoolboost is a GDPR-compliant school platform optimised for primary
+      schools. The app reduces teachers' daily administrative workload by up
+      to 60 minutes, bundling sick-note management, a digital class register,
+      timetable planning and parent communication in one interface.
+
+      ## Features
+
+      - Digital class register with attendance recorded in two clicks
+      - Digital sick notes: parents report via app, automatic entry into the
+        class register and automatic summation of absences for reports
+      - Parent communication: secure messages, read receipts, appointment booking
+      - Timetable and substitution planning
+      - Resource and room management
+      - GDPR-compliant, servers in Germany
+      - Ready to go in a few days, no IT projects required
+
+      ## Integration with UCS@school
+
+      schoolboost is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to schoolboost with their UCS@school
+      credentials using Single Sign-On.
+    name: schoolboost
+    short_description: Digital school administration – optimised for primary schools
+    tags:
+      - School Administration
+      - Primary School
+    visuals: []
+main_icon: logo.jpg
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'schoolboost'
+  support_status: ''
+  vendor_id: 'schoolboost'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

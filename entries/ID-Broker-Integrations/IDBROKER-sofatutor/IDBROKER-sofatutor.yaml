@@ -1,0 +1,107 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-sofatutor
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+      - Education
+      - Lernvideos
+      - Nachhilfe
+      - E-Learning
+    links:
+      - Description: sofatutor Website
+        URL: https://www.sofatutor.com/
+    long_description: |
+      sofatutor ist eine der führenden deutschen Online-Lernplattformen mit
+      über 2,1 Millionen Nutzer*innen. Die Plattform bietet mehr als 6.630
+      Lernvideos und 33.972 Übungen für alle Schulfächer und Klassenstufen
+      von Klasse 1 bis 13.
+
+      ## Funktionen
+
+      - 6.630+ Lernvideos für alle Schulfächer und Klassenstufen (1–13)
+      - 33.972+ interaktive Übungen mit sofortigem Feedback
+      - Adaptiver Lernplan passend zum individuellen Lernstand
+      - Vokabeltrainer für Englisch, Französisch und Spanisch
+      - Lernspiel Sofaheld für selbstständiges Üben (Klassen 1–9)
+      - Arbeitsblätter zur Klassenarbeitsvorbereitung
+      - 24h-Hausaufgaben-Chat mit echten Lehrkräften
+      - KI-Lernhilfe Sofabuddy mit Sprachfunktion
+      - Mehrfach ausgezeichnet (u.a. Handelsblatt „Bestes Online-Portal")
+
+      ## Integration mit UCS@school
+
+      sofatutor ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei sofatutor anmelden.
+    name: sofatutor
+    short_description: Online-Lernplattform mit Lernvideos und Übungen für Klasse 1–13
+    tags:
+      - Lernvideos
+      - E-Learning
+      - Nachhilfe
+    visuals: []
+  en-US:
+    icon: logo.svg
+    keywords:
+      - Education
+      - Learning Videos
+      - Online Tutoring
+      - E-Learning
+    links:
+      - Description: sofatutor Website
+        URL: https://www.sofatutor.com/
+    long_description: |
+      sofatutor is one of Germany's leading online learning platforms with over
+      2.1 million users. The platform offers more than 6,630 learning videos and
+      33,972 exercises covering all school subjects and grade levels from
+      grade 1 to 13.
+
+      ## Features
+
+      - 6,630+ learning videos for all subjects and grade levels (1–13)
+      - 33,972+ interactive exercises with immediate feedback
+      - Adaptive learning plan tailored to individual learning levels
+      - Vocabulary trainer for English, French and Spanish
+      - Learning game Sofaheld for independent practice (grades 1–9)
+      - Worksheets for exam preparation
+      - 24h homework chat with real teachers
+      - AI learning assistant Sofabuddy with voice feature
+      - Multiple award-winning (incl. Handelsblatt "Best Online Portal")
+
+      ## Integration with UCS@school
+
+      sofatutor is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to sofatutor with their UCS@school
+      credentials using Single Sign-On.
+    name: sofatutor
+    short_description: Online learning platform with videos and exercises for grades 1–13
+    tags:
+      - Learning Videos
+      - E-Learning
+      - Online Tutoring
+    visuals: []
+main_icon: logo.svg
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'sofatutor'
+  support_status: ''
+  vendor_id: 'sofatutor'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

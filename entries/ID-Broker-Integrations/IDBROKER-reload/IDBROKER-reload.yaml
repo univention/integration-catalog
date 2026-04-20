@@ -1,0 +1,77 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-reload
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Lernplattform
+      - Schule
+    links:
+      - Description: ReLoAd Website
+        URL: https://reload-projekt.de/
+    long_description: |
+      ReLoAd (Ressourcen für Lernende und Lehrende auf Abruf digital) ist ein
+      digitales Bildungsangebot, das Lernressourcen für Schüler*innen und
+      Lehrkräfte bereitstellt. Das Projekt bietet digital aufbereitete Inhalte
+      zum Abruf für den Unterricht.
+
+      ## Integration mit UCS@school
+
+      ReLoAd ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei ReLoAd anmelden.
+    name: ReLoAd
+    short_description: Digitale Lernressourcen für Schüler*innen und Lehrkräfte
+    tags:
+      - Lernplattform
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - Learning Platform
+      - School
+    links:
+      - Description: ReLoAd Website
+        URL: https://reload-projekt.de/
+    long_description: |
+      ReLoAd (Resources for Learners and Teachers on Demand – digital) is a
+      digital education offering providing learning resources for students and
+      teachers. The project offers digitally prepared content available on
+      demand for classroom use.
+
+      ## Integration with UCS@school
+
+      ReLoAd is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to ReLoAd with their UCS@school
+      credentials using Single Sign-On.
+    name: ReLoAd
+    short_description: Digital learning resources for students and teachers
+    tags:
+      - Learning Platform
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'reload'
+  support_status: ''
+  vendor_id: 'reload'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

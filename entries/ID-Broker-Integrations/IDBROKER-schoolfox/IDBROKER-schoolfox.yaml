@@ -1,0 +1,105 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-schoolfox
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Schulkommunikation
+      - Elternkommunikation
+    links:
+      - Description: SchoolFox Website
+        URL: https://foxeducation.com/de/schoolfox/
+    long_description: |
+      SchoolFox ist eine Kommunikations-App für Schulen von Fox Education
+      Services GmbH. Die App bündelt die gesamte Schulkommunikation auf einer
+      einzigen Plattform und erleichtert den Austausch zwischen Lehrkräften,
+      Eltern und Schüler*innen.
+
+      ## Funktionen
+
+      - Sichere Schulkommunikation: Mitteilungen, Elternbriefe, Chats mit
+        Lesebestätigung
+      - Digitales Klassenbuch
+      - Organisation und digitaler Assistent: Sprechtage, Abwesenheiten,
+        Veranstaltungen
+      - Übersetzungsfunktion in über 46 Sprachen für mehrsprachige Schulen
+      - Video-Konferenzen und DSGVO-konforme Cloud-Speicher für Schulen
+      - Digitales Portfolio (FoxPortfolio) zur Dokumentation der Lernreise
+      - FoxPay: digitales Zahlungsmanagement für Schulgebühren und
+        Ausflüge
+      - App in 26 Systemsprachen verfügbar
+
+      ## Integration mit UCS@school
+
+      SchoolFox ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei SchoolFox anmelden.
+    name: SchoolFox
+    short_description: Kommunikations-App für Schulen mit Übersetzungsfunktion
+    tags:
+      - Schulkommunikation
+      - Elternkommunikation
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - School Communication
+      - Parent Communication
+    links:
+      - Description: SchoolFox Website
+        URL: https://foxeducation.com/de/schoolfox/
+    long_description: |
+      SchoolFox is a school communication app by Fox Education Services GmbH.
+      The app consolidates all school communication on a single platform,
+      simplifying exchanges between teachers, parents and students.
+
+      ## Features
+
+      - Secure school communication: messages, parent letters, chats with
+        read receipts
+      - Digital class register
+      - Organisation and digital assistant: parent-teacher meetings, absences,
+        events
+      - Translation feature in over 46 languages for multilingual schools
+      - Video conferencing and GDPR-compliant cloud storage for schools
+      - Digital portfolio (FoxPortfolio) for documenting learning journeys
+      - FoxPay: digital payment management for school fees and trips
+      - App available in 26 system languages
+
+      ## Integration with UCS@school
+
+      SchoolFox is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to SchoolFox with their UCS@school
+      credentials using Single Sign-On.
+    name: SchoolFox
+    short_description: School communication app with translation feature
+    tags:
+      - School Communication
+      - Parent Communication
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'schoolfox'
+  support_status: ''
+  vendor_id: 'schoolfox'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

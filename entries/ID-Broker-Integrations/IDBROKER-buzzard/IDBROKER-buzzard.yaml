@@ -1,0 +1,73 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-buzzard
+description:
+  de-DE:
+    icon: logo.png
+    keywords:
+      - Education
+      - Digitale Bildung
+      - Schule
+    links:
+      - Description: Buzzard Website
+        URL: https://www.buzzard.de/
+    long_description: |
+      Buzzard ist eine digitale Bildungslösung für Schulen, die über den
+      Univention ID Broker an UCS@school angebunden ist.
+
+      ## Integration mit UCS@school
+
+      Buzzard ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei Buzzard anmelden.
+    name: Buzzard
+    short_description: Digitale Bildungslösung für Schulen
+    tags:
+      - Digitale Bildung
+    visuals: []
+  en-US:
+    icon: logo.png
+    keywords:
+      - Education
+      - Digital Education
+      - School
+    links:
+      - Description: Buzzard Website
+        URL: https://www.buzzard.de/
+    long_description: |
+      Buzzard is a digital education solution for schools, connected to
+      UCS@school via the Univention ID Broker.
+
+      ## Integration with UCS@school
+
+      Buzzard is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to Buzzard with their UCS@school
+      credentials using Single Sign-On.
+    name: Buzzard
+    short_description: Digital education solution for schools
+    tags:
+      - Digital Education
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'buzzard'
+  support_status: ''
+  vendor_id: 'buzzard'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''

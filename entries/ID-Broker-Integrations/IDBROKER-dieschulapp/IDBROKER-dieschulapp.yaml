@@ -1,0 +1,127 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+id: IDBROKER-dieschulapp
+description:
+  de-DE:
+    icon: logo.jpg
+    keywords:
+      - Education
+      - Schulkommunikation
+      - Schulverwaltung
+    links:
+      - Description: DieSchulApp Website
+        URL: https://www.dieschulapp.de/
+    long_description: |
+      DieSchulApp ist eine umfassende Kommunikations- und Verwaltungs-App für
+      Schulen von Virality GmbH aus München. Die App digitalisiert
+      wiederkehrende Verwaltungsaufgaben und ermöglicht schnelle, direkte
+      Kommunikation zwischen Schulen und Eltern.
+
+      ## Funktionen
+
+      ### Kommunikation
+      - Mitteilungen und Elternbriefe mit Lesebestätigung und Push-Nachricht
+      - Chat für Schulen (DSGVO-konform)
+      - Schulkalender und Termine
+      - Stundenplan und Vertretungsplan-Bildschirm
+      - Hausaufgabenübersicht in der App
+
+      ### Verwaltung
+      - Digitales Klassenbuch
+      - Krankmeldungen per App (digitale Elternmeldung)
+      - Absenzenverwaltung und Vertretungsplanung
+      - Ressourcenverwaltung und Anträge
+      - Elternsprechtag und Sprechstunden online organisieren
+      - Leistungsnachweise und digitale Listen
+
+      ### Unterricht
+      - Video-Unterricht für Kranke und Quarantäne-Schüler*innen
+      - Lernblog für Aufgaben und Korrekturen
+      - ChatGPT-Integration für Schulen (EduBot)
+
+      DSGVO-konform, SSL-verschlüsselt, Hosting in Deutschland.
+
+      ## Integration mit UCS@school
+
+      DieSchulApp ist über den Univention ID Broker an UCS@school angebunden.
+      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
+      per Single Sign-On bei DieSchulApp anmelden.
+    name: DieSchulApp
+    short_description: Kommunikations- und Verwaltungs-App für Schulen
+    tags:
+      - Schulkommunikation
+      - Schulverwaltung
+    visuals: []
+  en-US:
+    icon: logo.jpg
+    keywords:
+      - Education
+      - School Communication
+      - School Administration
+    links:
+      - Description: DieSchulApp Website
+        URL: https://www.dieschulapp.de/
+    long_description: |
+      DieSchulApp is a comprehensive communication and administration app for
+      schools by Virality GmbH, Munich. The app digitalises recurring
+      administrative tasks and enables fast, direct communication between
+      schools and parents.
+
+      ## Features
+
+      ### Communication
+      - Messages and parent letters with read receipt and push notification
+      - School chat (GDPR-compliant)
+      - School calendar and appointments
+      - Timetable and substitution plan display
+      - Homework overview in the app
+
+      ### Administration
+      - Digital class register
+      - Sick notes via app (digital parent reporting)
+      - Absence management and substitution planning
+      - Resource management and applications
+      - Parent-teacher meetings and office hours booking
+      - Achievement records and digital lists
+
+      ### Teaching
+      - Video lessons for sick or quarantined students
+      - Learning blog for tasks and corrections
+      - ChatGPT integration for schools (EduBot)
+
+      GDPR-compliant, SSL-encrypted, hosted in Germany.
+
+      ## Integration with UCS@school
+
+      DieSchulApp is connected to UCS@school via the Univention ID Broker.
+      Students and teachers can log in to DieSchulApp with their UCS@school
+      credentials using Single Sign-On.
+    name: DieSchulApp
+    short_description: Communication and administration app for schools
+    tags:
+      - School Communication
+      - School Administration
+    visuals: []
+main_icon: logo.jpg
+version: ''
+metadata:
+  created_by: ''
+  creation_date: ''
+  last_update_date: ''
+organizational_specifications:
+  support_contact_id: 'dieschulapp'
+  support_status: ''
+  vendor_id: 'dieschulapp'
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - UCSschool
+  dependencies: []
+  protocols:
+    - OIDC
+  artifacts:
+    - id_broker
+  source_license: ''
