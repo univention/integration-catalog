@@ -1,0 +1,85 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-gitlab-ucs-ldap
+description:
+  de-DE:
+    icon: ''
+    keywords:
+      - GitLab
+      - LDAP
+      - Nubus
+      - UCS
+      - OpenID Connect
+      - Versionskontrolle
+    links:
+      - Description: How-To im Univention Help Forum
+        URL: https://help.univention.com/t/gitlabintegration-in-ucs/24731
+      - Description: Externe Dokumentation (deepdoc.at)
+        URL: https://deepdoc.at/dokuwiki/doku.php?id=prebuilt_systems:ucs:gitlabintegration_in_ucs
+    long_description: |
+      Community-Dokumentation zur Integration eines selbst betriebenen GitLab
+      mit Univention Nubus bzw. UCS über LDAP.
+
+      Die Dokumentation zeigt die LDAP-Anbindung von GitLab an das
+      UCS-Verzeichnis, einschließlich der Steuerung von Zugriffberechtigungen
+      über LDAP-Gruppen und eines LDAP-Filters ohne Schema-Erweiterungen
+      (Nutzung von `memberOf`). Die Anleitung kann um eine OIDC Anbindung
+      an das in Nubus enthaltene Keycloak ergänzt werden, um SSO zu erreichen.
+
+      Erstellt von Community-Mitglied **boospy** im Univention Help Forum.
+    name: GitLab Integration mit Univention Nubus über LDAP
+    short_description: Community-Anleitung zur LDAP-Integration von GitLab mit Univention Nubus/UCS
+    tags: []
+    visuals: []
+  en-US:
+    icon: ''
+    keywords:
+      - GitLab
+      - LDAP
+      - Nubus
+      - UCS
+      - OpenID Connect
+      - Version Control
+    links:
+      - Description: How-To on Univention Help Forum
+        URL: https://help.univention.com/t/gitlabintegration-in-ucs/24731
+      - Description: External documentation (deepdoc.at)
+        URL: https://deepdoc.at/dokuwiki/doku.php?id=prebuilt_systems:ucs:gitlabintegration_in_ucs
+    long_description: |
+      Community documentation for integrating a self-hosted GitLab instance
+      with Univention Nubus / UCS via LDAP.
+
+      The documentation covers connecting GitLab to the UCS directory via LDAP,
+      including access control via LDAP groups and a login filter without LDAP
+      schema extensions (using `memberOf`). In addition a configuration of OIDC
+      between Keycloak as part of Nubus and Gitlab can be done to have SSO.
+
+      Created by community member **boospy** on the Univention Help Forum.
+    name: GitLab Integration with Univention Nubus via LDAP
+    short_description: Community how-to for integrating GitLab with Univention Nubus/UCS via LDAP
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2025-11-29'
+  last_update_date: '2025-11-30'
+organizational_specifications:
+  support_contact_id: ''
+  support_status: ''
+  vendor_id: ''
+technical_specifications:
+  capabilities:
+    - sso
+  compatible_platforms: []
+  compatible_products:
+    - Nubus
+  dependencies: []
+  protocols:
+    - LDAP
+    - OIDC
+  artifacts:
+    - documentation
+  source_license: ''
