@@ -16,10 +16,12 @@ dependencies = [
     "pyyaml>=6.0",
     "click>=8.1",
     "rich>=13.0",
+    "streamlit>=1.35",
 ]
 
 [project.scripts]
 integration-catalog = "integration_catalog.cli:main"
+integration-catalog-ui = "integration_catalog.ui:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/integration_catalog"]
