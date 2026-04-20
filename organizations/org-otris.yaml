@@ -15,10 +15,10 @@ en-US:
   short_description: otris systems GmbH
   link: https://www.otris.de/
   contact: info@otris.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/openvpn4ucs/openvpn4ucs_logo.svg
+  logo: otris-logo-en-US.svg
 de-DE:
   name: otris systems GmbH
   short_description: otris systems GmbH
   link: https://www.otris.de/
   contact: info@otris.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/openvpn4ucs/openvpn4ucs_logo.svg
+  logo: otris-logo-de-DE.svg

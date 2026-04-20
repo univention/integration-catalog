@@ -15,10 +15,10 @@ en-US:
   short_description: EGroupware GmbH
   link: https://www.egroupware.org/
   contact: info@egroupware.org
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/egroupware/egroupware_logo.svg
+  logo: egroupware-logo-en-US.svg
 de-DE:
   name: EGroupware GmbH
   short_description: EGroupware GmbH
   link: https://www.egroupware.org/
   contact: info@egroupware.org
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/egroupware/egroupware_logo.svg
+  logo: egroupware-logo-de-DE.svg

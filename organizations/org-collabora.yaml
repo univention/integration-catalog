@@ -15,10 +15,10 @@ en-US:
   short_description: Collabora Productivity Ltd
   link: https://www.collaboraonline.com/
   contact: sales@collabora.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/collabora-online/logo.svg
+  logo: collabora-logo-en-US.svg
 de-DE:
   name: Collabora Productivity Ltd
   short_description: Collabora Productivity Ltd
   link: https://www.collaboraonline.com/
   contact: sales@collabora.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/collabora-online/logo.svg
+  logo: collabora-logo-de-DE.svg

@@ -15,10 +15,10 @@ en-US:
   short_description: IT IS AG
   link: https://www.itis.de/
   contact: info@itis.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/itiseasybusiness/logo.svg
+  logo: itis-ag-logo-en-US.svg
 de-DE:
   name: IT IS AG
   short_description: IT IS AG
   link: https://www.itis.de/
   contact: info@itis.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/itiseasybusiness/logo.svg
+  logo: itis-ag-logo-de-DE.svg

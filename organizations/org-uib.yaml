@@ -15,10 +15,10 @@ en-US:
   short_description: uib GmbH
   link: https://uib.de/
   contact: info@uib.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/opsi/opsi_logo.svg
+  logo: uib-logo-en-US.svg
 de-DE:
   name: uib GmbH
   short_description: uib GmbH
   link: https://uib.de/
   contact: info@uib.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/opsi/opsi_logo.svg
+  logo: uib-logo-de-DE.svg

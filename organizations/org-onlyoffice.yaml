@@ -15,10 +15,10 @@ en-US:
   short_description: Ascensio System SIA (ONLYOFFICE)
   link: https://www.onlyoffice.com/
   contact: sales@onlyoffice.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/onlyoffice-ds-integration/logo.svg
+  logo: onlyoffice-logo-en-US.svg
 de-DE:
   name: Ascensio System SIA
   short_description: Ascensio System SIA (ONLYOFFICE)
   link: https://www.onlyoffice.com/
   contact: sales@onlyoffice.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/onlyoffice-ds-integration/logo.svg
+  logo: onlyoffice-logo-de-DE.svg

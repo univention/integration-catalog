@@ -15,10 +15,10 @@ en-US:
   short_description: itslearning
   link: https://itslearning.com/
   contact: info@itslearning.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/itslearning/logo.svg
+  logo: itslearning-logo-en-US.svg
 de-DE:
   name: itslearning
   short_description: itslearning
   link: https://itslearning.com/
   contact: info@itslearning.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/itslearning/logo.svg
+  logo: itslearning-logo-de-DE.svg

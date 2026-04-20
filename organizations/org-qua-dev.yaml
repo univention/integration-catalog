@@ -15,10 +15,10 @@ en-US:
   short_description: Qua-Dev GmbH
   link: https://qua-dev.com/
   contact: info@qua-dev.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/qd-consent/logo.svg
+  logo: qua-dev-logo-en-US.svg
 de-DE:
   name: Qua-Dev GmbH
   short_description: Qua-Dev GmbH
   link: https://qua-dev.com/
   contact: info@qua-dev.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/qd-consent/logo.svg
+  logo: qua-dev-logo-de-DE.svg

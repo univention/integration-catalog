@@ -15,10 +15,10 @@ en-US:
   short_description: Wekan Team
   link: https://wekan.github.io/
   contact: support@wekan.team
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/wekan/logo.svg
+  logo: wekan-logo-en-US.svg
 de-DE:
   name: Wekan Team
   short_description: Wekan Team
   link: https://wekan.github.io/
   contact: support@wekan.team
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/wekan/logo.svg
+  logo: wekan-logo-de-DE.svg

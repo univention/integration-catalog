@@ -15,10 +15,10 @@ en-US:
   short_description: Jitsi community
   link: https://jitsi.org/
   contact: ''
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/jitsimeet/logo.svg
+  logo: jitsi-logo-en-US.svg
 de-DE:
   name: Jitsi community
   short_description: Jitsi community
   link: https://jitsi.org/
   contact: ''
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/jitsimeet/logo.svg
+  logo: jitsi-logo-de-DE.svg

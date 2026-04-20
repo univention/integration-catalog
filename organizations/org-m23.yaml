@@ -15,10 +15,10 @@ en-US:
   short_description: goos-habermann.de / m23-Projekt
   link: https://m23.io/
   contact: support@goos-habermann.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/m23/m23-logo.svg
+  logo: m23-logo-en-US.svg
 de-DE:
   name: goos-habermann.de / m23-Projekt
   short_description: goos-habermann.de / m23-Projekt
   link: https://m23.io/
   contact: support@goos-habermann.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/m23/m23-logo.svg
+  logo: m23-logo-de-DE.svg

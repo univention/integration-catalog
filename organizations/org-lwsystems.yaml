@@ -15,10 +15,10 @@ en-US:
   short_description: LWsystems GmbH & Co. KG
   link: https://www.lwsystems.de/
   contact: info@lwsystems.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/benno-mailarchiv/benno-mailarchiv_logo.svg
+  logo: lwsystems-logo-en-US.svg
 de-DE:
   name: LWsystems GmbH & Co. KG
   short_description: LWsystems GmbH & Co. KG
   link: https://www.lwsystems.de/
   contact: info@lwsystems.de
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/benno-mailarchiv/benno-mailarchiv_logo.svg
+  logo: lwsystems-logo-de-DE.svg

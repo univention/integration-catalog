@@ -15,10 +15,10 @@ en-US:
   short_description: Relution GmbH
   link: https://www.relution.io/
   contact: info@relution.io
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/relution/logo.svg
+  logo: relution-logo-en-US.svg
 de-DE:
   name: Relution GmbH
   short_description: Relution GmbH
   link: https://www.relution.io/
   contact: info@relution.io
-  logo: https://appcenter.software-univention.de/meta-inf/5.2/relution/logo.svg
+  logo: relution-logo-de-DE.svg

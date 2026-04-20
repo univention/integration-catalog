@@ -15,10 +15,10 @@ en-US:
   short_description: audriga GmbH
   link: https://www.audriga.com/
   contact: info@audriga.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/audriga-groupware-migration/audriga-groupware-migration_logo.svg
+  logo: audriga-logo-en-US.svg
 de-DE:
   name: audriga GmbH
   short_description: audriga GmbH
   link: https://www.audriga.com/
   contact: info@audriga.com
-  logo: https://appcenter.software-univention.de/meta-inf/5.0/audriga-groupware-migration/audriga-groupware-migration_logo.svg
+  logo: audriga-logo-de-DE.svg
