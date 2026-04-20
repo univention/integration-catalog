@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.
+
+# Description of organization "itslearning".
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-04-20" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+id: itslearning
+en-US:
+  name: itslearning
+  short_description: itslearning
+  link: https://itslearning.com/
+  contact: info@itslearning.com
+  logo: https://appcenter.software-univention.de/meta-inf/5.0/itslearning/logo.svg
+de-DE:
+  name: itslearning
+  short_description: itslearning
+  link: https://itslearning.com/
+  contact: info@itslearning.com
+  logo: https://appcenter.software-univention.de/meta-inf/5.0/itslearning/logo.svg

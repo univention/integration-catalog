@@ -41,9 +41,9 @@ metadata:
   creation_date: ''
   last_update_date: ''
 organizational_specifications:
-  support_contact_id: ''
+  support_contact_id: 'bytemine'
   support_status: ''
-  vendor_id: ''
+  vendor_id: 'bytemine'
 technical_specifications:
   capabilities: []
   compatible_platforms: []
