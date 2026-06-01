@@ -3,75 +3,69 @@
 
 id: NC-PI
 description:
-  de-DE:
-    name: Nextcloud Packaged Integration
-    short_description: Vorkonfiguration von Nubus zur Integration mit Nextcloud
-    icon: ''
-    links:
-      - Description: Nextcloud Webseite
-        URL: https://www.nextcloud.de
-      - Description: Nextcloud Source Code
-        URL: https://github.com/nextcloud   
-    long_description: |
-      Vollständige Vorkonfiguration von Nubus zur Integration
-      mit Nextcloud:
-        - Attribute zur Definition, welche Nutzer und Gruppen in Nextcloud bekannt sein sollen
-        - Definition von Quota eines Users in Nextcloud        
-        - Dokumentation der Einrichtung von Nextcloud
-    tags:
-      - Groupware
-      - Filestore
-    visuals:
-      - ''
   en-US:
     name: Nextcloud Packaged Integration
-    short_description: |
+    short_description: |-
       Packaged Integration and Documentation to connect a Nextcloud
       installation with Nubus for User- and Group Management and SSO
-    long_description: |
+    long_description: |-
       A long Text...                               ... describing
       all the details and links to further documentation
     icon: path/to/icon
+    keywords: []
     links:
-      - Description: Nextcloud Homepage
-        URL: https://www.nextcloud.de
-      - Description: Nextcloud Source Code
-        URL: https://github.com/nextcloud   
+    - Description: Nextcloud Homepage
+      URL: https://www.nextcloud.de
+    - Description: Nextcloud Source Code
+      URL: https://github.com/nextcloud
     tags:
-      - Filestore
-      - Groupware
+    - Filestore
+    - Groupware
     visuals:
-      - path/to/visual1
-      - path/to/visual2
+    - path/to/visual1
+    - path/to/visual2
+  de-DE:
+    name: Nextcloud Packaged Integration
+    short_description: Vorkonfiguration von Nubus zur Integration mit Nextcloud
+    long_description: "Vollständige Vorkonfiguration von Nubus zur Integration\nmit Nextcloud:\n  - Attribute zur Definition,\
+      \ welche Nutzer und Gruppen in Nextcloud bekannt sein sollen\n  - Definition von Quota eines Users in Nextcloud    \
+      \    \n  - Dokumentation der Einrichtung von Nextcloud"
+    icon: ''
+    keywords: []
+    links:
+    - Description: Nextcloud Webseite
+      URL: https://www.nextcloud.de
+    - Description: Nextcloud Source Code
+      URL: https://github.com/nextcloud
+    tags:
+    - Groupware
+    - Filestore
+    visuals: []
 main_icon: path/to/nextcloud-icon
 version: 32.0.3-0
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2025-01-01'
-  last_update_date: '2025-07-15'
+  last_update_date: '2026-04-20'
 organizational_specifications:
+  vendor_id: nextcloud
   support_contact_id: univention
   support_status: Enterprise
-  vendor_id: nextcloud
-keywords:
-  - ''
 technical_specifications:
   capabilities:
-    - SSO
-    - SLO
-    - SUSP
-    - User Creation
-    - User Lifecycle
-    - Group Lifecycle
-    - Group Memberships
+  - group_lifecycle
+  - group_memberships
+  - user_lifecycle
   compatible_platforms:
-    - UCS
+  - Kubernetes
   compatible_products:
-    - Nubus
-    - UCSschool
+  - Nubus
   dependencies: []
   protocols:
-    - LDAP
-    - OIDC
-    - SAML
+  - LDAP
+  - OIDC
+  - SAML
+  artifacts:
+  - documentation
+  - packaged_integration
   source_license: OSI

@@ -3,41 +3,10 @@
 
 id: COMMUNITY-proxmox-deepdoc
 description:
-  de-DE:
-    icon: ''
-    keywords:
-      - Proxmox
-      - Nubus
-      - OpenID Connect
-      - Virtualisierung
-      - Keycloak
-    links:
-      - Description: How-To (deepdoc.at)
-        URL: https://deepdoc.at/dokuwiki/doku.php?id=virtualisierung:proxmox_kvm_und_lxc:openid_keycloak_anbindung_proxmox
-    long_description: |
-      Community-Dokumentation zur Anbindung von Proxmox an Univention Nubus über
-      OpenID Connect (OIDC), einschließlich der Steuerung von Login-Berechtigungen
-      über LDAP-Gruppen.
-
-      Die Anleitung beschreibt eine funktionierende OIDC-Client-Konfiguration für
-      Proxmox unter Verwendung des in Nubus integrierten Keycloak-Dienstes. Sie
-      kann als Vorlage für die Anbindung weiterer Anwendungen dienen.
-    name: Proxmox Anbindung an Univention Nubus über OpenID Connect
-    short_description: Community-Anleitung zur OIDC-Integration von Proxmox mit Univention Nubus
-    tags: []
-    visuals: []
   en-US:
-    icon: ''
-    keywords:
-      - Proxmox
-      - Nubus
-      - OpenID Connect
-      - Virtualisation
-      - Keycloak
-    links:
-      - Description: How-To (deepdoc.at)
-        URL: https://deepdoc.at/dokuwiki/doku.php?id=virtualisierung:proxmox_kvm_und_lxc:openid_keycloak_anbindung_proxmox
-    long_description: |
+    name: Proxmox integration with Univention Nubus via OpenID Connect
+    short_description: Community how-to for connecting Proxmox to Univention Nubus via OIDC
+    long_description: |-
       Community documentation for connecting Proxmox to Univention Nubus via
       OpenID Connect (OIDC), including control of login permissions through
       LDAP groups.
@@ -45,8 +14,39 @@ description:
       The guide describes a working OIDC client configuration for Proxmox using
       the Keycloak service integrated in Nubus. It can serve as a template for
       connecting other applications to Nubus.
-    name: Proxmox integration with Univention Nubus via OpenID Connect
-    short_description: Community how-to for connecting Proxmox to Univention Nubus via OIDC
+    icon: ''
+    keywords:
+    - Proxmox
+    - Nubus
+    - OpenID Connect
+    - Virtualisation
+    - Keycloak
+    links:
+    - Description: How-To (deepdoc.at)
+      URL: https://deepdoc.at/dokuwiki/doku.php?id=virtualisierung:proxmox_kvm_und_lxc:openid_keycloak_anbindung_proxmox
+    tags: []
+    visuals: []
+  de-DE:
+    name: Proxmox Anbindung an Univention Nubus über OpenID Connect
+    short_description: Community-Anleitung zur OIDC-Integration von Proxmox mit Univention Nubus
+    long_description: |-
+      Community-Dokumentation zur Anbindung von Proxmox an Univention Nubus über
+      OpenID Connect (OIDC), einschließlich der Steuerung von Login-Berechtigungen
+      über LDAP-Gruppen.
+
+      Die Anleitung beschreibt eine funktionierende OIDC-Client-Konfiguration für
+      Proxmox unter Verwendung des in Nubus integrierten Keycloak-Dienstes. Sie
+      kann als Vorlage für die Anbindung weiterer Anwendungen dienen.
+    icon: ''
+    keywords:
+    - Proxmox
+    - Nubus
+    - OpenID Connect
+    - Virtualisierung
+    - Keycloak
+    links:
+    - Description: How-To (deepdoc.at)
+      URL: https://deepdoc.at/dokuwiki/doku.php?id=virtualisierung:proxmox_kvm_und_lxc:openid_keycloak_anbindung_proxmox
     tags: []
     visuals: []
 main_icon: ''
@@ -54,20 +54,22 @@ version: ''
 metadata:
   created_by: ''
   creation_date: '2024-03-16'
-  last_update_date: '2024-03-16'
+  last_update_date: '2026-04-20'
 organizational_specifications:
+  vendor_id: ''
   support_contact_id: ''
   support_status: ''
-  vendor_id: ''
 technical_specifications:
   capabilities:
-    - sso
-  compatible_platforms: []
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  - UCS
   compatible_products:
-    - Nubus
+  - Nubus
   dependencies: []
   protocols:
-    - OIDC
+  - OIDC
   artifacts:
-    - documentation
+  - documentation
   source_license: ''
