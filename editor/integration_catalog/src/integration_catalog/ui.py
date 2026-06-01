@@ -16,6 +16,12 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+# When Streamlit runs ui.py directly it is not part of a package, so relative
+# imports fail. Ensure the src/ directory is on sys.path so absolute imports work.
+_SRC_DIR = Path(__file__).resolve().parent.parent
+if str(_SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(_SRC_DIR))
+
 import streamlit as st
 
 # ---------------------------------------------------------------------------
@@ -28,9 +34,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-from .catalog import Catalog
-from .exceptions import CatalogError
-from .models import (
+from integration_catalog.catalog import Catalog
+from integration_catalog.exceptions import CatalogError
+from integration_catalog.models import (
     DefinitionFile,
     DefinitionItem,
     Entry,
