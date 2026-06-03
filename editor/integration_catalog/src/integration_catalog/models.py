@@ -491,8 +491,10 @@ class EntryMetadata:
 class Entry:
     """Represents a single integration entry YAML file."""
     id: str
-    en_US: EntryLocale
-    de_DE: EntryLocale
+    locales: dict[str, EntryLocale] = field(default_factory=lambda: {
+        "en-US": EntryLocale(name="", short_description="", long_description=""),
+        "de-DE": EntryLocale(name="", short_description="", long_description=""),
+    })
     technical_specifications: TechnicalSpecifications = field(default_factory=TechnicalSpecifications)
     organizational_specifications: OrganizationalSpecifications = field(default_factory=OrganizationalSpecifications)
     metadata: EntryMetadata = field(default_factory=EntryMetadata)
@@ -501,18 +503,39 @@ class Entry:
     # path set by loader; not serialised
     path: Optional[Path] = field(default=None, repr=False, compare=False)
 
+    # Convenience properties for backward compatibility
+    @property
+    def en_US(self) -> EntryLocale:
+        return self.locales.get("en-US", EntryLocale(name="", short_description="", long_description=""))
+
+    @property
+    def de_DE(self) -> EntryLocale:
+        return self.locales.get("de-DE", EntryLocale(name="", short_description="", long_description=""))
+
+    def locale(self, code: str) -> EntryLocale:
+        """Return the locale for the given code, or a blank one."""
+        return self.locales.get(code, EntryLocale(name="", short_description="", long_description=""))
+
+    def locale_codes(self) -> list[str]:
+        """Return sorted list of locale codes present on this entry."""
+        return sorted(self.locales.keys())
+
     def validate(self) -> None:
         if not self.id.strip():
             raise ValidationError("Entry.id must not be empty.")
-        self.en_US.validate()
-        self.de_DE.validate()
+        for code in REQUIRED_LOCALES:
+            if code not in self.locales:
+                raise MissingLocaleError(
+                    f"Entry '{self.id}' is missing required locale '{code}'."
+                )
+        for code, loc in self.locales.items():
+            loc.validate()
 
     def to_dict(self) -> dict:
         return {
             "id": self.id,
             "description": {
-                "en-US": self.en_US.to_dict(),
-                "de-DE": self.de_DE.to_dict(),
+                code: loc.to_dict() for code, loc in self.locales.items()
             },
             "main_icon": self.main_icon,
             "version": self.version,
@@ -524,12 +547,18 @@ class Entry:
     @classmethod
     def from_dict(cls, data: dict, path: Optional[Path] = None) -> "Entry":
         desc = data.get("description") or {}
-        en_raw = desc.get("en-US") or {}
-        de_raw = desc.get("de-DE") or {}
+        locales = {
+            code: EntryLocale.from_dict(locale_data)
+            for code, locale_data in desc.items()
+            if isinstance(locale_data, dict)
+        }
+        # Ensure required locales are present (with empty defaults)
+        for code in REQUIRED_LOCALES:
+            if code not in locales:
+                locales[code] = EntryLocale.from_dict({})
         return cls(
             id=str(data.get("id", "") or ""),
-            en_US=EntryLocale.from_dict(en_raw),
-            de_DE=EntryLocale.from_dict(de_raw),
+            locales=locales,
             technical_specifications=TechnicalSpecifications.from_dict(
                 data.get("technical_specifications") or {}
             ),

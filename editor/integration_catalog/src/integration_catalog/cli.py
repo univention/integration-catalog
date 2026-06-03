@@ -532,7 +532,7 @@ def entry_show(ctx: click.Context, entry_id: str) -> None:
     console.print(f"  compatible_platforms:{', '.join(ts.compatible_platforms) or '—'}")
     console.print()
 
-    for locale, loc_obj in (("en-US", entry.en_US), ("de-DE", entry.de_DE)):
+    for locale, loc_obj in entry.locales.items():
         console.print(f"[bold underline]{locale}[/bold underline]")
         console.print(f"  name:              {loc_obj.name}")
         console.print(f"  short_description: {loc_obj.short_description}")
