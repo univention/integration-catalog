@@ -1,0 +1,36 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "integration-catalog"
+version = "0.1.0"
+description = "Library and CLI tool for managing the Univention Nubus Integration Catalog"
+readme = "README.md"
+license = { text = "AGPL-3.0-only" }
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0",
+    "click>=8.1",
+    "rich>=13.0",
+    "streamlit>=1.35",
+]
+
+[project.scripts]
+integration-catalog = "integration_catalog.cli:main"
+integration-catalog-ui = "integration_catalog.ui:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/integration_catalog"]
+
+[tool.hatch.envs.default]
+dependencies = [
+    "pytest>=8.0",
+    "pytest-cov",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
