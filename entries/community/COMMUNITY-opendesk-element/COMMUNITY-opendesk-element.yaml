@@ -1,0 +1,85 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-element
+description:
+  en-US:
+    name: Element in openDesk
+    short_description: Chat and collaboration via Element with Nubus SSO in the openDesk suite
+    long_description: |-
+      Element is the chat and collaboration component of the openDesk digital
+      workplace suite. It provides real-time messaging, voice and video calls,
+      and collaboration features based on the Matrix protocol.
+
+      As part of openDesk, Element is integrated with Univention Nubus for
+      Single Sign-On via OIDC through the Keycloak identity provider included
+      in Nubus. User accounts are managed centrally in
+      Nubus and provisioned to Element/Synapse.
+    icon: ''
+    keywords:
+    - Element
+    - Matrix
+    - Chat
+    - Collaboration
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk on openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: Element
+      URL: https://element.io/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Element in openDesk
+    short_description: Chat und Zusammenarbeit mit Element und Nubus-SSO in der openDesk-Suite
+    long_description: |-
+      Element ist die Chat- und Kollaborationskomponente der digitalen
+      Arbeitsplatzlösung openDesk. Es bietet Echtzeit-Messaging, Sprach- und
+      Videoanrufe sowie Zusammenarbeitsfunktionen auf Basis des
+      Matrix-Protokolls.
+
+      Als Teil von openDesk ist Element über OIDC mit Univention Nubus für
+      Single Sign-On integriert, unter Verwendung des in Nubus enthaltenen
+      Keycloak-Identity-Providers. Benutzerkonten werden zentral in Nubus verwaltet und an Element/Synapse provisioniert.
+    icon: ''
+    keywords:
+    - Element
+    - Matrix
+    - Chat
+    - Zusammenarbeit
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk auf openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: Element
+      URL: https://element.io/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  - user_lifecycle
+  - group_memberships
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

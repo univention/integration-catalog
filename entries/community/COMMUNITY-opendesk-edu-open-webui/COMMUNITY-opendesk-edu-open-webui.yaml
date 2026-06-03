@@ -1,0 +1,88 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-open-webui
+description:
+  en-US:
+    name: Open WebUI in openDesk Edu
+    short_description: AI assistant interface via Open WebUI with Nubus SSO in openDesk Edu
+    long_description: |-
+      Open WebUI is a ChatGPT-like user interface for local large language
+      models (LLMs) integrated into the openDesk Edu project. It provides a
+      conversational AI assistant powered by Ollama for running models like
+      Llama and Mistral locally, ensuring data sovereignty.
+
+      As part of openDesk Edu, Open WebUI is integrated with Univention Nubus
+      for Single Sign-On via OIDC through the Keycloak identity provider
+      included in Nubus.
+    icon: 'logo.png'
+    keywords:
+    - Open WebUI
+    - AI
+    - LLM
+    - Ollama
+    - ChatGPT
+    - Machine Learning
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Open WebUI on GitHub
+      URL: https://github.com/open-webui/open-webui
+    tags: []
+    visuals: []
+  de-DE:
+    name: Open WebUI in openDesk Edu
+    short_description: KI-Assistenten-Oberfläche mit Open WebUI und Nubus-SSO in openDesk Edu
+    long_description: |-
+      Open WebUI ist eine ChatGPT-ähnliche Benutzeroberfläche für lokale
+      grosse Sprachmodelle (LLMs), die in das openDesk-Edu-Projekt integriert
+      ist. Es bietet einen KI-Assistenten auf Basis von Ollama zum lokalen
+      Betrieb von Modellen wie Llama und Mistral und gewährleistet so
+      Datensouveränität.
+
+      Als Teil von openDesk Edu ist Open WebUI über OIDC mit Univention
+      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.png'
+    keywords:
+    - Open WebUI
+    - KI
+    - LLM
+    - Ollama
+    - ChatGPT
+    - Maschinelles Lernen
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Open WebUI auf GitHub
+      URL: https://github.com/open-webui/open-webui
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

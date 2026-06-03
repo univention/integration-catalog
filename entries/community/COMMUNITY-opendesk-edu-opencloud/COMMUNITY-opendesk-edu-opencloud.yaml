@@ -1,0 +1,84 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-opencloud
+description:
+  en-US:
+    name: OpenCloud in openDesk Edu
+    short_description: Lightweight file sharing via OpenCloud with Nubus SSO in openDesk Edu
+    long_description: |-
+      OpenCloud is a lightweight CS3-based file sharing platform integrated
+      into the openDesk Edu project as an alternative to Nextcloud. It provides
+      per-course file shares and a streamlined cloud storage experience
+      designed for educational environments.
+
+      As part of openDesk Edu, OpenCloud is integrated with Univention Nubus
+      for Single Sign-On via OIDC through the Keycloak identity provider
+      included in Nubus.
+    icon: 'logo.png'
+    keywords:
+    - OpenCloud
+    - File Sharing
+    - Cloud Storage
+    - CS3
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: OpenCloud website
+      URL: https://opencloud.eu/
+    tags: []
+    visuals: []
+  de-DE:
+    name: OpenCloud in openDesk Edu
+    short_description: Leichtgewichtige Dateifreigabe mit OpenCloud und Nubus-SSO in openDesk Edu
+    long_description: |-
+      OpenCloud ist eine leichtgewichtige CS3-basierte
+      Dateifreigabeplattform, die als Alternative zu Nextcloud in die
+      openDesk-Edu-Projekt integriert ist. Es bietet kursbasierte
+      Dateifreigaben und eine schlanke Cloud-Speicherlösung für
+      Bildungsumgebungen.
+
+      Als Teil von openDesk Edu ist OpenCloud über OIDC mit Univention Nubus
+      für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.png'
+    keywords:
+    - OpenCloud
+    - Dateifreigabe
+    - Cloud-Speicher
+    - CS3
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: OpenCloud-Webseite
+      URL: https://opencloud.eu/
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

@@ -1,0 +1,85 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-limesurvey
+description:
+  en-US:
+    name: LimeSurvey in openDesk Edu
+    short_description: Survey platform via LimeSurvey with Nubus SSO in openDesk Edu
+    long_description: |-
+      LimeSurvey is an online survey platform integrated into the openDesk Edu
+      project. It provides comprehensive survey creation tools for course
+      evaluations, academic research, feedback collection, and institutional
+      assessments.
+
+      As part of openDesk Edu, LimeSurvey is integrated with Univention Nubus
+      for Single Sign-On via SAML through the Keycloak identity provider
+      included in Nubus.
+    icon: ''
+    keywords:
+    - LimeSurvey
+    - Surveys
+    - Questionnaire
+    - Course Evaluation
+    - Research
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: LimeSurvey website
+      URL: https://www.limesurvey.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: LimeSurvey in openDesk Edu
+    short_description: Umfrageplattform LimeSurvey mit Nubus-SSO in openDesk Edu
+    long_description: |-
+      LimeSurvey ist eine Online-Umfrageplattform, die in die
+      openDesk-Edu-Projekt integriert ist. Es bietet umfassende Werkzeuge zur
+      Erstellung von Umfragen für Kursevaluationen, akademische Forschung,
+      Feedback-Erhebung und institutionelle Bewertungen.
+
+      Als Teil von openDesk Edu ist LimeSurvey über SAML mit Univention
+      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: ''
+    keywords:
+    - LimeSurvey
+    - Umfragen
+    - Fragebogen
+    - Kursevaluation
+    - Forschung
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: LimeSurvey-Webseite
+      URL: https://www.limesurvey.org/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - SAML
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

@@ -1,0 +1,83 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-jitsi
+description:
+  en-US:
+    name: Jitsi in openDesk
+    short_description: Videoconferencing via Jitsi with Nubus SSO in the openDesk suite
+    long_description: |-
+      Jitsi is the videoconferencing component of the openDesk digital
+      workplace suite. It provides browser-based video and audio conferencing,
+      screen sharing, and chat without requiring client software installation.
+
+      As part of openDesk, Jitsi is provided by Nordeck and integrated with Univention Nubus for
+      Single Sign-On via OIDC through the Keycloak identity provider included
+      in Nubus.
+    icon: 'logo.svg'
+    keywords:
+    - Jitsi
+    - Video Conferencing
+    - WebRTC
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk on openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: Nordeck Jitsi offering
+      URL: https://nordeck.net/en/jitsi-development-en/
+    - Description: Jitsi website
+      URL: https://jitsi.org/      
+    tags: []
+    visuals: []
+  de-DE:
+    name: Jitsi in openDesk
+    short_description: Videokonferenzen mit Jitsi und Nubus-SSO in der openDesk-Suite
+    long_description: |-
+      Jitsi ist die Videokonferenz-Komponente der digitalen Arbeitsplatzlösung
+      openDesk. Es bietet browserbasierte Video- und Audiokonferenzen,
+      Bildschirmfreigabe und Chat ohne Installation von Client-Software.
+
+      Als Teil von openDesk ist Jitsi über OIDC mit Univention Nubus für
+      Single Sign-On integriert, unter Verwendung des in Nubus enthaltenen
+      Keycloak-Identity-Providers.
+    icon: 'logo.svg'
+    keywords:
+    - Jitsi
+    - Videokonferenz
+    - WebRTC
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk auf openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: Nordeck Jitsi Angebot
+      URL: https://nordeck.net/de/jitsi-development/
+    - Description: Jitsi-Webseite
+      URL: https://jitsi.org/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: jitsi
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

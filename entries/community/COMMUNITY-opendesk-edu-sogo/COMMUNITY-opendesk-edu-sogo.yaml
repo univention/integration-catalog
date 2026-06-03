@@ -1,0 +1,88 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-sogo
+description:
+  en-US:
+    name: SOGo in openDesk Edu
+    short_description: Lightweight webmail via SOGo with Nubus SSO in openDesk Edu
+    long_description: |-
+      SOGo is a lightweight webmail and groupware solution integrated into the
+      openDesk Edu project as an alternative to OX App Suite. It provides email,
+      calendar, and contacts with a fast web interface and CalDAV/CardDAV
+      support for standard client synchronization.
+
+      As part of openDesk Edu, SOGo is integrated with Univention Nubus for
+      Single Sign-On via SAML through the Keycloak identity provider included
+      in Nubus.
+    icon: 'logo.png'
+    keywords:
+    - SOGo
+    - Webmail
+    - Groupware
+    - Email
+    - Calendar
+    - CalDAV
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: SOGo website
+      URL: https://www.sogo.nu/
+    tags: []
+    visuals: []
+  de-DE:
+    name: SOGo in openDesk Edu
+    short_description: Leichtgewichtiges Webmail mit SOGo und Nubus-SSO in openDesk Edu
+    long_description: |-
+      SOGo ist eine leichtgewichtige Webmail- und       Groupware-Lösung, die als
+      Alternative zu OX App Suite in das openDesk-Edu-Projekt integriert ist.
+      Es bietet E-Mail, Kalender und Kontakte mit einer schnellen
+      Weboberfläche und CalDAV/CardDAV-Unterstützung für die
+      Synchronisation mit Standardclients.
+
+      Als Teil von openDesk Edu ist SOGo über SAML mit Univention Nubus für
+      Single Sign-On integriert, unter Verwendung des in Nubus enthaltenen
+      Keycloak-Identity-Providers.
+    icon: 'logo.png'
+    keywords:
+    - SOGo
+    - Webmail
+    - Groupware
+    - E-Mail
+    - Kalender
+    - CalDAV
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: SOGo-Webseite
+      URL: https://www.sogo.nu/
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - SAML
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

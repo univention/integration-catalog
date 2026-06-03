@@ -1,0 +1,80 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-notes
+description:
+  en-US:
+    name: Notes in openDesk
+    short_description: Collaborative note-taking via Notes (Docs) with Nubus SSO in the openDesk suite
+    long_description: |-
+      Notes (also known as Docs) is the collaborative note-taking component of
+      the openDesk digital workplace suite. It enables users to create and
+      co-edit documents in real time with a clean, distraction-free interface.
+
+      As part of openDesk, Notes is integrated with Univention Nubus for
+      Single Sign-On via OIDC through the Keycloak identity provider included
+      in Nubus.
+    icon: 'logo.png'
+    keywords:
+    - Notes
+    - Docs
+    - Collaborative Editing
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk on openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: Notes (Docs) on GitHub
+      URL: https://github.com/suitenumerique/docs
+    tags: []
+    visuals: []
+  de-DE:
+    name: Notes in openDesk
+    short_description: Kollaborative Notizen mit Notes (Docs) und Nubus-SSO in der openDesk-Suite
+    long_description: |-
+      Notes (auch bekannt als Docs) ist die Komponente für kollaboratives
+      Erstellen von Notizen in der digitalen Arbeitsplatzlösung openDesk.
+      Benutzer können Dokumente in Echtzeit gemeinsam erstellen und
+      bearbeiten.
+
+      Als Teil von openDesk ist Notes über OIDC mit Univention Nubus für
+      Single Sign-On integriert, unter Verwendung des in Nubus enthaltenen
+      Keycloak-Identity-Providers.
+    icon: 'logo.png'
+    keywords:
+    - Notes
+    - Docs
+    - Kollaboratives Schreiben
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk auf openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: Notes (Docs) auf GitHub
+      URL: https://github.com/suitenumerique/docs
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

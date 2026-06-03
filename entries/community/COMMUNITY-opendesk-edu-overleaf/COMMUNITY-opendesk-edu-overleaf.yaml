@@ -1,0 +1,86 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-overleaf
+description:
+  en-US:
+    name: Overleaf in openDesk Edu
+    short_description: Collaborative LaTeX editing via Overleaf with Nubus SSO in openDesk Edu
+    long_description: |-
+      Overleaf Community Edition is a real-time collaborative LaTeX editor
+      integrated into the openDesk Edu project. It provides version control,
+      track changes, and collaborative writing features for academic papers,
+      theses, and scientific publications.
+
+      As part of openDesk Edu, Overleaf is integrated with Univention Nubus
+      for Single Sign-On via OIDC through the Keycloak identity provider
+      included in Nubus.
+    icon: 'logo.svg'
+    keywords:
+    - Overleaf
+    - LaTeX
+    - Collaborative Editing
+    - Academic Writing
+    - Scientific Publishing
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Overleaf on GitHub
+      URL: https://github.com/overleaf/overleaf
+    tags: []
+    visuals: []
+  de-DE:
+    name: Overleaf in openDesk Edu
+    short_description: Kollaborative LaTeX-Bearbeitung mit Overleaf und Nubus-SSO in openDesk Edu
+    long_description: |-
+      Overleaf Community Edition ist ein kollaborativer LaTeX-Echtzeit-Editor,
+      der in das openDesk-Edu-Projekt integriert ist. Er bietet
+      Versionskontrolle, Änderungsnachverfolgung und kollaborative
+      Schreibfunktionen für wissenschaftliche Arbeiten, Abschlussarbeiten
+      und Publikationen.
+
+      Als Teil von openDesk Edu ist Overleaf über OIDC mit Univention Nubus
+      für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.svg'
+    keywords:
+    - Overleaf
+    - LaTeX
+    - Kollaboratives Schreiben
+    - Wissenschaftliches Schreiben
+    - Wissenschaftliche Publikation
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Overleaf auf GitHub
+      URL: https://github.com/overleaf/overleaf
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

@@ -1,0 +1,86 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-code-server
+description:
+  en-US:
+    name: code-server in openDesk Edu
+    short_description: Browser-based IDE via code-server with Nubus SSO in openDesk Edu
+    long_description: |-
+      code-server is a browser-based Visual Studio Code IDE integrated into
+      the openDesk Edu project. It provides a full development environment
+      accessible from any device through the web browser, supporting
+      programming courses and software development in educational settings.
+
+      As part of openDesk Edu, code-server is integrated with Univention
+      Nubus for Single Sign-On via OIDC through the Keycloak identity
+      provider included in Nubus.
+    icon: 'logo.svg'
+    keywords:
+    - code-server
+    - VS Code
+    - IDE
+    - Development
+    - Programming
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: code-server on GitHub
+      URL: https://github.com/coder/code-server
+    tags: []
+    visuals: []
+  de-DE:
+    name: code-server in openDesk Edu
+    short_description: Browserbasierte IDE code-server mit Nubus-SSO in openDesk Edu
+    long_description: |-
+      code-server ist eine browserbasierte Visual-Studio-Code-IDE, die in die
+      openDesk-Edu-Projekt integriert ist. Es bietet eine vollständige
+      Entwicklungsumgebung, die über den Webbrowser von jedem Gerät aus
+      zugänglich ist und Programmierkurse sowie Softwareentwicklung in
+      Bildungsumgebungen unterstützt.
+
+      Als Teil von openDesk Edu ist code-server über OIDC mit Univention
+      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.svg'
+    keywords:
+    - code-server
+    - VS Code
+    - IDE
+    - Entwicklung
+    - Programmierung
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: code-server auf GitHub
+      URL: https://github.com/coder/code-server
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

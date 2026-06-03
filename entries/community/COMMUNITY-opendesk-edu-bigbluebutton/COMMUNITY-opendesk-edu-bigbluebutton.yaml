@@ -1,0 +1,86 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-bigbluebutton
+description:
+  en-US:
+    name: BigBlueButton in openDesk Edu
+    short_description: Virtual classroom via BigBlueButton with Nubus SSO in openDesk Edu
+    long_description: |-
+      BigBlueButton is a virtual classroom and web conferencing system
+      integrated into the openDesk Edu project as an alternative to Jitsi. It
+      provides lecture recording, interactive whiteboard, breakout rooms,
+      shared notes, and polling features designed for online teaching.
+
+      As part of openDesk Edu, BigBlueButton is integrated with Univention
+      Nubus for Single Sign-On via SAML through the Keycloak identity provider
+      included in Nubus.
+    icon: ''
+    keywords:
+    - BigBlueButton
+    - BBB
+    - Virtual Classroom
+    - Video Conferencing
+    - E-Learning
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: BigBlueButton website
+      URL: https://bigbluebutton.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: BigBlueButton in openDesk Edu
+    short_description: Virtuelles Klassenzimmer mit BigBlueButton und Nubus-SSO in openDesk Edu
+    long_description: |-
+      BigBlueButton ist ein virtuelles Klassenzimmer- und Webkonferenzsystem,
+      das als Alternative zu Jitsi in das openDesk-Edu-Projekt integriert ist.
+      Es bietet Vorlesungsaufzeichnung, interaktives Whiteboard,
+      Breakout-Räume, gemeinsame Notizen und Umfragefunktionen für den
+      Online-Unterricht.
+
+      Als Teil von openDesk Edu ist BigBlueButton über SAML mit Univention
+      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: ''
+    keywords:
+    - BigBlueButton
+    - BBB
+    - Virtuelles Klassenzimmer
+    - Videokonferenz
+    - E-Learning
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: BigBlueButton-Webseite
+      URL: https://bigbluebutton.org/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - SAML
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

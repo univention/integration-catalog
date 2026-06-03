@@ -1,0 +1,85 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-zammad
+description:
+  en-US:
+    name: Zammad in openDesk Edu
+    short_description: Service desk via Zammad with Nubus SSO in openDesk Edu
+    long_description: |-
+      Zammad is a helpdesk and ticketing system integrated into the openDesk
+      Edu project. It provides multi-channel support via email, chat, and phone,
+      with a modern web interface for IT support teams at universities and
+      educational institutions.
+
+      As part of openDesk Edu, Zammad is integrated with Univention Nubus for
+      Single Sign-On via SAML through the Keycloak identity provider included
+      in Nubus.
+    icon: 'logo.svg'
+    keywords:
+    - Zammad
+    - Helpdesk
+    - Ticketing
+    - Service Desk
+    - IT Support
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Zammad website
+      URL: https://zammad.com/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Zammad in openDesk Edu
+    short_description: Service-Desk mit Zammad und Nubus-SSO in openDesk Edu
+    long_description: |-
+      Zammad ist ein Helpdesk- und Ticketsystem, das in die
+      openDesk-Edu-Projekt integriert ist. Es bietet Mehrkanalunterstützung
+      über E-Mail, Chat und Telefon mit einer modernen Weboberfläche für
+      IT-Support-Teams an Universitäten und Bildungseinrichtungen.
+
+      Als Teil von openDesk Edu ist Zammad über SAML mit Univention Nubus
+      für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.svg'
+    keywords:
+    - Zammad
+    - Helpdesk
+    - Ticketsystem
+    - Service-Desk
+    - IT-Support
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Zammad-Webseite
+      URL: https://zammad.com/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - SAML
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

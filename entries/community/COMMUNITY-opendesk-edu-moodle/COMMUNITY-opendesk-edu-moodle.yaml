@@ -1,0 +1,87 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-moodle
+description:
+  en-US:
+    name: Moodle in openDesk Edu
+    short_description: Learning management via Moodle with Nubus SSO in openDesk Edu
+    long_description: |-
+      Moodle is a plugin-rich learning management system (LMS) integrated into
+      the openDesk Edu project. It provides assignments, workshops, gradebook,
+      forums, and extensive plugin support for universities and educational
+      institutions.
+
+      As part of openDesk Edu, Moodle is integrated with Univention Nubus for
+      Single Sign-On via SAML through the Keycloak identity provider included
+      in Nubus. Authentication is handled via Shibboleth as SAML service
+      provider.
+    icon: 'logo.png'
+    keywords:
+    - Moodle
+    - LMS
+    - Learning Management
+    - E-Learning
+    - Education
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Moodle website
+      URL: https://moodle.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Moodle in openDesk Edu
+    short_description: Lernmanagement mit Moodle und Nubus-SSO in openDesk Edu
+    long_description: |-
+      Moodle ist ein plugin-reiches Lernmanagementsystem (LMS), das in die
+      openDesk-Edu-Projekt integriert ist. Es bietet Aufgaben, Workshops,
+      Notenbuch, Foren und umfangreiche Plugin-Unterstützung für
+      Universitäten und Bildungseinrichtungen.
+
+      Als Teil von openDesk Edu ist Moodle über SAML mit Univention Nubus
+      für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers. Die Authentifizierung erfolgt
+      über Shibboleth als SAML-Service-Provider.
+    icon: 'logo.png'
+    keywords:
+    - Moodle
+    - LMS
+    - Lernmanagement
+    - E-Learning
+    - Bildung
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Moodle-Webseite
+      URL: https://moodle.org/
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - SAML
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

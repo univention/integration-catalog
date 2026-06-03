@@ -1,0 +1,84 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-typo3
+description:
+  en-US:
+    name: TYPO3 in openDesk Edu
+    short_description: Enterprise CMS via TYPO3 with Nubus SSO in openDesk Edu
+    long_description: |-
+      TYPO3 is an enterprise content management system (CMS) integrated into
+      the openDesk Edu project. It provides a platform for creating and managing
+      university websites, department pages, research portals, and
+      institutional web presence.
+
+      As part of openDesk Edu, TYPO3 is integrated with Univention Nubus for
+      Single Sign-On via OIDC through the Keycloak identity provider included
+      in Nubus.
+    icon: 'logo.svg'
+    keywords:
+    - TYPO3
+    - CMS
+    - Content Management
+    - Website
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: TYPO3 website
+      URL: https://typo3.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: TYPO3 in openDesk Edu
+    short_description: Enterprise-CMS TYPO3 mit Nubus-SSO in openDesk Edu
+    long_description: |-
+      TYPO3 ist ein Enterprise-Content-Management-System (CMS), das in die
+      openDesk-Edu-Projekt integriert ist. Es bietet eine Plattform für die
+      Erstellung und Verwaltung von Universitätswebseiten,
+      Fachbereichsseiten, Forschungsportalen und institutionellen
+      Webauftritten.
+
+      Als Teil von openDesk Edu ist TYPO3 über OIDC mit Univention Nubus
+      für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.svg'
+    keywords:
+    - TYPO3
+    - CMS
+    - Content-Management
+    - Webseite
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: TYPO3-Webseite
+      URL: https://typo3.org/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

@@ -1,0 +1,95 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-ox-app-suite
+description:
+  en-US:
+    name: OX App Suite in openDesk
+    short_description: Groupware via OX App Suite with Nubus SSO in the openDesk suite
+    long_description: |-
+      OX App Suite is the groupware component of the openDesk digital workplace
+      suite. It provides email, calendar, contacts, and task management with a
+      modern web interface.
+
+      As part of openDesk, OX App Suite is integrated with Univention Nubus for
+      Single Sign-On via OIDC through the Keycloak identity provider
+      included in Nubus. For User Lifecycle Management and additional information
+      like functional accounts the OX Packaged Integration provided by Univention
+      is used. User accounts and mailboxes are managed centrally in
+      Nubus and provisioned to OX App Suite.
+    icon: ''
+    keywords:
+    - OX App Suite
+    - Open-Xchange
+    - Groupware
+    - Email
+    - Calendar
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk on openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: OX App Suite website
+      URL: https://www.open-xchange.com/
+    - Description: OX Packaged Integration for Nubus
+      URL: https://docs.software-univention.de/packaged-integration-ox/latest/en/index.html
+    tags: []
+    visuals: []
+  de-DE:
+    name: OX App Suite in openDesk
+    short_description: Groupware mit OX App Suite und Nubus-SSO in der openDesk-Suite
+    long_description: |-
+      OX App Suite ist die Groupware-Komponente der digitalen
+      Arbeitsplatzlösung openDesk. Sie bietet E-Mail, Kalender, Kontakte und
+      Aufgabenverwaltung mit einer modernen Weboberfläche.
+
+      Als Teil von openDesk ist OX App Suite über OIDC mit Univention
+      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Provider. Zur Abbbildung des User Lifecycles
+      und erweiterten Informationen wie Funktionspostfächern wird der von
+      Univention bereitgestellte paketierte Integration für OX eingesetzt.
+      Benutzerkonten und Postfächer werden so zentral in Nubus verwaltet und an
+      OX App Suite provisioniert.
+    icon: ''
+    keywords:
+    - OX App Suite
+    - Open-Xchange
+    - Groupware
+    - E-Mail
+    - Kalender
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk auf openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: OX App Suite-Webseite
+      URL: https://www.open-xchange.com/
+    - Description: Paketierte Integration für OX
+      URL: https://docs.software-univention.de/packaged-integration-ox/latest/en/index.html
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ox
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

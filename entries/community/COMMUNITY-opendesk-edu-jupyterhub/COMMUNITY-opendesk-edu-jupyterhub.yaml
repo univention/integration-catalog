@@ -1,0 +1,88 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-jupyterhub
+description:
+  en-US:
+    name: JupyterHub in openDesk Edu
+    short_description: Multi-user notebooks via JupyterHub with Nubus SSO in openDesk Edu
+    long_description: |-
+      JupyterHub is a multi-user notebook server integrated into the openDesk
+      Edu project. It provides interactive computing environments with support
+      for Python, R, Julia, SageMath, and Octave kernels, enabling scientific
+      computing and data analysis for education and research.
+
+      As part of openDesk Edu, JupyterHub is integrated with Univention Nubus
+      for Single Sign-On via OIDC through the Keycloak identity provider
+      included in Nubus.
+    icon: 'logo.svg'
+    keywords:
+    - JupyterHub
+    - Jupyter
+    - Notebooks
+    - Scientific Computing
+    - Data Science
+    - Python
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: JupyterHub website
+      URL: https://jupyter.org/hub
+    tags: []
+    visuals: []
+  de-DE:
+    name: JupyterHub in openDesk Edu
+    short_description: Mehrbenutzerfähige Notebooks mit JupyterHub und Nubus-SSO in openDesk Edu
+    long_description: |-
+      JupyterHub ist ein Mehrbenutzerfähiger Notebook-Server, der in das
+      openDesk-Edu-Projekt integriert ist. Er bietet interaktive
+      Rechenumgebungen mit Unterstützung für Python, R, Julia, SageMath und
+      Octave, die wissenschaftliches Rechnen und Datenanalyse für Lehre und
+      Forschung ermöglichen.
+
+      Als Teil von openDesk Edu ist JupyterHub über OIDC mit Univention
+      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.svg'
+    keywords:
+    - JupyterHub
+    - Jupyter
+    - Notebooks
+    - Wissenschaftliches Rechnen
+    - Data Science
+    - Python
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: JupyterHub-Webseite
+      URL: https://jupyter.org/hub
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

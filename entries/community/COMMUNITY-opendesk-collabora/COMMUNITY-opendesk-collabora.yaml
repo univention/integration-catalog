@@ -1,0 +1,85 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-collabora
+description:
+  en-US:
+    name: Collabora Online in openDesk
+    short_description: Web office editing via Collabora Online with Nubus SSO in the openDesk suite
+    long_description: |-
+      Collabora Online is the web office component of the openDesk digital
+      workplace suite. It provides browser-based editing of documents,
+      spreadsheets, and presentations, integrated with Nextcloud for file
+      storage.
+
+      As part of openDesk, Collabora Online is accessed through Nextcloud,
+      which is integrated with Univention Nubus for Single Sign-On. Users
+      authenticate via Nubus and seamlessly access Collabora Online for
+      document editing.
+    icon: 'logo.svg'
+    keywords:
+    - Collabora
+    - Web Office
+    - Document Editing
+    - LibreOffice
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk on openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: Collabora Online website
+      URL: https://www.collaboraoffice.com/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Collabora Online in openDesk
+    short_description: Web-Office-Bearbeitung mit Collabora Online und Nubus-SSO in der openDesk-Suite
+    long_description: |-
+      Collabora Online ist die Web-Office-Komponente der digitalen
+      Arbeitsplatzlösung openDesk. Es ermöglicht die browserbasierte
+      Bearbeitung von Dokumenten, Tabellen und Präsentationen, integriert
+      mit Nextcloud als Dateispeicher.
+
+      Als Teil von openDesk wird Collabora Online über Nextcloud aufgerufen,
+      das mit Univention Nubus für Single Sign-On integriert ist. Benutzer
+      authentifizieren sich über Nubus und greifen nahtlos auf Collabora
+      Online zur Dokumentenbearbeitung zu.
+    icon: 'logo.svg'
+    keywords:
+    - Collabora
+    - Web-Office
+    - Dokumentenbearbeitung
+    - LibreOffice
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk auf openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: Collabora Online-Webseite
+      URL: https://www.collaboraoffice.com/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: collabora
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

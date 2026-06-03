@@ -1,0 +1,83 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-bookstack
+description:
+  en-US:
+    name: BookStack in openDesk Edu
+    short_description: Structured wiki via BookStack with Nubus SSO in openDesk Edu
+    long_description: |-
+      BookStack is a wiki platform with a book/chapter/page structure
+      integrated into the openDesk Edu project. It provides an intuitive
+      interface for organizing course materials, standard operating
+      procedures, and documentation in a hierarchical format.
+
+      As part of openDesk Edu, BookStack is integrated with Univention Nubus
+      for Single Sign-On via OIDC through the Keycloak identity provider
+      included in Nubus.
+    icon: 'logo.png'
+    keywords:
+    - BookStack
+    - Wiki
+    - Knowledge Base
+    - Documentation
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: BookStack website
+      URL: https://www.bookstackapp.com/
+    tags: []
+    visuals: []
+  de-DE:
+    name: BookStack in openDesk Edu
+    short_description: Strukturiertes Wiki mit BookStack und Nubus-SSO in openDesk Edu
+    long_description: |-
+      BookStack ist eine Wiki-Plattform mit Buch-/Kapitel-/Seitenstruktur,
+      die in das openDesk-Edu-Projekt integriert ist. Es bietet eine intuitive
+      Oberfläche zur Organisation von Kursmaterialien,
+      Standardarbeitsanweisungen und Dokumentation in hierarchischer Form.
+
+      Als Teil von openDesk Edu ist BookStack über OIDC mit Univention Nubus
+      für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.png'
+    keywords:
+    - BookStack
+    - Wiki
+    - Wissensdatenbank
+    - Dokumentation
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: BookStack-Webseite
+      URL: https://www.bookstackapp.com/
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

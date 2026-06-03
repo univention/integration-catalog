@@ -1,0 +1,86 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-rstudio
+description:
+  en-US:
+    name: RStudio Server in openDesk Edu
+    short_description: R statistics IDE via RStudio Server with Nubus SSO in openDesk Edu
+    long_description: |-
+      RStudio Server is an R IDE with Shiny app server integration, provided
+      as part of the openDesk Edu project. It enables statistical computing, data
+      visualization, and interactive Shiny applications through a web browser,
+      supporting research and teaching in data science and statistics.
+
+      As part of openDesk Edu, RStudio Server is integrated with Univention
+      Nubus for Single Sign-On via OIDC through the Keycloak identity
+      provider included in Nubus.
+    icon: ''
+    keywords:
+    - RStudio
+    - R
+    - Statistics
+    - Data Science
+    - Shiny
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: RStudio Server website
+      URL: https://posit.co/products/open-source/rstudio-server/
+    tags: []
+    visuals: []
+  de-DE:
+    name: RStudio Server in openDesk Edu
+    short_description: R-Statistik-IDE RStudio Server mit Nubus-SSO in openDesk Edu
+    long_description: |-
+      RStudio Server ist eine R-IDE mit Shiny-App-Server-Integration, die als
+      Teil des openDesk-Edu-Projekts bereitgestellt wird. Es ermöglicht
+      statistisches Rechnen, Datenvisualisierung und interaktive
+      Shiny-Anwendungen über einen Webbrowser und unterstützt Forschung und
+      Lehre in Data Science und Statistik.
+
+      Als Teil von openDesk Edu ist RStudio Server über OIDC mit Univention
+      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: ''
+    keywords:
+    - RStudio
+    - R
+    - Statistik
+    - Data Science
+    - Shiny
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: RStudio Server-Webseite
+      URL: https://posit.co/products/open-source/rstudio-server/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

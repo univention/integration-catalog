@@ -1,0 +1,85 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-xwiki
+description:
+  en-US:
+    name: XWiki in openDesk
+    short_description: Knowledge management via XWiki with Nubus SSO in the openDesk suite
+    long_description: |-
+      XWiki is the knowledge management component of the openDesk digital
+      workplace suite. It provides a powerful wiki platform for documentation,
+      knowledge bases, and collaborative content creation.
+
+      As part of openDesk, XWiki is integrated with Univention Nubus for
+      Single Sign-On via OIDC through the Keycloak identity provider included
+      in Nubus. It uses the Nubus Directory Service to implement
+      user and group lifecycle.
+    icon: 'logo.png'
+    keywords:
+    - XWiki
+    - Wiki
+    - Knowledge Management
+    - Documentation
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk on openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: XWiki website
+      URL: https://www.xwiki.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: XWiki in openDesk
+    short_description: Wissensmanagement mit XWiki und Nubus-SSO in der openDesk-Suite
+    long_description: |-
+      XWiki ist die Wissensmanagement-Komponente der digitalen
+      Arbeitsplatzlösung openDesk. Es bietet eine leistungsstarke
+      Wiki-Plattform für Dokumentation, Wissensbasen und kollaborative
+      Inhaltserstellung.
+
+      Als Teil von openDesk ist XWiki über OIDC mit Univention Nubus für
+      Single Sign-On integriert, unter Verwendung des in Nubus enthaltenen
+      Keycloak-Identity-Providers. Es greift auf den Nubus Directory
+      Service zu um Nutzer und Gruppen abzugleichen.
+    icon: 'logo.png'
+    keywords:
+    - XWiki
+    - Wiki
+    - Wissensmanagement
+    - Dokumentation
+    - openDesk
+    - Nubus
+    links:
+    - Description: openDesk auf openCoDE
+      URL: https://gitlab.opencode.de/bmi/opendesk/deployment/opendesk
+    - Description: XWiki-Webseite
+      URL: https://www.xwiki.org/
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

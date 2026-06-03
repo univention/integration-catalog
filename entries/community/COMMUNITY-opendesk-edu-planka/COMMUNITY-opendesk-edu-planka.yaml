@@ -1,0 +1,83 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-planka
+description:
+  en-US:
+    name: Planka in openDesk Edu
+    short_description: Kanban project boards via Planka with Nubus SSO in openDesk Edu
+    long_description: |-
+      Planka is a Kanban-style project management tool integrated into the
+      openDesk Edu project. It provides boards, lists, and cards for organizing
+      student projects, research planning, and team collaboration in
+      educational environments.
+
+      As part of openDesk Edu, Planka is integrated with Univention Nubus for
+      Single Sign-On via OIDC through the Keycloak identity provider included
+      in Nubus.
+    icon: 'logo.png'
+    keywords:
+    - Planka
+    - Kanban
+    - Project Management
+    - Task Management
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Planka website
+      URL: https://planka.app/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Planka in openDesk Edu
+    short_description: Kanban-Projektboards mit Planka und Nubus-SSO in openDesk Edu
+    long_description: |-
+      Planka ist ein Kanban-basiertes Projektmanagement-Tool, das in die
+      openDesk-Edu-Projekt integriert ist. Es bietet Boards, Listen und Karten
+      zur Organisation von Studentenprojekten, Forschungsplanung und
+      Teamzusammenarbeit in Bildungsumgebungen.
+
+      Als Teil von openDesk Edu ist Planka über OIDC mit Univention Nubus
+      für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.png'
+    keywords:
+    - Planka
+    - Kanban
+    - Projektmanagement
+    - Aufgabenverwaltung
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Planka-Webseite
+      URL: https://planka.app/
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

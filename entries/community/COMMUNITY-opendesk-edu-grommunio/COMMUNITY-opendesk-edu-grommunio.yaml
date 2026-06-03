@@ -1,0 +1,86 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-grommunio
+description:
+  en-US:
+    name: Grommunio in openDesk Edu
+    short_description: Email and groupware via Grommunio with Nubus SSO in openDesk Edu
+    long_description: |-
+      Grommunio is an email and groupware solution integrated into the openDesk
+      Edu project as an alternative to OX App Suite. It provides email, calendar,
+      contacts, and tasks with ActiveSync 16.1 support for native mobile
+      synchronization.
+
+      As part of openDesk Edu, Grommunio is integrated with Univention Nubus
+      for Single Sign-On via OIDC/SAML through the Keycloak identity provider
+      included in Nubus.
+    icon: ''
+    keywords:
+    - Grommunio
+    - Groupware
+    - Email
+    - Calendar
+    - ActiveSync
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Grommunio website
+      URL: https://grommunio.com/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Grommunio in openDesk Edu
+    short_description: E-Mail und Groupware mit Grommunio und Nubus-SSO in openDesk Edu
+    long_description: |-
+      Grommunio ist eine E-Mail- und Groupware-Lösung, die als Alternative
+      zu OX App Suite in das openDesk-Edu-Projekt integriert ist. Es bietet
+      E-Mail, Kalender, Kontakte und Aufgaben mit ActiveSync-16.1-
+      Unterstützung für native mobile Synchronisation.
+
+      Als Teil von openDesk Edu ist Grommunio über OIDC/SAML mit Univention
+      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: ''
+    keywords:
+    - Grommunio
+    - Groupware
+    - E-Mail
+    - Kalender
+    - ActiveSync
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Grommunio-Webseite
+      URL: https://grommunio.com/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  - SAML
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

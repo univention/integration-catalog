@@ -1,0 +1,87 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-ilias
+description:
+  en-US:
+    name: ILIAS in openDesk Edu
+    short_description: Learning management via ILIAS with Nubus SSO in openDesk Edu
+    long_description: |-
+      ILIAS is a full-featured learning management system (LMS) integrated into
+      the openDesk Edu project. It provides courses, assessments, forums, SCORM
+      support, and a wide range of e-learning tools for universities and
+      educational institutions.
+
+      As part of openDesk Edu, ILIAS is integrated with Univention Nubus for
+      Single Sign-On via SAML through the Keycloak identity provider included
+      in Nubus. Authentication is handled via Shibboleth as SAML service
+      provider.
+    icon: 'logo.svg'
+    keywords:
+    - ILIAS
+    - LMS
+    - Learning Management
+    - E-Learning
+    - Education
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: ILIAS website
+      URL: https://www.ilias.de/
+    tags: []
+    visuals: []
+  de-DE:
+    name: ILIAS in openDesk Edu
+    short_description: Lernmanagement mit ILIAS und Nubus-SSO in openDesk Edu
+    long_description: |-
+      ILIAS ist ein umfassendes Lernmanagementsystem (LMS), das in die
+      openDesk-Edu-Projekt integriert ist. Es bietet Kurse, Prüfungen, Foren,
+      SCORM-Unterstützung und eine breite Palette von E-Learning-Werkzeugen
+      für Universitäten und Bildungseinrichtungen.
+
+      Als Teil von openDesk Edu ist ILIAS über SAML mit Univention Nubus für
+      Single Sign-On integriert, unter Verwendung des in Nubus enthaltenen
+      Keycloak-Identity-Providers. Die Authentifizierung erfolgt über
+      Shibboleth als SAML-Service-Provider.
+    icon: 'logo.svg'
+    keywords:
+    - ILIAS
+    - LMS
+    - Lernmanagement
+    - E-Learning
+    - Bildung
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: ILIAS-Webseite
+      URL: https://www.ilias.de/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - SAML
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI

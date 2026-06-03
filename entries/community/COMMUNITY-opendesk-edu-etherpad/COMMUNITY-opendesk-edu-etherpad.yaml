@@ -1,0 +1,84 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-opendesk-edu-etherpad
+description:
+  en-US:
+    name: Etherpad in openDesk Edu
+    short_description: Real-time collaborative editing via Etherpad with Nubus SSO in openDesk Edu
+    long_description: |-
+      Etherpad is a real-time collaborative document editor integrated into
+      the openDesk Edu project. It enables multiple users to simultaneously
+      edit text documents, making it ideal for meeting notes, workshops, and
+      live collaborative editing in educational settings.
+
+      As part of openDesk Edu, Etherpad is integrated with Univention Nubus
+      for Single Sign-On via OIDC through the Keycloak identity provider
+      included in Nubus.
+    icon: 'logo.svg'
+    keywords:
+    - Etherpad
+    - Collaborative Editing
+    - Real-Time
+    - Meeting Notes
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu on Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Etherpad website
+      URL: https://etherpad.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Etherpad in openDesk Edu
+    short_description: Echtzeit-Kollaborationseditor Etherpad mit Nubus-SSO in openDesk Edu
+    long_description: |-
+      Etherpad ist ein Echtzeit-Kollaborationseditor, der in die
+      openDesk-Edu-Projekt integriert ist. Er ermöglicht es mehreren
+      Benutzern, gleichzeitig Textdokumente zu bearbeiten, was ihn ideal
+      für Besprechungsnotizen, Workshops und kollaboratives Arbeiten in
+      Bildungsumgebungen macht.
+
+      Als Teil von openDesk Edu ist Etherpad über OIDC mit Univention Nubus
+      für Single Sign-On integriert, unter Verwendung des in Nubus
+      enthaltenen Keycloak-Identity-Providers.
+    icon: 'logo.svg'
+    keywords:
+    - Etherpad
+    - Kollaboratives Schreiben
+    - Echtzeit
+    - Besprechungsnotizen
+    - openDesk Edu
+    - Nubus
+    links:
+    - Description: openDesk Edu auf Codeberg
+      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: Etherpad-Webseite
+      URL: https://etherpad.org/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: ''
+  creation_date: '2026-06-01'
+  last_update_date: '2026-06-01'
+organizational_specifications:
+  vendor_id: ''
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - packaged_integration
+  - documentation
+  source_license: OSI
