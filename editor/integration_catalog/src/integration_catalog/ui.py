@@ -846,6 +846,14 @@ def _git_commit_and_push(message: str, push: bool) -> tuple[bool, str]:
     return True, detail
 
 
+def _git_changed_file_count() -> int:
+    """Return the number of files with uncommitted changes."""
+    status = _git_status_short()
+    if not status:
+        return 0
+    return len(status.splitlines())
+
+
 def _sidebar_git() -> None:
     """Render the git status & commit section in the sidebar."""
     if not _git_is_repo():
@@ -854,18 +862,23 @@ def _sidebar_git() -> None:
     st.divider()
     st.caption("Git")
 
-    status = _git_status_short()
-    if not status:
+    n_changed = _git_changed_file_count()
+    if n_changed == 0:
         st.info("Working tree clean — nothing to commit.")
         return
 
-    st.markdown("**Changed files:**")
-    st.code(status, language="")
+    st.markdown(f"**{n_changed}** file{'s' if n_changed != 1 else ''} with uncommitted changes")
 
     if st.button("📝 Commit changes …", key="git_commit_open"):
         st.session_state["_git_commit_dialog"] = True
 
     if st.session_state.get("_git_commit_dialog", False):
+        # Show the detailed list of changed files
+        status = _git_status_short()
+        if status:
+            st.markdown("**Changed files:**")
+            st.code(status, language="")
+
         diff_info = _git_diff_stat()
         if diff_info:
             st.markdown(diff_info)
@@ -891,6 +904,10 @@ def _sidebar_git() -> None:
             if st.button("Cancel", key="git_commit_cancel"):
                 st.session_state.pop("_git_commit_dialog", None)
                 st.rerun()
+        with col_cancel:
+            if st.button("Cancel", key="git_commit_cancel"):
+                st.session_state.pop("_git_commit_dialog", None)
+                st.rerun()
 
 
 # ---------------------------------------------------------------------------
@@ -911,8 +928,7 @@ def _sidebar(catalog: Catalog) -> None:
             "https://www.univention.com/wp-content/uploads/2024/01/univention-logo.svg",
             width=200,
         )
-        st.markdown("## Integration Catalog Editor")
-        st.caption(f"Catalog root:\n`{CATALOG_ROOT}`")
+        st.markdown("## Univention Nubus Integration Catalog Editor")
         st.divider()
 
         st.markdown(
@@ -920,7 +936,6 @@ def _sidebar(catalog: Catalog) -> None:
             f"**{len(catalog.organizations)}** organizations &nbsp;·&nbsp; "
             f"**{len(catalog.entries)}** entries"
         )
-        st.divider()
 
         if st.button("🔄 Reload catalog from disk"):
             reload_catalog()

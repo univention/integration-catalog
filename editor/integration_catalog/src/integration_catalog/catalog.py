@@ -8,9 +8,13 @@ integration catalog on disk.
 
 from __future__ import annotations
 
+import logging
 import re
+import subprocess
 from pathlib import Path
 from typing import Optional
+
+_log = logging.getLogger(__name__)
 
 from .exceptions import (
     CatalogError,
@@ -72,6 +76,40 @@ class Catalog:
         self.definitions: dict[str, DefinitionFile] = {}
         self.organizations: dict[str, Organization] = {}
         self.entries: dict[str, Entry] = {}
+
+    # ------------------------------------------------------------------
+    # Git helpers
+    # ------------------------------------------------------------------
+
+    def _git_track(self, path: Path) -> None:
+        """Run ``git add <path>`` so new or modified files are staged.
+
+        Silently does nothing if the catalog is not inside a git repository.
+        """
+        try:
+            subprocess.run(
+                ["git", "add", "--", str(path)],
+                cwd=self.root_path,
+                capture_output=True,
+                timeout=10,
+            )
+        except Exception as exc:  # noqa: BLE001
+            _log.debug("git add %s failed: %s", path, exc)
+
+    def _git_rm(self, path: Path) -> None:
+        """Run ``git rm --cached <path>`` so deleted files are staged for removal.
+
+        Silently does nothing if the catalog is not inside a git repository.
+        """
+        try:
+            subprocess.run(
+                ["git", "rm", "--cached", "--", str(path)],
+                cwd=self.root_path,
+                capture_output=True,
+                timeout=10,
+            )
+        except Exception as exc:  # noqa: BLE001
+            _log.debug("git rm %s failed: %s", path, exc)
 
     # ------------------------------------------------------------------
     # Loading
@@ -275,6 +313,7 @@ class Catalog:
         assert df.path is not None
         data = df.to_dict()
         save_yaml(df.path, data)
+        self._git_track(df.path)
 
     def _check_definition_not_referenced(self, definition_type: str, item_id: str) -> None:
         """Raise InvalidReferenceError if any entry references item_id in definition_type."""
@@ -344,11 +383,13 @@ class Catalog:
         org = self.organizations.pop(org_id)
         if org.path and org.path.exists():
             org.path.unlink()
+            self._git_rm(org.path)
 
     def _save_organization(self, org: Organization) -> None:
         assert org.path is not None
         comment = f"# Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.\n\n# Description of organization \"{org.en_US.name}\"."
         save_yaml(org.path, org.to_dict(), header_comment=comment)
+        self._git_track(org.path)
 
     # ------------------------------------------------------------------
     # Entry CRUD
@@ -399,10 +440,12 @@ class Catalog:
         entry = self.entries.pop(entry_id)
         if entry.path and entry.path.exists():
             entry.path.unlink()
+            self._git_rm(entry.path)
 
     def _save_entry(self, entry: Entry) -> None:
         assert entry.path is not None
         save_yaml(entry.path, entry.to_dict())
+        self._git_track(entry.path)
 
     def _validate_entry_references(self, entry: Entry) -> None:
         """Raise InvalidReferenceError if entry references unknown IDs."""
