@@ -904,10 +904,6 @@ def _sidebar_git() -> None:
             if st.button("Cancel", key="git_commit_cancel"):
                 st.session_state.pop("_git_commit_dialog", None)
                 st.rerun()
-        with col_cancel:
-            if st.button("Cancel", key="git_commit_cancel"):
-                st.session_state.pop("_git_commit_dialog", None)
-                st.rerun()
 
 
 # ---------------------------------------------------------------------------
