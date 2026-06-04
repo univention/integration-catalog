@@ -42,6 +42,7 @@ from integration_catalog.models import (
     DefinitionFile,
     DefinitionItem,
     Entry,
+    EntryLink,
     EntryLocale,
     EntryMetadata,
     LocalizedText,
@@ -185,7 +186,7 @@ def _locale_fields(
 
 
 def _entry_locale_fields(prefix: str, locale_label: str, defaults: Optional[EntryLocale] = None) -> dict:
-    """Render the full entry locale block."""
+    """Render the full entry locale block (translatable fields only)."""
     d = defaults
     st.markdown(f"**{locale_label}**")
     name = st.text_input("Name *", value=d.name if d else "", key=f"{prefix}_name")
@@ -207,11 +208,57 @@ def _entry_locale_fields(prefix: str, locale_label: str, defaults: Optional[Entr
         value=", ".join(d.keywords) if d else "",
         key=f"{prefix}_keywords",
     )
+
+    # --- Links ---
+    st.markdown("**Links**")
+    existing_links = d.links if d else []
+    link_descriptions = []
+    link_urls = []
+    for i, lnk in enumerate(existing_links):
+        lc1, lc2 = st.columns(2)
+        with lc1:
+            desc = st.text_input(
+                f"Description", value=lnk.description,
+                key=f"{prefix}_link_desc_{i}",
+            )
+        with lc2:
+            url = st.text_input(
+                f"URL", value=lnk.url,
+                key=f"{prefix}_link_url_{i}",
+            )
+        link_descriptions.append(desc)
+        link_urls.append(url)
+
+    # One empty row for adding a new link
+    nl1, nl2 = st.columns(2)
+    with nl1:
+        new_desc = st.text_input(
+            "Description", value="",
+            key=f"{prefix}_link_desc_new",
+            placeholder="Add new link …",
+        )
+    with nl2:
+        new_url = st.text_input(
+            "URL", value="",
+            key=f"{prefix}_link_url_new",
+            placeholder="https://…",
+        )
+    link_descriptions.append(new_desc)
+    link_urls.append(new_url)
+
+    # Build links list (skip empty rows)
+    links = [
+        EntryLink(description=desc.strip(), url=url.strip())
+        for desc, url in zip(link_descriptions, link_urls)
+        if desc.strip() or url.strip()
+    ]
+
     return {
         "name": name,
         "short_description": short,
         "long_description": long_desc,
         "keywords": [k.strip() for k in keywords_raw.split(",") if k.strip()],
+        "links": links,
     }
 
 
@@ -492,12 +539,16 @@ def _entry_edit_form(catalog: Catalog, entry: Entry) -> None:
     )
 
     with st.form(key=f"entry_edit_{entry.id}"):
+        # --- Locale-specific fields (translatable) ---
         current_loc = entry.locale(selected_locale)
         st.markdown(f"### Translation: {selected_locale}")
         loc_fields = _entry_locale_fields(
             f"edit_{entry.id}_{selected_locale}", selected_locale, current_loc,
         )
 
+        st.divider()
+
+        # --- Non-translatable fields ---
         st.markdown("### Organizational specifications")
         org_options = _org_options(catalog, include_empty=True)
         org_labels = {o: _org_label(catalog, o) for o in org_options}
@@ -591,7 +642,7 @@ def _entry_edit_form(catalog: Catalog, entry: Entry) -> None:
                         long_description=loc_fields["long_description"],
                         keywords=loc_fields["keywords"],
                         icon=current_loc.icon,
-                        links=current_loc.links,
+                        links=loc_fields["links"],
                         tags=current_loc.tags,
                         visuals=current_loc.visuals,
                     )
@@ -677,6 +728,8 @@ def _entries_add(catalog: Catalog) -> None:
             st.markdown(f"### Translation: {code}")
             locale_fields[code] = _entry_locale_fields(f"new_entry_{code}", code)
 
+        st.divider()
+
         st.markdown("### Organizational specifications")
         col1, col2, col3 = st.columns(3)
         with col1:
@@ -739,6 +792,7 @@ def _entries_add(catalog: Catalog) -> None:
                         short_description=lf["short_description"],
                         long_description=lf["long_description"],
                         keywords=lf["keywords"],
+                        links=lf["links"],
                     )
                 new_entry = Entry(
                     id=entry_id.strip(),
