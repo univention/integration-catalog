@@ -9,11 +9,16 @@ description:
       Packaged Integration and Documentation to connect a Nextcloud
       installation with Nubus for User- and Group Management and SSO
     long_description: |-
-      A long Text...                               ... describing
-      all the details and links to further documentation
+      Preconfiguration of Nubus to connect Nextcloud to retrieve
+      users and groups from Nubus. Adds additional attributes to Nubus to
+      be able to decide which users and groups are available
+      in Nextcloud and which quota a user has.
+      Documentation also covers links to Single Sign-On Setup.
     icon: path/to/icon
     keywords: []
     links:
+    - Description: Nextcloud Packaged Integration
+      URL: https://docs.software-univention.de/packaged-integration-nextcloud/latest/en/index.html
     - Description: Nextcloud Homepage
       URL: https://www.nextcloud.de
     - Description: Nextcloud Source Code
@@ -33,6 +38,8 @@ description:
     icon: ''
     keywords: []
     links:
+    - Description: Nextcloud Packaged Integration
+      URL: https://docs.software-univention.de/packaged-integration-nextcloud/latest/en/index.html
     - Description: Nextcloud Webseite
       URL: https://www.nextcloud.de
     - Description: Nextcloud Source Code
@@ -42,11 +49,11 @@ description:
     - Filestore
     visuals: []
 main_icon: path/to/nextcloud-icon
-version: 32.0.3-0
+version:
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2025-01-01'
-  last_update_date: '2026-04-20'
+  last_update_date: '2026-06-04'
 organizational_specifications:
   vendor_id: nextcloud
   support_contact_id: univention
