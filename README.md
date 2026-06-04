@@ -4,8 +4,7 @@ SPDX-License-Identifier: AGPL-3.0-only
 SPDX-FileCopyrightText: 2026 Univention GmbH
 ---
 
-# Nubus Integration Catalog
-
+# Univention Nubus Integration Catalog
 
 
 ## About
@@ -31,12 +30,26 @@ The repository is open for contribution! If you know howtos or packaged integrat
 
 If you want to add a new integration the following needs to be done:
 
-* If needed add a new organization for yourself if you want to be visible in the integration catalog. This is needed if there is a commercial offering for the integration, otherwise it is recommended but optional (for example if you only want to link a nice howto but don't have the agreement of the author).
-* Add a new subdirectory in "entries" with a unique name. In this directory
+* If needed add a new organization for yourself if you want to be visible in the integration catalog. This is needed if there is a commercial offering for the integration, otherwise it is recommended but optional (for example if you only want to link a nice howto but don't know the author, you can use the "community" organization).
+* Add a new entry with a unique, self explaining name
+
+### in the file tree
+
+* Create a git feature branch
+* If you want to add a new organization, add a new yaml file in the "organization" directory and describe the organization - you can copy an existing one and adjust it as needed. Optionally but recommended is to add a logo.
+* To create a new entry in the catalog add a new subdirectory in "entries" with a unique name. In this directory
   * Add a new "YAML" file describing the integration following the examples of the other YAML files (a better definition will follow). Recommendation is to copy an existing YAML and edit it.
   * Add logos, images etc. which then can be referred to in the YAML file
+* For updates of existing entries just change the according files as needed  
 * For all contributions ensure that you comply to licensing, copyrights and trademarks. For example if you copy descriptions or product logos check the license of the source or get a confirmation of the copyright owner.
+* If you are happy create a merge request
+
+## Web-Editor
+
+The "editor" directory offers a simple editor. The Readme describes how to start the editor web service locally on your machine. Afterwards you can access it with a browser to modify or create entries.
+
+The editor is not feature complete yet, you might need to do certain changes manually - please try to replicate the "file tree" workflow described above.
 
 ## License
-All files in this repository should contain a SPDX license header. Typically content is licensed under the AGPL, while the used product icons and images are often protected by trademark rights.
+All files in this repository should contain a SPDX license header. Typically the content of the YAML is licensed under the AGPL, while the used product icons and images are often protected by trademark rights.
 
