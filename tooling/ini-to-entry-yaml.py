@@ -18,7 +18,7 @@ from urllib.request import urlretrieve
 # pyhtml2md from pip3
 import pyhtml2md
 
-SPDXHEADER = "# SPDX-FileCopyrightText: 2026 Univention GmbH\n# SPDX-License-Identifier: AGPL-3.0-only\n\n"
+SPDXHEADER = ("# SPDX-FileCopyright" "Text: 2026 Univention GmbH\n" "# SPDX-License" "-Identifier: AGPL-3.0-only\n\n")
 
 
 def _getFilenamesFromThumbnailstring(thumbnailstring):

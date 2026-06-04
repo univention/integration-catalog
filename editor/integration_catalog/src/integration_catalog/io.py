@@ -12,8 +12,8 @@ import yaml
 
 
 _SPDX_HEADER = (
-    "# SPDX-License-Identifier: AGPL-3.0-only\n"
-    "# SPDX-FileCopyrightText: 2026 Univention GmbH\n\n"
+    "# SPDX-License" "-Identifier: AGPL-3.0-only\n"
+    "# SPDX-FileCopyright" "Text: 2026 Univention GmbH\n\n"
 )
 
 
