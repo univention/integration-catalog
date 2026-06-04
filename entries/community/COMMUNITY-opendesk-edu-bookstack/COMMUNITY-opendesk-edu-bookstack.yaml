@@ -15,7 +15,7 @@ description:
       As part of openDesk Edu, BookStack is integrated with Univention Nubus
       for Single Sign-On via OIDC through the Keycloak identity provider
       included in Nubus.
-    icon: 'logo.png'
+    icon: logo.png
     keywords:
     - BookStack
     - Wiki
@@ -42,7 +42,7 @@ description:
       Als Teil von openDesk Edu ist BookStack über OIDC mit Univention Nubus
       für Single Sign-On integriert, unter Verwendung des in Nubus
       enthaltenen Keycloak-Identity-Providers.
-    icon: 'logo.png'
+    icon: logo.png
     keywords:
     - BookStack
     - Wiki
@@ -57,14 +57,14 @@ description:
       URL: https://www.bookstackapp.com/
     tags: []
     visuals: []
-main_icon: 'logo.png'
+main_icon: logo.png
 version: ''
 metadata:
   created_by: ''
   creation_date: '2026-06-01'
-  last_update_date: '2026-06-01'
+  last_update_date: '2026-06-04'
 organizational_specifications:
-  vendor_id: ''
+  vendor_id: community
   support_contact_id: ''
   support_status: ''
 technical_specifications:

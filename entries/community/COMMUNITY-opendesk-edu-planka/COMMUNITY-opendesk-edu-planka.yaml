@@ -64,7 +64,7 @@ metadata:
   creation_date: '2026-06-01'
   last_update_date: '2026-06-01'
 organizational_specifications:
-  vendor_id: ''
+  vendor_id: community
   support_contact_id: ''
   support_status: ''
 technical_specifications:
