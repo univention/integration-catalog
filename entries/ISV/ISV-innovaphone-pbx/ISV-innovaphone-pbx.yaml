@@ -1,0 +1,117 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: ISV-innovaphone-pbx
+description:
+  en-US:
+    name: innovaphone PBX Integration with UCS via LDAP and Keycloak SSO
+    short_description: LDAP user provisioning and Single Sign-On for innovaphone PBX with Univention Corporate Server
+    long_description: |
+      This integration connects the innovaphone PBX telephony solution with
+      Univention Nubus using LDAP access and Single Sign-On (SSO) via Keycloak.
+
+      User accounts managed in Nubus are synchronized into the innovaphone
+      environment through an LDAP replicator. Attributes such as username,
+      display name, and phone number (extension) are mapped from the Nubus
+      LDAP directory to the corresponding innovaphone user attributes,
+      enabling automated provisioning of telephony users.
+
+      In addition, Keycloak — included as the identity provider in
+      Univention Nubus — is configured to provide SSO via OIDC.
+      Users authenticate once through Keycloak and gain seamless access
+      to the innovaphone platform and its telephony features.
+
+      ## Features
+
+      - Automated user provisioning from Nubus to innovaphone via LDAP replication
+      - Mapping of LDAP attributes (username, phone number, display name)
+      - Single Sign-On via Keycloak (OIDC)
+      - Telephony services accessible through SSO
+
+    icon: ''
+    keywords:
+      - innovaphone
+      - PBX
+      - VoIP
+      - LDAP
+      - Keycloak
+      - SSO
+      - UCS
+      - Nubus
+    links:
+      - Description: innovaphone Wiki - UCS Integration How-To
+        URL: https://wiki.innovaphone.com/index.php?title=Howto:Univention_Corporate_Server_(UCS)_-_Univention_GmbH_-_3rd_Party_Product
+      - Description: innovaphone Website
+        URL: https://www.innovaphone.com/
+    tags: []
+    visuals: []
+  de-DE:
+    name: innovaphone PBX Integration mit Nubus über LDAP und Keycloak SSO
+    short_description: Benutzerbereitstellung und Single Sign-On für innovaphone PBX mit Univention Nubus
+    long_description: |
+      Diese Integration verbindet die Telefonie-Lösung innovaphone-PBX mit
+      Univention Nubus über LDAP-Replikation und Single Sign-On (SSO) über Keycloak.
+
+      In Nubus verwaltete Benutzerkonten werden über einen LDAP-Replikator
+      in die innovaphone-Umgebung synchronisiert. Attribute wie
+      Benutzername, Anzeigename und Telefonnummer (Durchwahl) werden aus
+      dem Nubus-LDAP-Verzeichnis auf die entsprechenden
+      innovaphone-Benutzerattribute abgebildet, was eine automatisierte
+      Bereitstellung von Telefonie-Benutzern ermöglicht.
+
+      Zusätzlich wird Keycloak — als Identity Provider in
+      Univention Nubus enthalten — für SSO über OIDC konfiguriert.
+      Benutzer authentifizieren sich einmalig über Keycloak und erhalten
+      nahtlosen Zugang zur innovaphone-Plattform und ihren
+      Telefonie-Funktionen.
+
+      ## Funktionen
+
+      - Automatische Benutzerbereitstellung von Nubus nach innovaphone über LDAP-Replikation
+      - Zuordnung von LDAP-Attributen (Benutzername, Telefonnummer, Anzeigename)
+      - Single Sign-On über Keycloak (OIDC)
+      - Telefonie-Dienste über SSO erreichbar
+
+    icon: ''
+    keywords:
+      - innovaphone
+      - PBX
+      - VoIP
+      - LDAP
+      - Keycloak
+      - SSO
+      - UCS
+      - Nubus
+    links:
+      - Description: innovaphone Wiki - UCS-Integrations-Anleitung
+        URL: https://wiki.innovaphone.com/index.php?title=Howto:Univention_Corporate_Server_(UCS)_-_Univention_GmbH_-_3rd_Party_Product
+      - Description: innovaphone Webseite
+        URL: https://www.innovaphone.com/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: 'Ingo Steuwer'
+  creation_date: '2026-06-05'
+  last_update_date: '2026-06-05'
+organizational_specifications:
+  vendor_id: innovaphone
+  support_contact_id: innovaphone
+  support_status: ''
+technical_specifications:
+  capabilities:
+    - sso
+    - user_lifecycle
+  compatible_platforms:
+    - UCS
+    - Kubernetes
+  compatible_products:
+    - Nubus
+  dependencies: []
+  protocols:
+    - LDAP
+    - OIDC
+  artifacts:
+    - documentation
+  source_license: ''
