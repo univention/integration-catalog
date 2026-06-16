@@ -97,7 +97,7 @@ technical_specifications:
     - UCSschool
   dependencies: []
   protocols:
-    - OIDC
+    - ID Broker
   artifacts:
     - id_broker
   source_license: ''
