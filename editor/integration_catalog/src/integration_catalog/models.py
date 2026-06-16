@@ -225,7 +225,6 @@ class DefinitionFile:
             item_id = raw.get("id", "")
             en = raw.get("en-US") or {}
             de = raw.get("de-DE") or {}
-            # skip malformed / placeholder items (technology.yaml has empty ids)
             if not item_id:
                 continue
             items.append(DefinitionItem(

@@ -5,7 +5,7 @@
 
 metadata:
   schema_version: "0.1.0"
-  last_updated: "2026-02-13" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+  last_updated: "2026-06-16" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
 
 # technology definitions
 platforms:
@@ -16,28 +16,28 @@ platforms:
     de-DE:
       name: LDAP
       description: Lightweight Directory Access Protocol
-  - id: 
-    en-US: 
-      name: OIDC 
-      description: Open ID Connect 
+  - id: OIDC
+    en-US:
+      name: OIDC
+      description: Open ID Connect
     de-DE:
       name: OIDC
-      description: Open ID Connect 
-  - id: 
+      description: Open ID Connect
+  - id: SCIM
     en-US:
       name: SCIM
       description: System for Cross-domain Identity Management
     de-DE:
       name: SCIM
       description: System for Cross-domain Identity Management
-  - id: 
+  - id: SAML
     en-US:
       name: SAML
       description: Security Assertion Markup Language
     de-DE:
       name: SAML
       description: Security Assertion Markup Language
-  - id: 
+  - id: ID Broker
     en-US:
       name: ID Broker
       description: Univention ID Broker
