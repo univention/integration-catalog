@@ -202,6 +202,10 @@ class Catalog:
             item.id
             for item in self.definitions.get("univention_products", DefinitionFile("univention_products")).items
         }
+        known_technology_ids = {
+            item.id
+            for item in self.definitions.get("technology", DefinitionFile("technology")).items
+        }
 
         for entry_id, entry in self.entries.items():
             try:
@@ -257,6 +261,14 @@ class Catalog:
                     errors.append(
                         f"Entry '{entry_id}': compatible_product '{prod}' "
                         f"is not defined in univention_products.yaml."
+                    )
+
+            # Check protocols references (technology)
+            for tech in tech_spec.protocols:
+                if tech not in known_technology_ids:
+                    errors.append(
+                        f"Entry '{entry_id}': protocol '{tech}' "
+                        f"is not defined in technology.yaml."
                     )
 
         return errors
@@ -328,6 +340,8 @@ class Catalog:
                 refs = ts.compatible_platforms
             elif definition_type == "univention_products":
                 refs = ts.compatible_products
+            elif definition_type == "technology":
+                refs = ts.protocols
             if item_id in refs or item_id.lower() in [r.lower() for r in refs]:
                 raise InvalidReferenceError(
                     f"Cannot remove definition '{item_id}' from '{definition_type}': "
@@ -490,6 +504,14 @@ class Catalog:
         for prod in ts.compatible_products:
             if prod not in known_prods:
                 errors.append(f"compatible_product '{prod}' is not defined in univention_products.yaml.")
+
+        known_techs = {
+            item.id
+            for item in self.definitions.get("technology", DefinitionFile("technology")).items
+        }
+        for tech in ts.protocols:
+            if tech not in known_techs:
+                errors.append(f"protocol '{tech}' is not defined in technology.yaml.")
 
         if errors:
             raise InvalidReferenceError(
