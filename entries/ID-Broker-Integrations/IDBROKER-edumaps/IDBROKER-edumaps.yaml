@@ -99,6 +99,7 @@ organizational_specifications:
   vendor_id: 'edumaps'
 technical_specifications:
   capabilities:
+    - outbound
     - sso
   compatible_platforms: []
   compatible_products:

@@ -71,7 +71,6 @@ technical_specifications:
   capabilities:
   - sso
   - user_lifecycle
-  - group_memberships
   compatible_platforms:
   - Kubernetes
   compatible_products:

@@ -9,41 +9,34 @@ metadata:
 
 # capabilitiy definitions
 capabilities:
-  - id: bi_directional_sync
+  - id: inbound
     en-US:
-      name: Bi-Directional Sync
-      description: TODO - better name, to be used for connectors who support sync in both directions like AD and S4 connector
+      name: Inbound Data
+      description: Data transfer (for example user information) from a source system to Univention Nubus or Nubus based products.
     de-DE:
-      name: Bidirektionale Synchronisation
-      description: TODO - besserer Name, für Konnektoren die Synchronisation in beide Richtungen unterstützen wie AD und S4 Konnektor
-  - id: group_creation
+      name: Datenimport
+      description: Datenübertragung (z.B. Nutzerinformationen) aus einem Quellsystem zu Univention Nubus oder einem auf Nubus basierenden Produkt.
+  - id: outbound
     en-US:
-      name: Group Creation
-      description: Groups known to Nubus are created in the target application
+      name: Inbound Data
+      description: Data transfer (for example user information) from Univention Nubus or Nubus based products to an application.
     de-DE:
-      name: Gruppen-Erstellung
-      description: In Nubus bekannte Gruppen werden in der Zielanwendung erstellt
+      name: Datenimport
+      description: Datenübertragung (z.B. Nutzerinformationen) von Univention Nubus oder einem auf Nubus basierenden Produkt zu einer Anwendung.
+  - id: user_lifecycle
+    en-US:
+      name: User Lifecycle
+      description: Supports transfer of user information.
+    de-DE:
+      name: User Lifecycle
+      description: Unterstützung die Übertragung von Nutzerinformationen.
   - id: group_lifecycle
     en-US:
       name: Group Lifecycle
-      description: Support for all CRUD operations for Groups
+      description: Supports transfer of groups and group memberships.
     de-DE:
       name: Group Lifecycle
-      description: Unterstützung aller CRUD-Operationen für Gruppen
-  - id: group_memberships
-    en-US:
-      name: Group Memberships
-      description: Nubus user memberships are known in the application
-    de-DE:
-      name: Gruppenmitgliedschaften
-      description: Nubus-Benutzermitgliedschaften sind in der Anwendung bekannt
-  - id: role_management
-    en-US:
-      name: Role Management
-      description: Nubus / Guardian roles are known to the application
-    de-DE:
-      name: Rollenverwaltung
-      description: Nubus / Guardian Rollen sind in der Anwendung bekannt
+      description: Unterstützung die Übertragung von Gruppen und Gruppenmitgliedschaften.
   - id: slo
     en-US:
       name: Single Logout
@@ -65,24 +58,13 @@ capabilities:
     de-DE:
       name: Same User Same Password
       description: Unterstützt die Authentifikation an der integrierten Anwendung mit den in Nubus definierten Nutzernamen und Passwort.
-  - id: user_creation
-    en-US:
-      name: User Creation
-      description: Users known to Nubus are created in the target application
-    de-DE:
-      name: Benutzer-Erstellung
-      description: In Nubus bekannte Benutzer werden in der Zielanwendung erstellt
-  - id: user_import
-    en-US:
-      name: User Import
-      description: Users in Nubus are created from external data source
-    de-DE:
-      name: Benutzer-Import
-      description: Benutzer in Nubus werden aus externer Datenquelle erstellt
-  - id: user_lifecycle
-    en-US:
-      name: User Lifecycle
-      description: Support for all CRUD operations for Users
-    de-DE:
-      name: User Lifecycle
-      description: Unterstützung aller CRUD-Operationen für Benutzer
+
+# future candidates
+#  - id: organization_structure # transfer of Org/LDAP structure
+#  - id: role_management
+#    en-US:
+#      name: Role Management
+#      description: Nubus / Guardian roles are known to the application
+#    de-DE:
+#      name: Rollenverwaltung
+#      description: Nubus / Guardian Rollen sind in der Anwendung bekannt

@@ -142,21 +142,19 @@ organizational_specifications:
   support_status: ''
 technical_specifications:
   capabilities:
-  - bi_directional_sync
-  - group_creation
   - group_lifecycle
-  - group_memberships
   - susp
-  - user_creation
-  - user_import
   - user_lifecycle
+  - outbound
+  - inbound
   compatible_platforms:
   - UCS
   compatible_products:
   - Nubus
   - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+  - LDAP
   artifacts:
   - packaged_integration
   source_license: ''

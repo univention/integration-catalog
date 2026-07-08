@@ -61,7 +61,6 @@ organizational_specifications:
 technical_specifications:
   capabilities:
   - group_lifecycle
-  - group_memberships
   - user_lifecycle
   compatible_platforms:
   - Kubernetes

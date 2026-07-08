@@ -83,6 +83,7 @@ organizational_specifications:
   vendor_id: 'itslearning'
 technical_specifications:
   capabilities:
+    - outbound
     - sso
   compatible_platforms: []
   compatible_products:
