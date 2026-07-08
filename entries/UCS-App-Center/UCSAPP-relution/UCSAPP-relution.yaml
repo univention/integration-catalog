@@ -140,7 +140,8 @@ organizational_specifications:
   vendor_id: 'relution'
 technical_specifications:
   capabilities: []
-  compatible_platforms: []
+  compatible_platforms:
+  - UCS
   compatible_products: []
   dependencies: []
   protocols: []

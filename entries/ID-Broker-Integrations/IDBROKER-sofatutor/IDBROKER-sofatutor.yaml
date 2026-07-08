@@ -97,7 +97,8 @@ technical_specifications:
   capabilities:
     - outbound
     - sso
-  compatible_platforms: []
+  compatible_platforms:
+    - UCS
   compatible_products:
     - UCSschool
   dependencies: []

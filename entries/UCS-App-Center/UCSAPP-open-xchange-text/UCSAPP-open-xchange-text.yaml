@@ -146,7 +146,8 @@ organizational_specifications:
   vendor_id: 'ox'
 technical_specifications:
   capabilities: []
-  compatible_platforms: []
+  compatible_platforms:
+  - UCS
   compatible_products: []
   dependencies: []
   protocols: []

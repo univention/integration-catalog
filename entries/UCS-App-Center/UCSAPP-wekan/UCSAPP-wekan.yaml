@@ -87,8 +87,11 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'wekan'
 technical_specifications:
-  capabilities: []
-  compatible_platforms: []
+  capabilities:
+    - outbound
+    - user_lifecycle
+  compatible_platforms:
+  - UCS
   compatible_products: []
   dependencies: []
   protocols: []

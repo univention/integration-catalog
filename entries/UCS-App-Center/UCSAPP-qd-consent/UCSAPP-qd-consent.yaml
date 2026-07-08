@@ -75,7 +75,8 @@ organizational_specifications:
   vendor_id: 'qua-dev'
 technical_specifications:
   capabilities: []
-  compatible_platforms: []
+  compatible_platforms:
+  - UCS
   compatible_products: []
   dependencies: []
   protocols: []

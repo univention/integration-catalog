@@ -56,7 +56,8 @@ organizational_specifications:
   support_status: ''
 technical_specifications:
   capabilities: []
-  compatible_platforms: []
+  compatible_platforms:
+  - UCS
   compatible_products:
   - Nubus
   - UCSschool

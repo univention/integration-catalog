@@ -130,7 +130,8 @@ organizational_specifications:
   vendor_id: 'uib'
 technical_specifications:
   capabilities: []
-  compatible_platforms: []
+  compatible_platforms:
+  - UCS
   compatible_products: []
   dependencies: []
   protocols: []
