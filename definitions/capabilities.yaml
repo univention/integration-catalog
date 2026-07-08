@@ -11,17 +11,17 @@ metadata:
 capabilities:
   - id: inbound
     en-US:
-      name: Inbound Data
+      name: Inbound Identity Information
       description: Data transfer (for example user information) from a source system to Univention Nubus or Nubus based products.
     de-DE:
-      name: Datenimport
+      name: Identitäts-Import (Inbound)
       description: Datenübertragung (z.B. Nutzerinformationen) aus einem Quellsystem zu Univention Nubus oder einem auf Nubus basierenden Produkt.
   - id: outbound
     en-US:
-      name: Inbound Data
+      name: Outbound Identity Information
       description: Data transfer (for example user information) from Univention Nubus or Nubus based products to an application.
     de-DE:
-      name: Datenimport
+      name: Identitäts-Provisionierung (Outbound)
       description: Datenübertragung (z.B. Nutzerinformationen) von Univention Nubus oder einem auf Nubus basierenden Produkt zu einer Anwendung.
   - id: user_lifecycle
     en-US:
