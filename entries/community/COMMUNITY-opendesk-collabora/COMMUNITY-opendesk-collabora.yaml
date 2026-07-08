@@ -71,6 +71,7 @@ organizational_specifications:
   support_status: ''
 technical_specifications:
   capabilities:
+  - slo
   - outbound
   - sso
   compatible_platforms:

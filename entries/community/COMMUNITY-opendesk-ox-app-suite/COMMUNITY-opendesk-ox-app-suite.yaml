@@ -80,6 +80,7 @@ organizational_specifications:
   support_status: ''
 technical_specifications:
   capabilities:
+  - slo
   - group_lifecycle
   - outbound
   - sso
