@@ -1,0 +1,134 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: Nubus-Directory-Importer
+description:
+  en-US:
+    name: Nubus Directory Importer
+    short_description: |-
+      Synchronizes users and groups from an external directory service
+      (e.g. Microsoft Active Directory) into Nubus via LDAP and the UDM REST API.
+    long_description: |-
+      The Nubus Directory Importer is a packaged integration that enables
+      unidirectional synchronization of directory objects from an external
+      IAM directory service into Nubus. It is designed for organizations that
+      already operate a directory service such as Microsoft Active Directory
+      and want to make their users and groups available in Nubus without
+      migrating their primary identity store.
+
+      ## How it works
+
+      The importer queries the source directory using LDAP, compares the
+      retrieved objects with the current state in Nubus, and writes any
+      differences via the UDM HTTP REST API. The complete organizational
+      unit (OU) structure from the source directory is replicated into a
+      dedicated OU within Nubus's OpenLDAP.
+
+      The service is stateless — it maintains no persistent local state
+      between runs and can be restarted at any time without data loss.
+
+      ## What is synchronized
+
+      - User accounts
+      - User groups and group memberships
+
+      Password hashes are explicitly excluded from synchronization. Users
+      authenticate against their original IAM system, with trust established
+      between the external directory and Nubus via SAML or OpenID Connect.
+
+      ## Integration approach
+
+      The Nubus Directory Importer implements the IAM Connector interfaces
+      defined by Nubus. It is deployed as a Kubernetes service and integrates
+      with Nubus's identity provider (Keycloak) for single sign-on, allowing
+      users to log in with their existing credentials from the source directory.
+    icon: ''
+    keywords:
+    - Directory Importer
+    - Active Directory
+    - LDAP
+    - User Synchronization
+    - IAM
+    links:
+    - Description: Nubus Directory Importer Installation with Kubernetes as example
+      URL: https://docs.software-univention.de/nubus-kubernetes-operation/1.x/en/connect-external-iam/directory-importer.html#nubus-directory-importer-installation
+    tags:
+    - Identity Management
+    - Directory Synchronization
+    visuals: []
+  de-DE:
+    name: Nubus Directory Importer
+    short_description: |-
+      Synchronisiert Benutzer und Gruppen aus einem externen Verzeichnisdienst
+      (z.B. Microsoft Active Directory oder OpenLDA) in Nubus über LDAP und die UDM REST API.
+    long_description: |-
+      Der Nubus Directory Importer ist ein service, der eine
+      unidirektionale Synchronisation von Verzeichnisobjekten aus einem externen
+      LDAP-Verzeichnisdienst in Nubus ermöglicht. Er richtet sich an Organisationen,
+      die bereits einen Verzeichnisdienst wie Microsoft Active Directory betreiben
+      und ihre Benutzer und Gruppen in Nubus verfügbar machen möchten, ohne ihren
+      primären Identity Store zu migrieren.
+
+      ## Funktionsweise
+
+      Der Importer liest den Quellverzeichnisdienst über LDAP aus, vergleicht die
+      abgerufenen Objekte mit dem aktuellen Stand in Nubus und schreibt Unterschiede
+      über die UDM HTTP REST API. Die vollständige Organisationseinheits-Struktur
+      (OU-Struktur) des Quellverzeichnisses wird in eine dedizierte OU innerhalb
+      des OpenLDAP von Nubus repliziert.
+
+      Der Dienst ist zustandslos — er hält keinen persistenten lokalen Zustand
+      zwischen Läufen vor und kann jederzeit ohne Datenverlust neu gestartet werden.
+
+      ## Was synchronisiert wird
+
+      - Benutzerkonten
+      - Benutzergruppen und Gruppenmitgliedschaften
+
+      Passwort-Hashes werden ausdrücklich von der Synchronisation ausgeschlossen.
+      Benutzer authentifizieren sich weiterhin gegenüber ihrem ursprünglichen
+      IAM-System. Die Vertrauensbeziehung zwischen dem externen Verzeichnis und
+      Nubus wird über SAML oder OpenID Connect hergestellt.
+
+    icon: ''
+    keywords:
+    - Directory Importer
+    - Active Directory
+    - LDAP
+    - Benutzersynchronisation
+    - IAM
+    links:
+    - Description: Nubus Directory Importer Installation am Beispiel Kubernetes
+      URL: https://docs.software-univention.de/nubus-kubernetes-operation/1.x/en/connect-external-iam/directory-importer.html#nubus-directory-importer-installation
+    tags:
+    - Identity Management
+    - Verzeichnissynchronisation
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-07-08'
+  last_update_date: '2026-07-08'
+organizational_specifications:
+  vendor_id: univention
+  support_contact_id: univention
+  support_status: Enterprise
+technical_specifications:
+  capabilities:
+  - inbound
+  - user_lifecycle
+  - group_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - LDAP
+  - OIDC
+  - SAML
+  artifacts:
+  - documentation
+  source_license: AGPL-3.0
