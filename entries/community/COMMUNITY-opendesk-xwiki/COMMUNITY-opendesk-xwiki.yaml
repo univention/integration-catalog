@@ -70,6 +70,8 @@ organizational_specifications:
   support_status: ''
 technical_specifications:
   capabilities:
+  - group_lifecycle
+  - outbound
   - sso
   - user_lifecycle
   compatible_platforms:

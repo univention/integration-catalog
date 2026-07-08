@@ -72,6 +72,8 @@ organizational_specifications:
   support_status: ''
 technical_specifications:
   capabilities:
+  - outbound
+  - user_lifecycle
   - sso
   compatible_platforms:
   - Kubernetes
