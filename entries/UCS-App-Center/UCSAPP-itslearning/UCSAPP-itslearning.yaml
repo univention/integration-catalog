@@ -208,5 +208,7 @@ technical_specifications:
   protocols:
   - LDAP
   - SAML
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 5.0-ucs2

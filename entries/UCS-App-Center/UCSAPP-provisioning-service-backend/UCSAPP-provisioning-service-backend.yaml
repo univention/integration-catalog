@@ -63,5 +63,7 @@ technical_specifications:
   compatible_products: []
   dependencies: []
   protocols: []
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: '2.0'

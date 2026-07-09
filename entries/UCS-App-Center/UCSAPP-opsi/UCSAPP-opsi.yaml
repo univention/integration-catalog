@@ -142,5 +142,7 @@ technical_specifications:
   protocols:
   - LDAP
   - Kerberos
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 4.3.0.53-ucs5

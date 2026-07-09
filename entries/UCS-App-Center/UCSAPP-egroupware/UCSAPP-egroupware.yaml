@@ -264,5 +264,7 @@ technical_specifications:
   protocols:
   - LDAP
   - SAML
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 23.1.20260131

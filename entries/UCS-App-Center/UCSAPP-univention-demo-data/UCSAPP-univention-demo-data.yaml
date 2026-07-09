@@ -76,5 +76,7 @@ technical_specifications:
     - Nubus
   dependencies: []
   protocols: []
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 2.1.0-1

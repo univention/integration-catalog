@@ -336,5 +336,7 @@ technical_specifications:
   - LDAP
   - SAML
   - OIDC
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 32.0.3-0

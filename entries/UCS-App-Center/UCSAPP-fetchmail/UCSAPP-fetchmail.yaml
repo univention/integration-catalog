@@ -81,5 +81,7 @@ technical_specifications:
   dependencies: []
   protocols:
   - LDAP
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 6.3.26

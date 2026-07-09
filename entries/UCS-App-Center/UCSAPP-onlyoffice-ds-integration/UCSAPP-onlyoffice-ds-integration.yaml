@@ -257,5 +257,7 @@ technical_specifications:
   dependencies:
   - UCSAPP-nextcloud
   protocols: []
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 9.0.3.1

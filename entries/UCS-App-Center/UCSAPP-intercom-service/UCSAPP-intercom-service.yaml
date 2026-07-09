@@ -97,5 +97,7 @@ technical_specifications:
   dependencies: []
   protocols:
   - OIDC
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: '1.10'

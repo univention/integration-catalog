@@ -117,5 +117,7 @@ technical_specifications:
   - UCSschool
   dependencies: []
   protocols: []
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: '1.0'

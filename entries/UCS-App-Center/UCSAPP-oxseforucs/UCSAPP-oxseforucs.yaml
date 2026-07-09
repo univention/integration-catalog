@@ -157,5 +157,7 @@ technical_specifications:
   - LDAP
   - OIDC
   - SAML
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 7.10.6-ucs11

@@ -161,5 +161,7 @@ technical_specifications:
   protocols:
   - OIDC
   - SAML
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 7.10.6-ucs3

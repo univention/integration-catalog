@@ -125,5 +125,7 @@ technical_specifications:
   dependencies: []
   protocols:
     - LDAP
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: 2.10.3

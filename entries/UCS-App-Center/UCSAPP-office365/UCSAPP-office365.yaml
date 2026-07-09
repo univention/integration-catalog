@@ -120,5 +120,7 @@ technical_specifications:
   protocols:
   - SAML
   - OIDC
+  artifacts:
+  - packaged_integration
   source_license: ''
 version: '6.3'
