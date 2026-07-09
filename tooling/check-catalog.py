@@ -128,7 +128,7 @@ def main() -> int:
 
     # ── run checks ───────────────────────────────────────────────────────────
     console.print("Running consistency checks…")
-    errors = catalog.validate() + _check_entries(catalog)
+    errors = catalog.load_errors + catalog.validate() + _check_entries(catalog)
 
     if not errors:
         console.print(
