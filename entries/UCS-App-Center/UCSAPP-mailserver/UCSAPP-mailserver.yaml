@@ -51,8 +51,8 @@ description:
 main_icon: ''
 version: '12.0'
 metadata:
-  created_by: ''
-  creation_date: ''
+  created_by: Ingo Steuwer
+  creation_date: '2026-04-17'
   last_update_date: '2026-06-03'
 organizational_specifications:
   vendor_id: univention

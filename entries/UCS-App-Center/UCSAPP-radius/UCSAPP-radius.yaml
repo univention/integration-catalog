@@ -81,9 +81,9 @@ description:
 id: UCSAPP-radius
 main_icon: ''
 metadata:
-  created_by: ''
-  creation_date: ''
-  last_update_date: ''
+  created_by: Ingo Steuwer
+  creation_date: '2026-04-17'
+  last_update_date: '2026-07-09'
 organizational_specifications:
   support_contact_id: 'univention'
   support_status: ''

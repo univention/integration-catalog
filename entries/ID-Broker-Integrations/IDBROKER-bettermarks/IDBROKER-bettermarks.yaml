@@ -76,9 +76,9 @@ description:
 main_icon: logo.png
 version: ''
 metadata:
-  created_by: ''
-  creation_date: ''
-  last_update_date: ''
+  created_by: Ingo Steuwer
+  creation_date: '2026-04-20'
+  last_update_date: '2026-07-08'
 organizational_specifications:
   support_contact_id: 'bettermarks'
   support_status: ''
