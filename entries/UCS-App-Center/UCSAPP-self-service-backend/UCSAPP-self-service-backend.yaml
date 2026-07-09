@@ -88,10 +88,15 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - susp
+  - sso
   compatible_platforms:
   - UCS
-  compatible_products: []
+  - Kubernetes
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
   protocols: []
   source_license: ''

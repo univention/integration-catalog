@@ -12,26 +12,16 @@ description:
     - Description: ''
       URL: ''
     long_description: 'Diese App stellt einen Web-Proxyserver und Web-Cache zur Erhöhung
-      der Performance
-
-      und Kontrolle des Datenverkehrs zur Verfügung. Antwortzeiten für den regelmäßigen
-
+      der Performance und Kontrolle des Datenverkehrs zur Verfügung. Antwortzeiten für den regelmäßigen
       Aufruf gleicher Webseiten werden verringert. Ebenso kann das Daten-Transfervolumen
-
       über den Internetzugang reduziert werden. Darüber hinaus wird die Kontrolle
-      und
-
-      Administration des Zugriffs auf Internetinhalte ermöglicht. So kann beispielsweise
-
+      und Administration des Zugriffs auf Internetinhalte ermöglicht. So kann beispielsweise
       festgelegt werden, welche Benutzer oder Benutzergruppen auf welche Webseiten
       zugreifen.
 
 
       Die App nutzt die etablierte Proxyserver-Anwendung Squid und unterstützt die
-      Protokolle
-
-      HTTP, HTTPS und FTP. Die Filterung von Internetinhalten erfolgt über die Software
-
+      Protokolle HTTP, HTTPS und FTP. Die Filterung von Internetinhalten erfolgt über die Software
       DansGuardian.
 
       '
@@ -52,26 +42,14 @@ description:
     - Description: ''
       URL: ''
     long_description: 'This app provides a web proxy server and web cache to increase
-      the performance and
-
-      control the data traffic. Response times for regular requests of the same websites
-
+      the performance and control the data traffic. Response times for regular requests of the same websites
       are reduced. Furthermore, The data transfer volume over the internet access
-      can be
-
-      reduced. In addition, control and administration for the access on internet
-      content
-
-      is possible. For example, it can be specified which users or user groups can
-      access
-
-      which websites.
-
+      can be reduced. In addition, control and administration for the access on internet
+      content is possible. For example, it can be specified which users or user groups can
+      access which websites.
 
       The app uses the well established proxy server application Squid and supports
-      the
-
-      protocols HTTP, HTTPS and FTP. Internet content is filtered via the software
+      the protocols HTTP, HTTPS and FTP. Internet content is filtered via the software
       DansGuardian.
 
       '
@@ -93,10 +71,13 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - susp
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
   protocols: []
   source_license: ''

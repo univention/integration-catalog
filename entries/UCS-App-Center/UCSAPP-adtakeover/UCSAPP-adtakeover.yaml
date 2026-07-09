@@ -89,11 +89,22 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+    - inbound
+    - user_lifecycle
+    - group_lifecycle
+    - sso
+    - susp
   compatible_platforms:
   - UCS
-  compatible_products: []
-  dependencies: []
-  protocols: []
+  compatible_products:
+    - Nubus
+  dependencies:
+    - UCSAPP-samba4
+  protocols:
+    - LDAP
+    - Kerberos
+  artifacts:
+    - packaged_integration
   source_license: ''
 version: '5.0'

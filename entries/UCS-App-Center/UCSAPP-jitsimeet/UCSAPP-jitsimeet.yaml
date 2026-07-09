@@ -45,10 +45,16 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'bytemine'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - service
+  - outbound
+  - user_lifecycle
+  - susp
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
   protocols: []
   source_license: ''

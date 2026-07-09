@@ -129,11 +129,18 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'uib'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - susp
+  - sso
+  - user_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+  - LDAP
+  - Kerberos
   source_license: ''
 version: 4.3.0.53-ucs5

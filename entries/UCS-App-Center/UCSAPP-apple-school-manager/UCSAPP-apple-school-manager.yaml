@@ -146,11 +146,20 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+    - outbound
+    - user_lifecycle
+    - group_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
-  dependencies: []
-  protocols: []
+  compatible_products:
+    - Nubus
+    - UCSschool
+  dependencies:
+    - UCSapp-ucsschool
+  protocols:
+    - LDAP
+  artifacts:
+    - packaged_integration
   source_license: ''
 version: 5.0.3

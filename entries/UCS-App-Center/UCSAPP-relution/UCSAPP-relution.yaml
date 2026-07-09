@@ -139,10 +139,12 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'relution'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - outbound
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - UCSschool
   dependencies: []
   protocols: []
   source_license: ''

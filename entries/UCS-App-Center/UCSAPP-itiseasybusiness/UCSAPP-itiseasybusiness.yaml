@@ -201,11 +201,16 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'itis-ag'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - outbound
+  - user_lifecycle
+  - group_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
   dependencies: []
-  protocols: []
+  protocols:
+  - LDAP
   source_license: ''
 version: '18.2'

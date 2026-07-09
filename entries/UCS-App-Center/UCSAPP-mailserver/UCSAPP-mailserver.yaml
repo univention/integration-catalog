@@ -69,6 +69,8 @@ technical_specifications:
   - Nubus
   - UCSschool
   dependencies: []
-  protocols: []
-  artifacts: []
+  protocols:
+  - LDAP
+  artifacts:
+  - packaged_integration
   source_license: ''

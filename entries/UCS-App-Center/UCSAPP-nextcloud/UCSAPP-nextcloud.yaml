@@ -320,11 +320,21 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'nextcloud'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - susp
+  - sso
+  - outbound
+  - user_lifecycle
+  - group_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+  - LDAP
+  - SAML
+  - OIDC
   source_license: ''
 version: 32.0.3-0

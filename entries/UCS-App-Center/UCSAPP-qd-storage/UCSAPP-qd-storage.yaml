@@ -64,10 +64,12 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'qua-dev'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - susp
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - UCSschool
   dependencies: []
   protocols: []
   source_license: ''

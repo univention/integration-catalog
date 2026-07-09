@@ -55,13 +55,19 @@ organizational_specifications:
   support_contact_id: univention
   support_status: ''
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - service
   compatible_platforms:
   - UCS
   compatible_products:
   - Nubus
   - UCSschool
   dependencies: []
-  protocols: []
-  artifacts: []
+  protocols:
+  - LDAP
+  - SAML
+  - OIDC
+  - Kerberos
+  artifacts:
+  - packaged_integration
   source_license: ''

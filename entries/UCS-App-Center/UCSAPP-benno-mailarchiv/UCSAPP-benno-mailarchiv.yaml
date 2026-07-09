@@ -112,11 +112,18 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'lwsystems'
 technical_specifications:
-  capabilities: []
+  capabilities:
+    - outbound
+    - user_lifecycle
+    - susp
+    - service
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+    - Nubus
+    - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+    - LDAP
   source_license: ''
 version: 2.10.3

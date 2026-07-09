@@ -93,11 +93,19 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'qua-dev'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - sso
+  - outbound
+  - user_lifecycle
+  - group_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - UCS
+  - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+  - OIDC
+  - SAML
   source_license: ''
 version: 0.9.14

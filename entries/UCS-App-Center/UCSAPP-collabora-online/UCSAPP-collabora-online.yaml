@@ -152,11 +152,18 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'collabora'
 technical_specifications:
-  capabilities: []
+  capabilities:
+    - service
+    - outbound
+    - user_lifecycle
+    - group_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
-  dependencies: []
+  compatible_products:
+    - Nubus
+    - UCSschool
+  dependencies:
+    - UCSApp-nextcloud
   protocols: []
   source_license: ''
 version: 25.04.8.3

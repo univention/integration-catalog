@@ -145,11 +145,21 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'ox'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - outbound
+  - user_lifecycle
+  - group_lifecycle
+  - sso
+  - susp
   compatible_platforms:
   - UCS
-  compatible_products: []
-  dependencies: []
-  protocols: []
+  compatible_products:
+  - Nubus
+  - UCSschool
+  dependencies:
+  - UCSAPP-oxseforucs
+  protocols:
+  - OIDC
+  - SAML
   source_license: ''
 version: 7.10.6-ucs3

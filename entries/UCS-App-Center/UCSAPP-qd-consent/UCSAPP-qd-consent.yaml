@@ -5,11 +5,10 @@ description:
   de-DE:
     icon: logo.svg
     keywords:
-    - ''
     - Office
     - Backup & Archiving
     links:
-    - Description: ''
+    - Description: 'QD Consent'
       URL: ''
     long_description: "QD Consent ist eine App für UCS, die die Einwilligung zur Datenübertragung\
       \ persönlicher\nDaten an Microsoft365 und den jeweils gültigen Nutzungsbedingungen\
@@ -40,7 +39,7 @@ description:
     - Office
     - Backup & Archiving
     links:
-    - Description: ''
+    - Description: 'QD Consent'
       URL: ''
     long_description: "QD Consent is an app for UCS that automates consent to the\
       \ data transfer of personal\ndata to Microsoft365 and the applicable terms of\
@@ -74,11 +73,17 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'qua-dev'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - susp
+  - outbound
+  - user_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+  - LDAP
   source_license: ''
 version: 0.9.14

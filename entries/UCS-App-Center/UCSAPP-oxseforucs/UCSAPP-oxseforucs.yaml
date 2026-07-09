@@ -141,11 +141,21 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'ox'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - outbound
+  - user_lifecycle
+  - group_lifecycle
+  - susp
+  - sso
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+  - LDAP
+  - OIDC
+  - SAML
   source_license: ''
 version: 7.10.6-ucs11

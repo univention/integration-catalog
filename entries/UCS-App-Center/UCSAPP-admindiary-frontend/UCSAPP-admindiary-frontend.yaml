@@ -72,11 +72,21 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+    - service
+    - outbound
+    - user_lifecycle
+    - sso
   compatible_platforms:
   - UCS
-  compatible_products: []
-  dependencies: []
-  protocols: []
+  compatible_products:
+    - Nubus
+    - UCSschool
+  dependencies:
+    - UCSAPP-admindiary-backend
+  protocols:
+    - LDAP
+  artifacts:
+    - packaged_integration
   source_license: ''
 version: '1.0'

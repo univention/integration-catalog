@@ -158,10 +158,15 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+    - inbound
+    - outbound
+    - user_lifecycle
+    - group_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+    - UCSschool    
   dependencies: []
   protocols: []
   source_license: ''

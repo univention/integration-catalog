@@ -127,11 +127,17 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+    - service
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+    - Nubus
+    - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+    - LDAP
+  artifacts:
+    - packaged_integration
   source_license: ''
 version: 2.2.1

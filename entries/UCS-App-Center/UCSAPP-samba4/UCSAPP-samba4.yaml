@@ -12,24 +12,13 @@ description:
     - Description: ''
       URL: ''
     long_description: 'Diese App erweitert UCS um Active Directory Funktionen, wie
-      sie von der Software
-
-      Samba bereit gestellt werden. Sie ermöglicht damit den Betrieb eines Active
-      Directory
-
-      kompatiblen Domänencontrollers mit Nubus auf UCS und stellt so für Windows-Systeme,
-
+      sie von der Software Samba bereit gestellt werden. Sie ermöglicht damit den Betrieb eines Active
+      Directory kompatiblen Domänencontrollers mit Nubus auf UCS und stellt so für Windows-Systeme,
       die Teil dieser Domäne sind, den Anmeldedienst bereit.
 
-
-
       Benutzer und ihre Gruppenzugehörigkeiten werden zentral im Nubus Identity Management
-
       gepflegt. Die App kann auf mehreren UCS Instanzen installiert werden. In diesem
-      Fall
-
-      werden die Daten über Replikationsmechanismen auf andere Domänencontroller synchronisiert
-
+      Fall werden die Daten über Replikationsmechanismen auf andere Domänencontroller synchronisiert
       und miteinander abgeglichen.
 
       '
@@ -50,20 +39,12 @@ description:
     - Description: ''
       URL: ''
     long_description: 'This app extends UCS with Active Directory functionality as
-      it is delivered by the
-
-      software Samba. It allows to operate an Active Directory compatible domain controller
-
+      it is delivered by the software Samba. It allows to operate an Active Directory compatible domain controller
       with Nubus on UCS and therefore provides a login service for Windows systems
-      that
-
-      are part of the domain.
-
+      that are part of the domain.
 
       Users and group memberships are maintained centrally in the Nubus Identity Management
-
       system. The App can be installed on several UCS instances, In that case, replication
-
       mechanisms synchronize the data to other domain controllers.
 
       '
@@ -85,11 +66,19 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+  - inbound
+  - outbound
+  - user_lifecycle
+  - group_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+  - LDAP
+  - Kerberos
   source_license: ''
 version: '4.16'
