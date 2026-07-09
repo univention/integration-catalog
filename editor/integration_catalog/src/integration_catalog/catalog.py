@@ -186,6 +186,7 @@ class Catalog:
 
         # Validate entries and their references
         known_org_ids = set(self.organizations.keys())
+        known_entry_ids = set(self.entries.keys())
         known_capability_ids = {
             item.id.lower()
             for item in self.definitions.get("capabilities", DefinitionFile("capabilities")).items
@@ -269,6 +270,14 @@ class Catalog:
                     errors.append(
                         f"Entry '{entry_id}': protocol '{tech}' "
                         f"is not defined in technology.yaml."
+                    )
+
+            # Check dependency references (other entries)
+            for dep in tech_spec.dependencies:
+                if dep not in known_entry_ids:
+                    errors.append(
+                        f"Entry '{entry_id}': dependency '{dep}' "
+                        f"does not match any known entry."
                     )
 
         return errors
