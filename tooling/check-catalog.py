@@ -25,6 +25,7 @@ Usage:
 
 import argparse
 import sys
+from datetime import date, timedelta
 from pathlib import Path
 
 # Fall back to the in-tree source when the package is not installed.
@@ -45,6 +46,51 @@ except ImportError as exc:
         file=sys.stderr,
     )
     sys.exit(2)
+
+
+def _check_entries(catalog) -> list[str]:
+    """Additional per-entry checks beyond reference validation."""
+    errors: list[str] = []
+    for entry_id, entry in catalog.entries.items():
+        meta = entry.metadata
+        ts = entry.technical_specifications
+
+        if not meta.created_by.strip():
+            errors.append(f"Entry '{entry_id}': metadata.created_by must be set.")
+
+        if not meta.creation_date.strip():
+            errors.append(f"Entry '{entry_id}': metadata.creation_date must be set.")
+
+        if not meta.last_update_date.strip():
+            errors.append(f"Entry '{entry_id}': metadata.last_update_date must be set.")
+        elif entry.path and entry.path.exists():
+            try:
+                last_update = date.fromisoformat(meta.last_update_date)
+                file_mtime = date.fromtimestamp(entry.path.stat().st_mtime)
+                if file_mtime - last_update > timedelta(days=1):
+                    errors.append(
+                        f"Entry '{entry_id}': last_update_date '{last_update}' is more than "
+                        f"one day older than the file modification date '{file_mtime}'."
+                    )
+            except ValueError:
+                errors.append(
+                    f"Entry '{entry_id}': last_update_date '{meta.last_update_date}' "
+                    f"is not a valid ISO date."
+                )
+
+        if not ts.capabilities:
+            errors.append(f"Entry '{entry_id}': capabilities must have at least one entry.")
+
+        if not ts.compatible_products:
+            errors.append(f"Entry '{entry_id}': compatible_products must have at least one entry.")
+
+        if not ts.compatible_platforms:
+            errors.append(f"Entry '{entry_id}': compatible_platforms must have at least one entry.")
+
+        if not ts.artifacts:
+            errors.append(f"Entry '{entry_id}': artifacts must have at least one entry.")
+
+    return errors
 
 
 def main() -> int:
@@ -82,7 +128,7 @@ def main() -> int:
 
     # ── run checks ───────────────────────────────────────────────────────────
     console.print("Running consistency checks…")
-    errors = catalog.validate()
+    errors = catalog.validate() + _check_entries(catalog)
 
     if not errors:
         console.print(
