@@ -92,7 +92,9 @@ technical_specifications:
     - user_lifecycle
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
   protocols: []
   artifacts:

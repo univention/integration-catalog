@@ -81,6 +81,7 @@ technical_specifications:
   - inbound
   - user_lifecycle
   - group_lifecycle
+  - service
   compatible_platforms:
   - UCS
   compatible_products:

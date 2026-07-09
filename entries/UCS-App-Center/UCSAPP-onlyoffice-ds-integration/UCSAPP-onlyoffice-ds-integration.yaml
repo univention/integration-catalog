@@ -253,7 +253,9 @@ technical_specifications:
   - sso
   compatible_platforms:
   - UCS
-  compatible_products: []
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies:
   - UCSAPP-nextcloud
   protocols: []

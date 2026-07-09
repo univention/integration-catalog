@@ -66,10 +66,19 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
-  compatible_platforms: []
-  compatible_products: []
+  capabilities:
+  - outbound
+  - user_lifecycle
+  - group_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  - UCSschool
   dependencies: []
   protocols: []
+  artifacts:
+    - packaged_integration
   source_license: ''
 version: 3.0.1

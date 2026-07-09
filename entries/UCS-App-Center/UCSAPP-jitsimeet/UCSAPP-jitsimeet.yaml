@@ -11,7 +11,19 @@ description:
     links:
     - Description: ''
       URL: ''
-    long_description: ''
+    long_description: ' Jitsi ist eine vollständig verschlüsselte und zu 100% Open Source-Videokonferenzlösung
+    für sichere Video Konferenzen. Für die Nutzung wird nur ein Webbrowser oder die Jitsi Meet App für mobile Geräte benötigt.
+
+    Die UCS App Jitsi Meet installiert die Video Konferenz Lösung Jitsi in einer UCS-Umgebung mit allen nötigen Features,
+    um Video Konferenzen durchzuführen. Die Anbindung an den UCS Verzeichnisdienst via LDAP ist bereits konfiguriert,
+    so dass Administratoren einer UCS Umgebung zentral über die Univention Management Console (UMC) Nutzer*innen den
+    Zugriff auf Jitsi mit ihren gewohnten Benutzernamen und Passwort geben können.
+    Über das UCS Portal kann Jitsi anschließend einfach aufgerufen werden.
+
+    Es handelt sich bei der UCS Jitsi App um eine Single Instanz Installation von Jitsi. Die Zahl der Teilnehmer
+    in einer Konferenz und die Zahl der parallelen Konferenzen ist dabei durch die Kapazität des verwendeten
+    Servers begrenzt. Grob geschätzt sind pro Teilnehmer 0,5 Mbit/s Bandbreite am Server erforderlich.
+    Eine Maschine mit 4 CPUs und 8 GB RAM wird empfohlen. '
     name: Jitsi Meet
     short_description: 'Open Source Video Konferenz Lösung
 
@@ -27,7 +39,19 @@ description:
     links:
     - Description: ''
       URL: ''
-    long_description: ''
+    long_description: 'Jitsi is a fully encrypted and 100% open source video conferencing solution for
+    secure video conferencing. All you need is a web browser or the Jitsi Meet app for mobile devices.
+
+    The UCS app Jitsi Meet installs the video conferencing solution Jitsi in a UCS environment with all
+    the features necessary to conduct video conferences. The connection to the UCS directory service via
+    LDAP is already configured, so that administrators of a UCS environment can give users access to Jitsi
+    centrally via the Univention Management Console (UMC) with their usual user name and password. Jitsi
+    can then be easily accessed via the UCS portal.
+
+    The UCS Jitsi App is a single instance installation of Jitsi. The number of participants in a conference
+    and the number of parallel conferences is limited by the capacity of the server used. A rough estimate
+    is that 0.5 Mbit/s bandwidth per participant is required on the server. A machine with 4 CPUs and 8 GB
+    RAM is recommended. '
     name: Jitsi Meet
     short_description: 'Open Source Video Conferencing Solution
 
@@ -56,7 +80,8 @@ technical_specifications:
   - Nubus
   - UCSschool
   dependencies: []
-  protocols: []
+  protocols:
+    - LDAP
   artifacts:
   - packaged_integration
   source_license: ''

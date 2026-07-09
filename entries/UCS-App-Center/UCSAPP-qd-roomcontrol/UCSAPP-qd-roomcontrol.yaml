@@ -101,7 +101,7 @@ technical_specifications:
   compatible_platforms:
   - UCS
   compatible_products:
-  - UCS
+  - Nubus
   - UCSschool
   dependencies: []
   protocols:

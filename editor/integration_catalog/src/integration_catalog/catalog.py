@@ -14,6 +14,8 @@ import subprocess
 from pathlib import Path
 from typing import Optional
 
+import yaml
+
 _log = logging.getLogger(__name__)
 
 from .exceptions import (
@@ -76,6 +78,7 @@ class Catalog:
         self.definitions: dict[str, DefinitionFile] = {}
         self.organizations: dict[str, Organization] = {}
         self.entries: dict[str, Entry] = {}
+        self.load_errors: list[str] = []
 
     # ------------------------------------------------------------------
     # Git helpers
@@ -132,7 +135,11 @@ class Catalog:
             path = defs_dir / filename
             if not path.exists():
                 continue
-            data = load_yaml(path)
+            try:
+                data = load_yaml(path)
+            except yaml.YAMLError as exc:
+                self.load_errors.append(f"Corrupt YAML in {path}: {exc}")
+                continue
             df = DefinitionFile.from_dict(data, list_key=list_key, path=path)
             # technology.yaml reuses list_key 'platforms' → store under 'technology'
             store_key = "technology" if filename == "technology.yaml" else list_key
@@ -143,7 +150,11 @@ class Catalog:
         if not orgs_dir.is_dir():
             return
         for path in sorted(orgs_dir.glob("org-*.yaml")):
-            data = load_yaml(path)
+            try:
+                data = load_yaml(path)
+            except yaml.YAMLError as exc:
+                self.load_errors.append(f"Corrupt YAML in {path}: {exc}")
+                continue
             org = Organization.from_dict(data, path=path)
             if org.id:
                 self.organizations[org.id] = org
@@ -157,7 +168,11 @@ class Catalog:
             # skip editor backup files
             if yaml_path.suffix != ".yaml":
                 continue
-            data = load_yaml(yaml_path)
+            try:
+                data = load_yaml(yaml_path)
+            except yaml.YAMLError as exc:
+                self.load_errors.append(f"Corrupt YAML in {yaml_path}: {exc}")
+                continue
             if "id" not in data and "description" not in data:
                 continue  # not an entry file
             entry = Entry.from_dict(data, path=yaml_path)

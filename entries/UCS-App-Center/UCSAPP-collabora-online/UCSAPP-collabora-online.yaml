@@ -163,7 +163,7 @@ technical_specifications:
     - Nubus
     - UCSschool
   dependencies:
-    - UCSApp-nextcloud
+    - UCSAPP-nextcloud
   protocols: []
   artifacts:
   - packaged_integration

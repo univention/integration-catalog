@@ -107,7 +107,7 @@ technical_specifications:
   - sso
   - outbound
   - user_lifecycle
-  - group_lifecyle
+  - group_lifecycle
   compatible_platforms:
   - UCS
   compatible_products:
