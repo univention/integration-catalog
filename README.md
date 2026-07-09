@@ -13,7 +13,7 @@ The Integration Catalog for Univention Nubus is a collection of existing integra
 
 ## Status
 
-Currently the project is in an alpha status, collecting existing integrations and building a PoC for a catalog web service which will be part of the Univention Web pages.
+Currently the project is in preview status, having all integrations included for a first version published as part of the Univention Web pages.
 
 ## Directory Structure
 
@@ -32,6 +32,7 @@ If you want to add a new integration the following needs to be done:
 
 * If needed add a new organization for yourself if you want to be visible in the integration catalog. This is needed if there is a commercial offering for the integration, otherwise it is recommended but optional (for example if you only want to link a nice howto but don't know the author, you can use the "community" organization).
 * Add a new entry with a unique, self explaining name
+* use tooling/check-catalog.py to verify your entry contains the minimal information and uses existing references
 
 ### in the file tree
 
@@ -42,6 +43,7 @@ If you want to add a new integration the following needs to be done:
   * Add logos, images etc. which then can be referred to in the YAML file
 * For updates of existing entries just change the according files as needed  
 * For all contributions ensure that you comply to licensing, copyrights and trademarks. For example if you copy descriptions or product logos check the license of the source or get a confirmation of the copyright owner.
+* use tooling/check-catalog.py to verify your entry contains the minimal information and uses existing references
 * If you are happy create a merge request
 
 ## Web-Editor
