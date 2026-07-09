@@ -8,10 +8,10 @@ description:
     - ''
     - Education
     links:
-    - Description: ''
+    - Description: 'Veyon Backend zur Klassenraumverwaltung'
       URL: ''
-    long_description: "Diese App ist *nicht* zur manuellen Installation vorgesehen.\
-      \ Als technische App wird\nsie von UCS@school angesprochen und ist nicht zur\
+    long_description: "
+      \ Die Veyon Klassenraumsteuerung wird als Teil von UCS@school ausgerollt und ist nicht zur\
       \ manuellen Verwendung gedacht.  \nSie wird automatisch durch den UCS@school-Installer\
       \ installiert, wenn sie benötigt\nwird.  \nBitte deinstallieren Sie die App\
       \ *nicht* manuell.\n"
@@ -28,7 +28,7 @@ description:
     - ''
     - Education
     links:
-    - Description: ''
+    - Description: 'Veyon classroom management backend'
       URL: ''
     long_description: "Do *not* install this app manually. It is not intended for\
       \ end users.  \nIt will automatically be installed by the UCS@school installer\
@@ -52,7 +52,8 @@ organizational_specifications:
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
-  capabilities: []
+  capabilities:
+    - service
   compatible_platforms:
   - UCS
   compatible_products:
