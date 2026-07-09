@@ -37,6 +37,13 @@ platforms:
     de-DE:
       name: SAML
       description: Security Assertion Markup Language
+  - id: Kerberos
+    en-US:
+      name: Kerberos
+      description: Kerberos
+    de-DE:
+      name: Kerberos
+      description: Kerberos
   - id: ID Broker
     en-US:
       name: ID Broker
@@ -44,5 +51,12 @@ platforms:
     de-DE:
       name: ID Broker
       description: Univention ID Broker
+  - id: Radius
+    en-US:
+      name: Radius
+      description: Radius
+    de-DE:
+      name: Radius
+      description: Radius
 
 # candidates to add: Listener/Notifier, Nubus Provisioning, Guardian or Roles/Rights (?), UDM Extended 

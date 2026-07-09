@@ -58,6 +58,13 @@ capabilities:
     de-DE:
       name: Same User Same Password
       description: Unterstützt die Authentifikation an der integrierten Anwendung mit den in Nubus definierten Nutzernamen und Passwort.
+  - id: service
+    en-US:
+      name: Additional Service
+      description: Adds further services or backend functionality.
+    de-DE:
+      name: Ergänzender Service
+      description: Fügt einen weiteren Dienst oder Funktionalität hinzu.
 
 # future candidates
 #  - id: organization_structure # transfer of Org/LDAP structure
