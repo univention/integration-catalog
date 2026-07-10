@@ -4,8 +4,8 @@
 id: ISV-innovaphone-pbx
 description:
   en-US:
-    name: innovaphone myApps Integration with UCS via LDAP and Keycloak SSO
-    short_description: LDAP user provisioning and Single Sign-On for innovaphone myApps with Univention Corporate Server
+    name: innovaphone myApps 
+    short_description: LDAP user provisioning and Single Sign-On for innovaphone myApps with Univention Nubus
     long_description: |
       This integration connects the innovaphone myApps platform and PBX telephony solution with 
       Univention Nubus through LDAP synchronization and Single Sign-On (SSO) via Keycloak.
@@ -38,17 +38,15 @@ description:
       - LDAP
       - Keycloak
       - SSO
-      - UCS
-      - Nubus
     links:
-      - Description: innovaphone Wiki - UCS Integration How-To
+      - Description: innovaphone Wiki - Nubus Integration How-To
         URL: https://wiki.innovaphone.com/index.php?title=Howto:Univention_Corporate_Server_(UCS)_-_Univention_GmbH_-_3rd_Party_Product
       - Description: innovaphone Website
         URL: https://www.innovaphone.com/
     tags: []
     visuals: []
   de-DE:
-    name: innovaphone myApps Integration mit Nubus über LDAP und Keycloak SSO
+    name: innovaphone myApps
     short_description: Benutzerbereitstellung und Single Sign-On für innovaphone myApps mit Univention Nubus
     long_description: |
       Diese Integration verbindet die innovaphone myApps Platform und Telefonie-Lösung mit
@@ -84,10 +82,8 @@ description:
       - Collaboration
       - Keycloak
       - SSO
-      - UCS
-      - Nubus
     links:
-      - Description: innovaphone Wiki - UCS-Integrations-Anleitung
+      - Description: innovaphone Wiki - Nubus-Integrations-Anleitung
         URL: https://wiki.innovaphone.com/index.php?title=Howto:Univention_Corporate_Server_(UCS)_-_Univention_GmbH_-_3rd_Party_Product
       - Description: innovaphone Webseite
         URL: https://www.innovaphone.com/
@@ -107,6 +103,7 @@ technical_specifications:
   capabilities:
     - sso
     - user_lifecycle
+    - outbound
   compatible_platforms:
     - UCS
     - Kubernetes
