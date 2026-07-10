@@ -28,7 +28,7 @@ description:
       - Single Sign-On via Keycloak (OIDC)
       - Telephony services accessible through SSO
 
-    icon: ''
+    icon: 'innovaphone-myapps-logo-long-without-background-screen.png'
     keywords:
       - innovaphone
       - PBX
@@ -74,7 +74,7 @@ description:
       - Single Sign-On über Keycloak (OIDC)
       - Telefonie-Dienste über SSO erreichbar
 
-    icon: ''
+    icon: 'innovaphone-myapps-logo-long-without-background-screen.png'
     keywords:
       - innovaphone
       - PBX
@@ -98,7 +98,7 @@ version: ''
 metadata:
   created_by: 'Ingo Steuwer'
   creation_date: '2026-06-05'
-  last_update_date: '2026-06-05'
+  last_update_date: '2026-07-10'
 organizational_specifications:
   vendor_id: innovaphone
   support_contact_id: innovaphone
