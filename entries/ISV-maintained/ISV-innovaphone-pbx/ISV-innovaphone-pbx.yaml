@@ -7,7 +7,7 @@ description:
     name: innovaphone myApps Integration with UCS via LDAP and Keycloak SSO
     short_description: LDAP user provisioning and Single Sign-On for innovaphone myApps with Univention Corporate Server
     long_description: |
-      TThis integration connects the innovaphone myApps platform and PBX telephony solution with 
+      This integration connects the innovaphone myApps platform and PBX telephony solution with 
       Univention Nubus through LDAP synchronization and Single Sign-On (SSO) via Keycloak.
 
       User accounts managed in Nubus are synchronized into the innovaphone
