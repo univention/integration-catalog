@@ -3,22 +3,22 @@
 
 # Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.
 
-# Description of organization "Wekan Team".
+# Description of organization "WeKan".
 
 metadata:
   schema_version: "0.1.0"
-  last_updated: "2026-04-20" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+  last_updated: "2026-07-13" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
 
 id: wekan
 en-US:
-  name: Wekan Team
-  short_description: Wekan Team
-  link: https://wekan.github.io/
-  contact: support@wekan.team
+  name: WeKan
+  short_description: WeKan
+  link: https://wekan.fi/
+  contact: support@wekan.fi
   logo: wekan-logo-en-US.svg
 de-DE:
-  name: Wekan Team
-  short_description: Wekan Team
-  link: https://wekan.github.io/
-  contact: support@wekan.team
+  name: WeKan
+  short_description: WeKan
+  link: https://wekan.fi/
+  contact: support@wekan.fi
   logo: wekan-logo-de-DE.svg
