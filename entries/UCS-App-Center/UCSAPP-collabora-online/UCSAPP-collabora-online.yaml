@@ -14,23 +14,9 @@ description:
     links:
     - Description: ''
       URL: ''
-    long_description: 'Collabora Online ist ein leistungsstarke LibreOffice basierte
-      Online-Office Lösung,
-
-      die alle wichtigen Dokumenten-, Tabellenkalkulations- und Präsentationsdateiformate
-
-      unterstützt, die Sie in Ihre eigene Infrastruktur integrieren können. Hauptmerkmale
-
-      sind die kollaborative Bearbeitung und die hervorragende Unterstützung des Office-Dateiformats.
-
-
-      Collabora Online ist hervorragend für Unternehmen geeignet, die eine leistungsstarke
-
-      Office-Suite vor Ort benötigen, die ihre Privatsphäre schützt und ihnen die
-      volle
-
-      Kontrolle über ihre sensiblen Unternehmensdaten ermöglicht.
-
+    long_description: 'Collabora Online ist eine leistungsstarke Office-Suite für die Zusammenarbeit, die alle gängigen Dateiformate für Dokumente, Tabellenkalkulationen und Präsentationen unterstützt und nahtlos in Ihre eigene Infrastruktur integriert werden kann.
+    
+Collabora Online gewährleistet Datensicherheit und -souveränität und ist ideal auf die Anforderungen moderner, verteilter Arbeitsumgebungen abgestimmt. Mit einer vertrauten Benutzeroberfläche bietet Collabora Online eine echte Alternative zu etablierten Markenlösungen – und verbindet Kontrolle und Flexibilität ohne Abstriche bei den Funktionen.
 
       Diese App installiert Collabora Online in Ihre lokale UCS-Umgebung. Sie ermöglicht
 
@@ -58,7 +44,7 @@ description:
 
       ### Hauptmerkmale
 
-
+      - Ausgezeichnete Interoperabilität mit OOXML und ODF, sowie PDF-2.0-Export
       - Anzeigen und Bearbeiten von Textdokumenten, Tabellenkalkulationen, Präsentationen
       & mehr
 
@@ -68,11 +54,13 @@ description:
 
       - Live-Benachrichtigungen von Benutzern, die eintreten oder beenden
 
-      - Einfügen, Bearbeiten und Beantworten von Kommentaren
+      - Einfügen, Bearbeiten und Beantworten von Kommentaren in Threads
 
-      - Änderungen verfolgen
+      - Nachverfolgen und Verwalten von Änderungen
 
-      - Vollbildpräsentation
+      - Mehrere Präsentationsoptionen
+
+      - Optionale KI-Integration
 
       - Admin-Konsole zur Überwachung der Systemauslastung
 
