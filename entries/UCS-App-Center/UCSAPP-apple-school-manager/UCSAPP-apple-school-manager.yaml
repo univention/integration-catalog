@@ -153,7 +153,6 @@ technical_specifications:
   compatible_platforms:
   - UCS
   compatible_products:
-    - Nubus
     - UCSschool
   dependencies: []
 #    - UCSapp-ucsschool # todo: fix after having a dedicated @school entry
