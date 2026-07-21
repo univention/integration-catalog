@@ -65,13 +65,14 @@ main_icon: ''
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2026-04-17'
-  last_update_date: '2026-07-09'
+  last_update_date: '2026-07-21'
 organizational_specifications:
   support_contact_id: 'univention'
   support_status: ''
   vendor_id: 'univention'
 technical_specifications:
   capabilities:
+  - service
   - susp
   compatible_platforms:
   - UCS
