@@ -30,10 +30,10 @@ artifacts:
     de-DE:
       name: Paketierte Integration
       description: Softwarepaket zur Installation und Konfiguration
-  - id: other
-    en-US:
-      name: Other
-      description: Other type of integration
-    de-DE: 
-      name: Sonstige
-      description: Sonstige Integrationsart
+#  - id: other
+#    en-US:
+#      name: Other
+#      description: Other type of integration
+#    de-DE: 
+#      name: Sonstige
+#      description: Sonstige Integrationsart
