@@ -11,10 +11,10 @@ metadata:
 univention_products:
   - id: Nubus
     en-US:
-      name: Univention Nubus
+      name: Nubus
       description: Univention Nubus Identity- and Access Management
     de-DE:
-      name: Univention Nubus
+      name: Nubus
       description: Univention Nubus Identitäts- und Zugriffsmanagement
   - id: UCSschool
     en-US:
