@@ -9,34 +9,52 @@ description:
       - Education
       - Kollaboration
       - Digitale Pinnwand
+      - Unterricht
+      - Schulorganisation
+      - Wissensvermittlung
     links:
       - Description: TaskCards Website
-        URL: https://www.taskcards.de/
+        URL: https://www.taskcards.eu/
     long_description: |
-      TaskCards ist eine DSGVO-konforme digitale Pinnwand für den Unterricht,
-      die speziell für den deutschen Bildungsbereich entwickelt wurde. Mit
-      TaskCards können Lehrkräfte und Schüler*innen kollaborativ digitale
-      Inhalte erstellen, teilen und gemeinsam bearbeiten.
+      TaskCards ist eine DSGVO-konforme digitale Plattform für die Erstellung,
+      Organisation und Zusammenarbeit an digitalen Inhalten in Bildung, Projekten
+      und kollaborativen Arbeitsprozessen. Die browserbasierte Anwendung ermöglicht
+      die einfache Strukturierung, gemeinsame Bearbeitung und Präsentation digitaler
+      Inhalte – unabhängig vom verwendeten Endgerät.
+
+      TaskCards wird insbesondere im Bildungsbereich eingesetzt und unterstützt
+      Lehr- und Lernprozesse ebenso wie die Organisation und Kommunikation innerhalb
+      von Bildungseinrichtungen. Neben dem Einsatz im Unterricht bietet die Plattform
+      vielfältige Möglichkeiten für Schulorganisation, Arbeits- und Steuergruppen,
+      Veranstaltungen, Elternarbeit sowie weitere Formen der Zusammenarbeit.
+
+      Durch das flexible Berechtigungs- und Freigabekonzept können Lernende, Eltern,
+      externe Partner oder Projektbeteiligte einfach in Arbeitsprozesse eingebunden
+      werden. Darüber hinaus eignet sich TaskCards für Teams, Projekte und
+      Organisationen außerhalb des Bildungsbereichs.
 
       ## Funktionen
 
-      - Digitale Pinnwände für kollaboratives Arbeiten im Unterricht
-      - Verschiedene Kartentypen: Text, Bild, Video, Audio, Links, Aufgaben
-      - DSGVO-konform, Server in Deutschland
-      - Keine Registrierung für Schüler*innen erforderlich
-      - Einfache Freigabe via Link oder QR-Code
-      - Integration in gängige Lernmanagementsysteme
+      - Digitale Pinnwände zur Sammlung, Strukturierung und Präsentation von Informationen, Materialien und Ergebnissen.
+      - Verschiedene Darstellungsformen wie Pinnwand, Tafel, Zeitstrahl, Weltkarte und Blog.
+      - Einbindung vielfältiger Inhalte wie Texte, Bilder, Videos, Audios, Dokumente und Links.
+      - Gemeinsames Erstellen, Bearbeiten und Teilen von Inhalten für Unterricht, Projekte und Arbeitsgruppen.
+      - Flexible Gestaltungsmöglichkeiten und ein umfangreiches Berechtigungs- und Zugriffskonzept für unterschiedliche Einsatzszenarien.
+      - Möglichkeiten für Feedback, Austausch und Interaktion.
+      - Browserbasierte, geräteunabhängige Nutzung mit DSGVO-konformer und datensparsamer Umsetzung.
 
       ## Integration mit UCS@school
 
       TaskCards ist über den Univention ID Broker an UCS@school angebunden.
-      Schüler*innen und Lehrkräfte können sich mit ihrem UCS@school-Benutzerkonto
-      per Single Sign-On bei TaskCards anmelden.
+      Nutzerinnen und Nutzer können sich mit ihrem UCS@school-Benutzerkonto per
+      Single Sign-On bei TaskCards anmelden.
     name: TaskCards
-    short_description: DSGVO-konforme digitale Pinnwand für den Unterricht
+    short_description: Flexible digitale Plattform für Bildung, Zusammenarbeit und Wissensvermittlung
     tags:
-      - Kollaboration
       - Digitale Pinnwand
+      - Kollaboration
+      - Unterricht
+      - Schulorganisation
     visuals: []
   en-US:
     icon: logo.png
@@ -44,41 +62,57 @@ description:
       - Education
       - Collaboration
       - Digital Pinboard
+      - Teaching
+      - School Organization
+      - Knowledge Sharing
     links:
       - Description: TaskCards Website
-        URL: https://www.taskcards.de/
+        URL: https://www.taskcards.eu/
     long_description: |
-      TaskCards is a GDPR-compliant digital pinboard for the classroom,
-      developed specifically for the German education sector. With TaskCards,
-      teachers and students can collaboratively create, share and edit digital
-      content.
+      TaskCards is a GDPR-compliant digital platform for creating, organizing and
+      collaborating on digital content in education, projects and other shared
+      workflows. The browser-based application makes it easy to structure, jointly
+      edit and present digital content – regardless of the device used.
+
+      TaskCards is used especially in education and supports teaching and learning
+      processes as well as organization and communication within educational
+      institutions. Beyond classroom use, the platform offers a wide range of options
+      for school organization, working groups and steering committees, events, parent
+      engagement and other forms of collaboration.
+
+      The flexible model for permissions and sharing makes it easy to involve learners,
+      parents, external partners or project participants in workflows. TaskCards is
+      also suitable for teams, projects and organizations outside the education
+      sector.
 
       ## Features
 
-      - Digital pinboards for collaborative classroom work
-      - Various card types: text, image, video, audio, links, tasks
-      - GDPR-compliant, servers in Germany
-      - No student registration required
-      - Simple sharing via link or QR code
-      - Integration into common learning management systems
+      - Digital pinboards for collecting, structuring and presenting information, materials and results.
+      - Different presentation formats, including Board, Chalkboard, Timeline, Worldmap and Blog.
+      - Support for a wide range of content, including text, images, videos, audio, documents and links.
+      - Collaborative creation, editing and sharing of content for teaching, projects and working groups.
+      - Flexible design options and a comprehensive permissions and access model for different use cases.
+      - Options for feedback, communication and interaction.
+      - Browser-based access across devices with a GDPR-compliant, data-minimizing design.
 
       ## Integration with UCS@school
 
-      TaskCards is connected to UCS@school via the Univention ID Broker.
-      Students and teachers can log in to TaskCards with their UCS@school
-      credentials using Single Sign-On.
+      TaskCards is connected to UCS@school through the Univention ID Broker. Users
+      can sign in to TaskCards with their UCS@school account via Single Sign-On.
     name: TaskCards
-    short_description: GDPR-compliant digital pinboard for the classroom
+    short_description: Flexible digital platform for education, collaboration and knowledge sharing
     tags:
-      - Collaboration
       - Digital Pinboard
+      - Collaboration
+      - Teaching
+      - School Organization
     visuals: []
 main_icon: logo.png
 version: ''
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2026-04-20'
-  last_update_date: '2026-07-08'
+  last_update_date: '2026-07-21'
 organizational_specifications:
   support_contact_id: 'taskcards'
   support_status: ''
