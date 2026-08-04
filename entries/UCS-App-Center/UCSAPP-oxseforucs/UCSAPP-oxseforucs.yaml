@@ -46,9 +46,9 @@ description:
       Software-Clients wie Mac OS X Mail, iCal und Contacts.
 
 
-      OX App Suite wird unter GPLv2 (Backend) und Creative Commons Attribution-Noncommercial-Share
+      OX App Suite wird unter GNU Affero General Public License (AGPLv3)
 
-      Alike 2.5 Generic License (Frontend) veröffentlicht und kann daher ohne Lizenzgebühren
+      veröffentlicht und kann daher ohne Lizenzgebühren
 
       genutzt werden. Für den produktiven Einsatz wird jedoch eine kostenpflichtige
       Lizenz
@@ -109,9 +109,9 @@ description:
       iCal and Contacts.
 
 
-      OX App Suite is published under GPLv2 (Backend) and Creative Commons Attribution-Noncommercial-Share
+      OX App Suite is published under GNU Affero General Public License (AGPLv3)
 
-      Alike 2.5 Generic License (Frontend) and thus can be used without license fees.
+      and thus can be used without license fees.
       For
 
       productive use, a fee-based license with maintenance and support is recommended.
