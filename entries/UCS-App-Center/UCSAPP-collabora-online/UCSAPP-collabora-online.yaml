@@ -90,9 +90,6 @@ description:
     - thumbnail_6.png
     - thumbnail_7.png
     - thumbnail_8.png
-    - thumbnail_9.png
-    - thumbnail_10.png
-    - thumbnail_11.png
   en-US:
     icon: logo.svg
     keywords:
@@ -137,9 +134,6 @@ description:
     - thumbnail_6.png
     - thumbnail_7.png
     - thumbnail_8.png
-    - thumbnail_9.png
-    - thumbnail_10.png
-    - thumbnail_11.png
 id: UCSAPP-collabora-online
 main_icon: ''
 metadata:
