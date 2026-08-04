@@ -14,7 +14,7 @@ description:
         URL: https://de.bettermarks.com/
     long_description: |
       bettermarks ist ein adaptives Lernsystem für Mathematik, das Schüler*innen
-      der Klassen 4 bis 10 individuell fördert. Die KI-gestützte Plattform passt
+      der Klassen 3 bis 13 individuell fördert. Die KI-gestützte Plattform passt
       sich dem Lernstand jedes Kindes an und bietet gezielte Übungen mit sofortigem
       Feedback.
 
@@ -22,10 +22,9 @@ description:
 
       - Adaptives, KI-gestütztes Lern- und Lehrsystem für Mathematik
       - Wissenschaftlich nachgewiesene Lernwirksamkeit
-      - Klassen 4–10, alle Bundesländer und Lehrpläne abgedeckt
+      - Klassen 3–13, alle Bundesländer und Lehrpläne abgedeckt
       - Sofortiges Feedback und individuelle Lernpfade
       - Lehrkräfte-Dashboard zur Lernstandsbeobachtung
-      - Whitelabel-Plattform für Verlage
 
       ## Integration mit UCS@school
 
@@ -33,7 +32,7 @@ description:
       Schüler*innen und Lehrkräfte können sich mit ihrem gewohnten UCS@school-
       Benutzerkonto per Single Sign-On bei bettermarks anmelden.
     name: bettermarks
-    short_description: Adaptives Lernsystem für Mathematik (Klassen 4–10)
+    short_description: Adaptives Lernsystem für Mathematik (Klassen 3–13)
     tags:
       - Mathematik
       - Adaptives Lernen
@@ -49,7 +48,7 @@ description:
         URL: https://bettermarks.com/
     long_description: |
       bettermarks is an adaptive learning system for mathematics supporting
-      students in grades 4 to 10. The AI-powered platform adapts to each
+      students in grades 3 to 13. The AI-powered platform adapts to each
       student's individual learning level and provides targeted exercises
       with immediate feedback.
 
@@ -57,10 +56,9 @@ description:
 
       - Adaptive, AI-powered learning and teaching platform for mathematics
       - Scientifically proven learning efficacy
-      - Covers grades 4–10, all German federal states and curricula
+      - Covers grades 3–13, all German federal states and curricula
       - Immediate feedback and individual learning paths
       - Teacher dashboard for monitoring learning progress
-      - Whitelabel platform available for publishers
 
       ## Integration with UCS@school
 
@@ -68,7 +66,7 @@ description:
       Students and teachers can log in to bettermarks with their familiar
       UCS@school credentials using Single Sign-On.
     name: bettermarks
-    short_description: Adaptive learning system for mathematics (grades 4–10)
+    short_description: Adaptive learning system for mathematics (grades 3–13)
     tags:
       - Mathematics
       - Adaptive Learning
@@ -78,7 +76,7 @@ version: ''
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2026-04-20'
-  last_update_date: '2026-07-08'
+  last_update_date: '2026-08-04'
 organizational_specifications:
   support_contact_id: 'bettermarks'
   support_status: ''
