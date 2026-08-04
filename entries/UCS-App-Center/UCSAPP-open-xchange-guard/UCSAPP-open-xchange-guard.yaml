@@ -27,7 +27,7 @@ description:
 
       Transportes verschlüsselt, sondern auch verschlüsselt auf dem OX Server gespeichert.
 
-      Bitte beachten: OX Guard benötigt die OX App Suite v7.10.2.
+      Bitte beachten: OX Guard benötigt die OX App Suite v7.10.6.
 
       '
     name: OX Guard
@@ -67,7 +67,7 @@ description:
       App Suite users is also perfect for advertising and viral user acquisition.
       Note:
 
-      OX Guard needs a installed OX App Suite v7.10.2.
+      OX Guard needs a installed OX App Suite v7.10.6.
 
       '
     name: OX Guard
