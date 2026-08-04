@@ -5,77 +5,100 @@ description:
   de-DE:
     icon: audriga-groupware-migration_logo.svg
     keywords:
+    - E-Mail Umzug
+    - Migration
+    - Groupware
+    - Online Speicher
+    - Messenger
+    - Content-Management
+    - Chat
+    - Self-Service
+    - Migrationsprojekt
+    - Umzugsdienst
+    - Consulting
     - Collaboration
-    - ''
     links:
-    - Description: ''
-      URL: ''
+    - Description: audriga Website
+      URL: https://www.audriga.com
     long_description: 'Mit dem audriga Groupware Migrationsservice können Sie E-Mails,
-      Kontakte und Kalendereinträge
+      Kontakte, Kalendereinträge und Aufgaben von anderen Servern oder Hosting-Angeboten
+      zu UCS umziehen. Die Anwendung installiert einen Link zur Migrationsanwendung
+      von audriga, auf der die Migration konfiguriert und durchgeführt wird. Die
+      involvierten Server müssen die benötigten Standardprotokolle (IMAP, EWS, CardDAV,
+      CalDAV) über das Internet bereitstellen. Der Dienst unterstützt alle gängigen
+      IMAP Server sowie Standard-E-Mail- und Groupware-Plattformen wie Open-Xchange,
+      Zimbra, Kopano, Kerio, Exchange, MS 365, Google, Amazon Workmail, HCL Notes,
+      GroupWise, Stalwart, grommunio, IceWarp. etc. Weitere Systeme können angefragt
+      werden.
 
-      von anderen Servern oder Hosting-Angeboten zu UCS umziehen. Die Anwendung installiert
 
-      einen Link zur Migrationsanwendung von audriga, auf der die Migration konfiguriert
-
-      und durchgeführt wird. Der Service verbindet sich über Standardprotokolle (IMAP,
-
-      EWS, CardDAV, CalDAV), die über das Internet erreichbar sein müssen. Alle gängigen
-
-      IMAP Server werden unterstützt. Kontakte und Kalendereinträge werden bei MS
-      Exchange,
-
-      Open-Xchange und Kolab unterstützt. Bei anderen Systemen kontaktieren Sie bitte
-
-      audriga.
+      audriga bietet ebenso Consulting zu Migrationsprojekten jeglicher Größenordnung
+      an. Im Bereich Messaging-, Online-Speicher- und Content-Management-Lösungen
+      unterstützt audriga den Transfer von Datentypen wie z.B. Dateien und Chats
+      zwischen unterschiedlichen Systemen wie Sharepoint, OneDrive, Nextcloud, OpenCloud,
+      XWiki, Confluence, MS Teams, Matrix, Mattermost, Trello etc. Bitte kontaktieren
+      Sie audriga hierfür direkt.
 
       '
     name: audriga Groupware Migration Service
-    short_description: 'Service zur einfachen Migration von E-Mail-Konten
+    short_description: 'Service zur einfachen Migration von E-Mail Konten
 
       '
     tags: []
-    visuals:
-    - thumbnail_1.png
+    visuals: []
   en-US:
     icon: audriga-groupware-migration_logo.svg
     keywords:
-    - Collaboration
-    - ''
+    - email migration
+    - migration
+    - groupware
+    - online storage
+    - messenger
+    - content management
+    - chat
+    - self-service
+    - SaaS
+    - migration project
+    - migration service
+    - consulting
+    - collaboration
     links:
-    - Description: ''
-      URL: ''
-    long_description: 'The audriga Groupware Migration Service allows migrating emails,
-      contacts and calendar
+    - Description: audriga website
+      URL: https://www.audriga.com
+    long_description: 'With the audriga Groupware Migration Service, you can migrate
+      emails, contacts, calendars, and tasks from other servers or hosting providers
+      to UCS. The application installs a link to audriga''s migration platform,
+      where the migration can be configured and executed.
 
-      items from other servers or hosting offerings to UCS. This application will
-      install
 
-      a link to the Migration Service platform, where the migration can be configured
-      and
+      The source and target systems must provide the required standard protocols
+      (IMAP, EWS, CardDAV, and CalDAV) over the Internet. Audriga''s service supports
+      all major IMAP servers as well as standard email and groupware platforms,
+      including Open-Xchange, Zimbra, Kopano, Kerio, Microsoft Exchange, Microsoft
+      365, Google Workspace, Amazon WorkMail, HCL Notes, GroupWise, Stalwart, grommunio,
+      IceWarp, and many others. Support for additional systems is available upon
+      request.
 
-      started. The service connects via standard protocols (IMAP, EWS, CardDAV, CalDAV),
 
-      which have to be accessible via the Internet. All commonly used IMAP servers
-      are
-
-      supported. Contacts and calendar items are only supported for MS Exchange, Open-Xchange
-
-      and Kolab in self-service. For other platforms, please contact audriga.
+      audriga also offers consulting for migration projects of any size. For messaging,
+      online storage, and content management solutions, audriga supports the transfer
+      of data types such as files and chats between different systems, including
+      Sharepoint, OneDrive, Nextcloud, OpenCloud, XWiki, Confluence, MS Teams, Matrix,
+      Mattermost, and Trello. Please contact audriga directly for these services.
 
       '
     name: audriga Groupware Migration Service
-    short_description: 'Self-service for migrating email and groupware accounts
+    short_description: 'Mailbox migration service
 
       '
     tags: []
-    visuals:
-    - thumbnail_1.png
+    visuals: []
 id: UCSAPP-audriga-groupware-migration
 main_icon: ''
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2026-04-17'
-  last_update_date: '2026-07-09'
+  last_update_date: '2026-08-04'
 organizational_specifications:
   support_contact_id: 'audriga'
   support_status: ''
