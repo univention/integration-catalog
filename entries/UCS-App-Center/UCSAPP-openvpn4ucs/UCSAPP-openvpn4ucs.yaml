@@ -11,21 +11,15 @@ description:
     links:
     - Description: ''
       URL: ''
-    long_description: 'OpenVPN4UCS stellt ein Integrationspaket für OpenVPN in denUnivention
-      Corporate
+    long_description: 'OpenVPN4UCS stellt ein Integrationspaket für OpenVPN in den
+      Univention Corporate Server bereit.
 
-      Server bereit. Durch Nutzung und Erweiterungvertrauter Bedienelemente ermöglicht
-
-      es einem Administrator OpenVPN aus derUnivention Management Console heraus auf
-      einfache
-
-      Weise zu konfigurieren undbereitzustellen.
-
+      Durch Nutzung und Erweiterungvertrauter Bedienelemente ermöglicht es einem
+      Administrator OpenVPN aus der Univention Management Console heraus auf einfache
+      Weise zu konfigurieren und bereitzustellen.
 
       OpenVPN ist ein Programm zum Aufbau eines Virtuellen PrivatenNetzwerkes (VPN),
-      welches
-
-      OpenSSL für die Verschlüsselung einsetzt.
+      welches OpenSSL für die Verschlüsselung einsetzt.
 
       '
     name: OpenVPN4UCS
@@ -44,21 +38,16 @@ description:
     links:
     - Description: ''
       URL: ''
-    long_description: 'OpenVPN4UCS provides an integration package for OpenVPN in
-      theUnivention Corporate
+    long_description: 'OpenVPN4UCS provides an integration package for OpenVPN in the
+      Univention Corporate Server.
 
-      Server. By extending and using the familiar userinterface it allows an administrator
-
-      to configure and deploy OpenVPN fromwithin the Univention Management Console
-      in a
-
+      By extending and using the familiar userinterface it allows an administrator to
+      configure and deploy OpenVPN fromwithin the Univention Management Console in a
       very easy way.
 
 
       OpenVPN is an application to securely tunnel IP networks over asingle port by
-      utilizing
-
-      OpenSSL to encrypt the connection.
+      utilizing OpenSSL to encrypt the connection.
 
       '
     name: OpenVPN4UCS
