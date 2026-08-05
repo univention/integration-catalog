@@ -15,7 +15,7 @@ description:
     - Description: ''
       URL: ''
     long_description: 'Wenn Ihre Organisation von den Vorteilen des einfachen Teilens
-      von Daten und der
+      von Dateien und der
 
       Online-Kollaboration profitieren möchte, wie es von vielen Cloud-Produkten angeboten
 
@@ -25,9 +25,9 @@ description:
       Zugriff vorzubeugen, dann bietet Nextcloud die Lösung, nach der Sie suchen.
 
 
-      Nextcloud bietet die in der Branche einzigartige vollständige Open Source Lösung
+      Nextcloud bietet eine vollständige Open-Source-Lösung
 
-      für On-Premise Datenverarbeitung und Kommunikation mit einem kompromisslosen
+      für On-Premise-Datenverarbeitung und -Kommunikation mit einem kompromisslosen
       Fokus
 
       auf Sicherheit und Datenschutz.
@@ -39,16 +39,16 @@ description:
       Nextcloud vereinigt universellen Datenzugriff mit sicheren Kommunikations- und
       Kollaborationsmöglichkeiten
 
-      der nächsten Generation unter direkter Kontrolle Ihrer IT, integriert in die
+      unter direkter Kontrolle Ihrer IT, integriert in die
       bestehende
 
       Infrastruktur. Nextclouds offene, modulare Architektur, die Ausrichtung auf
       Sicherheit
 
-      und die fortgeschrittenen Fähigkeiten zur Föderation ermöglichen es modernen
+      und die fortgeschrittenen Möglichkeiten zur Föderation ermöglichen es
       Unternehmen,
 
-      ihr bestehendes IT Kapital innerhalb und über die Grenzen ihrer Organisation
+      ihr bestehendes IT-Kapital innerhalb und über die Grenzen ihrer Organisation
       hinaus
 
       auszureizen.
@@ -58,33 +58,33 @@ description:
 
 
 
-      - Einfach zu bedienende Weboberfläche und Anwendungen für Android, iOS, Windows,
+      - Einfach zu bedienende Web-Oberfläche und Anwendungen für Android, iOS, Windows,
       Mac und Linux
 
       - Einfache Zusammenarbeit und Dateiaustausch intern wie extern mit optionalen
       Vorgaben wie Passwortschutz und Auslaufdatum
 
       - Eingebauter Audio- und Video-Chat, optional kollaboratives Bearbeiten von
-      Office-Dokumenten, Outlook Integration und mehr
+      Office-Dokumenten, Outlook-Integration und mehr
 
       - Unterstützung externer Datenspeicher wie Windows Network Drive, FTP, WebDAV,
       NFS und weitere
 
       - Zahlreiche passive und aktive Sicherheitsfunktionen wie 2-Faktor-Authentifizierung,
-      Brute-Force-Schutz und CSP 3.0 als auch einen Auditlog
+      Brute-Force-Schutz und CSP 3.0 sowie Audit-Logs
 
       - Optional mit serverseitiger Verschlüsselung (pro externem Speicher einstellbar)
       und [Ende-zu-Ende-clientseitiger Verschlüsselung](https://nextcloud.com/endtoend)
       (pro Ordner einstellbar)
 
-      - Volle administrative Kontrolle über Dateiaustausch mittels File Access Control
+      - Volle administrative Kontrolle über Dateiaustausch mittels File-Access-Control-
       Regeln wie beispielsweise "DOCX darf nur aus dem internen Netzwerk heruntergeladen
-      werden" oder ausgeführte Aktionen bei bestimmten Aktionen (z.B. das Setzen von
+      werden" oder ausgeführte Aktionen bei bestimmten Aktionen (z. B. das Setzen von
       Schlagwörtern)
 
-      Hier erfahren Sie mehr über den [Funktionsumfang von Nextcloud](https://nextcloud.com/features).
-      Erfahren Sie mehr über [unser Angebot für Universitäten und Schulen.](https://nextcloud.com/education)
-      Lernen Sie auch, wie die TU Berlin Nextcloud nutzt mit 22.000 Studenten.
+      Hier erfahren Sie mehr über den [Funktionsumfang von Nextcloud](https://nextcloud.com/features),
+      [unser Angebot für Universitäten und Schulen](https://nextcloud.com/education)
+      und wie die TU Berlin Nextcloud mit 22.000 Studenten nutzt.
 
 
 
@@ -97,8 +97,8 @@ description:
       und
 
       [viele weitere Schutzvorkehrungen](https://nextcloud.com/secure). Nextcloud
-      ist vollständig Open Source und das am [aktivsten entwickelte Dateisynchronisations-
-      und Dateiaustausch-Projekt](https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/).
+      ist vollständig Open Source und das am aktivsten entwickelte Dateisynchronisations-
+      und Dateiaustausch-Projekt.
 
 
       Erfahren Sie [hier mehr über die Migration von anderen Lösungen auf Nextcloud](https://nextcloud.com/migration).
@@ -111,7 +111,7 @@ description:
       und Fertigung.
 
       Weitere Informationen finden Sie auf [nextcloud.com](https://nextcloud.com)
-      oder folgen Sie [@Nextclouders auf Twitter](https://twitter.com/nextclouders).
+      oder folgen Sie [Nextcloud auf Bluesky](https://bsky.app/profile/nextcloud.bsky.social).
 
       ## Integration
 
@@ -122,7 +122,7 @@ description:
       Konfiguration beinhaltet folgende Punkte:
 
 
-      - Der Administrator Account ist ebenfalls Nextcloud Administrator
+      - Der Administrator-Account ist ebenfalls Nextcloud-Administrator
 
       - Standardmäßig können alle Nutzer Nextcloud verwenden
 
@@ -133,14 +133,14 @@ description:
 
       - Alle Benutzer und Gruppen profitieren vom Nextcloud LDAP Schema
 
-      - Der Web Server ist komplett eingerichtet und steht hinter dem als Reverse
-      Proxy fungierenden und TLS abwickelnden UCS Web Server
+      - Der Web-Server ist komplett eingerichtet und steht hinter dem als Reverse
+      Proxy fungierenden und TLS abwickelnden UCS-Web-Server
 
 
       Die Nextcloud-App für UCS im Univention App Center basiert auf der neuesten
       Version
 
-      aus dem Kanal für stabile Updates von Nextcloud. Major Versionen werden in der
+      aus dem Kanal für stabile Updates von Nextcloud. Major-Versionen werden in der
       Regel
 
       innerhalb von 3-6 Monaten nach Veröffentlichung über den stabilen Update-Kanal
@@ -175,13 +175,13 @@ description:
     long_description: 'If your organization would like the benefits of easy sharing
       and collaboration on
 
-      data online as offered by various cloud vendors but needs to stay in control,
+      files online as offered by various cloud vendors but needs to stay in control,
       ensuring
 
       no unauthorized access, Nextcloud is what you are looking for.
 
 
-      Nextcloud offers a unique-in-the-industry fully open source solution for on-premise
+      Nextcloud offers a fully open source solution for on-premise
 
       data handling and communication with an uncompromising focus on security and
       privacy.
@@ -190,13 +190,13 @@ description:
       ## Features
 
 
-      Nextcloud brings together universal access to data with next-generation secure
+      Nextcloud brings together universal access to data with secure
       communication
 
-      and collaboration capabilities under direct control of IT and integrated with
+      and collaboration capabilities under direct control of your IT and integrated with
       existing
 
-      compliant infrastructure. Nextcloud''s open, modular architecture, emphasis
+      compliant infrastructure. Its open, modular architecture, emphasis
       on security
 
       and advanced federation capabilities enable modern enterprises to leverage their
@@ -208,26 +208,26 @@ description:
 
 
 
-      - Easy web UI and clients for Android, iOS, Windows, Mac and Linux
+      - Intuitive web UI and clients for Android, iOS, Windows, Mac and Linux
 
-      - Easy collaboration and sharing files internal and external with optionally
-      enforcable password and expiration date
+      - Easy collaboration and sharing files internally and externally with optional requirements like
+      password protection and expiration dates
 
-      - Audio/video chat, mail and calendaring as well as collaborative document editing
-      (MS Office compatible) fully built in, optional Outlook integration and more
+      - Built-in audio and video chat, optional collaborative document editing
+      (MS Office-compatible), Outlook integration and more
 
-      - External storage support like Windows Network Drive, FTP, WebDAV, NFS and
+      - External storage support for Windows Network Drive, FTP, WebDAV, NFS and
       more
 
       - Many passive and active security features like two-factor authentication,
-      brute force protection and CSP 3.0 as well as an audit log
+      brute force protection and CSP 3.0 as well as audit logs
 
-      - Optionally server-side encryption (can be chosen per storage) and end-to-end,
-      client-side encryption (can be chosen per folder by the user)
+      - Optional server-side encryption (can be chosen per storage) and end-to-end,
+      client-side encryption (can be chosen per folder)
 
       - Full admin control over sharing with File Access Control rules like "DOCX
       can only be downloaded from within local network" or execute actions if certain
-      conditions are met (like a tag is set)
+      conditions are met (like when a tag is set)
 
       Learn more about [Nextcloud features here](https://nextcloud.com/features) and
       check out our offering [for the education market in particular here.](https://nextcloud.com/education)
@@ -242,31 +242,26 @@ description:
 
       with two-factor authentication, brute force protection and [many other security
       protections](https://nextcloud.com/secure) built in. It is fully open source
-      and the [most active file sync and share project](https://nextcloud.com/blog/nextcloud-the-most-active-open-source-file-sync-and-share-project/)
+      and the most active file sync and share project
       being developed.
 
 
       Learn about [migrating from other solutions to Nextcloud here.](https://nextcloud.com/migration)
 
 
-      Nextcloud typically targets organizations from 50 to tens of millions of users
+      Nextcloud typically targets organizations from 50 to millions of users
       in
 
       industries including education, government, legal and financial services and
       manufacturing.
 
-      Customers include SIEMENS, all French universities covered under RENATER, the
-      German
-
-      Federal Government and more. Look for [case studies on our website.](https://nextcloud.com/casestudies)
-
       For more information, visit [nextcloud.com](https://nextcloud.com) or follow
-      [@Nextclouders on Twitter](https://twitter.com/nextclouders).
+      [Nextcloud on Bluesky](https://bsky.app/profile/nextcloud.bsky.social).
 
       ## Integration
 
 
-      Nextcloud is well integrated in UCS, offering easy installation. The automatic
+      Nextcloud is well-integrated into UCS, offering easy installation. The automatic
       configuration
 
       includes:
@@ -280,25 +275,25 @@ description:
 
       - User quota can be configured in User settings
 
-      - All User and Group benefits by Nextcloud LDAP Schema
+      - All Users and Groups benefit from the Nextcloud LDAP Schema
 
       - Web server fully configured and behind stock UCS web server acting as proxy
       and doing all TLS magic
 
 
-      The Nextcloud app for UCS in Univention App Center is based on thelatest release
+      The Nextcloud app for UCS in the Univention App Center is based on the latest release
 
-      from the Nextcloud stable update channel. Major releasesare typically provided
+      from the Nextcloud stable update channel. Major releases are typically provided
       in
 
-      the stable update channel within 3-6 monthafter release. The app will then also
+      the stable update channel within 3-6 months after release. The app will then also
       receive
 
       an update in the App Center.
 
       '
     name: Nextcloud Hub
-    short_description: 'Secure data storage & digital collaboration in and outside
+    short_description: 'Secure data storage & digital collaboration inside and outside
       your organization
 
       '
