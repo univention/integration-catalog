@@ -30,7 +30,7 @@ description:
       - Export als Moodle-Kurs, PDF, Bild oder Offline-HTML
       - Über 100 Dateiformate unterstützt
       - DSGVO-konform, geprüft durch datenschutz nord GmbH und VIDIS-Projekt
-      - Content-Security-Policy und Barrierefreiheit (ADA)
+      - Content-Security-Policy und Barrierefreiheit (WCAG)
       - Umfragen, Abstimmungen, Kalender, QR-Codes und öffentliche Profile
 
       ## Integration mit UCS@school
@@ -72,7 +72,7 @@ description:
       - Export as Moodle course, PDF, image or offline HTML
       - Supports over 100 file formats
       - GDPR-compliant, audited by datenschutz nord GmbH and VIDIS project
-      - Content Security Policy and accessibility (ADA)
+      - Content Security Policy and accessibility (WCAG)
       - Surveys, polls, calendar, QR codes and public profiles
 
       ## Integration with UCS@school
@@ -92,7 +92,7 @@ version: ''
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2026-04-20'
-  last_update_date: '2026-07-08'
+  last_update_date: '2026-08-05'
 organizational_specifications:
   support_contact_id: 'edumaps'
   support_status: ''
