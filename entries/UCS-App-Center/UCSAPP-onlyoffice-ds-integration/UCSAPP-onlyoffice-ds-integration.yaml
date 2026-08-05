@@ -60,7 +60,7 @@ description:
       Benutzerzugriffsbeschränkung.
 
 
-      ONLYOFFICE Docs bietet maximale Kompatibilität mit gängigen Formaten und unterstützt
+    ONLYOFFICE Docs bietet maximale Kompatibilität mit gängigen Formaten und unterstützt
 
       DOC, DOCX, TXT, ODT, RTF, ODP, EPUB, ODS, XLS, XLSX, CSV, PPTX und HTML.
 
@@ -122,7 +122,12 @@ description:
 
       '
     tags: []
-    visuals: []
+visuals:
+  - Document.png
+  - ONLYOFFICE_Docs.png
+  - PDF.png
+  - Presentation.png
+  - Spreadsheet.png
   en-US:
     icon: logo.svg
     keywords:
@@ -135,105 +140,104 @@ description:
     links:
     - Description: ''
       URL: ''
-    long_description: 'ONLYOFFICE Docs Enterprise Edition is a rich in functionality
-      and deeply Microsoft
+    long_description: |
+      ONLYOFFICE Docs Enterprise is a powerful online office suite designed for organizations and larger teams that require secure collaboration, advanced editing capabilities, and full control over their data. The solution offers enterprise-grade security, scalability, professional technical support, and excellent compatibility with Microsoft Office formats (OOXML) and PDF files.
 
-      Office OOXML-compatible office suite built for bigger teams with high professional
+      The suite includes diagram viewer and collaborative editors for:
 
-      requirements. It incorporates three collaborative editors for working on text
-      documents,
+      - Text documents
+      - Spreadsheets
+      - Presentations
+      - Fillable forms
+      - PDFs
 
-      presentations and spreadsheets. ONLYOFFICE Docs Enterprise Edition offers scalability(\*),
+      ## Key features
 
-      advanced functionality, extended security and included professional tech support.
+      ### Comprehensive editing tools for text documents, sheets, and presentations
 
+      - Intuitive tabbed interface similar to desktop office applications
+      - Extensive formatting and editing capabilities
+      - Support for footnotes, tables of contents, bookmarks, and document navigation
+      - More than 450 formulas and functions, flexible data analysis, and visualization tools
+      - Professional presentation tools, including Presenter View, Speaker notes, and Slides
 
-      ONLYOFFICE Docs Enterprise Edition features:
+      ### Easy PDF editing
 
+      - File editing and co-editing
+      - Fillable PDF form creation
+      - Redact feature
+      - Annotations, drawings, and comments
+      - Stamps, signatures
 
-      - Complete set of editing and formatting instruments organized in the intuitive
-      tabbed interface;
+      ### Real-time collaboration
 
-      - Professional writing: footnotes, table of contents, bookmarks, navigation;
+      - Real-time and paragraph-locking co-editing modes
+      - Comments and built-in chat
+      - Version history
+      - Track Changes
+      - Flexible access permissions
 
-      - Presenter View, notes and more demonstration features in presentations;
+      ### AI features (optional)
 
-      - Over 450 formulas, flexible filters and ranges, visualization with charts
-      and other elements in spreadsheets;
+      - Content generation and analysis
+      - Natural language commands for text formatting
+      - AI chatbot in the editors
+      - Personalized assistant
+      - Macro creation and conversion
+      - AI provider of your choice, including open source or local ones
 
-      - Real-time collaboration in Fast and Strict modes, flexible access rights,
-      chat, comments, Version History and Track Changes mode;
+      ### Extended functionality
 
-      - Advanced editing features such as document comparison and the extended list
-      of Content Controls for creating forms.
+      - Mobile web editors
+      - Live viewer
+      - Third-party plugins for image editing, video embedding, translation, and more
 
-      - Mobile web editors.
+      ### Enterprise-grade security
 
-      - Collection of third party add-ons for editing pictures, inserting videos,
-      translating and more;
+      - GDPR compliance and open source code
+      - HTTPS and JWT support
+      - End-to-end encryption
+      - Flexible user access restrictions, document permission management, signatures
 
-      - Document and editing security: JWT, HTTPS, end-to-end encryption, user access
-      restriction.
+      ### Administration and management
 
+      The built-in Admin Panel provides centralized management of editors, integrations, licenses, and security settings, along with monitoring, user provisioning via LDAP and SSO, and tools for automation and scalable deployments.
 
-      ONLYOFFICE features maximum compatibility with popular formats and supports
-      DOC,
+      ## File format compatibility
 
-      DOCX, TXT, ODT, RTF, ODP, EPUB, ODS, XLS, XLSX, CSV, PPTX and HTML.
+      ONLYOFFICE provides broad compatibility with popular document formats, including:
 
+      - **Documents:** DOCX, DOC, DOCM, DOTX, DjVu, EPUB, FB2, HTML, ODT, OTT, PDF, PDF/A, RTF, TXT, MD, XML, XPS, HWP, HWPX, Pages
+      - **Spreadsheets:** XLSX, XLS, XLTX, OTS, ODS, CSV, Numbers
+      - **Presentations:** PPTX, PPT, PPSX, POTX, OTP, ODP, Keynote
+      - **PDFs:** PDF, PDF/A, PDF forms
 
-      Compare ONLYOFFICE Docs Enterprise Edition and ONLYOFFICE Docs Community Edition
-      ](https://www.onlyoffice.com/compare-editions.aspx\ "\")
+      ## About this edition
 
+      ONLYOFFICE Docs Enterprise is recommended for organizations with more than 20 users and requires professional technical support and regular updates.
 
-      Compared to other online office suites, ONLYOFFICE Docs provides you with the
-      most
+      The solution integrates with file sharing platforms such as:
 
-      complete set of tools. Learn more about 11 things you can do with ONLYOFFICE
-      Docs,
+      - Nextcloud
+      - ownCloud
+      - Seafile
+      - Odoo
+      - Confluence
+      - Drupal
+      - HumHub
 
-      but can\\u2019t with Google Docs or MS Word Online in the  comparative review
-      ](http://www.onlyoffice.com/blog/2017/01/11-things-you-can-do-with-onlyoffice-but-cant-with-google-docs-or-ms-word-online/\
-      "\").
+      Your documents remain stored in your chosen file storage platform, ONLYOFFICE does not store user document data.
 
-
-      (\*) ONLYOFFICE Docs plans are based on simultaneous connections. These are
-      the maximum
-
-      number of documents that can be edited at the same time.
-
-
-      ### About this app
-
-
-      This app is the Enterprise Edition of ONLYOFFICE Docs. It is recommended for
-      teams
-
-      of more than 20 users and requires the ONLYOFFICE Docs Enterprise Edition license,
-
-      which can be obtained via the \\u201cBuy now\\u201d button in the App Center
-      Shop.
-
-
-      Your documents are stored in file sync and share solutions like Nextcloud, ownCloud,
-
-      or Seafile. ONLYOFFICE does not store user document data.
-
-
-      Before installing ONLYOFFICE Docs Enterprise Edition please uninstall ONLYOFFICE
-
-      Docs Community Edition. Your documents will remain in your file sync and share
-      solution
-
-      and can be accessed afterwards via ONLYOFFICE Docs Enterprise Edition.
-
-      '
-    name: ONLYOFFICE Docs Enterprise Edition
-    short_description: 'Feature-rich office suite on your own server
-
-      '
+      Important: Before installing ONLYOFFICE Docs Enterprise, uninstall ONLYOFFICE Docs Community. Your existing documents will remain in your storage platform and can be accessed after the upgrade.
+    name: ONLYOFFICE Docs Enterprise
+    short_description: Feature-rich document editing engine for your infrastructure
     tags: []
-    visuals: []
+    visuals:
+      - Document.png
+      - ONLYOFFICE_Docs.png
+      - PDF.png
+      - Presentation.png
+      - Spreadsheet.png
 id: UCSAPP-onlyoffice-ds-integration
 main_icon: ''
 metadata:
@@ -262,4 +266,4 @@ technical_specifications:
   artifacts:
   - packaged_integration
   source_license: ''
-version: 9.0.3.1
+version: 9.4.1.2
