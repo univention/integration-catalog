@@ -43,7 +43,7 @@ description:
       - Schulverwaltung
       - Schulorganisation
     visuals:
-        - thumbnail_1.png
+        - Schulmanager_Screenshot.png
   en-US:
     icon: logo.png
     keywords:
@@ -83,7 +83,7 @@ description:
       - School Administration
       - School Organisation
     visuals:
-        - thumbnail_1.png
+        - Schulmanager_Screenshot.png
 main_icon: logo.png
 version: ''
 metadata:
