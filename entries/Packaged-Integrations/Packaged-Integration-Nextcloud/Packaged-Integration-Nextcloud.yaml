@@ -20,7 +20,7 @@ description:
     - Description: Nextcloud Packaged Integration
       URL: https://docs.software-univention.de/packaged-integration-nextcloud/latest/en/index.html
     - Description: Nextcloud Homepage
-      URL: https://www.nextcloud.de
+      URL: https://www.nextcloud.com
     - Description: Nextcloud Source Code
       URL: https://github.com/nextcloud
     tags:
@@ -41,7 +41,7 @@ description:
     - Description: Nextcloud Packaged Integration
       URL: https://docs.software-univention.de/packaged-integration-nextcloud/latest/en/index.html
     - Description: Nextcloud Webseite
-      URL: https://www.nextcloud.de
+      URL: https://www.nextcloud.com
     - Description: Nextcloud Source Code
       URL: https://github.com/nextcloud
     tags:
