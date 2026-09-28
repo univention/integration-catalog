@@ -5,90 +5,78 @@ id: COMMUNITY-opendesk-edu-bigbluebutton
 description:
   en-US:
     name: BigBlueButton with Univention Nubus
-    short_description: Single Sign-On, Single Logout and user lifecycle for BigBlueButton via the Nubus Keycloak and LDAP
+    short_description: Single Sign-On, Single Logout and user lifecycle for BigBlueButton Greenlight via the Nubus Keycloak
     long_description: |-
       BigBlueButton is an open source virtual classroom and web conferencing
       system with lecture recording, interactive whiteboard, breakout rooms,
       shared notes and polling.
 
-      Users and rooms are managed by a BigBlueButton frontend. The how-to on
-      the Univention Help Forum describes how to connect the two open source
-      frontends Greenlight v3 (the official BigBlueButton frontend) and PILOS
-      to Univention Nubus, using configuration only:
+      Users and rooms are managed by Greenlight, the official BigBlueButton
+      frontend. The how-to on the Univention Help Forum describes how to
+      connect Greenlight v3 to Univention Nubus, using configuration only:
 
       * Single Sign-On via OpenID Connect with the Keycloak included in Nubus
       * Single Logout: signing out of BigBlueButton also ends the Nubus
-        session. With PILOS, signing out of Nubus also ends the BigBlueButton
-        session (OIDC back-channel logout).
-      * User lifecycle: accounts are created at first login and use the
-        stable Nubus entryUUID. PILOS assigns roles from Nubus group
-        memberships, via OIDC claims or a direct connection to the Nubus
-        LDAP directory.
+        session.
+      * User lifecycle: accounts are created at first login and keyed by the
+        permanent Nubus univentionObjectIdentifier. Name and email are
+        updated from Nubus, and disabled or deleted Nubus users can no longer
+        sign in.
     icon: ''
     keywords:
     - BigBlueButton
     - BBB
     - Greenlight
-    - PILOS
     - Virtual Classroom
     - Video Conferencing
     - E-Learning
     - Nubus
     - OpenID Connect
-    - LDAP
     links:
     - Description: How-To on Univention Help Forum
       URL: https://help.univention.com/t/TODO-replace-with-forum-post-url
     - Description: Greenlight v3 external authentication
       URL: https://docs.bigbluebutton.org/greenlight/v3/external-authentication/
-    - Description: PILOS external authentication
-      URL: https://thm-health.github.io/PILOS/docs/administration/advanced/external-authentication
     - Description: BigBlueButton website
       URL: https://bigbluebutton.org/
     tags: []
     visuals: []
   de-DE:
     name: BigBlueButton mit Univention Nubus
-    short_description: Single Sign-On, Single Logout und User Lifecycle für BigBlueButton über das Nubus-Keycloak und LDAP
+    short_description: Single Sign-On, Single Logout und User Lifecycle für BigBlueButton Greenlight über das Nubus-Keycloak
     long_description: |-
       BigBlueButton ist ein quelloffenes virtuelles Klassenzimmer- und
       Webkonferenzsystem mit Vorlesungsaufzeichnung, interaktivem Whiteboard,
       Breakout-Räumen, gemeinsamen Notizen und Umfragen.
 
-      Nutzer und Räume werden von einem BigBlueButton-Frontend verwaltet. Die
-      Anleitung im Univention Help Forum beschreibt, wie die beiden
-      quelloffenen Frontends Greenlight v3 (das offizielle
-      BigBlueButton-Frontend) und PILOS allein durch Konfiguration an
-      Univention Nubus angebunden werden:
+      Nutzer und Räume werden von Greenlight verwaltet, dem offiziellen
+      BigBlueButton-Frontend. Die Anleitung im Univention Help Forum
+      beschreibt, wie Greenlight v3 allein durch Konfiguration an Univention
+      Nubus angebunden wird:
 
       * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
         Keycloak
       * Single Logout: Die Abmeldung in BigBlueButton beendet auch die
-        Nubus-Sitzung. Mit PILOS beendet die Abmeldung in Nubus auch die
-        BigBlueButton-Sitzung (OIDC Back-Channel Logout).
+        Nubus-Sitzung.
       * User Lifecycle: Konten werden bei der ersten Anmeldung angelegt und
-        nutzen die stabile Nubus-entryUUID. PILOS vergibt Rollen anhand der
-        Nubus-Gruppenmitgliedschaften, über OIDC-Claims oder eine direkte
-        Anbindung an das LDAP-Verzeichnis von Nubus.
+        über den dauerhaften Nubus-univentionObjectIdentifier zugeordnet.
+        Name und E-Mail werden aus Nubus aktualisiert; deaktivierte oder
+        gelöschte Nubus-Nutzer können sich nicht mehr anmelden.
     icon: ''
     keywords:
     - BigBlueButton
     - BBB
     - Greenlight
-    - PILOS
     - Virtuelles Klassenzimmer
     - Videokonferenz
     - E-Learning
     - Nubus
     - OpenID Connect
-    - LDAP
     links:
     - Description: How-To im Univention Help Forum
       URL: https://help.univention.com/t/TODO-replace-with-forum-post-url
     - Description: Greenlight v3 – externe Authentifizierung
       URL: https://docs.bigbluebutton.org/greenlight/v3/external-authentication/
-    - Description: PILOS – externe Authentifizierung
-      URL: https://thm-health.github.io/PILOS/docs/administration/advanced/external-authentication
     - Description: BigBlueButton-Webseite
       URL: https://bigbluebutton.org/
     tags: []
@@ -117,7 +105,6 @@ technical_specifications:
   dependencies: []
   protocols:
   - OIDC
-  - LDAP
   artifacts:
   - documentation
   source_license: OSI
