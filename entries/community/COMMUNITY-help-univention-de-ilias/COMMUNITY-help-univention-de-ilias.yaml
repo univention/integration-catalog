@@ -1,0 +1,104 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-ilias
+description:
+  en-US:
+    name: ILIAS with Univention Nubus
+    short_description: Single Sign-On, logout and roles for the ILIAS LMS via the Nubus Keycloak, with ILIAS' built-in OpenID Connect
+    long_description: |-
+      ILIAS is an open source learning management system (LMS) with courses,
+      tests and assessments, forums, SCORM support and a wide range of
+      e-learning tools, widely used by universities and public
+      administration academies.
+
+      The how-to on the Univention Help Forum describes how to connect ILIAS
+      to Univention Nubus, using configuration only:
+
+      * Single Sign-On via the OpenID Connect authentication built into ILIAS,
+        with the Keycloak included in Nubus
+      * Logout: signing out of ILIAS also ends the Nubus session.
+      * Accounts and roles: ILIAS creates accounts at the first login and
+        assigns global roles from Nubus groups; name and email are updated at
+        every login.
+    icon: 'logo.svg'
+    keywords:
+    - ILIAS
+    - LMS
+    - Learning Management
+    - E-Learning
+    - Education
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing ilias/HOWTO-ilias-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-ilias-with-univention-nubus
+    - Description: ILIAS documentation
+      URL: https://docu.ilias.de/
+    - Description: ILIAS website
+      URL: https://www.ilias.de/
+    tags: []
+    visuals: []
+  de-DE:
+    name: ILIAS mit Univention Nubus
+    short_description: Single Sign-On, Logout und Rollen für das ILIAS-LMS über das Nubus-Keycloak, mit dem in ILIAS enthaltenen OpenID Connect
+    long_description: |-
+      ILIAS ist ein quelloffenes Lernmanagementsystem (LMS) mit Kursen, Tests,
+      Foren, SCORM-Unterstützung und vielen weiteren E-Learning-Werkzeugen, das
+      an Hochschulen und Verwaltungsakademien weit verbreitet ist.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie ILIAS allein
+      durch Konfiguration an Univention Nubus angebunden wird:
+
+      * Single Sign-On über die in ILIAS enthaltene OpenID-Connect-
+        Authentifizierung mit dem in Nubus enthaltenen Keycloak
+      * Logout: Die Abmeldung in ILIAS beendet auch die Nubus-Sitzung.
+      * Konten und Rollen: ILIAS legt Konten bei der ersten Anmeldung an und
+        vergibt globale Rollen anhand von Nubus-Gruppen; Name und E-Mail werden
+        bei jeder Anmeldung aktualisiert.
+    icon: 'logo.svg'
+    keywords:
+    - ILIAS
+    - LMS
+    - Lernmanagement
+    - E-Learning
+    - Bildung
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing ilias/HOWTO-ilias-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-ilias-with-univention-nubus
+    - Description: ILIAS-Dokumentation
+      URL: https://docu.ilias.de/
+    - Description: ILIAS-Webseite
+      URL: https://www.ilias.de/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  source_license: OSI
