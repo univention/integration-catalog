@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # SPDX-FileCopyrightText: 2026 Univention GmbH
 
-id: COMMUNITY-opendesk-edu-bigbluebutton
+id: COMMUNITY-help-univention-de-bigbluebutton
 description:
   en-US:
     name: BigBlueButton with Univention Nubus
@@ -85,7 +85,7 @@ main_icon: ''
 version: ''
 metadata:
   created_by: Ingo Steuwer
-  creation_date: '2026-06-01'
+  creation_date: '2026-09-28'
   last_update_date: '2026-09-28'
 organizational_specifications:
   vendor_id: community
