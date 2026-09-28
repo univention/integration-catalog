@@ -4,58 +4,91 @@
 id: COMMUNITY-opendesk-edu-bigbluebutton
 description:
   en-US:
-    name: BigBlueButton in openDesk Edu
-    short_description: Virtual classroom via BigBlueButton with Nubus SSO in openDesk Edu
+    name: BigBlueButton with Univention Nubus
+    short_description: Single Sign-On, Single Logout and user lifecycle for BigBlueButton via the Nubus Keycloak and LDAP
     long_description: |-
-      BigBlueButton is a virtual classroom and web conferencing system
-      integrated into the openDesk Edu project as an alternative to Jitsi. It
-      provides lecture recording, interactive whiteboard, breakout rooms,
-      shared notes, and polling features designed for online teaching.
+      BigBlueButton is an open source virtual classroom and web conferencing
+      system with lecture recording, interactive whiteboard, breakout rooms,
+      shared notes and polling.
 
-      As part of openDesk Edu, BigBlueButton is integrated with Univention
-      Nubus for Single Sign-On via SAML through the Keycloak identity provider
-      included in Nubus.
+      Users and rooms are managed by a BigBlueButton frontend. The how-to on
+      the Univention Help Forum describes how to connect the two open source
+      frontends Greenlight v3 (the official BigBlueButton frontend) and PILOS
+      to Univention Nubus, using configuration only:
+
+      * Single Sign-On via OpenID Connect with the Keycloak included in Nubus
+      * Single Logout: signing out of BigBlueButton also ends the Nubus
+        session. With PILOS, signing out of Nubus also ends the BigBlueButton
+        session (OIDC back-channel logout).
+      * User lifecycle: accounts are created at first login and use the
+        stable Nubus entryUUID. PILOS assigns roles from Nubus group
+        memberships, via OIDC claims or a direct connection to the Nubus
+        LDAP directory.
     icon: ''
     keywords:
     - BigBlueButton
     - BBB
+    - Greenlight
+    - PILOS
     - Virtual Classroom
     - Video Conferencing
     - E-Learning
-    - openDesk Edu
     - Nubus
+    - OpenID Connect
+    - LDAP
     links:
-    - Description: openDesk Edu on Codeberg
-      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-replace-with-forum-post-url
+    - Description: Greenlight v3 external authentication
+      URL: https://docs.bigbluebutton.org/greenlight/v3/external-authentication/
+    - Description: PILOS external authentication
+      URL: https://thm-health.github.io/PILOS/docs/administration/advanced/external-authentication
     - Description: BigBlueButton website
       URL: https://bigbluebutton.org/
     tags: []
     visuals: []
   de-DE:
-    name: BigBlueButton in openDesk Edu
-    short_description: Virtuelles Klassenzimmer mit BigBlueButton und Nubus-SSO in openDesk Edu
+    name: BigBlueButton mit Univention Nubus
+    short_description: Single Sign-On, Single Logout und User Lifecycle für BigBlueButton über das Nubus-Keycloak und LDAP
     long_description: |-
-      BigBlueButton ist ein virtuelles Klassenzimmer- und Webkonferenzsystem,
-      das als Alternative zu Jitsi in das openDesk-Edu-Projekt integriert ist.
-      Es bietet Vorlesungsaufzeichnung, interaktives Whiteboard,
-      Breakout-Räume, gemeinsame Notizen und Umfragefunktionen für den
-      Online-Unterricht.
+      BigBlueButton ist ein quelloffenes virtuelles Klassenzimmer- und
+      Webkonferenzsystem mit Vorlesungsaufzeichnung, interaktivem Whiteboard,
+      Breakout-Räumen, gemeinsamen Notizen und Umfragen.
 
-      Als Teil von openDesk Edu ist BigBlueButton über SAML mit Univention
-      Nubus für Single Sign-On integriert, unter Verwendung des in Nubus
-      enthaltenen Keycloak-Identity-Providers.
+      Nutzer und Räume werden von einem BigBlueButton-Frontend verwaltet. Die
+      Anleitung im Univention Help Forum beschreibt, wie die beiden
+      quelloffenen Frontends Greenlight v3 (das offizielle
+      BigBlueButton-Frontend) und PILOS allein durch Konfiguration an
+      Univention Nubus angebunden werden:
+
+      * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
+        Keycloak
+      * Single Logout: Die Abmeldung in BigBlueButton beendet auch die
+        Nubus-Sitzung. Mit PILOS beendet die Abmeldung in Nubus auch die
+        BigBlueButton-Sitzung (OIDC Back-Channel Logout).
+      * User Lifecycle: Konten werden bei der ersten Anmeldung angelegt und
+        nutzen die stabile Nubus-entryUUID. PILOS vergibt Rollen anhand der
+        Nubus-Gruppenmitgliedschaften, über OIDC-Claims oder eine direkte
+        Anbindung an das LDAP-Verzeichnis von Nubus.
     icon: ''
     keywords:
     - BigBlueButton
     - BBB
+    - Greenlight
+    - PILOS
     - Virtuelles Klassenzimmer
     - Videokonferenz
     - E-Learning
-    - openDesk Edu
     - Nubus
+    - OpenID Connect
+    - LDAP
     links:
-    - Description: openDesk Edu auf Codeberg
-      URL: https://codeberg.org/opendesk-edu/opendesk-edu
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-replace-with-forum-post-url
+    - Description: Greenlight v3 – externe Authentifizierung
+      URL: https://docs.bigbluebutton.org/greenlight/v3/external-authentication/
+    - Description: PILOS – externe Authentifizierung
+      URL: https://thm-health.github.io/PILOS/docs/administration/advanced/external-authentication
     - Description: BigBlueButton-Webseite
       URL: https://bigbluebutton.org/
     tags: []
@@ -65,7 +98,7 @@ version: ''
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2026-06-01'
-  last_update_date: '2026-06-04'
+  last_update_date: '2026-09-28'
 organizational_specifications:
   vendor_id: community
   support_contact_id: ''
@@ -74,14 +107,17 @@ technical_specifications:
   capabilities:
   - outbound
   - sso
+  - slo
+  - user_lifecycle
   compatible_platforms:
   - Kubernetes
+  - UCS
   compatible_products:
   - Nubus
   dependencies: []
   protocols:
-  - SAML
+  - OIDC
+  - LDAP
   artifacts:
-  - packaged_integration
   - documentation
   source_license: OSI
