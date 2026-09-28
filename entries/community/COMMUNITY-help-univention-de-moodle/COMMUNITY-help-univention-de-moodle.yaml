@@ -1,0 +1,117 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-moodle
+description:
+  en-US:
+    name: Moodle with Univention Nubus
+    short_description: Single Sign-On and LDAP user lifecycle for the Moodle LMS via Nubus, with Moodle core features only
+    long_description: |-
+      Moodle is an open source learning management system (LMS) with courses,
+      assignments, quizzes, forums, a gradebook and an extensive plugin
+      ecosystem, widely used by schools and universities.
+
+      The how-to on the Univention Help Forum describes how to connect Moodle
+      to Univention Nubus, using configuration and Moodle core plugins only:
+
+      * Single Sign-On via OpenID Connect (Moodle OAuth 2 service) with the
+        Keycloak included in Nubus; logins are linked by the permanent Nubus
+        univentionObjectIdentifier.
+      * User lifecycle via the Moodle LDAP synchronisation: only members of a
+        Nubus group get an account; accounts are created, updated and
+        suspended from the Nubus directory.
+
+      Single Logout isn't available with Moodle's built-in authentication
+      methods.
+    icon: 'logo.png'
+    keywords:
+    - Moodle
+    - LMS
+    - Learning Management
+    - E-Learning
+    - Education
+    - Nubus
+    - OpenID Connect
+    - LDAP
+    links:
+    # TODO: replace with the forum topic URL after publishing moodle/HOWTO-moodle-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-moodle-with-univention-nubus
+    - Description: Moodle OAuth 2 authentication
+      URL: https://docs.moodle.org/en/OAuth_2_authentication
+    - Description: Moodle LDAP authentication
+      URL: https://docs.moodle.org/en/LDAP_authentication
+    - Description: Moodle website
+      URL: https://moodle.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Moodle mit Univention Nubus
+    short_description: Single Sign-On und LDAP-User-Lifecycle für das Moodle-LMS über Nubus, nur mit Moodle-Standardfunktionen
+    long_description: |-
+      Moodle ist ein quelloffenes Lernmanagementsystem (LMS) mit Kursen,
+      Aufgaben, Tests, Foren, Bewertungen und einem umfangreichen
+      Plugin-Angebot, das an Schulen und Hochschulen weit verbreitet ist.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie Moodle allein
+      durch Konfiguration und mit Moodle-eigenen Plugins an Univention Nubus
+      angebunden wird:
+
+      * Single Sign-On über OpenID Connect (Moodle-OAuth-2-Dienst) mit dem in
+        Nubus enthaltenen Keycloak; Anmeldungen werden über den dauerhaften
+        Nubus-univentionObjectIdentifier zugeordnet.
+      * User Lifecycle über die LDAP-Synchronisation von Moodle: Nur
+        Mitglieder einer Nubus-Gruppe erhalten ein Konto; Konten werden aus
+        dem Nubus-Verzeichnis angelegt, aktualisiert und gesperrt.
+
+      Single Logout ist mit den in Moodle enthaltenen
+      Authentifizierungsmethoden nicht möglich.
+    icon: 'logo.png'
+    keywords:
+    - Moodle
+    - LMS
+    - Lernmanagement
+    - E-Learning
+    - Bildung
+    - Nubus
+    - OpenID Connect
+    - LDAP
+    links:
+    # TODO: replace with the forum topic URL after publishing moodle/HOWTO-moodle-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-moodle-with-univention-nubus
+    - Description: Moodle – OAuth-2-Authentifizierung
+      URL: https://docs.moodle.org/en/OAuth_2_authentication
+    - Description: Moodle – LDAP-Authentifizierung
+      URL: https://docs.moodle.org/en/LDAP_authentication
+    - Description: Moodle-Webseite
+      URL: https://moodle.org/
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  - LDAP
+  artifacts:
+  - documentation
+  source_license: OSI
