@@ -1,0 +1,114 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-zammad
+description:
+  en-US:
+    name: Zammad with Univention Nubus
+    short_description: Single Sign-On, Single Logout and LDAP user lifecycle for the Zammad helpdesk via Nubus
+    long_description: |-
+      Zammad is an open source helpdesk and ticketing system with support via
+      email, chat, phone and web forms, and a knowledge base.
+
+      The how-to on the Univention Help Forum describes how to connect Zammad
+      to Univention Nubus, using configuration only:
+
+      * Single Sign-On via OpenID Connect with the Keycloak included in Nubus
+      * Single Logout in both directions: signing out of Zammad ends the Nubus
+        session, and signing out of Nubus ends the Zammad session
+        (back-channel logout).
+      * User lifecycle via the Zammad LDAP integration: accounts are created,
+        updated and deactivated from the Nubus directory, keyed by the
+        permanent univentionObjectIdentifier. Nubus groups are mapped to the
+        Zammad roles Customer, Agent and Admin.
+    icon: 'logo.svg'
+    keywords:
+    - Zammad
+    - Helpdesk
+    - Ticketing
+    - Service Desk
+    - IT Support
+    - Nubus
+    - OpenID Connect
+    - LDAP
+    links:
+    # TODO: replace with the forum topic URL after publishing zammad/HOWTO-zammad-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-zammad-with-univention-nubus
+    - Description: Zammad OpenID Connect documentation
+      URL: https://admin-docs.zammad.org/en/latest/settings/security/third-party/openid-connect.html
+    - Description: Zammad LDAP integration documentation
+      URL: https://admin-docs.zammad.org/en/latest/system/integrations/ldap/index.html
+    - Description: Zammad website
+      URL: https://zammad.com/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Zammad mit Univention Nubus
+    short_description: Single Sign-On, Single Logout und LDAP-User-Lifecycle für das Zammad-Helpdesk über Nubus
+    long_description: |-
+      Zammad ist ein quelloffenes Helpdesk- und Ticketsystem mit Support über
+      E-Mail, Chat, Telefon und Webformulare sowie einer Wissensdatenbank.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie Zammad allein
+      durch Konfiguration an Univention Nubus angebunden wird:
+
+      * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
+        Keycloak
+      * Single Logout in beide Richtungen: Die Abmeldung in Zammad beendet die
+        Nubus-Sitzung, und die Abmeldung in Nubus beendet die Zammad-Sitzung
+        (Back-Channel-Logout).
+      * User Lifecycle über die LDAP-Integration von Zammad: Konten werden aus
+        dem Nubus-Verzeichnis angelegt, aktualisiert und deaktiviert und über
+        den dauerhaften univentionObjectIdentifier zugeordnet. Nubus-Gruppen
+        werden auf die Zammad-Rollen Customer, Agent und Admin abgebildet.
+    icon: 'logo.svg'
+    keywords:
+    - Zammad
+    - Helpdesk
+    - Ticketsystem
+    - Service-Desk
+    - IT-Support
+    - Nubus
+    - OpenID Connect
+    - LDAP
+    links:
+    # TODO: replace with the forum topic URL after publishing zammad/HOWTO-zammad-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-zammad-with-univention-nubus
+    - Description: Zammad-Dokumentation zu OpenID Connect
+      URL: https://admin-docs.zammad.org/en/latest/settings/security/third-party/openid-connect.html
+    - Description: Zammad-Dokumentation zur LDAP-Integration
+      URL: https://admin-docs.zammad.org/en/latest/system/integrations/ldap/index.html
+    - Description: Zammad-Webseite
+      URL: https://zammad.com/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  - LDAP
+  artifacts:
+  - documentation
+  source_license: OSI
