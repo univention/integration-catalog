@@ -1,0 +1,100 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-bookstack
+description:
+  en-US:
+    name: BookStack with Univention Nubus
+    short_description: Single Sign-On, logout and role sync for the BookStack wiki via the Nubus Keycloak
+    long_description: |-
+      BookStack is an open source wiki and documentation platform that
+      organizes content in shelves, books, chapters and pages.
+
+      The how-to on the Univention Help Forum describes how to connect
+      BookStack to Univention Nubus, using configuration only:
+
+      * Single Sign-On via OpenID Connect with the Keycloak included in Nubus
+      * Logout: signing out of BookStack also ends the Nubus session.
+      * Accounts and roles: BookStack creates accounts at the first login,
+        keyed by the permanent Nubus univentionObjectIdentifier, and adds and
+        removes BookStack roles from Nubus groups at every login.
+    icon: logo.png
+    keywords:
+    - BookStack
+    - Wiki
+    - Documentation
+    - Knowledge Base
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing bookstack/HOWTO-bookstack-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-bookstack-with-univention-nubus
+    - Description: BookStack OpenID Connect authentication
+      URL: https://www.bookstackapp.com/docs/admin/oidc-auth/
+    - Description: BookStack website
+      URL: https://www.bookstackapp.com/
+    tags: []
+    visuals: []
+  de-DE:
+    name: BookStack mit Univention Nubus
+    short_description: Single Sign-On, Logout und Rollen-Synchronisation für das BookStack-Wiki über das Nubus-Keycloak
+    long_description: |-
+      BookStack ist eine quelloffene Wiki- und Dokumentationsplattform, die
+      Inhalte in Regalen, Büchern, Kapiteln und Seiten organisiert.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie BookStack allein
+      durch Konfiguration an Univention Nubus angebunden wird:
+
+      * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
+        Keycloak
+      * Logout: Die Abmeldung in BookStack beendet auch die Nubus-Sitzung.
+      * Konten und Rollen: BookStack legt Konten bei der ersten Anmeldung an,
+        zugeordnet über den dauerhaften Nubus-univentionObjectIdentifier, und
+        vergibt und entzieht BookStack-Rollen anhand von Nubus-Gruppen bei
+        jeder Anmeldung.
+    icon: logo.png
+    keywords:
+    - BookStack
+    - Wiki
+    - Dokumentation
+    - Wissensdatenbank
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing bookstack/HOWTO-bookstack-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-bookstack-with-univention-nubus
+    - Description: BookStack – OpenID-Connect-Authentifizierung
+      URL: https://www.bookstackapp.com/docs/admin/oidc-auth/
+    - Description: BookStack-Webseite
+      URL: https://www.bookstackapp.com/
+    tags: []
+    visuals: []
+main_icon: logo.png
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  source_license: OSI
