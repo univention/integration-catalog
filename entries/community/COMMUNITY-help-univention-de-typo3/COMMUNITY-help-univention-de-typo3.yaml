@@ -1,0 +1,108 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-typo3
+description:
+  en-US:
+    name: TYPO3 with Univention Nubus
+    short_description: Single Sign-On for the TYPO3 backend via the Nubus Keycloak, with backend groups from Nubus groups
+    long_description: |-
+      TYPO3 is an open source enterprise content management system, widely
+      used for the websites of public administrations and universities in
+      Europe.
+
+      The how-to on the Univention Help Forum describes how to connect the
+      TYPO3 backend to Univention Nubus with the extension causal/oidc
+      (OpenID Connect Authentication):
+
+      * Single Sign-On for editors via OpenID Connect with the Keycloak
+        included in Nubus
+      * Backend accounts are created at the first login, only for members of
+        mapped Nubus groups; name and email are updated at every login.
+      * TYPO3 backend groups are added and removed according to the Nubus
+        groups at every login.
+
+      The extension doesn't implement OpenID Connect logout.
+    icon: 'logo.svg'
+    keywords:
+    - TYPO3
+    - CMS
+    - Content Management
+    - Website
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing typo3/HOWTO-typo3-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-typo3-with-univention-nubus
+    - Description: TYPO3 extension OpenID Connect Authentication (causal/oidc)
+      URL: https://extensions.typo3.org/extension/oidc
+    - Description: TYPO3 website
+      URL: https://typo3.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: TYPO3 mit Univention Nubus
+    short_description: Single Sign-On für das TYPO3-Backend über das Nubus-Keycloak, mit Backend-Gruppen aus Nubus-Gruppen
+    long_description: |-
+      TYPO3 ist ein quelloffenes Enterprise-Content-Management-System, das in
+      Europa für die Webseiten von Verwaltungen und Hochschulen weit verbreitet
+      ist.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie das TYPO3-Backend
+      mit der Extension causal/oidc (OpenID Connect Authentication) an
+      Univention Nubus angebunden wird:
+
+      * Single Sign-On für Redakteure über OpenID Connect mit dem in Nubus
+        enthaltenen Keycloak
+      * Backend-Konten werden bei der ersten Anmeldung angelegt, nur für
+        Mitglieder zugeordneter Nubus-Gruppen; Name und E-Mail werden bei jeder
+        Anmeldung aktualisiert.
+      * TYPO3-Backend-Gruppen werden bei jeder Anmeldung entsprechend der
+        Nubus-Gruppen vergeben und entzogen.
+
+      Die Extension unterstützt keinen OpenID-Connect-Logout.
+    icon: 'logo.svg'
+    keywords:
+    - TYPO3
+    - CMS
+    - Content-Management
+    - Webseite
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing typo3/HOWTO-typo3-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-typo3-with-univention-nubus
+    - Description: TYPO3-Extension OpenID Connect Authentication (causal/oidc)
+      URL: https://extensions.typo3.org/extension/oidc
+    - Description: TYPO3-Webseite
+      URL: https://typo3.org/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  source_license: OSI
