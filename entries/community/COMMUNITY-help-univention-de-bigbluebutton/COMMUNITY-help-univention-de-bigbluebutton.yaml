@@ -1,0 +1,110 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-bigbluebutton
+description:
+  en-US:
+    name: BigBlueButton with Univention Nubus
+    short_description: Single Sign-On, Single Logout and user lifecycle for BigBlueButton Greenlight via the Nubus Keycloak
+    long_description: |-
+      BigBlueButton is an open source virtual classroom and web conferencing
+      system with lecture recording, interactive whiteboard, breakout rooms,
+      shared notes and polling.
+
+      Users and rooms are managed by Greenlight, the official BigBlueButton
+      frontend. The how-to on the Univention Help Forum describes how to
+      connect Greenlight v3 to Univention Nubus, using configuration only:
+
+      * Single Sign-On via OpenID Connect with the Keycloak included in Nubus
+      * Single Logout: signing out of BigBlueButton also ends the Nubus
+        session.
+      * User lifecycle: accounts are created at first login and keyed by the
+        permanent Nubus univentionObjectIdentifier. Name and email are
+        updated from Nubus, and disabled or deleted Nubus users can no longer
+        sign in.
+    icon: ''
+    keywords:
+    - BigBlueButton
+    - BBB
+    - Greenlight
+    - Virtual Classroom
+    - Video Conferencing
+    - E-Learning
+    - Nubus
+    - OpenID Connect
+    links:
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/how-to-bigbluebutton-greenlight-with-univention-nubus-single-sign-on-single-logout-and-kind-of-an-user-lifecycle/25705
+    - Description: Greenlight v3 external authentication
+      URL: https://docs.bigbluebutton.org/greenlight/v3/external-authentication/
+    - Description: BigBlueButton website
+      URL: https://bigbluebutton.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: BigBlueButton mit Univention Nubus
+    short_description: Single Sign-On, Single Logout und User Lifecycle für BigBlueButton Greenlight über das Nubus-Keycloak
+    long_description: |-
+      BigBlueButton ist ein quelloffenes virtuelles Klassenzimmer- und
+      Webkonferenzsystem mit Vorlesungsaufzeichnung, interaktivem Whiteboard,
+      Breakout-Räumen, gemeinsamen Notizen und Umfragen.
+
+      Nutzer und Räume werden von Greenlight verwaltet, dem offiziellen
+      BigBlueButton-Frontend. Die Anleitung im Univention Help Forum
+      beschreibt, wie Greenlight v3 allein durch Konfiguration an Univention
+      Nubus angebunden wird:
+
+      * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
+        Keycloak
+      * Single Logout: Die Abmeldung in BigBlueButton beendet auch die
+        Nubus-Sitzung.
+      * User Lifecycle: Konten werden bei der ersten Anmeldung angelegt und
+        über den dauerhaften Nubus-univentionObjectIdentifier zugeordnet.
+        Name und E-Mail werden aus Nubus aktualisiert; deaktivierte oder
+        gelöschte Nubus-Nutzer können sich nicht mehr anmelden.
+    icon: ''
+    keywords:
+    - BigBlueButton
+    - BBB
+    - Greenlight
+    - Virtuelles Klassenzimmer
+    - Videokonferenz
+    - E-Learning
+    - Nubus
+    - OpenID Connect
+    links:
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/how-to-bigbluebutton-greenlight-with-univention-nubus-single-sign-on-single-logout-and-kind-of-an-user-lifecycle/25705
+    - Description: Greenlight v3 – externe Authentifizierung
+      URL: https://docs.bigbluebutton.org/greenlight/v3/external-authentication/
+    - Description: BigBlueButton-Webseite
+      URL: https://bigbluebutton.org/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-09-28'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  source_license: OSI
