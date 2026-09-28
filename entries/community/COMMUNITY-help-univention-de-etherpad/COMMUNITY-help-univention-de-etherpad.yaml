@@ -1,0 +1,103 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-etherpad
+description:
+  en-US:
+    name: Etherpad with Univention Nubus
+    short_description: Single Sign-On, logout and group-based access for Etherpad via the Nubus Keycloak and oauth2-proxy
+    long_description: |-
+      Etherpad is an open source real-time collaborative text editor, used
+      for meeting notes, workshops and teaching.
+
+      The how-to on the Univention Help Forum describes how to protect
+      Etherpad with Univention Nubus without Etherpad plugins, using
+      oauth2-proxy in front of Etherpad:
+
+      * Single Sign-On via OpenID Connect with the Keycloak included in Nubus;
+        only members of a Nubus group can open pads.
+      * Logout: signing out ends the Nubus session, and a logout in Nubus
+        ends the access to Etherpad within a minute.
+      * Users removed from the group or disabled in Nubus lose access within
+        a minute, also in an open browser session.
+    icon: 'logo.svg'
+    keywords:
+    - Etherpad
+    - Collaborative Editing
+    - Notes
+    - oauth2-proxy
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing etherpad/HOWTO-etherpad-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-etherpad-with-univention-nubus
+    - Description: oauth2-proxy Keycloak OIDC provider
+      URL: https://oauth2-proxy.github.io/oauth2-proxy/configuration/providers/keycloak_oidc
+    - Description: Etherpad website
+      URL: https://etherpad.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: Etherpad mit Univention Nubus
+    short_description: Single Sign-On, Logout und gruppenbasierter Zugriff für Etherpad über das Nubus-Keycloak und oauth2-proxy
+    long_description: |-
+      Etherpad ist ein quelloffener Editor für die gemeinsame Bearbeitung von
+      Texten in Echtzeit, zum Beispiel für Besprechungsnotizen, Workshops und
+      Unterricht.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie Etherpad ohne
+      Etherpad-Plugins mit Univention Nubus geschützt wird, mit oauth2-proxy
+      vor Etherpad:
+
+      * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
+        Keycloak; nur Mitglieder einer Nubus-Gruppe können Pads öffnen.
+      * Logout: Die Abmeldung beendet die Nubus-Sitzung, und eine Abmeldung in
+        Nubus beendet den Zugriff auf Etherpad innerhalb einer Minute.
+      * Aus der Gruppe entfernte oder in Nubus deaktivierte Benutzer verlieren
+        den Zugriff innerhalb einer Minute, auch in einer offenen
+        Browsersitzung.
+    icon: 'logo.svg'
+    keywords:
+    - Etherpad
+    - Gemeinsames Schreiben
+    - Notizen
+    - oauth2-proxy
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing etherpad/HOWTO-etherpad-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-etherpad-with-univention-nubus
+    - Description: oauth2-proxy – Keycloak-OIDC-Provider
+      URL: https://oauth2-proxy.github.io/oauth2-proxy/configuration/providers/keycloak_oidc
+    - Description: Etherpad-Webseite
+      URL: https://etherpad.org/
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  source_license: OSI
