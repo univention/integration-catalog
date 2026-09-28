@@ -34,7 +34,7 @@ description:
     - OpenID Connect
     links:
     - Description: How-To on Univention Help Forum
-      URL: https://help.univention.com/t/TODO-replace-with-forum-post-url
+      URL: https://help.univention.com/t/how-to-bigbluebutton-greenlight-with-univention-nubus-single-sign-on-single-logout-and-kind-of-an-user-lifecycle/25705
     - Description: Greenlight v3 external authentication
       URL: https://docs.bigbluebutton.org/greenlight/v3/external-authentication/
     - Description: BigBlueButton website
@@ -74,7 +74,7 @@ description:
     - OpenID Connect
     links:
     - Description: How-To im Univention Help Forum
-      URL: https://help.univention.com/t/TODO-replace-with-forum-post-url
+      URL: https://help.univention.com/t/how-to-bigbluebutton-greenlight-with-univention-nubus-single-sign-on-single-logout-and-kind-of-an-user-lifecycle/25705
     - Description: Greenlight v3 – externe Authentifizierung
       URL: https://docs.bigbluebutton.org/greenlight/v3/external-authentication/
     - Description: BigBlueButton-Webseite
