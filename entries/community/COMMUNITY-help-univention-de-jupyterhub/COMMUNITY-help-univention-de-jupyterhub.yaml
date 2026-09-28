@@ -1,0 +1,109 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-jupyterhub
+description:
+  en-US:
+    name: JupyterHub with Univention Nubus
+    short_description: Single Sign-On, logout and group-based access for JupyterHub (with JupyterLab and RStudio) via the Nubus Keycloak
+    long_description: |-
+      JupyterHub is the open source multi-user server for Jupyter notebooks,
+      used in research and teaching for interactive computing with Python, R,
+      Julia and other languages.
+
+      The how-to on the Univention Help Forum describes how to connect
+      JupyterHub to Univention Nubus, using configuration only:
+
+      * Single Sign-On via OpenID Connect with the Keycloak included in Nubus,
+        covering the users' JupyterLab and an RStudio profile
+      * Logout: signing out of JupyterHub also ends the Nubus session.
+      * Access and roles from Nubus: only members of a Nubus group can sign
+        in, members of an admin group become JupyterHub administrators, and
+        Nubus groups are mirrored as JupyterHub groups. A regular token
+        refresh stops disabled Nubus users from starting servers.
+    icon: 'logo.svg'
+    keywords:
+    - JupyterHub
+    - Jupyter
+    - JupyterLab
+    - Notebooks
+    - RStudio
+    - Data Science
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing jupyterhub/HOWTO-jupyterhub-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-jupyterhub-with-univention-nubus
+    - Description: OAuthenticator – Generic OAuth
+      URL: https://oauthenticator.readthedocs.io/en/latest/tutorials/provider-specific-setup/providers/generic.html
+    - Description: JupyterHub website
+      URL: https://jupyter.org/hub
+    tags: []
+    visuals: []
+  de-DE:
+    name: JupyterHub mit Univention Nubus
+    short_description: Single Sign-On, Logout und gruppenbasierter Zugriff für JupyterHub (mit JupyterLab und RStudio) über das Nubus-Keycloak
+    long_description: |-
+      JupyterHub ist der quelloffene Mehrbenutzer-Server für Jupyter-Notebooks,
+      der in Forschung und Lehre für interaktives Rechnen mit Python, R, Julia
+      und weiteren Sprachen eingesetzt wird.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie JupyterHub allein
+      durch Konfiguration an Univention Nubus angebunden wird:
+
+      * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
+        Keycloak, auch für JupyterLab und ein RStudio-Profil der Benutzer
+      * Logout: Die Abmeldung in JupyterHub beendet auch die Nubus-Sitzung.
+      * Zugriff und Rollen aus Nubus: Nur Mitglieder einer Nubus-Gruppe können
+        sich anmelden, Mitglieder einer Admin-Gruppe werden
+        JupyterHub-Administratoren, und Nubus-Gruppen werden als
+        JupyterHub-Gruppen gespiegelt. Eine regelmäßige Token-Aktualisierung
+        hindert deaktivierte Nubus-Benutzer daran, Server zu starten.
+    icon: 'logo.svg'
+    keywords:
+    - JupyterHub
+    - Jupyter
+    - JupyterLab
+    - Notebooks
+    - RStudio
+    - Data Science
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing jupyterhub/HOWTO-jupyterhub-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-jupyterhub-with-univention-nubus
+    - Description: OAuthenticator – Generic OAuth
+      URL: https://oauthenticator.readthedocs.io/en/latest/tutorials/provider-specific-setup/providers/generic.html
+    - Description: JupyterHub-Webseite
+      URL: https://jupyter.org/hub
+    tags: []
+    visuals: []
+main_icon: 'logo.svg'
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  source_license: OSI

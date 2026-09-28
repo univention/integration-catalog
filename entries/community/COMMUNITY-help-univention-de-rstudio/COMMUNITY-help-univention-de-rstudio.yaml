@@ -1,0 +1,98 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-rstudio
+description:
+  en-US:
+    name: RStudio via JupyterHub with Univention Nubus
+    short_description: RStudio with Single Sign-On via the Nubus Keycloak, served through JupyterHub
+    long_description: |-
+      RStudio is the popular IDE for the R language, used for statistics,
+      data visualization and teaching. The open source RStudio Server has no
+      Single Sign-On of its own.
+
+      The JupyterHub how-to on the Univention Help Forum shows how to offer
+      RStudio as a JupyterHub profile (jupyter-rsession-proxy): users sign in
+      once with their Nubus account via OpenID Connect and the Keycloak
+      included in Nubus, and RStudio opens without another login. Access,
+      administrator rights and groups are controlled by Nubus groups, and
+      signing out of JupyterHub also ends the Nubus session.
+    icon: ''
+    keywords:
+    - RStudio
+    - R
+    - Statistics
+    - Data Science
+    - JupyterHub
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing jupyterhub/HOWTO-jupyterhub-nubus.md
+    - Description: How-To on Univention Help Forum (JupyterHub, section RStudio)
+      URL: https://help.univention.com/t/TODO-how-to-jupyterhub-with-univention-nubus
+    - Description: jupyter-rsession-proxy
+      URL: https://github.com/jupyterhub/jupyter-rsession-proxy
+    - Description: Rocker project (R container images)
+      URL: https://rocker-project.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: RStudio über JupyterHub mit Univention Nubus
+    short_description: RStudio mit Single Sign-On über das Nubus-Keycloak, bereitgestellt über JupyterHub
+    long_description: |-
+      RStudio ist die verbreitete Entwicklungsumgebung für die Sprache R, die
+      für Statistik, Datenvisualisierung und Lehre eingesetzt wird. Der
+      quelloffene RStudio Server hat kein eigenes Single Sign-On.
+
+      Die JupyterHub-Anleitung im Univention Help Forum zeigt, wie RStudio als
+      JupyterHub-Profil (jupyter-rsession-proxy) angeboten wird: Benutzer melden
+      sich einmal mit ihrem Nubus-Konto über OpenID Connect und das in Nubus
+      enthaltene Keycloak an, und RStudio öffnet sich ohne weitere Anmeldung.
+      Zugriff, Administratorrechte und Gruppen werden über Nubus-Gruppen
+      gesteuert, und die Abmeldung in JupyterHub beendet auch die
+      Nubus-Sitzung.
+    icon: ''
+    keywords:
+    - RStudio
+    - R
+    - Statistik
+    - Data Science
+    - JupyterHub
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing jupyterhub/HOWTO-jupyterhub-nubus.md
+    - Description: How-To im Univention Help Forum (JupyterHub, Abschnitt RStudio)
+      URL: https://help.univention.com/t/TODO-how-to-jupyterhub-with-univention-nubus
+    - Description: jupyter-rsession-proxy
+      URL: https://github.com/jupyterhub/jupyter-rsession-proxy
+    - Description: Rocker-Projekt (R-Container-Images)
+      URL: https://rocker-project.org/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  source_license: OSI
