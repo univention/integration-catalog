@@ -1,0 +1,114 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-opencloud
+description:
+  en-US:
+    name: OpenCloud with Univention Nubus
+    short_description: Single Sign-On, Single Logout and the Nubus directory as shared user directory for OpenCloud
+    long_description: |-
+      OpenCloud is an open source file sharing and collaboration platform
+      with spaces, sharing, web office integration and desktop and mobile
+      apps, developed in Germany.
+
+      The how-to on the Univention Help Forum describes how to connect
+      OpenCloud to Univention Nubus, using configuration only:
+
+      * Single Sign-On via OpenID Connect with the Keycloak included in Nubus,
+        for the web UI and the desktop and mobile apps
+      * Single Logout in both directions: signing out of OpenCloud ends the
+        Nubus session, and signing out of Nubus ends the OpenCloud session
+        (back-channel logout).
+      * User lifecycle via the shared user directory: OpenCloud reads users
+        and groups read-only from the Nubus directory, keyed by the permanent
+        univentionObjectIdentifier. New users and groups are available for
+        sharing immediately, disabled and deleted users disappear, and
+        OpenCloud roles come from Nubus groups.
+    icon: 'logo.png'
+    keywords:
+    - OpenCloud
+    - File Sharing
+    - Cloud Storage
+    - Collaboration
+    - Nubus
+    - OpenID Connect
+    - LDAP
+    links:
+    # TODO: replace with the forum topic URL after publishing opencloud/HOWTO-opencloud-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-opencloud-with-univention-nubus
+    - Description: OpenCloud Keycloak integration
+      URL: https://docs.opencloud.eu/docs/admin/configuration/authentication-and-user-management/keycloak/
+    - Description: OpenCloud website
+      URL: https://opencloud.eu/
+    tags: []
+    visuals: []
+  de-DE:
+    name: OpenCloud mit Univention Nubus
+    short_description: Single Sign-On, Single Logout und das Nubus-Verzeichnis als gemeinsames Benutzerverzeichnis für OpenCloud
+    long_description: |-
+      OpenCloud ist eine in Deutschland entwickelte, quelloffene Plattform für
+      Dateiablage und Zusammenarbeit mit Spaces, Freigaben, Web-Office-
+      Integration sowie Desktop- und Mobil-Apps.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie OpenCloud allein
+      durch Konfiguration an Univention Nubus angebunden wird:
+
+      * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
+        Keycloak, für die Weboberfläche sowie die Desktop- und Mobil-Apps
+      * Single Logout in beide Richtungen: Die Abmeldung in OpenCloud beendet
+        die Nubus-Sitzung, und die Abmeldung in Nubus beendet die
+        OpenCloud-Sitzung (Back-Channel-Logout).
+      * User Lifecycle über das gemeinsame Benutzerverzeichnis: OpenCloud liest
+        Benutzer und Gruppen lesend aus dem Nubus-Verzeichnis, zugeordnet über
+        den dauerhaften univentionObjectIdentifier. Neue Benutzer und Gruppen
+        stehen sofort für Freigaben zur Verfügung, deaktivierte und gelöschte
+        Benutzer verschwinden, und OpenCloud-Rollen kommen aus Nubus-Gruppen.
+    icon: 'logo.png'
+    keywords:
+    - OpenCloud
+    - Dateiablage
+    - Cloud-Speicher
+    - Zusammenarbeit
+    - Nubus
+    - OpenID Connect
+    - LDAP
+    links:
+    # TODO: replace with the forum topic URL after publishing opencloud/HOWTO-opencloud-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-opencloud-with-univention-nubus
+    - Description: OpenCloud – Keycloak-Integration
+      URL: https://docs.opencloud.eu/docs/admin/configuration/authentication-and-user-management/keycloak/
+    - Description: OpenCloud-Webseite
+      URL: https://opencloud.eu/
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  - user_lifecycle
+  - group_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  - LDAP
+  artifacts:
+  - documentation
+  source_license: OSI
