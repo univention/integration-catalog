@@ -1,0 +1,112 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-open-webui
+description:
+  en-US:
+    name: Open WebUI with Univention Nubus
+    short_description: Single Sign-On, Single Logout, roles and groups for the Open WebUI AI chat via the Nubus Keycloak
+    long_description: |-
+      Open WebUI is a self-hosted chat interface for large language models,
+      for example local models via Ollama or any OpenAI-compatible API, with
+      document chat (RAG), model sharing and user groups.
+
+      The how-to on the Univention Help Forum describes how to connect Open
+      WebUI to Univention Nubus, using configuration only:
+
+      * Single Sign-On via OpenID Connect with the Keycloak included in Nubus
+      * Single Logout in both directions: signing out of Open WebUI ends the
+        Nubus session, and signing out of Nubus ends the Open WebUI session
+        (back-channel logout).
+      * Access, roles and groups from Nubus: only members of a Nubus group
+        can sign in, members of an admin group become Open WebUI
+        administrators, and Nubus groups are mirrored as Open WebUI groups.
+        Accounts are created at first login and updated at every login.
+    icon: 'logo.png'
+    keywords:
+    - Open WebUI
+    - AI
+    - LLM
+    - Ollama
+    - Chat
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing open-webui/HOWTO-open-webui-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-open-webui-with-univention-nubus
+    - Description: Open WebUI SSO documentation
+      URL: https://docs.openwebui.com/features/authentication-access/auth/sso/
+    - Description: Open WebUI on GitHub
+      URL: https://github.com/open-webui/open-webui
+    tags: []
+    visuals: []
+  de-DE:
+    name: Open WebUI mit Univention Nubus
+    short_description: Single Sign-On, Single Logout, Rollen und Gruppen für den KI-Chat Open WebUI über das Nubus-Keycloak
+    long_description: |-
+      Open WebUI ist eine selbst betriebene Chat-Oberfläche für große
+      Sprachmodelle, zum Beispiel lokale Modelle über Ollama oder beliebige
+      OpenAI-kompatible APIs, mit Dokumenten-Chat (RAG), geteilten Modellen
+      und Benutzergruppen.
+
+      Die Anleitung im Univention Help Forum beschreibt, wie Open WebUI allein
+      durch Konfiguration an Univention Nubus angebunden wird:
+
+      * Single Sign-On über OpenID Connect mit dem in Nubus enthaltenen
+        Keycloak
+      * Single Logout in beide Richtungen: Die Abmeldung in Open WebUI beendet
+        die Nubus-Sitzung, und die Abmeldung in Nubus beendet die Open-WebUI-
+        Sitzung (Back-Channel-Logout).
+      * Zugriff, Rollen und Gruppen aus Nubus: Nur Mitglieder einer
+        Nubus-Gruppe können sich anmelden, Mitglieder einer Admin-Gruppe
+        werden Open-WebUI-Administratoren, und Nubus-Gruppen werden als
+        Open-WebUI-Gruppen gespiegelt. Konten werden bei der ersten Anmeldung
+        angelegt und bei jeder Anmeldung aktualisiert.
+    icon: 'logo.png'
+    keywords:
+    - Open WebUI
+    - KI
+    - LLM
+    - Ollama
+    - Chat
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing open-webui/HOWTO-open-webui-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-open-webui-with-univention-nubus
+    - Description: Open-WebUI-Dokumentation zu SSO
+      URL: https://docs.openwebui.com/features/authentication-access/auth/sso/
+    - Description: Open WebUI auf GitHub
+      URL: https://github.com/open-webui/open-webui
+    tags: []
+    visuals: []
+main_icon: 'logo.png'
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  - slo
+  - user_lifecycle
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  # "Open WebUI License": BSD-3-Clause plus a branding clause (deployments > 50 users), not OSI-approved
+  source_license: ''
