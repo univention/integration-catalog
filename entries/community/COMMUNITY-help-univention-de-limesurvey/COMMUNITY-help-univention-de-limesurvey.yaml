@@ -1,0 +1,107 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+id: COMMUNITY-help-univention-de-limesurvey
+description:
+  en-US:
+    name: LimeSurvey with Univention Nubus
+    short_description: Single Sign-On for the LimeSurvey administration via the Nubus Keycloak, with oauth2-proxy and the core plugin Authwebserver
+    long_description: |-
+      LimeSurvey is an open source survey tool used for course evaluations,
+      research and feedback in universities and public administration.
+
+      LimeSurvey has no built-in OpenID Connect or SAML. The how-to on the
+      Univention Help Forum describes how to add Single Sign-On for the survey
+      administration without additional LimeSurvey plugins:
+
+      * oauth2-proxy handles the OpenID Connect login with the Keycloak
+        included in Nubus and admits only members of a Nubus group.
+      * LimeSurvey's core plugin Authwebserver signs the user in and creates
+        the account at the first login, with the email address from Nubus.
+        A shared secret between oauth2-proxy and LimeSurvey prevents forged
+        identity headers.
+      * Public surveys stay available without login.
+    icon: ''
+    keywords:
+    - LimeSurvey
+    - Surveys
+    - Evaluation
+    - oauth2-proxy
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing limesurvey/HOWTO-limesurvey-nubus.md
+    - Description: How-To on Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-limesurvey-with-univention-nubus
+    - Description: LimeSurvey authentication plugins
+      URL: https://www.limesurvey.org/manual/Authentication_plugins
+    - Description: oauth2-proxy Keycloak OIDC provider
+      URL: https://oauth2-proxy.github.io/oauth2-proxy/configuration/providers/keycloak_oidc
+    - Description: LimeSurvey website
+      URL: https://www.limesurvey.org/
+    tags: []
+    visuals: []
+  de-DE:
+    name: LimeSurvey mit Univention Nubus
+    short_description: Single Sign-On für die LimeSurvey-Administration über das Nubus-Keycloak, mit oauth2-proxy und dem Kern-Plugin Authwebserver
+    long_description: |-
+      LimeSurvey ist ein quelloffenes Umfragewerkzeug, das an Hochschulen und
+      in der öffentlichen Verwaltung für Lehrevaluationen, Forschung und
+      Feedback eingesetzt wird.
+
+      LimeSurvey enthält weder OpenID Connect noch SAML. Die Anleitung im
+      Univention Help Forum beschreibt, wie Single Sign-On für die
+      Umfrageverwaltung ohne zusätzliche LimeSurvey-Plugins ergänzt wird:
+
+      * oauth2-proxy übernimmt die OpenID-Connect-Anmeldung mit dem in Nubus
+        enthaltenen Keycloak und lässt nur Mitglieder einer Nubus-Gruppe zu.
+      * Das LimeSurvey-Kern-Plugin Authwebserver meldet den Benutzer an und
+        legt das Konto bei der ersten Anmeldung mit der E-Mail-Adresse aus
+        Nubus an. Ein gemeinsames Geheimnis zwischen oauth2-proxy und
+        LimeSurvey verhindert gefälschte Identitäts-Header.
+      * Öffentliche Umfragen bleiben ohne Anmeldung erreichbar.
+    icon: ''
+    keywords:
+    - LimeSurvey
+    - Umfragen
+    - Evaluation
+    - oauth2-proxy
+    - Nubus
+    - OpenID Connect
+    links:
+    # TODO: replace with the forum topic URL after publishing limesurvey/HOWTO-limesurvey-nubus.md
+    - Description: How-To im Univention Help Forum
+      URL: https://help.univention.com/t/TODO-how-to-limesurvey-with-univention-nubus
+    - Description: LimeSurvey – Authentifizierungs-Plugins
+      URL: https://www.limesurvey.org/manual/Authentication_plugins
+    - Description: oauth2-proxy – Keycloak-OIDC-Provider
+      URL: https://oauth2-proxy.github.io/oauth2-proxy/configuration/providers/keycloak_oidc
+    - Description: LimeSurvey-Webseite
+      URL: https://www.limesurvey.org/
+    tags: []
+    visuals: []
+main_icon: ''
+version: ''
+metadata:
+  created_by: Ingo Steuwer
+  creation_date: '2026-06-01'
+  last_update_date: '2026-09-28'
+organizational_specifications:
+  vendor_id: community
+  support_contact_id: ''
+  support_status: ''
+technical_specifications:
+  capabilities:
+  - outbound
+  - sso
+  compatible_platforms:
+  - Kubernetes
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - OIDC
+  artifacts:
+  - documentation
+  source_license: OSI
