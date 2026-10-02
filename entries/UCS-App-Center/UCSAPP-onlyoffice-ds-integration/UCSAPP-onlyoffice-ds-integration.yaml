@@ -122,12 +122,12 @@ description:
 
       '
     tags: []
-visuals:
-  - Document.png
-  - ONLYOFFICE_Docs.png
-  - PDF.png
-  - Presentation.png
-  - Spreadsheet.png
+    visuals:
+    - Document.png
+    - ONLYOFFICE_Docs.png
+    - PDF.png
+    - Presentation.png
+    - Spreadsheet.png
   en-US:
     icon: logo.svg
     keywords:
@@ -243,7 +243,7 @@ main_icon: ''
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2026-04-17'
-  last_update_date: '2026-07-09'
+  last_update_date: '2026-10-01'
 organizational_specifications:
   support_contact_id: 'onlyoffice'
   support_status: ''
