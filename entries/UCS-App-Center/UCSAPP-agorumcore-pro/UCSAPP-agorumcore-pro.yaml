@@ -1,0 +1,199 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+description:
+  en-US:
+    icon: agorum_logo.svg
+    keywords:
+    - Document Management,DMS,Business
+    - Collaboration & Groupware
+    - Mail & Messaging
+    - Backup & Archiving
+    - File Sync & Share
+    links:
+    - Description: Website
+      URL: https://www.agorum.com
+    - Description: Support
+      URL: https://www.agorum.com/support
+    - Description: Contact
+      URL: https://www.agorum.com/ueber-uns/kontakt
+    - Description: Product overview
+      URL: https://www.agorum.com/produktuebersicht-dokumentenmanagement/
+    long_description: |
+      **The architecture of your digital future. The foundation for productive AI.**
+
+      agorum core pro is the business platform for document management (DMS),
+      centralized data storage, and business process digitization. All processes in
+      your organization can be configured quickly and easily. Whether you're a small
+      business or a large enterprise: agorum core pro helps organizations of any size
+      manage all their documents, emails, and records digitally, in a structured and
+      secure way. Thanks to its open architecture, the solution adapts precisely to
+      your requirements - flexible, always up to date, and built to protect your
+      investment.
+
+      With agorum core pro, you digitize paper-based processes, establish centralized
+      information management, and automate a wide range of workflows. The result: a
+      single platform where all relevant business data is managed in one place -
+      compliant, audit-proof, and secure.
+
+      Organizations that eliminate information silos and build clean data structures
+      lay the foundation for what comes next: agorum core pro is the ideal basis for
+      your own AI business platform with a built-in knowledge base. ALBERT | AI
+      exclusively accesses validated, current, and authorized information.
+
+      ## Feature overview
+
+      The key functions for digitization and document management include:
+
+      - Document management: securely store, structure, version, tag, and legally
+        compliant archive files and emails of any type.
+      - Search and discovery: fast full-text search, filters, search templates, and
+        metadata search across all content.
+      - Automated workflows: routine tasks - such as invoice verification, approvals,
+        or contract management - run fully automatically based on defined rules or
+        using AI.
+      - E-files and case management: clear, user-friendly digital files organized in
+        custom structures.
+      - Integration and interfaces: connect existing IT systems to exchange and
+        synchronize data automatically.
+      - DMS Drive (network drive): work with documents directly from familiar
+        applications (e.g. Word, Excel) as if they were on a classic network drive.
+      - Mobile access: access documents and tasks on the go via web browser (Mobile
+        mode).
+      - Metadata management: add as many custom metadata fields per document as
+        needed to power processes, workflows, and search.
+      - AI platform: with add-on plugins, integrate ALBERT | AI Chat into agorum core
+        pro - or expand agorum core pro into your own AI platform.
+
+      ## agorum core pro integrated with UCS
+
+      Thanks to its availability in the Univention App Center, agorum core pro
+      installs and is ready to use in just a few clicks. By connecting to UCS
+      Identity Management, users and groups can be synchronized directly.
+      Integration via Kerberos for authentication is also possible.
+
+      ## Licensing
+
+      A valid license is required for production use of agorum core pro and its
+      add-on modules. Not sure how agorum core pro fits your organization? Get in
+      touch: https://www.agorum.com/ueber-uns/kontakt
+    name: agorum core pro
+    short_description: 'agorum core pro - the scalable AI business platform with a secure data foundation'
+    tags: []
+    visuals:
+    - thumbnail_1.png
+    - thumbnail_2.png
+  de-DE:
+    icon: agorum_logo.svg
+    keywords:
+    - Dokumentenmanagement,DMS,Business
+    - Collaboration & Groupware
+    - Mail & Messaging
+    - Backup & Archiving
+    - File Sync & Share
+    links:
+    - Description: Website
+      URL: https://www.agorum.com
+    - Description: Support
+      URL: https://www.agorum.com/support
+    - Description: Kontakt
+      URL: https://www.agorum.com/ueber-uns/kontakt
+    - Description: Produktübersicht
+      URL: https://www.agorum.com/produktuebersicht-dokumentenmanagement/
+    long_description: |
+      **Die Architektur Ihrer digitalen Zukunft. Das Fundament für produktive KI.**
+
+      agorum core pro ist die Business-Plattform für Dokumentenmanagement (DMS),
+      zentrale Datenhaltung und Geschäftsprozessdigitalisierung. Alle Prozesse in
+      Ihrem Unternehmen lassen sich damit einfach und schnell konfigurieren. Ob
+      kleines Unternehmen oder Konzern: agorum core pro unterstützt Organisationen
+      jeder Größe dabei, sämtliche Dokumente, E-Mails und Akten digital,
+      strukturiert und sicher zu verwalten. Dank offener Architektur passt sich die
+      Lösung exakt an Ihre Anforderungen an: flexibel, updatefähig und
+      investitionssicher.
+
+      Mit agorum core pro digitalisieren Sie papierbasierte Prozesse, schaffen ein
+      zentrales Informationsmanagement und automatisieren zahlreiche Abläufe. Das
+      Ergebnis: eine Plattform, auf der alle relevanten Geschäftsdaten
+      datenschutzkonform und revisionssicher an einem Ort verwaltet werden.
+
+      Wer Informationssilos eliminiert und saubere Datenstrukturen schafft, legt das
+      Fundament für den nächsten Schritt: agorum core pro ist damit die ideale
+      Grundlage für Ihre eigene KI-Business-Plattform mit Wissensdatenbank. ALBERT |
+      AI greift nur auf validierte, aktuelle und berechtigte Informationen zu.
+
+      ## Funktionsübersicht
+
+      Die wichtigsten Funktionen von agorum core pro für die Digitalisierung und
+      Dokumentenverwaltung sind:
+
+      - Dokumentenmanagement: Dateien und E-Mails jeder Art sicher, strukturiert und
+        versioniert ablegen, verschlagworten und rechtskonform archivieren.
+      - Suche & Recherche: Schnelle Volltextsuche, Filter, Suchvorlagen und
+        Metadatensuche über alle im System befindlichen Inhalte.
+      - Automatisierte Workflows: Routineaufgaben wie Rechnungsprüfung, Freigaben
+        oder Vertragsmanagement laufen nach definierten Regeln oder mittels KI
+        vollautomatisch ab.
+      - E-Akten & Vorgangsverwaltung: Digitale Akten sind übersichtlich,
+        nutzergerecht und in individuelle Strukturen gegliedert.
+      - Integration & Schnittstellen: Bestehende IT-Systeme werden angebunden.
+        Daten können automatisch ausgetauscht und synchronisiert werden.
+      - DMS-Drive (Netzlaufwerk): Dokumente direkt von gewohnten
+        Arbeitsprogrammen (z. B. Word, Excel) mit dem Server austauschen - wie mit
+        einem klassischen Netzlaufwerk.
+      - Mobile Nutzung: Zugriff auf Dokumente und Aufgaben unterwegs über
+        Webbrowser (Mobile-Mode).
+      - Metadatenmanagement: Beliebig viele individuelle Zusatzinformationen pro
+        Dokument - zur Steuerung von Prozessen, Workflows und Suchen.
+      - KI-Plattform: Über Zusatz-Plugins kann unser ALBERT | AI Chat in agorum
+        core pro integriert und agorum core pro sogar zu Ihrer eigenen
+        KI-Plattform ausgebaut werden.
+
+      ## agorum core pro integriert in UCS
+
+      Durch die Integration von agorum core pro in das Univention App Center ist
+      agorum core pro mit wenigen Klicks installiert und einsatzbereit. Durch die
+      Anbindung an das Identity Management von UCS können Benutzer und Gruppen
+      direkt synchronisiert werden. Zudem ist eine Integration über Kerberos für
+      die Authentisierung möglich.
+
+      ## Lizenzierung
+
+      Zur produktiven Nutzung von agorum core pro und den jeweiligen
+      Zusatzmodulen benötigen Sie eine gültige Lizenz. Sie sind sich noch nicht
+      sicher, wie agorum core pro in Ihr Unternehmen passt? Dann nehmen Sie gerne
+      Kontakt zu uns auf: https://www.agorum.com/ueber-uns/kontakt
+    name: agorum core pro
+    short_description: 'agorum core pro - die skalierbare KI-Business-Plattform mit sicherer Datenbasis'
+    tags: []
+    visuals:
+    - thumbnail_1.png
+    - thumbnail_2.png
+id: UCSAPP-agorumcore-pro
+main_icon: ''
+metadata:
+  created_by: Kiya Mukherjee
+  creation_date: '2026-10-05'
+  last_update_date: '2026-10-05'
+organizational_specifications:
+  support_contact_id: 'agorum'
+  support_status: ''
+  vendor_id: 'agorum'
+technical_specifications:
+  capabilities:
+  - outbound
+  - user_lifecycle
+  - group_lifecycle
+  - sso
+  compatible_platforms:
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - LDAP
+  - Kerberos
+  artifacts:
+  - packaged_integration
+  source_license: ''
+version: 11.11.1
