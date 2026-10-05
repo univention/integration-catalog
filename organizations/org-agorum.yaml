@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.
+
+# Description of organization "agorum Software GmbH".
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-10-05" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+id: agorum
+en-US:
+  name: agorum Software GmbH
+  short_description: agorum Software GmbH
+  link: https://www.agorum.com
+  contact: info2@agorum.com
+  logo: agorum-logo-en-US.svg
+de-DE:
+  name: agorum Software GmbH
+  short_description: agorum Software GmbH
+  link: https://www.agorum.com
+  contact: info2@agorum.com
+  logo: agorum-logo-de-DE.svg
