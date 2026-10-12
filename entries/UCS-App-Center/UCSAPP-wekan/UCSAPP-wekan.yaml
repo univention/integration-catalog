@@ -39,6 +39,7 @@ description:
     - thumbnail_4.png
     - thumbnail_5.png
     - thumbnail_6.png
+    - thumbnail_7.png
   en-US:
     icon: logo.svg
     keywords:
@@ -76,12 +77,13 @@ description:
     - thumbnail_4.png
     - thumbnail_5.png
     - thumbnail_6.png
+    - thumbnail_7.png
 id: UCSAPP-wekan
 main_icon: ''
 metadata:
   created_by: Ingo Steuwer
   creation_date: '2026-04-17'
-  last_update_date: '2026-07-21'
+  last_update_date: '2026-10-12'
 organizational_specifications:
   support_contact_id: 'wekan'
   support_status: ''
@@ -100,4 +102,4 @@ technical_specifications:
   artifacts:
   - packaged_integration
   source_license: ''
-version: 6.09-ucs1
+version: 12.34
