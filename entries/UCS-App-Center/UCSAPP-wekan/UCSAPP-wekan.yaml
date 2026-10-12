@@ -39,6 +39,7 @@ description:
     - thumbnail_4.png
     - thumbnail_5.png
     - thumbnail_6.png
+    - thumbnail_7.png
   en-US:
     icon: logo.svg
     keywords:
@@ -76,6 +77,7 @@ description:
     - thumbnail_4.png
     - thumbnail_5.png
     - thumbnail_6.png
+    - thumbnail_7.png
 id: UCSAPP-wekan
 main_icon: ''
 metadata:
@@ -100,4 +102,4 @@ technical_specifications:
   artifacts:
   - packaged_integration
   source_license: ''
-version: 6.09-ucs1
+version: 12.34
