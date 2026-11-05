@@ -1,0 +1,183 @@
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+# SPDX-License-Identifier: AGPL-3.0-only
+
+
+description:
+  de-DE:
+    icon: logo.svg
+    keywords:
+    - Education
+    - Desktop
+    - Device Management
+    - Printing
+    - Klassenraumsteuerung
+    - Computerraum
+    - Prüfungsmodus
+    - Digitale Prüfungen
+    links:
+    - Description: Website
+      URL: https://room-control.de/
+    - Description: Kontakt und Support
+      URL: https://room-control.de/kontakt.html
+    - Description: Interaktive Demo
+      URL: https://room-control.de/demo/
+    - Description: Datenschutz (Abschnitt Software)
+      URL: https://room-control.de/datenschutz.html#software
+    long_description: |
+      Mit RoomControl steuern Lehrkräfte den Computerraum und führen digitale
+      Prüfungen auf den vorhandenen Windows-PCs der Schule durch.
+      Prüfungsdateien, Ergebnisse und die Bildschirmübertragung bleiben im
+      Schulnetz. Ein Cloud-Konto ist nicht nötig.
+
+      ## Unterricht
+
+      - Sitzplan mit Live-Vorschau aller Schüler-Bildschirme
+      - Den eigenen Bildschirm an die Klasse übertragen
+      - Einzelnen Schülerinnen und Schülern per Fernsteuerung helfen
+      - Internet und Drucker für einzelne PCs oder den ganzen Raum sperren
+
+      ## Digitale Prüfungen
+
+      Im Prüfungsmodus starten nur freigegebene Programme. USB-Speicher und
+      Internet sind gesperrt, das Drucken wird kontrolliert. Aufgaben werden
+      automatisch ausgeteilt und Ergebnisse sicher eingesammelt. Jede Abgabe
+      wird mit einer Quittung bestätigt.
+
+      ## Anbindung an Nubus
+
+      - Schülerinnen und Schüler melden sich zur Prüfung mit Benutzername und
+        Passwort ihres Domänenkontos an. RoomControl prüft die Anmeldung per
+        LDAPS am Samba AD der UCS-Domäne. Prüfungen sind auch mit abgesicherten
+        Gastkonten möglich.
+      - Lehrkräfte melden sich wie gewohnt an Windows an. Eine zweite Anmeldung
+        an der Konsole ist nicht nötig.
+      - Welche Gruppen als Lehrkräfte und welche als Administratoren gelten,
+        legt die Schul-IT in den App-Einstellungen fest.
+      - LDAP-Server und Suchbasis übernimmt die App bei der Installation aus der
+        Domäne.
+      - RoomControl liest nur aus dem Verzeichnis. Es legt dort keine Benutzer
+        oder Gruppen an und ändert nichts.
+
+      ## Voraussetzungen
+
+      - Die App wird auf einem Domänencontroller der UCS-Domäne installiert, auf
+        dem Samba AD läuft.
+      - Für die Anmeldung mit Domänenkonten sind die PCs Mitglied der
+        UCS-Domäne.
+      - Alle PCs im Raum brauchen Windows 10 oder 11 und den
+        RoomControl-Client, auch der PC der Lehrkraft. Das MSI-Paket für die
+        Softwareverteilung liefert der Server selbst aus.
+      - Der Server erzeugt beim ersten Start eine eigene Zertifizierungsstelle.
+        Ihr Zertifikat wird einmal per Gruppenrichtlinie auf die PCs verteilt.
+        Eine Anleitung liegt der App bei.
+
+      Welche Daten die Software an den Hersteller sendet, steht in der
+      [Datenschutzerklärung](https://room-control.de/datenschutz.html#software).
+    name: RoomControl
+    short_description: 'Computerraum-Steuerung und sicherer Prüfungsmodus für Windows-PCs in Schulen.'
+    tags: []
+    visuals:
+    - thumbnail_1.png
+    - thumbnail_2.png
+    - thumbnail_3.png
+  en-US:
+    icon: logo.svg
+    keywords:
+    - Education
+    - Desktop
+    - Device Management
+    - Printing
+    - Classroom Management
+    - Computer Room
+    - Exam Mode
+    - Digital Exams
+    links:
+    - Description: Website
+      URL: https://room-control.de/en/
+    - Description: Contact and support
+      URL: https://room-control.de/en/kontakt.html
+    - Description: Interactive demo (German)
+      URL: https://room-control.de/demo/
+    - Description: Privacy policy (software section)
+      URL: https://room-control.de/en/datenschutz.html#software
+    long_description: |
+      With RoomControl, teachers manage the computer room and run digital
+      exams on the school's existing Windows PCs. Exam files, results and
+      screen transmission stay inside the school network. No cloud account is
+      needed.
+
+      ## Teaching
+
+      - Seating plan with live previews of all student screens
+      - Share your own screen with the class
+      - Help individual students via remote control
+      - Block internet access or printing for single PCs or the whole room
+
+      ## Digital exams
+
+      In exam mode, only approved applications start. USB storage and internet
+      access are blocked, and printing is controlled. Exam files are
+      distributed automatically and results are collected securely. Every
+      submission is confirmed with a receipt.
+
+      ## Integration with Nubus
+
+      - Students sign in to an exam with the user name and password of their
+        domain account. RoomControl checks the sign-in via LDAPS against the
+        Samba AD of the UCS domain. Exams can also use restricted guest
+        accounts.
+      - Teachers sign in to Windows as usual. The console does not ask for a
+        second sign-in.
+      - School IT decides in the app settings which groups count as teachers
+        and which as administrators.
+      - During installation, the app takes the LDAP server and search base from
+        the domain.
+      - RoomControl only reads from the directory. It creates no users or
+        groups there and changes nothing.
+
+      ## Requirements
+
+      - The app is installed on a domain controller of the UCS domain that runs
+        Samba AD.
+      - For sign-in with domain accounts, the PCs are members of the UCS
+        domain.
+      - All PCs in the room need Windows 10 or 11 and the RoomControl client,
+        including the teacher's PC. The server provides the MSI package for
+        software deployment.
+      - On first start, the server creates its own certificate authority. Its
+        certificate is distributed to the PCs once via group policy. The app
+        includes instructions.
+
+      The [privacy policy](https://room-control.de/en/datenschutz.html#software)
+      lists which data the software sends to the vendor.
+    name: RoomControl
+    short_description: 'Classroom management and a secure exam mode for Windows PCs in schools.'
+    tags: []
+    visuals:
+    - thumbnail_1.png
+    - thumbnail_2.png
+    - thumbnail_3.png
+id: UCSAPP-roomcontrol
+main_icon: ''
+metadata:
+  created_by: Kiya Mukherjee
+  creation_date: '2026-11-05'
+  last_update_date: '2026-11-05'
+organizational_specifications:
+  support_contact_id: 'rc-roomcontrol'
+  support_status: ''
+  vendor_id: 'rc-roomcontrol'
+technical_specifications:
+  capabilities:
+  - susp
+  compatible_platforms:
+  - UCS
+  compatible_products:
+  - Nubus
+  dependencies: []
+  protocols:
+  - LDAP
+  artifacts:
+  - packaged_integration
+  source_license: ''
+version: 1.6.4.2

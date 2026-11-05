@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-FileCopyrightText: 2026 Univention GmbH
+
+# Organization definition to be linked in an integration entry as vendor of the integration or the integrated application.
+
+# Description of organization "RC RoomControl GmbH".
+
+metadata:
+  schema_version: "0.1.0"
+  last_updated: "2026-11-05" # must be updated after each change, see https://yaml.org/type/timestamp.html for format
+
+id: rc-roomcontrol
+en-US:
+  name: RC RoomControl GmbH
+  short_description: RC RoomControl GmbH
+  link: https://room-control.de/en/
+  contact: info@room-control.de
+  logo: rc-roomcontrol-logo-en-US.svg
+de-DE:
+  name: RC RoomControl GmbH
+  short_description: RC RoomControl GmbH
+  link: https://room-control.de/
+  contact: info@room-control.de
+  logo: rc-roomcontrol-logo-de-DE.svg
